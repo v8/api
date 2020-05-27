@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['writeoptions_1281',['WriteOptions',['../classv8_1_1String.html#a9ce7f1458ffd08f8eb2b9c8dc056e616',1,'v8::String']]]
+  ['memorypressurelevel_2437',['MemoryPressureLevel',['../namespacev8.html#ae0e9a25bf51e518585f555806e7dc7b9',1,'v8']]],
+  ['microtaskspolicy_2438',['MicrotasksPolicy',['../namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04da',1,'v8']]]
 ];

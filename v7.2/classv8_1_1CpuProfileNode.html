@@ -106,8 +106,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4c811a611ba68f0484ad3eb560898889"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56d1cece4ee808022b9eb7f3eb66b93a"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfileNode.html#a56d1cece4ee808022b9eb7f3eb66b93a">GetHitCount</a> () const</td></tr>
 <tr class="separator:a56d1cece4ee808022b9eb7f3eb66b93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5285f35c759e2b0afa74f4db0e0bc50c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfileNode.html#a5285f35c759e2b0afa74f4db0e0bc50c">V8_DEPRECATE_SOON</a> (&quot;Use <a class="el" href="classv8_1_1CpuProfileNode.html#aef0b693911218f14745f2c51b4c9a860">GetScriptId</a>, <a class="el" href="classv8_1_1CpuProfileNode.html#a6616c8d1893da19183d57e6488eb2743">GetLineNumber</a>, and <a class="el" href="classv8_1_1CpuProfileNode.html#a9df61090cf365f1f03d5bce44653f1f5">GetColumnNumber</a> instead.&quot;, unsigned GetCallUid() const)</td></tr>
-<tr class="separator:a5285f35c759e2b0afa74f4db0e0bc50c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a703a091c683c57c470b1560fd66d64e6"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfileNode.html#a703a091c683c57c470b1560fd66d64e6">GetCallUid</a> () const</td></tr>
+<tr class="separator:a703a091c683c57c470b1560fd66d64e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67334450071a60ec3c3cfa58777cc006"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfileNode.html#a67334450071a60ec3c3cfa58777cc006">GetNodeId</a> () const</td></tr>
 <tr class="separator:a67334450071a60ec3c3cfa58777cc006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc0f772f6dad49b670c7b9675d27c688"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfileNode.html#afc0f772f6dad49b670c7b9675d27c688">GetChildrenCount</a> () const</td></tr>
@@ -119,11 +119,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ad54213fe8a795cb6669566f0272fc5ba"><td class="memItemLeft" align="right" valign="top"><a id="ad54213fe8a795cb6669566f0272fc5ba"></a>
-static const int&#160;</td><td class="memItemRight" valign="bottom"><b>kNoLineNumberInfo</b> = Message::kNoLineNumberInfo</td></tr>
+<tr class="memitem:ad54213fe8a795cb6669566f0272fc5ba"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfileNode.html#ad54213fe8a795cb6669566f0272fc5ba">kNoLineNumberInfo</a> = Message::kNoLineNumberInfo</td></tr>
 <tr class="separator:ad54213fe8a795cb6669566f0272fc5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c8c1dea3ae0cf4c219b7b1f15a8405b"><td class="memItemLeft" align="right" valign="top"><a id="a7c8c1dea3ae0cf4c219b7b1f15a8405b"></a>
-static const int&#160;</td><td class="memItemRight" valign="bottom"><b>kNoColumnNumberInfo</b> = Message::kNoColumnInfo</td></tr>
+<tr class="memitem:a7c8c1dea3ae0cf4c219b7b1f15a8405b"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfileNode.html#a7c8c1dea3ae0cf4c219b7b1f15a8405b">kNoColumnNumberInfo</a> = <a class="el" href="classv8_1_1Message.html#a8cb643dbf408b0fd2526b23a8202c4a6">Message::kNoColumnInfo</a></td></tr>
 <tr class="separator:a7c8c1dea3ae0cf4c219b7b1f15a8405b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -144,6 +142,24 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>kNoColumn
       </table>
 </div><div class="memdoc">
 <p>Returns bailout reason for the function if the optimization was disabled for it. </p>
+
+</div>
+</div>
+<a id="a703a091c683c57c470b1560fd66d64e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a703a091c683c57c470b1560fd66d64e6">&#9670;&nbsp;</a></span>GetCallUid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned v8::CpuProfileNode::GetCallUid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns function entry UID. </p>
 
 </div>
 </div>
@@ -411,49 +427,53 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>kNoColumn
 
 </div>
 </div>
-<a id="a5285f35c759e2b0afa74f4db0e0bc50c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5285f35c759e2b0afa74f4db0e0bc50c">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7c8c1dea3ae0cf4c219b7b1f15a8405b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c8c1dea3ae0cf4c219b7b1f15a8405b">&#9670;&nbsp;</a></span>kNoColumnNumberInfo</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">v8::CpuProfileNode::V8_DEPRECATE_SOON </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use&#160;</td>
-          <td class="paramname"><em>GetScriptId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classv8_1_1CpuProfileNode.html#a6616c8d1893da19183d57e6488eb2743">GetLineNumber</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">and <a class="el" href="classv8_1_1CpuProfileNode.html#a9df61090cf365f1f03d5bce44653f1f5">GetColumnNumber</a> instead.&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned GetCallUid() const&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">const int v8::CpuProfileNode::kNoColumnNumberInfo = <a class="el" href="classv8_1_1Message.html#a8cb643dbf408b0fd2526b23a8202c4a6">Message::kNoColumnInfo</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>Returns function entry UID. </p>
+
+</div>
+</div>
+<a id="ad54213fe8a795cb6669566f0272fc5ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad54213fe8a795cb6669566f0272fc5ba">&#9670;&nbsp;</a></span>kNoLineNumberInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int v8::CpuProfileNode::kNoLineNumberInfo = Message::kNoLineNumberInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
+<li>include/<a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

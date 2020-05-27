@@ -1,27 +1,4 @@
 var searchData=
 [
-  ['readonlyprototype_436',['ReadOnlyPrototype',['../classv8_1_1FunctionTemplate.html#a91d2e0643e8c5a53ab1d75f7766c2422',1,'v8::FunctionTemplate']]],
-  ['regexp_437',['RegExp',['../classv8_1_1RegExp.html',1,'v8']]],
-  ['registerstate_438',['RegisterState',['../structv8_1_1RegisterState.html',1,'v8']]],
-  ['release_439',['Release',['../classv8_1_1PersistentValueMapBase.html#a9ffa7a4e0c59121c0471d71c04112966',1,'v8::PersistentValueMapBase']]],
-  ['remove_440',['Remove',['../classv8_1_1PersistentValueMapBase.html#abd75a4c050416712167ba0bb9eace097',1,'v8::PersistentValueMapBase']]],
-  ['removecallcompletedcallback_441',['RemoveCallCompletedCallback',['../classv8_1_1Isolate.html#a46f0a5d35f8b29030922bdb433c0dc4f',1,'v8::Isolate']]],
-  ['removegcepiloguecallback_442',['RemoveGCEpilogueCallback',['../classv8_1_1Isolate.html#a059d51bc45cdd5f4821233170863a9ff',1,'v8::Isolate']]],
-  ['removegcprologuecallback_443',['RemoveGCPrologueCallback',['../classv8_1_1Isolate.html#a7c424950b2bc9589fc676a9b38b27d63',1,'v8::Isolate']]],
-  ['removememoryallocationcallback_444',['RemoveMemoryAllocationCallback',['../classv8_1_1Isolate.html#a99349e062c11085eeb63a0d825226487',1,'v8::Isolate']]],
-  ['removemessagelisteners_445',['RemoveMessageListeners',['../classv8_1_1Isolate.html#a0319e55b26ba3ac51d867b37b917a21f',1,'v8::Isolate']]],
-  ['removeprototype_446',['RemovePrototype',['../classv8_1_1FunctionTemplate.html#a4a184aca244174c7fe52d58871d3129e',1,'v8::FunctionTemplate']]],
-  ['reportprogressvalue_447',['ReportProgressValue',['../classv8_1_1ActivityControl.html#a1300f10611306a3e8f79239e057eb0bf',1,'v8::ActivityControl']]],
-  ['requestgarbagecollectionfortesting_448',['RequestGarbageCollectionForTesting',['../classv8_1_1Isolate.html#a59fe893ed7e9df52cef2d59b2d98ab23',1,'v8::Isolate']]],
-  ['requestinterrupt_449',['RequestInterrupt',['../classv8_1_1Isolate.html#a971b6094ecc6c7f55eb6f58a71a8afd3',1,'v8::Isolate']]],
-  ['reservecapacity_450',['ReserveCapacity',['../classv8_1_1PersistentValueVector.html#ad4cccfee3a275986578276efe0c78510',1,'v8::PersistentValueVector']]],
-  ['reset_451',['Reset',['../classv8_1_1PersistentBase.html#a174bb1e45b18fd4eeaee033622825bb8',1,'v8::PersistentBase::Reset()'],['../classv8_1_1PersistentBase.html#a11164f0dfc9a16d79809236e7a9670aa',1,'v8::PersistentBase::Reset(Isolate *isolate, const Local&lt; S &gt; &amp;other)'],['../classv8_1_1PersistentBase.html#af6b8f929b0cbaa83341df48ca3b03ef5',1,'v8::PersistentBase::Reset(Isolate *isolate, const PersistentBase&lt; S &gt; &amp;other)'],['../classv8_1_1TryCatch.html#a3aae8acab4c99b374b7d782763d4c8e1',1,'v8::TryCatch::Reset()']]],
-  ['resettobookmark_452',['ResetToBookmark',['../classv8_1_1ScriptCompiler_1_1ExternalSourceStream.html#a425cf1ba265eeca194b805fe5c52bc19',1,'v8::ScriptCompiler::ExternalSourceStream']]],
-  ['resolver_453',['Resolver',['../classv8_1_1Promise_1_1Resolver.html',1,'v8::Promise']]],
-  ['resourceconstraints_454',['ResourceConstraints',['../classv8_1_1ResourceConstraints.html',1,'v8']]],
-  ['retainedobjectinfo_455',['RetainedObjectInfo',['../classv8_1_1RetainedObjectInfo.html',1,'v8']]],
-  ['rethrow_456',['ReThrow',['../classv8_1_1TryCatch.html#ab8c3a1dbb38e6fd00e37436034daf707',1,'v8::TryCatch']]],
-  ['returnaddresslocationresolver_457',['ReturnAddressLocationResolver',['../namespacev8.html#a8ce54c75241be41ff6a25e9944eefd2a',1,'v8']]],
-  ['returnvalue_458',['ReturnValue',['../classv8_1_1ReturnValue.html',1,'v8']]],
-  ['runmicrotasks_459',['RunMicrotasks',['../classv8_1_1Isolate.html#ac3cbe2a1632eb863912640dcfc98b6c8',1,'v8::Isolate']]]
+  ['query_880',['query',['../structv8_1_1NamedPropertyHandlerConfiguration.html#af55d318e48d6f78b2103f3e603c86e34',1,'v8::NamedPropertyHandlerConfiguration::query()'],['../structv8_1_1IndexedPropertyHandlerConfiguration.html#ab38e189fc5bc94928e3b8489c5004a2e',1,'v8::IndexedPropertyHandlerConfiguration::query()']]]
 ];

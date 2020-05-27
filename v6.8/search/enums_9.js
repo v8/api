@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['permission_1701',['Permission',['../classv8_1_1PageAllocator.html#a88f74b164fe97e053259f67a95758415',1,'v8::PageAllocator']]],
-  ['promisehooktype_1702',['PromiseHookType',['../namespacev8.html#afe9d9e16c02074ac8482a8f09e19d5cc',1,'v8']]],
-  ['promisestate_1703',['PromiseState',['../classv8_1_1Promise.html#a0c357b9d99a634f98a5a203b0a322544',1,'v8::Promise']]],
-  ['propertyattribute_1704',['PropertyAttribute',['../namespacev8.html#a05f25f935e108a1ea2d150e274602b87',1,'v8']]],
-  ['propertyfilter_1705',['PropertyFilter',['../namespacev8.html#afbf02b6b1152a3e25d7bde90798209ac',1,'v8']]],
-  ['propertyhandlerflags_1706',['PropertyHandlerFlags',['../namespacev8.html#af4789f0aeb8680e353901a35810cac1a',1,'v8']]]
+  ['memorypressurelevel_3397',['MemoryPressureLevel',['../namespacev8.html#ae0e9a25bf51e518585f555806e7dc7b9',1,'v8']]],
+  ['messageerrorlevel_3398',['MessageErrorLevel',['../classv8_1_1Isolate.html#acfc7c4d5c93913201249045e2655d3dd',1,'v8::Isolate']]],
+  ['messageloopbehavior_3399',['MessageLoopBehavior',['../namespacev8_1_1platform.html#aaed21fcd10dae3bb689464b7e951fb29',1,'v8::platform']]],
+  ['microtaskspolicy_3400',['MicrotasksPolicy',['../namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04da',1,'v8']]],
+  ['mode_3401',['Mode',['../classv8_1_1platform_1_1tracing_1_1TracingController.html#a37479bf3c6274a1e9789938615b64c45',1,'v8::platform::tracing::TracingController']]]
 ];

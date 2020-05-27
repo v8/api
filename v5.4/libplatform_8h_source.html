@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: libplatform/libplatform.h Source File</title>
+<title>V8: include/libplatform/libplatform.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_5cb46604b10446643ec460f6635cdfae.html">libplatform</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_4b115f4a4385e80dbbb632542e3abce3.html">libplatform</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,25 +69,25 @@ $(function() {
 <div class="title">libplatform.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2014 the V8 project authors. All rights reserved.</span></div>
+<a href="libplatform_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2014 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef V8_LIBPLATFORM_LIBPLATFORM_H_</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define V8_LIBPLATFORM_LIBPLATFORM_H_</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;libplatform/v8-tracing.h&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;v8-platform.h&quot;</span>  <span class="comment">// NOLINT(build/include)</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8-tracing_8h.html">libplatform/v8-tracing.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8-platform_8h.html">v8-platform.h</a>&quot;</span>  <span class="comment">// NOLINT(build/include)</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="namespacev8.html">   11</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacev8.html">v8</a> {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>platform {</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="namespacev8_1_1platform.html">   12</a></span>&#160;<span class="keyword">namespace </span>platform {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<a class="code" href="classv8_1_1Platform.html">v8::Platform</a>* CreateDefaultPlatform(<span class="keywordtype">int</span> thread_pool_size = 0);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<a class="code" href="classv8_1_1Platform.html">v8::Platform</a>* <a class="code" href="namespacev8_1_1platform.html#a25065eda932a4d9410de6daa6e0edf84">CreateDefaultPlatform</a>(<span class="keywordtype">int</span> thread_pool_size = 0);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">bool</span> PumpMessageLoop(<a class="code" href="classv8_1_1Platform.html">v8::Platform</a>* platform, <a class="code" href="classv8_1_1Isolate.html">v8::Isolate</a>* isolate);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="namespacev8_1_1platform.html#a6553956be75b496251cd7acb9aca4228">PumpMessageLoop</a>(<a class="code" href="classv8_1_1Platform.html">v8::Platform</a>* platform, <a class="code" href="classv8_1_1Isolate.html">v8::Isolate</a>* isolate);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> SetTracingController(</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacev8_1_1platform.html#af5a22815ff35a2cce9a41f49068a1cc1">SetTracingController</a>(</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="classv8_1_1Platform.html">v8::Platform</a>* platform,</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="classv8_1_1platform_1_1tracing_1_1TracingController.html">v8::platform::tracing::TracingController</a>* tracing_controller);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
@@ -96,10 +96,15 @@ $(function() {
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif  // V8_LIBPLATFORM_LIBPLATFORM_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="anamespacev8_1_1platform_html_af5a22815ff35a2cce9a41f49068a1cc1"><div class="ttname"><a href="namespacev8_1_1platform.html#af5a22815ff35a2cce9a41f49068a1cc1">v8::platform::SetTracingController</a></div><div class="ttdeci">void SetTracingController(v8::Platform *platform, v8::platform::tracing::TracingController *tracing_controller)</div></div>
 <div class="ttc" id="aclassv8_1_1platform_1_1tracing_1_1TracingController_html"><div class="ttname"><a href="classv8_1_1platform_1_1tracing_1_1TracingController.html">v8::platform::tracing::TracingController</a></div><div class="ttdef"><b>Definition:</b> v8-tracing.h:203</div></div>
 <div class="ttc" id="anamespacev8_html"><div class="ttname"><a href="namespacev8.html">v8</a></div><div class="ttdef"><b>Definition:</b> libplatform.h:11</div></div>
-<div class="ttc" id="aclassv8_1_1Isolate_html"><div class="ttname"><a href="classv8_1_1Isolate.html">v8::Isolate</a></div><div class="ttdef"><b>Definition:</b> v8.h:5589</div></div>
+<div class="ttc" id="av8-platform_8h_html"><div class="ttname"><a href="v8-platform_8h.html">v8-platform.h</a></div></div>
+<div class="ttc" id="aclassv8_1_1Isolate_html"><div class="ttname"><a href="classv8_1_1Isolate.html">v8::Isolate</a></div><div class="ttdef"><b>Definition:</b> v8.h:5588</div></div>
+<div class="ttc" id="av8-tracing_8h_html"><div class="ttname"><a href="v8-tracing_8h.html">v8-tracing.h</a></div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html"><div class="ttname"><a href="classv8_1_1Platform.html">v8::Platform</a></div><div class="ttdef"><b>Definition:</b> v8-platform.h:45</div></div>
+<div class="ttc" id="anamespacev8_1_1platform_html_a6553956be75b496251cd7acb9aca4228"><div class="ttname"><a href="namespacev8_1_1platform.html#a6553956be75b496251cd7acb9aca4228">v8::platform::PumpMessageLoop</a></div><div class="ttdeci">bool PumpMessageLoop(v8::Platform *platform, v8::Isolate *isolate)</div></div>
+<div class="ttc" id="anamespacev8_1_1platform_html_a25065eda932a4d9410de6daa6e0edf84"><div class="ttname"><a href="namespacev8_1_1platform.html#a25065eda932a4d9410de6daa6e0edf84">v8::platform::CreateDefaultPlatform</a></div><div class="ttdeci">v8::Platform * CreateDefaultPlatform(int thread_pool_size=0)</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

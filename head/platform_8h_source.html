@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: cppgc/platform.h Source File</title>
+<title>V8: include/cppgc/platform.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_908cff4095b52ed1341131b5cdfa5c2b.html">cppgc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_c3a29de58f961e253e7c5c44d07916b0.html">cppgc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,42 +69,52 @@ $(function() {
 <div class="title">platform.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
+<a href="platform_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef INCLUDE_CPPGC_PLATFORM_H_</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define INCLUDE_CPPGC_PLATFORM_H_</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;v8-platform.h&quot;</span>  <span class="comment">// NOLINT(build/include_directory)</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;v8config.h&quot;</span>     <span class="comment">// NOLINT(build/include_directory)</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8-platform_8h.html">v8-platform.h</a>&quot;</span>  <span class="comment">// NOLINT(build/include_directory)</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8config_8h.html">v8config.h</a>&quot;</span>     <span class="comment">// NOLINT(build/include_directory)</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>cppgc {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecppgc.html">cppgc</a> {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">// TODO(v8:10346): Put PageAllocator and Platform in a non-V8 include header to</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// avoid depending on namespace v8.</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">using</span> PageAllocator = <a class="code" href="classv8_1_1PageAllocator.html">v8::PageAllocator</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">using</span> Platform = <a class="code" href="classv8_1_1Platform.html">v8::Platform</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="namespacecppgc.html#ae7d41c486a869bec62aa1b8c9c55c142">   15</a></span>&#160;<span class="keyword">using</span> <a class="code" href="classv8_1_1PageAllocator.html">PageAllocator</a> = <a class="code" href="namespacecppgc.html#ae7d41c486a869bec62aa1b8c9c55c142">v8::PageAllocator</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="namespacecppgc.html#a177984f1932cf5a079cbedf0d1b76a50">   16</a></span>&#160;<span class="keyword">using</span> <a class="code" href="classv8_1_1Platform.html">Platform</a> = <a class="code" href="namespacecppgc.html#a177984f1932cf5a079cbedf0d1b76a50">v8::Platform</a>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// Initializes the garbage collector with the provided platform. Must be called</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// before creating a Heap.</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;V8_EXPORT <span class="keywordtype">void</span> InitializePlatform(Platform* platform);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="v8config_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <span class="keywordtype">void</span> <a class="code" href="namespacecppgc.html#a57fd8c2658bf7e40eb0de97532df5f21">InitializePlatform</a>(<a class="code" href="classv8_1_1Platform.html">Platform</a>* platform);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;V8_EXPORT Platform* GetPlatform();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<a class="code" href="v8config_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1Platform.html">Platform</a>* <a class="code" href="namespacecppgc.html#aa9d9a23e6ea9ab7d42b82387dd14e330">GetPlatform</a>();</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// Must be called after destroying the last used heap.</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;V8_EXPORT <span class="keywordtype">void</span> ShutdownPlatform();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="v8config_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <span class="keywordtype">void</span> <a class="code" href="namespacecppgc.html#a6f03758c1e99ef8a2684fba9a7f5798e">ShutdownPlatform</a>();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span>internal {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;V8_EXPORT <span class="keywordtype">void</span> Abort();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<a class="code" href="v8config_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <span class="keywordtype">void</span> <a class="code" href="namespacecppgc_1_1internal.html#a25fa9220cadd708b390d2cae383d2fce">Abort</a>();</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}  <span class="comment">// namespace internal</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}  <span class="comment">// namespace cppgc</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif  // INCLUDE_CPPGC_PLATFORM_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="anamespacecppgc_html_aa9d9a23e6ea9ab7d42b82387dd14e330"><div class="ttname"><a href="namespacecppgc.html#aa9d9a23e6ea9ab7d42b82387dd14e330">cppgc::GetPlatform</a></div><div class="ttdeci">Platform * GetPlatform()</div></div>
 <div class="ttc" id="aclassv8_1_1PageAllocator_html"><div class="ttname"><a href="classv8_1_1PageAllocator.html">v8::PageAllocator</a></div><div class="ttdef"><b>Definition:</b> v8-platform.h:309</div></div>
+<div class="ttc" id="anamespacecppgc_html"><div class="ttname"><a href="namespacecppgc.html">cppgc</a></div><div class="ttdef"><b>Definition:</b> allocation.h:18</div></div>
+<div class="ttc" id="av8config_8h_html"><div class="ttname"><a href="v8config_8h.html">v8config.h</a></div></div>
+<div class="ttc" id="av8config_8h_html_a18b08424f4be6fab745092c7c5dad9f5"><div class="ttname"><a href="v8config_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a></div><div class="ttdeci">#define V8_EXPORT</div><div class="ttdef"><b>Definition:</b> v8config.h:467</div></div>
+<div class="ttc" id="anamespacecppgc_html_ae7d41c486a869bec62aa1b8c9c55c142"><div class="ttname"><a href="namespacecppgc.html#ae7d41c486a869bec62aa1b8c9c55c142">cppgc::PageAllocator</a></div><div class="ttdeci">v8::PageAllocator PageAllocator</div><div class="ttdef"><b>Definition:</b> platform.h:15</div></div>
+<div class="ttc" id="anamespacecppgc_html_a177984f1932cf5a079cbedf0d1b76a50"><div class="ttname"><a href="namespacecppgc.html#a177984f1932cf5a079cbedf0d1b76a50">cppgc::Platform</a></div><div class="ttdeci">v8::Platform Platform</div><div class="ttdef"><b>Definition:</b> platform.h:16</div></div>
+<div class="ttc" id="av8-platform_8h_html"><div class="ttname"><a href="v8-platform_8h.html">v8-platform.h</a></div></div>
+<div class="ttc" id="anamespacecppgc_html_a6f03758c1e99ef8a2684fba9a7f5798e"><div class="ttname"><a href="namespacecppgc.html#a6f03758c1e99ef8a2684fba9a7f5798e">cppgc::ShutdownPlatform</a></div><div class="ttdeci">void ShutdownPlatform()</div></div>
+<div class="ttc" id="anamespacecppgc_1_1internal_html_a25fa9220cadd708b390d2cae383d2fce"><div class="ttname"><a href="namespacecppgc_1_1internal.html#a25fa9220cadd708b390d2cae383d2fce">cppgc::internal::Abort</a></div><div class="ttdeci">void Abort()</div></div>
+<div class="ttc" id="anamespacecppgc_html_a57fd8c2658bf7e40eb0de97532df5f21"><div class="ttname"><a href="namespacecppgc.html#a57fd8c2658bf7e40eb0de97532df5f21">cppgc::InitializePlatform</a></div><div class="ttdeci">void InitializePlatform(Platform *platform)</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html"><div class="ttname"><a href="classv8_1_1Platform.html">v8::Platform</a></div><div class="ttdef"><b>Definition:</b> v8-platform.h:386</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

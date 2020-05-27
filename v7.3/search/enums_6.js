@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['permission_1397',['Permission',['../classv8_1_1PageAllocator.html#a88f74b164fe97e053259f67a95758415',1,'v8::PageAllocator']]],
-  ['promisestate_1398',['PromiseState',['../classv8_1_1Promise.html#a0c357b9d99a634f98a5a203b0a322544',1,'v8::Promise']]],
-  ['propertyattribute_1399',['PropertyAttribute',['../namespacev8.html#a05f25f935e108a1ea2d150e274602b87',1,'v8']]],
-  ['propertyfilter_1400',['PropertyFilter',['../namespacev8.html#afbf02b6b1152a3e25d7bde90798209ac',1,'v8']]],
-  ['propertyhandlerflags_1401',['PropertyHandlerFlags',['../namespacev8.html#af4789f0aeb8680e353901a35810cac1a',1,'v8']]]
+  ['idletasksupport_3595',['IdleTaskSupport',['../namespacev8_1_1platform.html#abfec9b5c3f79b64e8edbf023708be318',1,'v8::platform']]],
+  ['indexfilter_3596',['IndexFilter',['../namespacev8.html#a46fd71fef702b35b34ed7495e7a63323',1,'v8']]],
+  ['inprocessstackdumping_3597',['InProcessStackDumping',['../namespacev8_1_1platform.html#ac9dba75667058fba3443e60ca0356591',1,'v8::platform']]],
+  ['integritylevel_3598',['IntegrityLevel',['../namespacev8.html#a02642d03ff1eecc2fd358626499c2e30',1,'v8']]],
+  ['intrinsic_3599',['Intrinsic',['../namespacev8.html#a67f8ea6a2abeace49b9658da6a3267ab',1,'v8']]]
 ];

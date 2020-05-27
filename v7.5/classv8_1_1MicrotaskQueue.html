@@ -79,13 +79,15 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aef87dba560371ceb35cf5189c8a9e1a0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#aef87dba560371ceb35cf5189c8a9e1a0">~MicrotaskQueue</a> ()=default</td></tr>
+<tr class="separator:aef87dba560371ceb35cf5189c8a9e1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21df1c7eac1a206aa139d7d86dee5e7c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a21df1c7eac1a206aa139d7d86dee5e7c">EnqueueMicrotask</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Function.html">Function</a> &gt; microtask)=0</td></tr>
 <tr class="separator:a21df1c7eac1a206aa139d7d86dee5e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dddd294a495cd6b0ca06d27161e489c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a9dddd294a495cd6b0ca06d27161e489c">EnqueueMicrotask</a> (<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *isolate, MicrotaskCallback callback, void *data=nullptr)=0</td></tr>
+<tr class="memitem:a9dddd294a495cd6b0ca06d27161e489c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a9dddd294a495cd6b0ca06d27161e489c">EnqueueMicrotask</a> (<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *isolate, <a class="el" href="namespacev8.html#a64445c32058729cdc44d56ff13458bed">MicrotaskCallback</a> callback, void *data=nullptr)=0</td></tr>
 <tr class="separator:a9dddd294a495cd6b0ca06d27161e489c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25b6bcc8a1cf970265b75c8bbd0da65d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a25b6bcc8a1cf970265b75c8bbd0da65d">AddMicrotasksCompletedCallback</a> (MicrotasksCompletedCallbackWithData callback, void *data=nullptr)=0</td></tr>
+<tr class="memitem:a25b6bcc8a1cf970265b75c8bbd0da65d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a25b6bcc8a1cf970265b75c8bbd0da65d">AddMicrotasksCompletedCallback</a> (<a class="el" href="namespacev8.html#aa22025a70a4b538709d5074627fbc26f">MicrotasksCompletedCallbackWithData</a> callback, void *data=nullptr)=0</td></tr>
 <tr class="separator:a25b6bcc8a1cf970265b75c8bbd0da65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34192459ef62210de23fb6d9d0017d09"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a34192459ef62210de23fb6d9d0017d09">RemoveMicrotasksCompletedCallback</a> (MicrotasksCompletedCallbackWithData callback, void *data=nullptr)=0</td></tr>
+<tr class="memitem:a34192459ef62210de23fb6d9d0017d09"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a34192459ef62210de23fb6d9d0017d09">RemoveMicrotasksCompletedCallback</a> (<a class="el" href="namespacev8.html#aa22025a70a4b538709d5074627fbc26f">MicrotasksCompletedCallbackWithData</a> callback, void *data=nullptr)=0</td></tr>
 <tr class="separator:a34192459ef62210de23fb6d9d0017d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bd286669e4a99dcb62265a25bcbc426"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a4bd286669e4a99dcb62265a25bcbc426">PerformCheckpoint</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)=0</td></tr>
 <tr class="separator:a4bd286669e4a99dcb62265a25bcbc426"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -96,20 +98,45 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a020f781d676ab72b92c44e571ed82544"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classv8_1_1MicrotaskQueue.html">MicrotaskQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a020f781d676ab72b92c44e571ed82544">New</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04da">MicrotasksPolicy</a> policy=MicrotasksPolicy::kAuto)</td></tr>
+<tr class="memitem:a020f781d676ab72b92c44e571ed82544"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classv8_1_1MicrotaskQueue.html">MicrotaskQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#a020f781d676ab72b92c44e571ed82544">New</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04da">MicrotasksPolicy</a> policy=<a class="el" href="namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04daaa8c857c2f1b000c92f9794ebf53888d7">MicrotasksPolicy::kAuto</a>)</td></tr>
 <tr class="separator:a020f781d676ab72b92c44e571ed82544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:acc142ac3cf1356548b9518262d41aeef"><td class="memItemLeft" align="right" valign="top"><a id="acc142ac3cf1356548b9518262d41aeef"></a>
-class&#160;</td><td class="memItemRight" valign="bottom"><b>internal::MicrotaskQueue</b></td></tr>
+<tr class="memitem:acc142ac3cf1356548b9518262d41aeef"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MicrotaskQueue.html#acc142ac3cf1356548b9518262d41aeef">internal::MicrotaskQueue</a></td></tr>
 <tr class="separator:acc142ac3cf1356548b9518262d41aeef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents the microtask queue, where microtasks are stored and processed. <a href="https://html.spec.whatwg.org/multipage/webappapis.html#microtask-queue">https://html.spec.whatwg.org/multipage/webappapis.html#microtask-queue</a> <a href="https://html.spec.whatwg.org/multipage/webappapis.html#enqueuejob(queuename,-job,-arguments)">https://html.spec.whatwg.org/multipage/webappapis.html#enqueuejob(queuename,-job,-arguments)</a> <a href="https://html.spec.whatwg.org/multipage/webappapis.html#perform-a-microtask-checkpoint">https://html.spec.whatwg.org/multipage/webappapis.html#perform-a-microtask-checkpoint</a></p>
 <p>A <a class="el" href="classv8_1_1MicrotaskQueue.html">MicrotaskQueue</a> instance may be associated to multiple Contexts by passing it to <a class="el" href="classv8_1_1Context.html#aa06c74ca4f5d1aa63449b814825300eb">Context::New()</a>, and they can be detached by <a class="el" href="classv8_1_1Context.html#a841c7dd92eb8c57df92a268a164dea97">Context::DetachGlobal()</a>. The embedder must keep the <a class="el" href="classv8_1_1MicrotaskQueue.html">MicrotaskQueue</a> instance alive until all associated Contexts are gone or detached.</p>
 <p>Use the same instance of <a class="el" href="classv8_1_1MicrotaskQueue.html">MicrotaskQueue</a> for all Contexts that may access each other synchronously. E.g. for Web embedding, use the same instance for all origins that share the same URL scheme and eTLD+1. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aef87dba560371ceb35cf5189c8a9e1a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef87dba560371ceb35cf5189c8a9e1a0">&#9670;&nbsp;</a></span>~MicrotaskQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::MicrotaskQueue::~MicrotaskQueue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a25b6bcc8a1cf970265b75c8bbd0da65d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25b6bcc8a1cf970265b75c8bbd0da65d">&#9670;&nbsp;</a></span>AddMicrotasksCompletedCallback()</h2>
 
@@ -122,7 +149,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>internal::MicrotaskQ
         <tr>
           <td class="memname">virtual void v8::MicrotaskQueue::AddMicrotasksCompletedCallback </td>
           <td>(</td>
-          <td class="paramtype">MicrotasksCompletedCallbackWithData&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacev8.html#aa22025a70a4b538709d5074627fbc26f">MicrotasksCompletedCallbackWithData</a>&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
@@ -204,7 +231,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>internal::MicrotaskQ
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MicrotaskCallback&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacev8.html#a64445c32058729cdc44d56ff13458bed">MicrotaskCallback</a>&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
@@ -300,7 +327,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>internal::MicrotaskQ
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04da">MicrotasksPolicy</a>&#160;</td>
-          <td class="paramname"><em>policy</em> = <code>MicrotasksPolicy::kAuto</code>&#160;</td>
+          <td class="paramname"><em>policy</em> = <code><a class="el" href="namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04daaa8c857c2f1b000c92f9794ebf53888d7">MicrotasksPolicy::kAuto</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -357,7 +384,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>internal::MicrotaskQ
         <tr>
           <td class="memname">virtual void v8::MicrotaskQueue::RemoveMicrotasksCompletedCallback </td>
           <td>(</td>
-          <td class="paramtype">MicrotasksCompletedCallbackWithData&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacev8.html#aa22025a70a4b538709d5074627fbc26f">MicrotasksCompletedCallbackWithData</a>&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
@@ -382,8 +409,31 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>internal::MicrotaskQ
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="acc142ac3cf1356548b9518262d41aeef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc142ac3cf1356548b9518262d41aeef">&#9670;&nbsp;</a></span>internal::MicrotaskQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class internal::MicrotaskQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['newstringtype_1691',['NewStringType',['../namespacev8.html#ac9163ab12fb3b2a95907a3a0367c6095',1,'v8']]],
-  ['nocachereason_1692',['NoCacheReason',['../classv8_1_1ScriptCompiler.html#a7f13fa15484cfc500ae51927756e0d60',1,'v8::ScriptCompiler']]]
+  ['keycollectionmode_3372',['KeyCollectionMode',['../namespacev8.html#a0cee20f5c7f0d59d0835af8e537388dc',1,'v8']]],
+  ['keyconversionmode_3373',['KeyConversionMode',['../namespacev8.html#aa65aeff871614520d8033dead4b34e38',1,'v8']]]
 ];

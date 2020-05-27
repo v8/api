@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['functionentryhook_1515',['FunctionEntryHook',['../namespacev8.html#aaf07fb6bb13f295da3c6568938b7dec5',1,'v8']]]
+  ['deprecatedallowcodegenerationfromstringscallback_3154',['DeprecatedAllowCodeGenerationFromStringsCallback',['../namespacev8.html#a4d2e4c6b524fc54a5095ed4562012f8d',1,'v8']]],
+  ['deprecatedcallcompletedcallback_3155',['DeprecatedCallCompletedCallback',['../namespacev8.html#a878e6b3a304e7bcbc155a16fef8400f1',1,'v8']]],
+  ['deserializeembedderfieldscallback_3156',['DeserializeEmbedderFieldsCallback',['../namespacev8.html#a7772c1eef013272480733d9d1b068fb2',1,'v8']]]
 ];

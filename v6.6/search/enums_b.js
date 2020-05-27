@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['stacktraceoptions_1678',['StackTraceOptions',['../classv8_1_1StackTrace.html#a9704e4a37949eb8eb8ccddbddf161492',1,'v8::StackTrace']]],
-  ['status_1679',['Status',['../classv8_1_1Module.html#a9c2a22c9cb8e928d570c38648c648b7e',1,'v8::Module']]]
+  ['objectspace_3352',['ObjectSpace',['../namespacev8.html#ae7bc5b0bd1100e94d78de255daa8ebc3',1,'v8']]],
+  ['onfailure_3353',['OnFailure',['../classv8_1_1Isolate_1_1DisallowJavascriptExecutionScope.html#aeb586bef085fba34f97c09afd07ea843',1,'v8::Isolate::DisallowJavascriptExecutionScope']]]
 ];

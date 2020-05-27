@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: v8-platform.h Source File</title>
+<title>V8: include/v8-platform.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -45,7 +45,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,12 +59,17 @@ $(function() {
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">v8-platform.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2013 the V8 project authors. All rights reserved.</span></div>
+<a href="v8-platform_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2013 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
@@ -80,34 +84,34 @@ $(function() {
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classv8_1_1Task.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classv8_1_1Task.html">Task</a> {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classv8_1_1Task.html">Task</a>() {}</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classv8_1_1Task.html#ad01219145d101e637525dce762fbc96d">   19</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classv8_1_1Task.html#ad01219145d101e637525dce762fbc96d">~Task</a>() {}</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> Run() = 0;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classv8_1_1Task.html#a6bd5bda0e357fcc2e727bf7b0170f99a">Run</a>() = 0;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;};</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classv8_1_1IdleTask.html">   31</a></span>&#160;<span class="keyword">class </span><a class="code" href="classv8_1_1IdleTask.html">IdleTask</a> {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classv8_1_1IdleTask.html">IdleTask</a>() {}</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">double</span> deadline_in_seconds) = 0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classv8_1_1IdleTask.html#a60523b191c658312dc2dbb4478924b25">   33</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classv8_1_1IdleTask.html#a60523b191c658312dc2dbb4478924b25">~IdleTask</a>() {}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classv8_1_1IdleTask.html#a4f2f238f551b3b2212adffcd5ee2f314">Run</a>(<span class="keywordtype">double</span> deadline_in_seconds) = 0;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classv8_1_1Platform.html">   44</a></span>&#160;<span class="keyword">class </span><a class="code" href="classv8_1_1Platform.html">Platform</a> {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718">   51</a></span>&#160;  <span class="keyword">enum</span> <a class="code" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718">ExpectedRuntime</a> {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    kShortRunningTask,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    kLongRunningTask</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a3c9b5c2d3552261fea49c62590370522">   52</a></span>&#160;    <a class="code" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a3c9b5c2d3552261fea49c62590370522">kShortRunningTask</a>,</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a274d7214159118b553a1f89c56137b25">   53</a></span>&#160;    <a class="code" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a274d7214159118b553a1f89c56137b25">kLongRunningTask</a></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  };</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classv8_1_1Platform.html">Platform</a>() {}</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classv8_1_1Platform.html#a60a2b8edc8f52dcdaed9b093b3944e24">   56</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classv8_1_1Platform.html#a60a2b8edc8f52dcdaed9b093b3944e24">~Platform</a>() {}</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classv8_1_1Platform.html#aa715e6839c1954b4e23b9d2df00bd3ea">CallOnBackgroundThread</a>(Task* task,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classv8_1_1Platform.html#aa715e6839c1954b4e23b9d2df00bd3ea">CallOnBackgroundThread</a>(<a class="code" href="classv8_1_1Task.html">Task</a>* task,</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                      <a class="code" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718">ExpectedRuntime</a> expected_runtime) = 0;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classv8_1_1Platform.html#a8fa13959f919d1d3ff170bceea939915">CallOnForegroundThread</a>(Isolate* isolate, Task* task) = 0;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classv8_1_1Platform.html#a8fa13959f919d1d3ff170bceea939915">CallOnForegroundThread</a>(<a class="code" href="classv8_1_1Isolate.html">Isolate</a>* isolate, <a class="code" href="classv8_1_1Task.html">Task</a>* task) = 0;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classv8_1_1Platform.html#a72bff12d95fbf2118279b0e8f53f8a4b">CallDelayedOnForegroundThread</a>(Isolate* isolate, Task* task,</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classv8_1_1Platform.html#a72bff12d95fbf2118279b0e8f53f8a4b">CallDelayedOnForegroundThread</a>(<a class="code" href="classv8_1_1Isolate.html">Isolate</a>* isolate, <a class="code" href="classv8_1_1Task.html">Task</a>* task,</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                                             <span class="keywordtype">double</span> delay_in_seconds) = 0;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 <div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="classv8_1_1Platform.html#ae495999016432391f04d323452084b12">   92</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classv8_1_1Platform.html#ae495999016432391f04d323452084b12">CallIdleOnForegroundThread</a>(<a class="code" href="classv8_1_1Isolate.html">Isolate</a>* isolate, <a class="code" href="classv8_1_1IdleTask.html">IdleTask</a>* task) {</div>
@@ -149,21 +153,28 @@ $(function() {
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="preprocessor">#endif  // V8_V8_PLATFORM_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassv8_1_1Platform_html_a8fa13959f919d1d3ff170bceea939915"><div class="ttname"><a href="classv8_1_1Platform.html#a8fa13959f919d1d3ff170bceea939915">v8::Platform::CallOnForegroundThread</a></div><div class="ttdeci">virtual void CallOnForegroundThread(Isolate *isolate, Task *task)=0</div></div>
+<div class="ttc" id="aclassv8_1_1Platform_html_ace7f666b2b5995bb0e898e12fa660718a3c9b5c2d3552261fea49c62590370522"><div class="ttname"><a href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a3c9b5c2d3552261fea49c62590370522">v8::Platform::kShortRunningTask</a></div><div class="ttdef"><b>Definition:</b> v8-platform.h:52</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_ad229642bf16a066d2e8d866dc128141e"><div class="ttname"><a href="classv8_1_1Platform.html#ad229642bf16a066d2e8d866dc128141e">v8::Platform::IdleTasksEnabled</a></div><div class="ttdeci">virtual bool IdleTasksEnabled(Isolate *isolate)</div><div class="ttdef"><b>Definition:</b> v8-platform.h:99</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_a1c19bc69880d897a39d750c50700afb7"><div class="ttname"><a href="classv8_1_1Platform.html#a1c19bc69880d897a39d750c50700afb7">v8::Platform::AddTraceEvent</a></div><div class="ttdeci">virtual uint64_t AddTraceEvent(char phase, const uint8_t *category_enabled_flag, const char *name, uint64_t id, uint64_t bind_id, int32_t num_args, const char **arg_names, const uint8_t *arg_types, const uint64_t *arg_values, unsigned int flags)</div><div class="ttdef"><b>Definition:</b> v8-platform.h:143</div></div>
 <div class="ttc" id="aclassv8_1_1IdleTask_html"><div class="ttname"><a href="classv8_1_1IdleTask.html">v8::IdleTask</a></div><div class="ttdef"><b>Definition:</b> v8-platform.h:31</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_a72bff12d95fbf2118279b0e8f53f8a4b"><div class="ttname"><a href="classv8_1_1Platform.html#a72bff12d95fbf2118279b0e8f53f8a4b">v8::Platform::CallDelayedOnForegroundThread</a></div><div class="ttdeci">virtual void CallDelayedOnForegroundThread(Isolate *isolate, Task *task, double delay_in_seconds)=0</div></div>
+<div class="ttc" id="aclassv8_1_1Platform_html_a60a2b8edc8f52dcdaed9b093b3944e24"><div class="ttname"><a href="classv8_1_1Platform.html#a60a2b8edc8f52dcdaed9b093b3944e24">v8::Platform::~Platform</a></div><div class="ttdeci">virtual ~Platform()</div><div class="ttdef"><b>Definition:</b> v8-platform.h:56</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_a5b81982481986c80d3f613dde54494da"><div class="ttname"><a href="classv8_1_1Platform.html#a5b81982481986c80d3f613dde54494da">v8::Platform::GetCategoryGroupEnabled</a></div><div class="ttdeci">virtual const uint8_t * GetCategoryGroupEnabled(const char *name)</div><div class="ttdef"><b>Definition:</b> v8-platform.h:120</div></div>
+<div class="ttc" id="aclassv8_1_1Platform_html_ace7f666b2b5995bb0e898e12fa660718a274d7214159118b553a1f89c56137b25"><div class="ttname"><a href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a274d7214159118b553a1f89c56137b25">v8::Platform::kLongRunningTask</a></div><div class="ttdef"><b>Definition:</b> v8-platform.h:53</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_a6d4d7c2dcf6b0c7113099b97fa7f57b7"><div class="ttname"><a href="classv8_1_1Platform.html#a6d4d7c2dcf6b0c7113099b97fa7f57b7">v8::Platform::MonotonicallyIncreasingTime</a></div><div class="ttdeci">virtual double MonotonicallyIncreasingTime()=0</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_a02dde4138b387f1ae2b53190cdac2afc"><div class="ttname"><a href="classv8_1_1Platform.html#a02dde4138b387f1ae2b53190cdac2afc">v8::Platform::GetCategoryGroupName</a></div><div class="ttdeci">virtual const char * GetCategoryGroupName(const uint8_t *category_enabled_flag)</div><div class="ttdef"><b>Definition:</b> v8-platform.h:129</div></div>
+<div class="ttc" id="aclassv8_1_1Task_html_ad01219145d101e637525dce762fbc96d"><div class="ttname"><a href="classv8_1_1Task.html#ad01219145d101e637525dce762fbc96d">v8::Task::~Task</a></div><div class="ttdeci">virtual ~Task()</div><div class="ttdef"><b>Definition:</b> v8-platform.h:19</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_aa7ead571c0b19687635a930d9c67b73b"><div class="ttname"><a href="classv8_1_1Platform.html#aa7ead571c0b19687635a930d9c67b73b">v8::Platform::UpdateTraceEventDuration</a></div><div class="ttdeci">virtual void UpdateTraceEventDuration(const uint8_t *category_enabled_flag, const char *name, uint64_t handle)</div><div class="ttdef"><b>Definition:</b> v8-platform.h:155</div></div>
 <div class="ttc" id="anamespacev8_html"><div class="ttname"><a href="namespacev8.html">v8</a></div><div class="ttdef"><b>Definition:</b> libplatform.h:10</div></div>
 <div class="ttc" id="aclassv8_1_1Task_html"><div class="ttname"><a href="classv8_1_1Task.html">v8::Task</a></div><div class="ttdef"><b>Definition:</b> v8-platform.h:17</div></div>
-<div class="ttc" id="aclassv8_1_1Isolate_html"><div class="ttname"><a href="classv8_1_1Isolate.html">v8::Isolate</a></div><div class="ttdef"><b>Definition:</b> v8.h:5281</div></div>
+<div class="ttc" id="aclassv8_1_1Isolate_html"><div class="ttname"><a href="classv8_1_1Isolate.html">v8::Isolate</a></div><div class="ttdef"><b>Definition:</b> v8.h:5280</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_ace7f666b2b5995bb0e898e12fa660718"><div class="ttname"><a href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718">v8::Platform::ExpectedRuntime</a></div><div class="ttdeci">ExpectedRuntime</div><div class="ttdef"><b>Definition:</b> v8-platform.h:51</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_aa715e6839c1954b4e23b9d2df00bd3ea"><div class="ttname"><a href="classv8_1_1Platform.html#aa715e6839c1954b4e23b9d2df00bd3ea">v8::Platform::CallOnBackgroundThread</a></div><div class="ttdeci">virtual void CallOnBackgroundThread(Task *task, ExpectedRuntime expected_runtime)=0</div></div>
+<div class="ttc" id="aclassv8_1_1IdleTask_html_a4f2f238f551b3b2212adffcd5ee2f314"><div class="ttname"><a href="classv8_1_1IdleTask.html#a4f2f238f551b3b2212adffcd5ee2f314">v8::IdleTask::Run</a></div><div class="ttdeci">virtual void Run(double deadline_in_seconds)=0</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html_ae495999016432391f04d323452084b12"><div class="ttname"><a href="classv8_1_1Platform.html#ae495999016432391f04d323452084b12">v8::Platform::CallIdleOnForegroundThread</a></div><div class="ttdeci">virtual void CallIdleOnForegroundThread(Isolate *isolate, IdleTask *task)</div><div class="ttdef"><b>Definition:</b> v8-platform.h:92</div></div>
+<div class="ttc" id="aclassv8_1_1IdleTask_html_a60523b191c658312dc2dbb4478924b25"><div class="ttname"><a href="classv8_1_1IdleTask.html#a60523b191c658312dc2dbb4478924b25">v8::IdleTask::~IdleTask</a></div><div class="ttdeci">virtual ~IdleTask()</div><div class="ttdef"><b>Definition:</b> v8-platform.h:33</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html"><div class="ttname"><a href="classv8_1_1Platform.html">v8::Platform</a></div><div class="ttdef"><b>Definition:</b> v8-platform.h:44</div></div>
+<div class="ttc" id="aclassv8_1_1Task_html_a6bd5bda0e357fcc2e727bf7b0170f99a"><div class="ttname"><a href="classv8_1_1Task.html#a6bd5bda0e357fcc2e727bf7b0170f99a">v8::Task::Run</a></div><div class="ttdeci">virtual void Run()=0</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

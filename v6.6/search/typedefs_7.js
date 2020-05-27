@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['indexedpropertydefinercallback_1639',['IndexedPropertyDefinerCallback',['../namespacev8.html#a967435db933fa9798caac467948499df',1,'v8']]],
-  ['indexedpropertydeletercallback_1640',['IndexedPropertyDeleterCallback',['../namespacev8.html#a53863728de14cde48dd6543207b2f2da',1,'v8']]],
-  ['indexedpropertydescriptorcallback_1641',['IndexedPropertyDescriptorCallback',['../namespacev8.html#a7506e91d70d885b5cbeabdf870ac0e88',1,'v8']]],
-  ['indexedpropertyenumeratorcallback_1642',['IndexedPropertyEnumeratorCallback',['../namespacev8.html#adbb0a6d5537371953f9ba807d4f6275e',1,'v8']]],
-  ['indexedpropertygettercallback_1643',['IndexedPropertyGetterCallback',['../namespacev8.html#a48e7816ba64447bf32a25d194588daaf',1,'v8']]],
-  ['indexedpropertyquerycallback_1644',['IndexedPropertyQueryCallback',['../namespacev8.html#a980b62c33eb664783e61e25c3b27f9ee',1,'v8']]],
-  ['indexedpropertysettercallback_1645',['IndexedPropertySetterCallback',['../namespacev8.html#a4ac7cc6185ebc8b6a199f9fa8e6bf5c3',1,'v8']]]
+  ['handle_3270',['Handle',['../namespacev8.html#a9b42f6a6adfdc70e92717a20a2e99ba3',1,'v8']]],
+  ['hostimportmoduledynamicallycallback_3271',['HostImportModuleDynamicallyCallback',['../namespacev8.html#a327d89ea1fb89b4ada3571a3571413cc',1,'v8']]],
+  ['hostinitializeimportmetaobjectcallback_3272',['HostInitializeImportMetaObjectCallback',['../namespacev8.html#a46fe0379312fafd495b9be892b2de443',1,'v8']]]
 ];

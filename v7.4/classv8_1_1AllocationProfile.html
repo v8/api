@@ -90,22 +90,47 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afea045dae30df5477088e2f0b7edb6c4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structv8_1_1AllocationProfile_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1AllocationProfile.html#afea045dae30df5477088e2f0b7edb6c4">GetRootNode</a> ()=0</td></tr>
 <tr class="separator:afea045dae30df5477088e2f0b7edb6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dae5644e119c5c9ef699e27b98ab92d"><td class="memItemLeft" align="right" valign="top"><a id="a5dae5644e119c5c9ef699e27b98ab92d"></a>
-virtual const std::vector&lt; <a class="el" href="structv8_1_1AllocationProfile_1_1Sample.html">Sample</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetSamples</b> ()=0</td></tr>
+<tr class="memitem:a5dae5644e119c5c9ef699e27b98ab92d"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; <a class="el" href="structv8_1_1AllocationProfile_1_1Sample.html">Sample</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1AllocationProfile.html#a5dae5644e119c5c9ef699e27b98ab92d">GetSamples</a> ()=0</td></tr>
 <tr class="separator:a5dae5644e119c5c9ef699e27b98ab92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7b993de576149913d28d13dba02f1a7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1AllocationProfile.html#af7b993de576149913d28d13dba02f1a7">~AllocationProfile</a> ()=default</td></tr>
+<tr class="separator:af7b993de576149913d28d13dba02f1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a26fdfe9e4846d26c83d0ad8c2ed2d783"><td class="memItemLeft" align="right" valign="top"><a id="a26fdfe9e4846d26c83d0ad8c2ed2d783"></a>
-static const int&#160;</td><td class="memItemRight" valign="bottom"><b>kNoLineNumberInfo</b> = Message::kNoLineNumberInfo</td></tr>
+<tr class="memitem:a26fdfe9e4846d26c83d0ad8c2ed2d783"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1AllocationProfile.html#a26fdfe9e4846d26c83d0ad8c2ed2d783">kNoLineNumberInfo</a> = Message::kNoLineNumberInfo</td></tr>
 <tr class="separator:a26fdfe9e4846d26c83d0ad8c2ed2d783"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cfa103f73e82629694eee3734826eb7"><td class="memItemLeft" align="right" valign="top"><a id="a9cfa103f73e82629694eee3734826eb7"></a>
-static const int&#160;</td><td class="memItemRight" valign="bottom"><b>kNoColumnNumberInfo</b> = Message::kNoColumnInfo</td></tr>
+<tr class="memitem:a9cfa103f73e82629694eee3734826eb7"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1AllocationProfile.html#a9cfa103f73e82629694eee3734826eb7">kNoColumnNumberInfo</a> = <a class="el" href="classv8_1_1Message.html#a8cb643dbf408b0fd2526b23a8202c4a6">Message::kNoColumnInfo</a></td></tr>
 <tr class="separator:a9cfa103f73e82629694eee3734826eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classv8_1_1AllocationProfile.html">AllocationProfile</a> is a sampled profile of allocations done by the program. This is structured as a call-graph. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af7b993de576149913d28d13dba02f1a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7b993de576149913d28d13dba02f1a7">&#9670;&nbsp;</a></span>~AllocationProfile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::AllocationProfile::~AllocationProfile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="afea045dae30df5477088e2f0b7edb6c4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afea045dae30df5477088e2f0b7edb6c4">&#9670;&nbsp;</a></span>GetRootNode()</h2>
 
@@ -132,8 +157,78 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>kNoColumn
 
 </div>
 </div>
+<a id="a5dae5644e119c5c9ef699e27b98ab92d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dae5644e119c5c9ef699e27b98ab92d">&#9670;&nbsp;</a></span>GetSamples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const std::vector&lt;<a class="el" href="structv8_1_1AllocationProfile_1_1Sample.html">Sample</a>&gt;&amp; v8::AllocationProfile::GetSamples </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9cfa103f73e82629694eee3734826eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cfa103f73e82629694eee3734826eb7">&#9670;&nbsp;</a></span>kNoColumnNumberInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int v8::AllocationProfile::kNoColumnNumberInfo = <a class="el" href="classv8_1_1Message.html#a8cb643dbf408b0fd2526b23a8202c4a6">Message::kNoColumnInfo</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26fdfe9e4846d26c83d0ad8c2ed2d783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26fdfe9e4846d26c83d0ad8c2ed2d783">&#9670;&nbsp;</a></span>kNoLineNumberInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int v8::AllocationProfile::kNoLineNumberInfo = Message::kNoLineNumberInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
+<li>include/<a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

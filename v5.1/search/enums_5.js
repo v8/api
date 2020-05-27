@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jitcodeeventoptions_1276',['JitCodeEventOptions',['../namespacev8.html#a06f34fa4fa4cfc8518366808d1d461c1',1,'v8']]]
+  ['flags_2430',['Flags',['../classv8_1_1RegExp.html#aa4718a5c1f18472aff3bf51ed694fc5a',1,'v8::RegExp']]]
 ];

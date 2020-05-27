@@ -77,8 +77,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2faeb117d7308b65ac85fdad390e4c1f"><td class="memItemLeft" align="right" valign="top">V8_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Unlocker.html#a2faeb117d7308b65ac85fdad390e4c1f">Unlocker</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
-<tr class="separator:a2faeb117d7308b65ac85fdad390e4c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6789fe804cc059d9554c7ae7958c440"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Unlocker.html#aa6789fe804cc059d9554c7ae7958c440">Unlocker</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
+<tr class="separator:aa6789fe804cc059d9554c7ae7958c440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d597a18f1141fadf5c99e5b500df957"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Unlocker.html#a0d597a18f1141fadf5c99e5b500df957">~Unlocker</a> ()</td></tr>
+<tr class="separator:a0d597a18f1141fadf5c99e5b500df957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Multiple threads in <a class="el" href="classv8_1_1V8.html">V8</a> are allowed, but only one thread at a time is allowed to use any given <a class="el" href="classv8_1_1V8.html">V8</a> isolate, see the comments in the <a class="el" href="classv8_1_1Isolate.html">Isolate</a> class. The definition of 'using a <a class="el" href="classv8_1_1V8.html">V8</a> isolate' includes accessing handles or holding onto object pointers obtained from <a class="el" href="classv8_1_1V8.html">V8</a> handles while in the particular <a class="el" href="classv8_1_1V8.html">V8</a> isolate. It is up to the user of <a class="el" href="classv8_1_1V8.html">V8</a> to ensure, perhaps with locking, that this constraint is not violated. In addition to any other synchronization mechanism that may be used, the <a class="el" href="classv8_1_1Locker.html">v8::Locker</a> and <a class="el" href="classv8_1_1Unlocker.html">v8::Unlocker</a> classes must be used to signal thead switches to <a class="el" href="classv8_1_1V8.html">V8</a>.</p>
@@ -123,8 +125,8 @@ Public Member Functions</h2></td></tr>
 <div class="line">}</div>
 <div class="line"><span class="comment">// V8 Now no longer locked.</span></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2faeb117d7308b65ac85fdad390e4c1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2faeb117d7308b65ac85fdad390e4c1f">&#9670;&nbsp;</a></span>Unlocker()</h2>
+<a id="aa6789fe804cc059d9554c7ae7958c440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6789fe804cc059d9554c7ae7958c440">&#9670;&nbsp;</a></span>Unlocker()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,7 +135,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">V8_INLINE v8::Unlocker::Unlocker </td>
+          <td class="memname">v8::Unlocker::Unlocker </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
           <td class="paramname"><em>isolate</em></td><td>)</td>
@@ -150,8 +152,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0d597a18f1141fadf5c99e5b500df957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d597a18f1141fadf5c99e5b500df957">&#9670;&nbsp;</a></span>~Unlocker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::Unlocker::~Unlocker </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <div class="ttc" id="aclassv8_1_1Locker_html"><div class="ttname"><a href="classv8_1_1Locker.html">v8::Locker</a></div><div class="ttdef"><b>Definition:</b> v8.h:6552</div></div>

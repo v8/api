@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nearheaplimitcallback_1985',['NearHeapLimitCallback',['../namespacev8.html#af4357cae607e45cd9e9c4fda1cc03218',1,'v8']]]
+  ['jitcodeeventhandler_3882',['JitCodeEventHandler',['../namespacev8.html#a39243bc91e63d64d111452fdb98c4733',1,'v8']]]
 ];

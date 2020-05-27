@@ -78,27 +78,123 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7e51b026e03b0a4ab3c3bec4676dfd9e"><td class="memItemLeft" align="right" valign="top"><a id="a7e51b026e03b0a4ab3c3bec4676dfd9e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Length</b> () const</td></tr>
+<tr class="memitem:a7e51b026e03b0a4ab3c3bec4676dfd9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1PrimitiveArray.html#a7e51b026e03b0a4ab3c3bec4676dfd9e">Length</a> () const</td></tr>
 <tr class="separator:a7e51b026e03b0a4ab3c3bec4676dfd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58b7323d46f3a1e4de589bdc76f59511"><td class="memItemLeft" align="right" valign="top"><a id="a58b7323d46f3a1e4de589bdc76f59511"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Set</b> (int index, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Primitive.html">Primitive</a> &gt; item)</td></tr>
+<tr class="memitem:a58b7323d46f3a1e4de589bdc76f59511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1PrimitiveArray.html#a58b7323d46f3a1e4de589bdc76f59511">Set</a> (int index, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Primitive.html">Primitive</a> &gt; item)</td></tr>
 <tr class="separator:a58b7323d46f3a1e4de589bdc76f59511"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a039d55a4b98b61944c291536345887d3"><td class="memItemLeft" align="right" valign="top"><a id="a039d55a4b98b61944c291536345887d3"></a>
-<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Primitive.html">Primitive</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (int index)</td></tr>
+<tr class="memitem:a039d55a4b98b61944c291536345887d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Primitive.html">Primitive</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1PrimitiveArray.html#a039d55a4b98b61944c291536345887d3">Get</a> (int index)</td></tr>
 <tr class="separator:a039d55a4b98b61944c291536345887d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afdb183e117929fa286e0311c51ff8693"><td class="memItemLeft" align="right" valign="top"><a id="afdb183e117929fa286e0311c51ff8693"></a>
-static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1PrimitiveArray.html">PrimitiveArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>New</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, int length)</td></tr>
+<tr class="memitem:afdb183e117929fa286e0311c51ff8693"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1PrimitiveArray.html">PrimitiveArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1PrimitiveArray.html#afdb183e117929fa286e0311c51ff8693">New</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, int length)</td></tr>
 <tr class="separator:afdb183e117929fa286e0311c51ff8693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An array to hold <a class="el" href="classv8_1_1Primitive.html">Primitive</a> values. This is used by the embedder to pass host defined options to the ScriptOptions during compilation.</p>
 <p>This is passed back to the embedder as part of HostImportModuleDynamicallyCallback for module loading. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a039d55a4b98b61944c291536345887d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a039d55a4b98b61944c291536345887d3">&#9670;&nbsp;</a></span>Get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1Primitive.html">Primitive</a>&gt; v8::PrimitiveArray::Get </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e51b026e03b0a4ab3c3bec4676dfd9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e51b026e03b0a4ab3c3bec4676dfd9e">&#9670;&nbsp;</a></span>Length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int v8::PrimitiveArray::Length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdb183e117929fa286e0311c51ff8693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdb183e117929fa286e0311c51ff8693">&#9670;&nbsp;</a></span>New()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1PrimitiveArray.html">PrimitiveArray</a>&gt; v8::PrimitiveArray::New </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58b7323d46f3a1e4de589bdc76f59511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58b7323d46f3a1e4de589bdc76f59511">&#9670;&nbsp;</a></span>Set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::PrimitiveArray::Set </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Primitive.html">Primitive</a> &gt;&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

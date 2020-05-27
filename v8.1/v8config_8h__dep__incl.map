@@ -1,0 +1,14 @@
+<map id="include/v8config.h" name="include/v8config.h">
+<area shape="rect" id="node1" title=" " alt="" coords="333,5,460,32"/>
+<area shape="rect" id="node2" href="$v8-platform_8h.html" title=" " alt="" coords="56,87,199,114"/>
+<area shape="rect" id="node4" href="$libplatform_8h.html" title=" " alt="" coords="89,259,216,300"/>
+<area shape="rect" id="node5" href="$v8-internal_8h.html" title=" " alt="" coords="274,87,413,114"/>
+<area shape="rect" id="node6" href="$v8_8h.html" title=" " alt="" coords="404,177,496,203"/>
+<area shape="rect" id="node11" href="$v8-wasm-trap-handler-posix_8h.html" title=" " alt="" coords="487,80,634,121"/>
+<area shape="rect" id="node12" href="$v8-wasm-trap-handler-win_8h.html" title=" " alt="" coords="658,80,805,121"/>
+<area shape="rect" id="node3" href="$v8-tracing_8h.html" title=" " alt="" coords="5,169,132,211"/>
+<area shape="rect" id="node7" href="$v8-inspector_8h.html" title=" " alt="" coords="241,266,390,293"/>
+<area shape="rect" id="node9" href="$v8-profiler_8h.html" title=" " alt="" coords="415,266,549,293"/>
+<area shape="rect" id="node10" href="$v8-util_8h.html" title=" " alt="" coords="573,266,687,293"/>
+<area shape="rect" id="node8" href="$v8-inspector-protocol_8h.html" title=" " alt="" coords="246,348,385,389"/>
+</map>

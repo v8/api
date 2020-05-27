@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['preparestacktracecallback_1769',['PrepareStackTraceCallback',['../namespacev8.html#a37cac01b080eaef6941d654a162b90aa',1,'v8']]]
+  ['jitcodeeventhandler_3524',['JitCodeEventHandler',['../namespacev8.html#a39243bc91e63d64d111452fdb98c4733',1,'v8']]]
 ];

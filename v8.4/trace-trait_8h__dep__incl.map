@@ -1,0 +1,11 @@
+<map id="include/cppgc/trace&#45;trait.h" name="include/cppgc/trace&#45;trait.h">
+<area shape="rect" id="node1" title=" " alt="" coords="253,5,388,47"/>
+<area shape="rect" id="node2" href="$garbage-collected_8h.html" title=" " alt="" coords="189,95,341,136"/>
+<area shape="rect" id="node4" href="$visitor_8h.html" title=" " alt="" coords="302,191,454,218"/>
+<area shape="rect" id="node6" href="$persistent-node_8h.html" title=" " alt="" coords="5,95,153,136"/>
+<area shape="rect" id="node7" href="$liveness-broker_8h.html" title=" " alt="" coords="445,95,599,136"/>
+<area shape="rect" id="node3" href="$allocation_8h.html" title=" " alt="" coords="105,191,277,218"/>
+<area shape="rect" id="node5" href="$persistent_8h.html" title=" " alt="" coords="179,273,353,300"/>
+<area shape="rect" id="node8" href="$prefinalizer-handler_8h.html" title=" " alt="" coords="479,184,627,225"/>
+<area shape="rect" id="node9" href="$prefinalizer_8h.html" title=" " alt="" coords="519,273,699,300"/>
+</map>

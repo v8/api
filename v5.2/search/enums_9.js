@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['usecounterfeature_1286',['UseCounterFeature',['../classv8_1_1Isolate.html#aed6909379c3f2820cb3084710b73385d',1,'v8::Isolate']]]
+  ['memorypressurelevel_2446',['MemoryPressureLevel',['../namespacev8.html#ae0e9a25bf51e518585f555806e7dc7b9',1,'v8']]],
+  ['microtaskspolicy_2447',['MicrotasksPolicy',['../namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04da',1,'v8']]]
 ];

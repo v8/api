@@ -77,6 +77,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aeeb119b0b88634faeeb7aa0c1a6d3318"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#aeeb119b0b88634faeeb7aa0c1a6d3318">~Allocator</a> ()</td></tr>
+<tr class="separator:aeeb119b0b88634faeeb7aa0c1a6d3318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a106b0d80120ed04fe9b9675e96f0340b"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#a106b0d80120ed04fe9b9675e96f0340b">Allocate</a> (size_t length)=0</td></tr>
 <tr class="separator:a106b0d80120ed04fe9b9675e96f0340b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b2d5c0a826d3c435e12f3ee178f37a"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#a92b2d5c0a826d3c435e12f3ee178f37a">AllocateUninitialized</a> (size_t length)=0</td></tr>
@@ -89,7 +91,35 @@ Public Member Functions</h2></td></tr>
 <p>Memory allocated through this allocator by <a class="el" href="classv8_1_1V8.html">V8</a> is accounted for as external memory by <a class="el" href="classv8_1_1V8.html">V8</a>. Note that <a class="el" href="classv8_1_1V8.html">V8</a> keeps track of the memory for all internalized |ArrayBuffer|s. Responsibility for tracking external memory (using <a class="el" href="classv8_1_1Isolate.html#aaeda5fa60961a3d9d476c46200e30711">Isolate::AdjustAmountOfExternalAllocatedMemory</a>) is handed over to the embedder upon externalization and taken over upon internalization (creating an internalized buffer from an existing buffer).</p>
 <p>Note that it is unsafe to call back into <a class="el" href="classv8_1_1V8.html">V8</a> from any of the allocator functions.</p>
 <p>This API is experimental and may change significantly. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="process_8cc-example.html#_a0">process.cc</a>, and <a class="el" href="shell_8cc-example.html#_a8">shell.cc</a>.</dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aeeb119b0b88634faeeb7aa0c1a6d3318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb119b0b88634faeeb7aa0c1a6d3318">&#9670;&nbsp;</a></span>~Allocator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::ArrayBuffer::Allocator::~Allocator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a106b0d80120ed04fe9b9675e96f0340b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a106b0d80120ed04fe9b9675e96f0340b">&#9670;&nbsp;</a></span>Allocate()</h2>
 
@@ -114,6 +144,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Allocate |length| bytes. Return NULL if allocation is not successful. Memory should be initialized to zeroes. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="shell_8cc-example.html#a9">shell.cc</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -141,6 +173,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Allocate |length| bytes. Return NULL if allocation is not successful. Memory does not have to be initialized. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="shell_8cc-example.html#a10">shell.cc</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -178,11 +212,13 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Free the memory block of size |length|, pointed to by |data|. That memory is guaranteed to be previously allocated by |Allocate|. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="shell_8cc-example.html#a11">shell.cc</a>.</dd>
+</dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

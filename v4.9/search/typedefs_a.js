@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['wrapperinfocallback_1192',['WrapperInfoCallback',['../classv8_1_1HeapProfiler.html#a677025dd201fd832e0464e5ab0b0d0d4',1,'v8::HeapProfiler']]]
+  ['maptype_2273',['MapType',['../classv8_1_1DefaultPersistentValueMapTraits.html#a05cbd536d6bb9ba4949198351e074854',1,'v8::DefaultPersistentValueMapTraits::MapType()'],['../classv8_1_1DefaultGlobalMapTraits.html#a6626b089621a436fde5ac1a1132cc83c',1,'v8::DefaultGlobalMapTraits::MapType()']]],
+  ['memoryallocationcallback_2274',['MemoryAllocationCallback',['../namespacev8.html#a2402a6535cafc5f721192b300502fb0a',1,'v8']]],
+  ['messagecallback_2275',['MessageCallback',['../namespacev8.html#a871380126ff63a699e78cb83d8d613a6',1,'v8']]],
+  ['messagehandler_2276',['MessageHandler',['../classv8_1_1Debug.html#a526826b857bd3e3efa184e12bcebc694',1,'v8::Debug']]],
+  ['microtaskcallback_2277',['MicrotaskCallback',['../namespacev8.html#a64445c32058729cdc44d56ff13458bed',1,'v8']]],
+  ['moveonlytypeforcpp03_2278',['MoveOnlyTypeForCPP03',['../classv8_1_1Global.html#a295826e79781fe585904e652884db72f',1,'v8::Global']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['keycollectionmode_1382',['KeyCollectionMode',['../namespacev8.html#a0cee20f5c7f0d59d0835af8e537388dc',1,'v8']]],
-  ['keyconversionmode_1383',['KeyConversionMode',['../namespacev8.html#aa65aeff871614520d8033dead4b34e38',1,'v8']]]
+  ['flags_3565',['Flags',['../classv8_1_1RegExp.html#aa4718a5c1f18472aff3bf51ed694fc5a',1,'v8::RegExp']]],
+  ['functioncodehandling_3566',['FunctionCodeHandling',['../classv8_1_1SnapshotCreator.html#a8b1f50812dc699d0dce347fd557b77c2',1,'v8::SnapshotCreator']]]
 ];

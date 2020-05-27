@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classv8_1_1RetainedObjectInfo-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">v8::RetainedObjectInfo Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -91,20 +92,78 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae6865597469bc7d28bd8ec71b4b890bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a899eed0b1f6e046edc3c7a7c08aa8c"><td class="memItemLeft" align="right" valign="top">virtual intptr_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1RetainedObjectInfo.html#a1a899eed0b1f6e046edc3c7a7c08aa8c">GetSizeInBytes</a> ()</td></tr>
 <tr class="separator:a1a899eed0b1f6e046edc3c7a7c08aa8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a24e935c2ddd73e5e35841eb8cb095099"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1RetainedObjectInfo.html#a24e935c2ddd73e5e35841eb8cb095099">RetainedObjectInfo</a> ()</td></tr>
+<tr class="separator:a24e935c2ddd73e5e35841eb8cb095099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad17cbdc9a4efdd18b7afe0bc29303c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1RetainedObjectInfo.html#a3ad17cbdc9a4efdd18b7afe0bc29303c">~RetainedObjectInfo</a> ()</td></tr>
+<tr class="separator:a3ad17cbdc9a4efdd18b7afe0bc29303c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for providing information about embedder's objects held by global handles. This information is reported in two ways:</p>
 <ol type="1">
-<li>When calling AddObjectGroup, an embedder may pass <a class="el" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a> instance describing the group. To collect this information while taking a heap snapshot, V8 calls GC prologue and epilogue callbacks.</li>
-<li>When a heap snapshot is collected, V8 additionally requests RetainedObjectInfos for persistent handles that were not previously reported via AddObjectGroup.</li>
+<li>When calling AddObjectGroup, an embedder may pass <a class="el" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a> instance describing the group. To collect this information while taking a heap snapshot, <a class="el" href="classv8_1_1V8.html">V8</a> calls GC prologue and epilogue callbacks.</li>
+<li>When a heap snapshot is collected, <a class="el" href="classv8_1_1V8.html">V8</a> additionally requests RetainedObjectInfos for persistent handles that were not previously reported via AddObjectGroup.</li>
 </ol>
 <p>Thus, if an embedder wants to provide information about native objects for heap snapshots, it can do it in a GC prologue handler, and / or by assigning wrapper class ids in the following way:</p>
 <ol type="1">
 <li>Bind a callback to class id by calling SetWrapperClassInfoProvider.</li>
 <li>Call SetWrapperClassId on certain persistent handles.</li>
 </ol>
-<p>V8 takes ownership of <a class="el" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a> instances passed to it and keeps them alive only during snapshot collection. Afterwards, they are freed by calling the Dispose class function. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p><a class="el" href="classv8_1_1V8.html">V8</a> takes ownership of <a class="el" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a> instances passed to it and keeps them alive only during snapshot collection. Afterwards, they are freed by calling the Dispose class function. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a24e935c2ddd73e5e35841eb8cb095099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24e935c2ddd73e5e35841eb8cb095099">&#9670;&nbsp;</a></span>RetainedObjectInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::RetainedObjectInfo::RetainedObjectInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ad17cbdc9a4efdd18b7afe0bc29303c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ad17cbdc9a4efdd18b7afe0bc29303c">&#9670;&nbsp;</a></span>~RetainedObjectInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::RetainedObjectInfo::~RetainedObjectInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5011203f7c5949049ba36b8059f03eca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5011203f7c5949049ba36b8059f03eca">&#9670;&nbsp;</a></span>Dispose()</h2>
 
@@ -127,7 +186,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called by V8 when it no longer needs an instance. </p>
+<p>Called by <a class="el" href="classv8_1_1V8.html">V8</a> when it no longer needs an instance. </p>
 
 </div>
 </div>
@@ -179,7 +238,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns human-readable group label. It must be a null-terminated UTF-8 encoded string. V8 copies its contents during a call to GetGroupLabel. Heap snapshot generator will collect all the group names, create top level entries with these names and attach the objects to the corresponding top level group objects. There is a default implementation which is required because embedders don't have their own implementation yet. </p>
+<p>Returns human-readable group label. It must be a null-terminated UTF-8 encoded string. <a class="el" href="classv8_1_1V8.html">V8</a> copies its contents during a call to GetGroupLabel. Heap snapshot generator will collect all the group names, create top level entries with these names and attach the objects to the corresponding top level group objects. There is a default implementation which is required because embedders don't have their own implementation yet. </p>
 
 </div>
 </div>
@@ -231,7 +290,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns human-readable label. It must be a null-terminated UTF-8 encoded string. V8 copies its contents during a call to GetLabel. </p>
+<p>Returns human-readable label. It must be a null-terminated UTF-8 encoded string. <a class="el" href="classv8_1_1V8.html">V8</a> copies its contents during a call to GetLabel. </p>
 
 </div>
 </div>
@@ -289,7 +348,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
+<li>include/<a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

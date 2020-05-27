@@ -61,9 +61,8 @@ for branch in BRANCHES:
     git('switch', '--force', '--detach', f'remotes/origin/{branch}')
     git('clean', '--force', '-d')
     doxyfile = DESTINATION / 'Doxyfile'
-    include = GIT_DIR / 'include'
-    run('doxygen', os.path.abspath(f'{doxyfile}'), cwd=include)
-    source = include / 'html'
+    run('doxygen', os.path.abspath(f'{doxyfile}'), cwd=GIT_DIR)
+    source = GIT_DIR / 'html'
     run('rsync', '--itemize-changes', '--recursive',
             '--checksum', f'{source}{os.sep}', f'{branch_dir}{os.sep}')
     run('git', 'add', branch_dir)

@@ -89,10 +89,65 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa8a6077bed5735e2190918685faf20f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7042a9967ddaaf1f995e568c3dd7ce64"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1TaskRunner.html#a7042a9967ddaaf1f995e568c3dd7ce64">NonNestableTasksEnabled</a> () const</td></tr>
 <tr class="separator:a7042a9967ddaaf1f995e568c3dd7ce64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e68e4abca974b7aff6c89d561dd96a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1TaskRunner.html#a5e68e4abca974b7aff6c89d561dd96a2">TaskRunner</a> ()=default</td></tr>
+<tr class="separator:a5e68e4abca974b7aff6c89d561dd96a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92facf5a6b8dc3e51319f14e3f85a129"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1TaskRunner.html#a92facf5a6b8dc3e51319f14e3f85a129">~TaskRunner</a> ()=default</td></tr>
+<tr class="separator:a92facf5a6b8dc3e51319f14e3f85a129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A <a class="el" href="classv8_1_1TaskRunner.html">TaskRunner</a> allows scheduling of tasks. The <a class="el" href="classv8_1_1TaskRunner.html">TaskRunner</a> may still be used to post tasks after the isolate gets destructed, but these tasks may not get executed anymore. All tasks posted to a given <a class="el" href="classv8_1_1TaskRunner.html">TaskRunner</a> will be invoked in sequence. Tasks can be posted from any thread. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5e68e4abca974b7aff6c89d561dd96a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e68e4abca974b7aff6c89d561dd96a2">&#9670;&nbsp;</a></span>TaskRunner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::TaskRunner::TaskRunner </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92facf5a6b8dc3e51319f14e3f85a129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92facf5a6b8dc3e51319f14e3f85a129">&#9670;&nbsp;</a></span>~TaskRunner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::TaskRunner::~TaskRunner </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa8a6077bed5735e2190918685faf20f5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa8a6077bed5735e2190918685faf20f5">&#9670;&nbsp;</a></span>IdleTasksEnabled()</h2>
 
@@ -265,7 +320,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
+<li>include/<a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

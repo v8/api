@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>cppgc</b></li><li class="navelem"><b>internal</b></li><li class="navelem"><a class="el" href="classcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher.html">PreFinalizerRegistrationDispatcher</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacecppgc.html">cppgc</a></li><li class="navelem"><a class="el" href="namespacecppgc_1_1internal.html">internal</a></li><li class="navelem"><a class="el" href="classcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher.html">PreFinalizerRegistrationDispatcher</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,6 +74,8 @@ $(function() {
 <div class="title">cppgc::internal::PreFinalizerRegistrationDispatcher Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="prefinalizer-handler_8h_source.html">prefinalizer-handler.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -82,18 +84,68 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a93a24770f017ff0fb93ac7b04702c1aa"><td class="memItemLeft" align="right" valign="top"><a id="a93a24770f017ff0fb93ac7b04702c1aa"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>PreFinalizerCallback</b> = bool(*)(const <a class="el" href="classcppgc_1_1LivenessBroker.html">LivenessBroker</a> &amp;, void *)</td></tr>
+<tr class="memitem:a93a24770f017ff0fb93ac7b04702c1aa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher.html#a93a24770f017ff0fb93ac7b04702c1aa">PreFinalizerCallback</a> = bool(*)(const <a class="el" href="classcppgc_1_1LivenessBroker.html">LivenessBroker</a> &amp;, void *)</td></tr>
 <tr class="separator:a93a24770f017ff0fb93ac7b04702c1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a54191e44fdbd5db31a950cb2788c3560"><td class="memItemLeft" align="right" valign="top"><a id="a54191e44fdbd5db31a950cb2788c3560"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterPrefinalizer</b> (<a class="el" href="classcppgc_1_1Heap.html">cppgc::Heap</a> *heap, <a class="el" href="structcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher_1_1PreFinalizer.html">PreFinalizer</a> prefinalzier)</td></tr>
+<tr class="memitem:a54191e44fdbd5db31a950cb2788c3560"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher.html#a54191e44fdbd5db31a950cb2788c3560">RegisterPrefinalizer</a> (<a class="el" href="classcppgc_1_1Heap.html">cppgc::Heap</a> *heap, <a class="el" href="structcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher_1_1PreFinalizer.html">PreFinalizer</a> prefinalzier)</td></tr>
 <tr class="separator:a54191e44fdbd5db31a950cb2788c3560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a93a24770f017ff0fb93ac7b04702c1aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93a24770f017ff0fb93ac7b04702c1aa">&#9670;&nbsp;</a></span>PreFinalizerCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher.html#a93a24770f017ff0fb93ac7b04702c1aa">cppgc::internal::PreFinalizerRegistrationDispatcher::PreFinalizerCallback</a> =  bool (*)(const <a class="el" href="classcppgc_1_1LivenessBroker.html">LivenessBroker</a>&amp;, void*)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a54191e44fdbd5db31a950cb2788c3560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54191e44fdbd5db31a950cb2788c3560">&#9670;&nbsp;</a></span>RegisterPrefinalizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void cppgc::internal::PreFinalizerRegistrationDispatcher::RegisterPrefinalizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcppgc_1_1Heap.html">cppgc::Heap</a> *&#160;</td>
+          <td class="paramname"><em>heap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher_1_1PreFinalizer.html">PreFinalizer</a>&#160;</td>
+          <td class="paramname"><em>prefinalzier</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>cppgc/internal/<a class="el" href="prefinalizer-handler_8h_source.html">prefinalizer-handler.h</a></li>
+<li>include/cppgc/internal/<a class="el" href="prefinalizer-handler_8h_source.html">prefinalizer-handler.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

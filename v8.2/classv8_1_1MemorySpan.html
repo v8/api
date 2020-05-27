@@ -79,8 +79,7 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a608d88ac62c94507720daad3b27dc1fb"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MemorySpan.html#a608d88ac62c94507720daad3b27dc1fb">MemorySpan</a> ()=default</td></tr>
 <tr class="separator:a608d88ac62c94507720daad3b27dc1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4c15b76ee860b0f35390c8302a6ff28"><td class="memItemLeft" align="right" valign="top"><a id="af4c15b76ee860b0f35390c8302a6ff28"></a>
-constexpr&#160;</td><td class="memItemRight" valign="bottom"><b>MemorySpan</b> (T *<a class="el" href="classv8_1_1MemorySpan.html#ac3b84451c03555508c9cc88ebf3a16b1">data</a>, size_t <a class="el" href="classv8_1_1MemorySpan.html#ae25fe427f3be53fff34a3d1a270a8a91">size</a>)</td></tr>
+<tr class="memitem:af4c15b76ee860b0f35390c8302a6ff28"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MemorySpan.html#af4c15b76ee860b0f35390c8302a6ff28">MemorySpan</a> (T *<a class="el" href="classv8_1_1MemorySpan.html#ac3b84451c03555508c9cc88ebf3a16b1">data</a>, size_t <a class="el" href="classv8_1_1MemorySpan.html#ae25fe427f3be53fff34a3d1a270a8a91">size</a>)</td></tr>
 <tr class="separator:af4c15b76ee860b0f35390c8302a6ff28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3b84451c03555508c9cc88ebf3a16b1"><td class="memItemLeft" align="right" valign="top">constexpr T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MemorySpan.html#ac3b84451c03555508c9cc88ebf3a16b1">data</a> () const</td></tr>
 <tr class="separator:ac3b84451c03555508c9cc88ebf3a16b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -96,7 +95,7 @@ class v8::MemorySpan&lt; T &gt;</h3>
 <p>To facilitate future migration, this class exposes a subset of the interface implemented by std::span. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a608d88ac62c94507720daad3b27dc1fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a608d88ac62c94507720daad3b27dc1fb">&#9670;&nbsp;</a></span>MemorySpan()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a608d88ac62c94507720daad3b27dc1fb">&#9670;&nbsp;</a></span>MemorySpan() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,6 +119,44 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 <p>The default constructor creates an empty span. </p>
+
+</div>
+</div>
+<a id="af4c15b76ee860b0f35390c8302a6ff28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4c15b76ee860b0f35390c8302a6ff28">&#9670;&nbsp;</a></span>MemorySpan() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classv8_1_1MemorySpan.html">v8::MemorySpan</a>&lt; T &gt;::<a class="el" href="classv8_1_1MemorySpan.html">MemorySpan</a> </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -181,7 +218,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

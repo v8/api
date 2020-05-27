@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>v8_inspector</b></li><li class="navelem"><a class="el" href="classv8__inspector_1_1V8Inspector.html">V8Inspector</a></li><li class="navelem"><a class="el" href="classv8__inspector_1_1V8Inspector_1_1Channel.html">Channel</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacev8__inspector.html">v8_inspector</a></li><li class="navelem"><a class="el" href="classv8__inspector_1_1V8Inspector.html">V8Inspector</a></li><li class="navelem"><a class="el" href="classv8__inspector_1_1V8Inspector_1_1Channel.html">Channel</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,21 +72,136 @@ $(function() {
 <div class="title">v8_inspector::V8Inspector::Channel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="v8-inspector_8h_source.html">v8-inspector.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2d07642261dd8571590cda01fc75e301"><td class="memItemLeft" align="right" valign="top"><a id="a2d07642261dd8571590cda01fc75e301"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>sendProtocolResponse</b> (int callId, const <a class="el" href="classv8__inspector_1_1StringView.html">StringView</a> &amp;message)=0</td></tr>
+<tr class="memitem:a2f36a9fce9db16133e24b27d12aef800"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8__inspector_1_1V8Inspector_1_1Channel.html#a2f36a9fce9db16133e24b27d12aef800">~Channel</a> ()</td></tr>
+<tr class="separator:a2f36a9fce9db16133e24b27d12aef800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d07642261dd8571590cda01fc75e301"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8__inspector_1_1V8Inspector_1_1Channel.html#a2d07642261dd8571590cda01fc75e301">sendProtocolResponse</a> (int callId, const <a class="el" href="classv8__inspector_1_1StringView.html">StringView</a> &amp;message)=0</td></tr>
 <tr class="separator:a2d07642261dd8571590cda01fc75e301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a577d482058b80b3fa8c2da49f68609ec"><td class="memItemLeft" align="right" valign="top"><a id="a577d482058b80b3fa8c2da49f68609ec"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>sendProtocolNotification</b> (const <a class="el" href="classv8__inspector_1_1StringView.html">StringView</a> &amp;message)=0</td></tr>
+<tr class="memitem:a577d482058b80b3fa8c2da49f68609ec"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8__inspector_1_1V8Inspector_1_1Channel.html#a577d482058b80b3fa8c2da49f68609ec">sendProtocolNotification</a> (const <a class="el" href="classv8__inspector_1_1StringView.html">StringView</a> &amp;message)=0</td></tr>
 <tr class="separator:a577d482058b80b3fa8c2da49f68609ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30623e11f5b55b76d8a9cc3c007b191"><td class="memItemLeft" align="right" valign="top"><a id="ac30623e11f5b55b76d8a9cc3c007b191"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>flushProtocolNotifications</b> ()=0</td></tr>
+<tr class="memitem:ac30623e11f5b55b76d8a9cc3c007b191"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8__inspector_1_1V8Inspector_1_1Channel.html#ac30623e11f5b55b76d8a9cc3c007b191">flushProtocolNotifications</a> ()=0</td></tr>
 <tr class="separator:ac30623e11f5b55b76d8a9cc3c007b191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a2f36a9fce9db16133e24b27d12aef800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f36a9fce9db16133e24b27d12aef800">&#9670;&nbsp;</a></span>~Channel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8_inspector::V8Inspector::Channel::~Channel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac30623e11f5b55b76d8a9cc3c007b191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30623e11f5b55b76d8a9cc3c007b191">&#9670;&nbsp;</a></span>flushProtocolNotifications()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void v8_inspector::V8Inspector::Channel::flushProtocolNotifications </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a577d482058b80b3fa8c2da49f68609ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a577d482058b80b3fa8c2da49f68609ec">&#9670;&nbsp;</a></span>sendProtocolNotification()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void v8_inspector::V8Inspector::Channel::sendProtocolNotification </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classv8__inspector_1_1StringView.html">StringView</a> &amp;&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d07642261dd8571590cda01fc75e301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d07642261dd8571590cda01fc75e301">&#9670;&nbsp;</a></span>sendProtocolResponse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void v8_inspector::V8Inspector::Channel::sendProtocolResponse </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>callId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classv8__inspector_1_1StringView.html">StringView</a> &amp;&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-inspector_8h_source.html">v8-inspector.h</a></li>
+<li>include/<a class="el" href="v8-inspector_8h_source.html">v8-inspector.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

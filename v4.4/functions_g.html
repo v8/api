@@ -61,15 +61,27 @@ $(function() {
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
+<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>GarbageCollectionType
 : <a class="el" href="classv8_1_1Isolate.html#a5ae00cc99d8aca148c6f5f9698c432c9">v8::Isolate</a>
 </li>
+<li>GCEpilogueCallback
+: <a class="el" href="classv8_1_1Isolate.html#a3e7351067af07d2a56c57d855fada4bb">v8::Isolate</a>
+</li>
+<li>GCPrologueCallback
+: <a class="el" href="classv8_1_1Isolate.html#ab14f02c51e012f839e6cc184ede4814a">v8::Isolate</a>
+</li>
 <li>Get()
-: <a class="el" href="classv8_1_1PersistentValueMapBase.html#a16b8f906ea42036c2f37d44813bf2a72">v8::PersistentValueMapBase&lt; K, V, Traits &gt;</a>
+: <a class="el" href="classv8_1_1DefaultPersistentValueVectorTraits.html#ab9787aa7b041a30714cd17258c886cd7">v8::DefaultPersistentValueVectorTraits</a>
+, <a class="el" href="classv8_1_1Eternal.html#ae9614309d9c93fe484d81926e31ed6b7">v8::Eternal&lt; T &gt;</a>
+, <a class="el" href="classv8_1_1Message.html#a75be72a4c94c3c1bf1c6ea8ffc47c992">v8::Message</a>
+, <a class="el" href="classv8_1_1NativeWeakMap.html#a65715f9678e9286c3ff63b4a2084810d">v8::NativeWeakMap</a>
+, <a class="el" href="classv8_1_1Object.html#a976f0329ff7465c124652d633d469c06">v8::Object</a>
+, <a class="el" href="classv8_1_1PersistentValueMapBase.html#a16b8f906ea42036c2f37d44813bf2a72">v8::PersistentValueMapBase&lt; K, V, Traits &gt;</a>
 , <a class="el" href="classv8_1_1PersistentValueVector.html#a0788f334c7f61355863244379042ce76">v8::PersistentValueVector&lt; V, Traits &gt;</a>
+, <a class="el" href="classv8_1_1StdMapTraits.html#a96c6fa384a4f7b7a64b464457ff347c2">v8::StdMapTraits&lt; K, V &gt;</a>
 </li>
 <li>GetAlignedPointerFromEmbedderData()
 : <a class="el" href="classv8_1_1Context.html#aa3b5c1a1a5d145c6096840898013f559">v8::Context</a>
@@ -82,6 +94,10 @@ $(function() {
 </li>
 <li>GetBoundFunction()
 : <a class="el" href="classv8_1_1Function.html#a33bea08b5ff0c605bde07897cf1c431e">v8::Function</a>
+</li>
+<li>GetCachedData()
+: <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html#aa3c0706b728864348e2ffed3d8171e13">v8::ScriptCompiler::Source</a>
+, <a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html#ae85255c03008c888bca870f48b113d82">v8::ScriptCompiler::StreamedSource</a>
 </li>
 <li>GetCallbackData()
 : <a class="el" href="classv8_1_1Debug_1_1EventDetails.html#a3c1eff8397db7c91e9c687f48d400665">v8::Debug::EventDetails</a>
@@ -148,6 +164,10 @@ $(function() {
 </li>
 <li>GetEmbedderData()
 : <a class="el" href="classv8_1_1Context.html#a9cfafe0ac56f6aee17eb80a913489296">v8::Context</a>
+, <a class="el" href="classv8_1_1internal_1_1Internals.html#ada31d31609af2f41e75aac12cf22cf0d">v8::internal::Internals</a>
+</li>
+<li>GetEndColumn()
+: <a class="el" href="classv8_1_1Message.html#ae188ca2457adbb3628681782bc757dc8">v8::Message</a>
 </li>
 <li>GetEndPosition()
 : <a class="el" href="classv8_1_1Message.html#a9a6c55ffea2eb6841d67afec40300641">v8::Message</a>
@@ -160,10 +180,16 @@ $(function() {
 </li>
 <li>GetEvent()
 : <a class="el" href="classv8_1_1Debug_1_1EventDetails.html#ac871568e8cfd43bbf2cdac62add34ed0">v8::Debug::EventDetails</a>
+, <a class="el" href="classv8_1_1Debug_1_1Message.html#a8a99a5c9fe0db14fbaccaed297d9c203">v8::Debug::Message</a>
+, <a class="el" href="classv8_1_1PromiseRejectMessage.html#a6faaa07f9bb78ee482b84ef7553c3245">v8::PromiseRejectMessage</a>
 </li>
 <li>GetEventContext()
 : <a class="el" href="classv8_1_1Debug_1_1EventDetails.html#a2c98fc8b2848105c37fc60a04b35dfa5">v8::Debug::EventDetails</a>
 , <a class="el" href="classv8_1_1Debug_1_1Message.html#a34ff90d879888746a7a0eacebd6aa088">v8::Debug::Message</a>
+</li>
+<li>GetEventData()
+: <a class="el" href="classv8_1_1Debug_1_1EventDetails.html#af8003f761cd535a07be5448a43d94c9f">v8::Debug::EventDetails</a>
+, <a class="el" href="classv8_1_1Debug_1_1Message.html#aa18f6c01d91d176d4e3d0a018890e59a">v8::Debug::Message</a>
 </li>
 <li>GetExecutionState()
 : <a class="el" href="classv8_1_1Debug_1_1EventDetails.html#abf0997988e1e3f0780c0d3f19b4e3b8a">v8::Debug::EventDetails</a>
@@ -190,6 +216,9 @@ $(function() {
 <li>GetFromNode()
 : <a class="el" href="classv8_1_1HeapGraphEdge.html#a2d730f01c04209726ee3d35524e66113">v8::HeapGraphEdge</a>
 </li>
+<li>GetFunction()
+: <a class="el" href="classv8_1_1FunctionTemplate.html#a3b8e5e214b2ee34c36138961ebac696a">v8::FunctionTemplate</a>
+</li>
 <li>GetFunctionName()
 : <a class="el" href="classv8_1_1CpuProfileNode.html#a48a3595f3a418948161cf8a7c7b6a158">v8::CpuProfileNode</a>
 , <a class="el" href="classv8_1_1StackFrame.html#a9cd783598db74ab35bd4ae7c8cbc374f">v8::StackFrame</a>
@@ -215,6 +244,9 @@ $(function() {
 <li>GetHeapStats()
 : <a class="el" href="classv8_1_1HeapProfiler.html#a756d71126e0effc7543fb33e856dd738">v8::HeapProfiler</a>
 </li>
+<li>GetHiddenValue()
+: <a class="el" href="classv8_1_1Object.html#a0fb148558e1749b04a2e13b2c9fa4441">v8::Object</a>
+</li>
 <li>GetHitCount()
 : <a class="el" href="classv8_1_1CpuProfileNode.html#a56d1cece4ee808022b9eb7f3eb66b93a">v8::CpuProfileNode</a>
 </li>
@@ -223,6 +255,8 @@ $(function() {
 </li>
 <li>GetId()
 : <a class="el" href="classv8_1_1HeapGraphNode.html#a62cd677be9c23067c6e2394b1fd154c6">v8::HeapGraphNode</a>
+, <a class="el" href="classv8_1_1Script.html#aacb1cf3b66a6542b898042689221d3d5">v8::Script</a>
+, <a class="el" href="classv8_1_1UnboundScript.html#a7ea1ef6cdb32a845b77a01c6113e7262">v8::UnboundScript</a>
 </li>
 <li>GetIdentityHash()
 : <a class="el" href="classv8_1_1Name.html#aef60fce47685fad12914304f6bc52bf2">v8::Name</a>
@@ -231,11 +265,33 @@ $(function() {
 <li>GetInferredName()
 : <a class="el" href="classv8_1_1Function.html#a3423ebac25333d3a9639719d76560359">v8::Function</a>
 </li>
+<li>GetInstanceType()
+: <a class="el" href="classv8_1_1internal_1_1Internals.html#a2e500cf4557263654467d9b71c9b3552">v8::internal::Internals</a>
+</li>
 <li>GetInternalField()
 : <a class="el" href="classv8_1_1Object.html#aa3324fdf652d8ac3b2f27faa0559231d">v8::Object</a>
+, <a class="el" href="classv8_1_1WeakCallbackInfo.html#a00732c95f8c130fba45ee6bbb3d3d819">v8::WeakCallbackInfo&lt; T &gt;</a>
+</li>
+<li>GetInternalField1()
+: <a class="el" href="classv8_1_1WeakCallbackInfo.html#a264b6bdae44580b9fa78374a09d3a65a">v8::WeakCallbackInfo&lt; T &gt;</a>
+</li>
+<li>GetInternalField2()
+: <a class="el" href="classv8_1_1WeakCallbackInfo.html#a0f88e717e8e7d286a3d247f70e236ded">v8::WeakCallbackInfo&lt; T &gt;</a>
 </li>
 <li>GetIsolate()
 : <a class="el" href="classv8_1_1Context.html#af55552d8658ecb20eff7af2c83e8ede2">v8::Context</a>
+, <a class="el" href="classv8_1_1Debug_1_1Message.html#a71b3624e8f851108330d6b64bbb611f5">v8::Debug::Message</a>
+, <a class="el" href="classv8_1_1FunctionCallbackInfo.html#a7eee713a6f95d5707ce788861754682f">v8::FunctionCallbackInfo&lt; T &gt;</a>
+, <a class="el" href="classv8_1_1HandleScope.html#adbfde08d06b1942352e75633fc1c58dc">v8::HandleScope</a>
+, <a class="el" href="classv8_1_1Object.html#ab991b53d50ab3ce53179e927e52b24f5">v8::Object</a>
+, <a class="el" href="classv8_1_1PersistentValueMapBase.html#a80da7adc6e8bdb166912075346116978">v8::PersistentValueMapBase&lt; K, V, Traits &gt;</a>
+, <a class="el" href="classv8_1_1PropertyCallbackInfo.html#aff7b838ede308ab8a42890962eb9271c">v8::PropertyCallbackInfo&lt; T &gt;</a>
+, <a class="el" href="classv8_1_1ReturnValue.html#a8744931ca4536bcc2f95e344072a3f03">v8::ReturnValue&lt; T &gt;</a>
+, <a class="el" href="classv8_1_1WeakCallbackData.html#a01f42aab4787b2ddbb1113baa7c0ad65">v8::WeakCallbackData&lt; T, P &gt;</a>
+, <a class="el" href="classv8_1_1WeakCallbackInfo.html#ad935f2708bb6d87dea8f18628679fc53">v8::WeakCallbackInfo&lt; T &gt;</a>
+</li>
+<li>GetIterator()
+: <a class="el" href="classv8_1_1Symbol.html#a35aa1aca7135c5bf9052d8d067d126b1">v8::Symbol</a>
 </li>
 <li>GetJSON()
 : <a class="el" href="classv8_1_1Debug_1_1Message.html#a41076f64f82c927cbb2fe5c8325557d5">v8::Debug::Message</a>
@@ -245,6 +301,7 @@ $(function() {
 </li>
 <li>GetLineNumber()
 : <a class="el" href="classv8_1_1CpuProfileNode.html#a6616c8d1893da19183d57e6488eb2743">v8::CpuProfileNode</a>
+, <a class="el" href="classv8_1_1Message.html#ae8d60ec390b9a31e2f69cddfdd59ccfe">v8::Message</a>
 , <a class="el" href="classv8_1_1StackFrame.html#a34ab9f48a06525cd9f93e01a70427ca2">v8::StackFrame</a>
 , <a class="el" href="classv8_1_1UnboundScript.html#a020ca8bbe6ea2313aeedc993ccac3741">v8::UnboundScript</a>
 </li>
@@ -254,13 +311,20 @@ $(function() {
 <li>GetMaxSnapshotJSObjectId()
 : <a class="el" href="classv8_1_1HeapSnapshot.html#ab85fc78102f4e7a3c4f2bf66a3665908">v8::HeapSnapshot</a>
 </li>
+<li>GetMirror()
+: <a class="el" href="classv8_1_1Debug.html#aa7d07c7d5c9ee2eaaa9af310bcbf58f5">v8::Debug</a>
+</li>
 <li>GetMoreData()
 : <a class="el" href="classv8_1_1ScriptCompiler_1_1ExternalSourceStream.html#ac3a0221b5725f0b612a6342d8e83d899">v8::ScriptCompiler::ExternalSourceStream</a>
 </li>
 <li>GetName()
-: <a class="el" href="classv8_1_1HeapGraphEdge.html#a47ced8d7a8ffccdccd23cf39332a86da">v8::HeapGraphEdge</a>
+: <a class="el" href="classv8_1_1Function.html#a818c12f1c9e92b20b5c1b9526fd435d7">v8::Function</a>
+, <a class="el" href="classv8_1_1HeapGraphEdge.html#a47ced8d7a8ffccdccd23cf39332a86da">v8::HeapGraphEdge</a>
 , <a class="el" href="classv8_1_1HeapGraphNode.html#aaace36c25224787c55561a153131d37e">v8::HeapGraphNode</a>
 , <a class="el" href="classv8_1_1HeapProfiler_1_1ObjectNameResolver.html#ad0d7c5b2ac71e468b2e05f18a590d3ae">v8::HeapProfiler::ObjectNameResolver</a>
+</li>
+<li>GetNativeFunctionTemplate()
+: <a class="el" href="classv8_1_1Extension.html#acd2dc16a3afa2ec737e9bc9adea977be">v8::Extension</a>
 </li>
 <li>GetNode()
 : <a class="el" href="classv8_1_1HeapSnapshot.html#ac5e9333d91030870b2648f2f8e9505d7">v8::HeapSnapshot</a>
@@ -268,11 +332,17 @@ $(function() {
 <li>GetNodeById()
 : <a class="el" href="classv8_1_1HeapSnapshot.html#a0aec9c1535c27bc8b1b55579969203fc">v8::HeapSnapshot</a>
 </li>
+<li>GetNodeFlag()
+: <a class="el" href="classv8_1_1internal_1_1Internals.html#a25c1f4ca8b2f8a30c376e32c854f118e">v8::internal::Internals</a>
+</li>
 <li>GetNodeId()
 : <a class="el" href="classv8_1_1CpuProfileNode.html#a67334450071a60ec3c3cfa58777cc006">v8::CpuProfileNode</a>
 </li>
 <li>GetNodesCount()
 : <a class="el" href="classv8_1_1HeapSnapshot.html#a6878bb7eb14674e754fef18080153003">v8::HeapSnapshot</a>
+</li>
+<li>GetNodeState()
+: <a class="el" href="classv8_1_1internal_1_1Internals.html#a87bb17e6feef808f3462ee018a90688d">v8::internal::Internals</a>
 </li>
 <li>GetNumberOfDataSlots()
 : <a class="el" href="classv8_1_1Isolate.html#a7060092fd45588f4085753b3da1b2c82">v8::Isolate</a>
@@ -280,20 +350,60 @@ $(function() {
 <li>GetObjectId()
 : <a class="el" href="classv8_1_1HeapProfiler.html#a03157eb3b1d28e602832026f95c6e3fb">v8::HeapProfiler</a>
 </li>
+<li>GetOddballKind()
+: <a class="el" href="classv8_1_1internal_1_1Internals.html#a11af33361c060b93bd34afcfca62931b">v8::internal::Internals</a>
+</li>
+<li>GetOwnPropertyDescriptor()
+: <a class="el" href="classv8_1_1Object.html#aece53e208f3a25b3d5d47cfc134db49a">v8::Object</a>
+</li>
+<li>GetOwnPropertyNames()
+: <a class="el" href="classv8_1_1Object.html#aeb48075bdfb7b2b49fe08361a6c4d2a8">v8::Object</a>
+</li>
+<li>GetParameter()
+: <a class="el" href="classv8_1_1WeakCallbackData.html#a7ac1fbe9838467c6aeeaa90a108a39e4">v8::WeakCallbackData&lt; T, P &gt;</a>
+, <a class="el" href="classv8_1_1WeakCallbackInfo.html#a9509c2c3dd4db3632f539a9f71af091d">v8::WeakCallbackInfo&lt; T &gt;</a>
+</li>
+<li>GetPrivate()
+: <a class="el" href="classv8_1_1Object.html#a6d99ef0c7c505f1b7182f9fc11f373b0">v8::Object</a>
+</li>
 <li>GetProfilerMemorySize()
 : <a class="el" href="classv8_1_1HeapProfiler.html#a76435e93466db7519fb31417ea39b13e">v8::HeapProfiler</a>
 </li>
 <li>GetPromise()
 : <a class="el" href="classv8_1_1Promise_1_1Resolver.html#a41fd1ffef546a62e363a639935fc8ae3">v8::Promise::Resolver</a>
+, <a class="el" href="classv8_1_1PromiseRejectMessage.html#a666a983638aafa7c5a66cc698a8ea0e6">v8::PromiseRejectMessage</a>
+</li>
+<li>GetPropertyAttributes()
+: <a class="el" href="classv8_1_1Object.html#a45506d0a9192b023284b0211e9bf545b">v8::Object</a>
+</li>
+<li>GetPropertyNames()
+: <a class="el" href="classv8_1_1Object.html#a9f45786246c6e6027b32f685d900a41f">v8::Object</a>
 </li>
 <li>GetPrototype()
 : <a class="el" href="classv8_1_1Object.html#ae8d3fed7d6dbd667c29cabb3039fe7af">v8::Object</a>
 </li>
+<li>GetRealNamedProperty()
+: <a class="el" href="classv8_1_1Object.html#a0eeeb35c6dc002a8359ebc445a49e964">v8::Object</a>
+</li>
+<li>GetRealNamedPropertyAttributes()
+: <a class="el" href="classv8_1_1Object.html#adf5e64eb47adc5b67524a90eba831188">v8::Object</a>
+</li>
+<li>GetRealNamedPropertyAttributesInPrototypeChain()
+: <a class="el" href="classv8_1_1Object.html#a0480cc624124b4ac5a29066ed8ed0357">v8::Object</a>
+</li>
+<li>GetRealNamedPropertyInPrototypeChain()
+: <a class="el" href="classv8_1_1Object.html#acc4a6683e661edcff5fefd2f2770919b">v8::Object</a>
+</li>
 <li>GetReference()
 : <a class="el" href="classv8_1_1PersistentValueMapBase.html#a52e74c69b94c7ce77a65af9f32d68af4">v8::PersistentValueMapBase&lt; K, V, Traits &gt;</a>
 </li>
+<li>GetReturnValue()
+: <a class="el" href="classv8_1_1FunctionCallbackInfo.html#a2cb41afe1e098a46d27d901b4cc1e6f5">v8::FunctionCallbackInfo&lt; T &gt;</a>
+, <a class="el" href="classv8_1_1PropertyCallbackInfo.html#aa0882946929c3c4df6d131fe0d8d6746">v8::PropertyCallbackInfo&lt; T &gt;</a>
+</li>
 <li>GetRoot()
 : <a class="el" href="classv8_1_1HeapSnapshot.html#a2c47b582466501d54cb6e26f36dc978c">v8::HeapSnapshot</a>
+, <a class="el" href="classv8_1_1internal_1_1Internals.html#a0162db42b591f1f0f9f54f32211b09a2">v8::internal::Internals</a>
 </li>
 <li>GetSample()
 : <a class="el" href="classv8_1_1CpuProfile.html#adc6e2d7e63530752f3ab168586a19b65">v8::CpuProfile</a>
@@ -316,12 +426,14 @@ $(function() {
 </li>
 <li>GetScriptName()
 : <a class="el" href="classv8_1_1StackFrame.html#a2885f14557e14c64396206b0f79daa3e">v8::StackFrame</a>
+, <a class="el" href="classv8_1_1UnboundScript.html#a1596ab75c9a2a105657531cd0062fbb4">v8::UnboundScript</a>
 </li>
 <li>GetScriptNameOrSourceURL()
 : <a class="el" href="classv8_1_1StackFrame.html#a4fbd286090b13661b3db148e0a3779b5">v8::StackFrame</a>
 </li>
 <li>GetScriptOrigin()
-: <a class="el" href="classv8_1_1Message.html#a3530ffb45b802c46a47349e610402a3c">v8::Message</a>
+: <a class="el" href="classv8_1_1Function.html#a79197c4c905cd1fb905f242c3d1d31cf">v8::Function</a>
+, <a class="el" href="classv8_1_1Message.html#a3530ffb45b802c46a47349e610402a3c">v8::Message</a>
 </li>
 <li>GetScriptResourceName()
 : <a class="el" href="classv8_1_1CpuProfileNode.html#a7f2b36ef31478f42ff3fbed4a34b80e0">v8::CpuProfileNode</a>
@@ -342,6 +454,9 @@ $(function() {
 <li>GetSource()
 : <a class="el" href="classv8_1_1RegExp.html#ad43d2879796a6991ff19954f4755778a">v8::RegExp</a>
 </li>
+<li>GetSourceLine()
+: <a class="el" href="classv8_1_1Message.html#acb97a9a88797e29f25d69e8570c866f8">v8::Message</a>
+</li>
 <li>GetSourceMappingURL()
 : <a class="el" href="classv8_1_1UnboundScript.html#a00862170298ab31131a1fe43b6440f81">v8::UnboundScript</a>
 </li>
@@ -354,6 +469,10 @@ $(function() {
 <li>GetStackTrace()
 : <a class="el" href="classv8_1_1Exception.html#a44fabf8f7c82643cba83f4fb6a31e22a">v8::Exception</a>
 , <a class="el" href="classv8_1_1Message.html#a9baccd04a32533b201670e657c18b53e">v8::Message</a>
+, <a class="el" href="classv8_1_1PromiseRejectMessage.html#a2355ec50d29bd5280b972c948346657d">v8::PromiseRejectMessage</a>
+</li>
+<li>GetStartColumn()
+: <a class="el" href="classv8_1_1Message.html#a08f5eeb7e08fcedcbf1eea9bdaa00dd8">v8::Message</a>
 </li>
 <li>GetStartPosition()
 : <a class="el" href="classv8_1_1Message.html#a8c32ad25c164ecec1bae0293449589f4">v8::Message</a>
@@ -364,6 +483,10 @@ $(function() {
 <li>GetStressRuns()
 : <a class="el" href="classv8_1_1Testing.html#adc876063b1e07462b8d9544dd8efab36">v8::Testing</a>
 </li>
+<li>getter
+: <a class="el" href="structv8_1_1IndexedPropertyHandlerConfiguration.html#a026928df0639b471a63c8795f0d13190">v8::IndexedPropertyHandlerConfiguration</a>
+, <a class="el" href="structv8_1_1NamedPropertyHandlerConfiguration.html#a7e0f2f6be4b716330f78e08dafb43512">v8::NamedPropertyHandlerConfiguration</a>
+</li>
 <li>GetTitle()
 : <a class="el" href="classv8_1_1CpuProfile.html#ad3d10a594abcf9a45799bafadeb181b2">v8::CpuProfile</a>
 </li>
@@ -373,6 +496,9 @@ $(function() {
 <li>GetTopDownRoot()
 : <a class="el" href="classv8_1_1CpuProfile.html#aa6cfe834fde315635934564bbba97184">v8::CpuProfile</a>
 </li>
+<li>GetToStringTag()
+: <a class="el" href="classv8_1_1Symbol.html#ab595ae7100ce23e4b1677ecab02f5972">v8::Symbol</a>
+</li>
 <li>GetType()
 : <a class="el" href="classv8_1_1HeapGraphEdge.html#a7d784f0b7a5bf532e9d4ec86bcb94092">v8::HeapGraphEdge</a>
 , <a class="el" href="classv8_1_1HeapGraphNode.html#a9bd100b1338413f6153fe56a3fac60f1">v8::HeapGraphNode</a>
@@ -380,12 +506,26 @@ $(function() {
 <li>GetUnboundScript()
 : <a class="el" href="classv8_1_1Script.html#afac25cad452a61897c375c2b881e2070">v8::Script</a>
 </li>
+<li>GetUnscopables()
+: <a class="el" href="classv8_1_1Symbol.html#acf5b5220a820f6ed1e61500292ebec13">v8::Symbol</a>
+</li>
+<li>GetValue()
+: <a class="el" href="classv8_1_1PromiseRejectMessage.html#af658b6ec1f35f606fad1b0b3e4b2dfac">v8::PromiseRejectMessage</a>
+, <a class="el" href="classv8_1_1WeakCallbackData.html#a9212c9bb43bd3d5244b6fcdd907e2bf1">v8::WeakCallbackData&lt; T, P &gt;</a>
+</li>
 <li>GetVersion()
 : <a class="el" href="classv8_1_1V8.html#afcecc0e9e8b5fa17a06a93f7b5a7538d">v8::V8</a>
 </li>
 <li>Global()
 : <a class="el" href="classv8_1_1Context.html#af5cd9f97ef6a3307c1c21f80f4b743eb">v8::Context</a>
-, <a class="el" href="classv8_1_1Global.html#a26d0a7f913252247f819a7df31c927e5">v8::Global&lt; T &gt;</a>
+, <a class="el" href="classv8_1_1Global.html#aa809280973e8c7f817d32432e25cfc06">v8::Global&lt; T &gt;</a>
+, <a class="el" href="classv8_1_1PersistentBase.html#adc49d0fc7441cf7e3b5f039334e44243">v8::PersistentBase&lt; T &gt;</a>
+</li>
+<li>GlobalValueMap()
+: <a class="el" href="classv8_1_1GlobalValueMap.html#a60018c72fdae03d51b687d2a941140f4">v8::GlobalValueMap&lt; K, V, Traits &gt;</a>
+</li>
+<li>GlobalValueMap&lt; K, V, Traits &gt;
+: <a class="el" href="classv8_1_1PersistentValueMapBase_1_1PersistentValueReference.html#a41811cde55d1ef227d1ba28778d95d08">v8::PersistentValueMapBase&lt; K, V, Traits &gt;::PersistentValueReference</a>
 </li>
 </ul>
 </div><!-- contents -->

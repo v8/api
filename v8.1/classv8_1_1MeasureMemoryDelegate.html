@@ -78,6 +78,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aa353568f1b08b3cca6eccec8ebda9acf"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MeasureMemoryDelegate.html#aa353568f1b08b3cca6eccec8ebda9acf">~MeasureMemoryDelegate</a> ()=default</td></tr>
+<tr class="separator:aa353568f1b08b3cca6eccec8ebda9acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ef97a1b8f94424d6583592e5ce7b1b7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MeasureMemoryDelegate.html#a4ef97a1b8f94424d6583592e5ce7b1b7">ShouldMeasure</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context)=0</td></tr>
 <tr class="separator:a4ef97a1b8f94424d6583592e5ce7b1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa282ed09919b6966eddd336478ac8169"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1MeasureMemoryDelegate.html#aa282ed09919b6966eddd336478ac8169">MeasurementComplete</a> (const std::vector&lt; std::pair&lt; <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;, size_t &gt;&gt; &amp;context_sizes_in_bytes, size_t unattributed_size_in_bytes)=0</td></tr>
@@ -91,7 +93,33 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The delegate is used in <a class="el" href="classv8_1_1Isolate.html#a1393298ca557f6cbc312116d77c9b501">Isolate::MeasureMemory</a> API.</p>
 <p>It specifies the contexts that need to be measured and gets called when the measurement is completed to report the results. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa353568f1b08b3cca6eccec8ebda9acf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa353568f1b08b3cca6eccec8ebda9acf">&#9670;&nbsp;</a></span>~MeasureMemoryDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::MeasureMemoryDelegate::~MeasureMemoryDelegate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a29fc72f2d7356432edf14bea45b3ce95"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29fc72f2d7356432edf14bea45b3ce95">&#9670;&nbsp;</a></span>Default()</h2>
 
@@ -222,7 +250,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

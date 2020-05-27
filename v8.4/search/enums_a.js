@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['permission_2128',['Permission',['../classv8_1_1PageAllocator.html#a88f74b164fe97e053259f67a95758415',1,'v8::PageAllocator']]],
-  ['promisehooktype_2129',['PromiseHookType',['../namespacev8.html#afe9d9e16c02074ac8482a8f09e19d5cc',1,'v8']]],
-  ['promisestate_2130',['PromiseState',['../classv8_1_1Promise.html#a0c357b9d99a634f98a5a203b0a322544',1,'v8::Promise']]],
-  ['propertyattribute_2131',['PropertyAttribute',['../namespacev8.html#a05f25f935e108a1ea2d150e274602b87',1,'v8']]],
-  ['propertyfilter_2132',['PropertyFilter',['../namespacev8.html#afbf02b6b1152a3e25d7bde90798209ac',1,'v8']]],
-  ['propertyhandlerflags_2133',['PropertyHandlerFlags',['../namespacev8.html#af4789f0aeb8680e353901a35810cac1a',1,'v8']]]
+  ['newstringtype_4299',['NewStringType',['../namespacev8.html#ac9163ab12fb3b2a95907a3a0367c6095',1,'v8']]],
+  ['nocachereason_4300',['NoCacheReason',['../classv8_1_1ScriptCompiler.html#a7f13fa15484cfc500ae51927756e0d60',1,'v8::ScriptCompiler']]],
+  ['notnulltagenum_4301',['NotNullTagEnum',['../classv8__inspector_1_1V8ContextInfo.html#afe4a7be6712806443ea29ce84c56c8d4',1,'v8_inspector::V8ContextInfo']]]
 ];

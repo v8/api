@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: v8-experimental.h Source File</title>
+<title>V8: include/v8-experimental.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -45,7 +45,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,32 +59,37 @@ $(function() {
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">v8-experimental.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2015 the V8 project authors. All rights reserved.</span></div>
+<a href="v8-experimental_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2015 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifndef V8_INCLUDE_V8_EXPERIMENTAL_H_</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#define V8_INCLUDE_V8_EXPERIMENTAL_H_</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;v8.h&quot;</span>  <span class="comment">// NOLINT(build/include)</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8_8h.html">v8.h</a>&quot;</span>  <span class="comment">// NOLINT(build/include)</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacev8.html">v8</a> {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span>experimental {</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="namespacev8_1_1experimental.html">   16</a></span>&#160;<span class="keyword">namespace </span>experimental {</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// Allow the embedder to construct accessors that V8 can compile and use</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// directly, without jumping into the runtime.</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classv8_1_1experimental_1_1FastAccessorBuilder.html">   20</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1experimental_1_1FastAccessorBuilder.html">FastAccessorBuilder</a> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classv8_1_1experimental_1_1FastAccessorBuilder.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1experimental_1_1FastAccessorBuilder.html">FastAccessorBuilder</a> {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html">   22</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html">ValueId</a> {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">size_t</span> value_id;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html#ab344ca323c52a8efce5855a853bffe86">   23</a></span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html#ab344ca323c52a8efce5855a853bffe86">value_id</a>;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  };</div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId.html">   25</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId.html">LabelId</a> {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">size_t</span> label_id;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId.html#abdf1bdba753c7de77ad908dc75c8c58b">   26</a></span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId.html#abdf1bdba753c7de77ad908dc75c8c58b">label_id</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  };</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">static</span> <a class="code" href="classv8_1_1experimental_1_1FastAccessorBuilder.html">FastAccessorBuilder</a>* New(<a class="code" href="classv8_1_1Isolate.html">Isolate</a>* isolate);</div>
@@ -101,7 +105,7 @@ $(function() {
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId.html">LabelId</a> MakeLabel();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordtype">void</span> SetLabel(<a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId.html">LabelId</a> label_id);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">void</span> CheckNotZeroOrJump(<a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html">ValueId</a> value_id, <a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId.html">LabelId</a> label_id);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html">ValueId</a> Call(v8::FunctionCallback callback, <a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html">ValueId</a> value_id);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html">ValueId</a> Call(<a class="code" href="namespacev8.html#a9eb0624666bb117aea1fb9c9424dcc1b">v8::FunctionCallback</a> callback, <a class="code" href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html">ValueId</a> value_id);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <a class="code" href="classv8_1_1experimental_1_1FastAccessorBuilder.html">FastAccessorBuilder</a>() = <span class="keyword">delete</span>;</div>
@@ -116,11 +120,16 @@ $(function() {
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif  // V8_INCLUDE_V8_EXPERIMENTAL_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="astructv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId_html"><div class="ttname"><a href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html">v8::experimental::FastAccessorBuilder::ValueId</a></div><div class="ttdef"><b>Definition:</b> v8-experimental.h:22</div></div>
+<div class="ttc" id="anamespacev8_html_a9eb0624666bb117aea1fb9c9424dcc1b"><div class="ttname"><a href="namespacev8.html#a9eb0624666bb117aea1fb9c9424dcc1b">v8::FunctionCallback</a></div><div class="ttdeci">void(* FunctionCallback)(const FunctionCallbackInfo&lt; Value &gt; &amp;info)</div><div class="ttdef"><b>Definition:</b> v8.h:3242</div></div>
+<div class="ttc" id="astructv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId_html_ab344ca323c52a8efce5855a853bffe86"><div class="ttname"><a href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1ValueId.html#ab344ca323c52a8efce5855a853bffe86">v8::experimental::FastAccessorBuilder::ValueId::value_id</a></div><div class="ttdeci">size_t value_id</div><div class="ttdef"><b>Definition:</b> v8-experimental.h:23</div></div>
 <div class="ttc" id="astructv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId_html"><div class="ttname"><a href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId.html">v8::experimental::FastAccessorBuilder::LabelId</a></div><div class="ttdef"><b>Definition:</b> v8-experimental.h:25</div></div>
 <div class="ttc" id="anamespacev8_html"><div class="ttname"><a href="namespacev8.html">v8</a></div><div class="ttdef"><b>Definition:</b> libplatform.h:10</div></div>
 <div class="ttc" id="aclassv8_1_1experimental_1_1FastAccessorBuilder_html"><div class="ttname"><a href="classv8_1_1experimental_1_1FastAccessorBuilder.html">v8::experimental::FastAccessorBuilder</a></div><div class="ttdef"><b>Definition:</b> v8-experimental.h:20</div></div>
-<div class="ttc" id="aclassv8_1_1Isolate_html"><div class="ttname"><a href="classv8_1_1Isolate.html">v8::Isolate</a></div><div class="ttdef"><b>Definition:</b> v8.h:5444</div></div>
+<div class="ttc" id="aclassv8_1_1Isolate_html"><div class="ttname"><a href="classv8_1_1Isolate.html">v8::Isolate</a></div><div class="ttdef"><b>Definition:</b> v8.h:5443</div></div>
+<div class="ttc" id="av8_8h_html"><div class="ttname"><a href="v8_8h.html">v8.h</a></div></div>
 <div class="ttc" id="aclassv8_1_1ReturnValue_html"><div class="ttname"><a href="classv8_1_1ReturnValue.html">v8::ReturnValue</a></div><div class="ttdef"><b>Definition:</b> v8.h:140</div></div>
+<div class="ttc" id="av8_8h_html_a18b08424f4be6fab745092c7c5dad9f5"><div class="ttname"><a href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a></div><div class="ttdeci">#define V8_EXPORT</div><div class="ttdef"><b>Definition:</b> v8.h:60</div></div>
+<div class="ttc" id="astructv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId_html_abdf1bdba753c7de77ad908dc75c8c58b"><div class="ttname"><a href="structv8_1_1experimental_1_1FastAccessorBuilder_1_1LabelId.html#abdf1bdba753c7de77ad908dc75c8c58b">v8::experimental::FastAccessorBuilder::LabelId::label_id</a></div><div class="ttdeci">size_t label_id</div><div class="ttdef"><b>Definition:</b> v8-experimental.h:26</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

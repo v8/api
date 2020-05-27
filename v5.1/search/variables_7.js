@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name_1232',['name',['../structv8_1_1AllocationProfile_1_1Node.html#af9f2c323d6a11e836c02e8ac88adc5a8',1,'v8::AllocationProfile::Node']]]
+  ['hit_5fcount_2242',['hit_count',['../structv8_1_1CpuProfileNode_1_1LineTick.html#a62653fb1e6d381a5747d24b83aab1c1b',1,'v8::CpuProfileNode::LineTick']]]
 ];

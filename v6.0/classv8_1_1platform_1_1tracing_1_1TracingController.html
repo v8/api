@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacev8.html">v8</a></li><li class="navelem"><b>platform</b></li><li class="navelem"><b>tracing</b></li><li class="navelem"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html">TracingController</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacev8.html">v8</a></li><li class="navelem"><a class="el" href="namespacev8_1_1platform.html">platform</a></li><li class="navelem"><a class="el" href="namespacev8_1_1platform_1_1tracing.html">tracing</a></li><li class="navelem"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html">TracingController</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,54 +74,380 @@ $(function() {
 <div class="title">v8::platform::tracing::TracingController Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="v8-tracing_8h_source.html">v8-tracing.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a37479bf3c6274a1e9789938615b64c45"><td class="memItemLeft" align="right" valign="top"><a id="a37479bf3c6274a1e9789938615b64c45"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Mode</b> { <b>DISABLED</b> = 0, 
-<b>RECORDING_MODE</b>
+<tr class="memitem:a37479bf3c6274a1e9789938615b64c45"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a37479bf3c6274a1e9789938615b64c45">Mode</a> { <a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a37479bf3c6274a1e9789938615b64c45a0497cc10c427209031f0ac237f65f45a">DISABLED</a> = 0, 
+<a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a37479bf3c6274a1e9789938615b64c45ac149746ba20498116720f226066b8e6c">RECORDING_MODE</a>
  }</td></tr>
 <tr class="separator:a37479bf3c6274a1e9789938615b64c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794d2c176318855f27169e33d4711e16"><td class="memItemLeft" align="right" valign="top"><a id="a794d2c176318855f27169e33d4711e16"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CategoryGroupEnabledFlags</b> { <b>ENABLED_FOR_RECORDING</b> = 1 &lt;&lt; 0, 
-<b>ENABLED_FOR_EVENT_CALLBACK</b> = 1 &lt;&lt; 2, 
-<b>ENABLED_FOR_ETW_EXPORT</b> = 1 &lt;&lt; 3
+<tr class="memitem:a794d2c176318855f27169e33d4711e16"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a794d2c176318855f27169e33d4711e16">CategoryGroupEnabledFlags</a> { <a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a794d2c176318855f27169e33d4711e16a129bafdcd205ebc5feebb3c927052838">ENABLED_FOR_RECORDING</a> = 1 &lt;&lt; 0, 
+<a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a794d2c176318855f27169e33d4711e16a700ee616f54e829cb394ec5404f0ffbd">ENABLED_FOR_EVENT_CALLBACK</a> = 1 &lt;&lt; 2, 
+<a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a794d2c176318855f27169e33d4711e16a20d0055eaf62b7c760625c975a4c397c">ENABLED_FOR_ETW_EXPORT</a> = 1 &lt;&lt; 3
  }</td></tr>
 <tr class="separator:a794d2c176318855f27169e33d4711e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a361ffa698158fbb919c92adf24c1af75"><td class="memItemLeft" align="right" valign="top"><a id="a361ffa698158fbb919c92adf24c1af75"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceBuffer.html">TraceBuffer</a> *trace_buffer)</td></tr>
+<tr class="memitem:aafa9d439b827ad6f484193858902c06e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#aafa9d439b827ad6f484193858902c06e">TracingController</a> ()</td></tr>
+<tr class="separator:aafa9d439b827ad6f484193858902c06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43e90351a749c999bd54bb468855f1e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a43e90351a749c999bd54bb468855f1e8">~TracingController</a> ()</td></tr>
+<tr class="separator:a43e90351a749c999bd54bb468855f1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a361ffa698158fbb919c92adf24c1af75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a361ffa698158fbb919c92adf24c1af75">Initialize</a> (<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceBuffer.html">TraceBuffer</a> *trace_buffer)</td></tr>
 <tr class="separator:a361ffa698158fbb919c92adf24c1af75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17601105601bf764813711e4007068db"><td class="memItemLeft" align="right" valign="top"><a id="a17601105601bf764813711e4007068db"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>GetCategoryGroupEnabled</b> (const char *category_group)</td></tr>
+<tr class="memitem:a17601105601bf764813711e4007068db"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a17601105601bf764813711e4007068db">GetCategoryGroupEnabled</a> (const char *category_group)</td></tr>
 <tr class="separator:a17601105601bf764813711e4007068db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08cc544be4361f8f98142b910a2e7443"><td class="memItemLeft" align="right" valign="top"><a id="a08cc544be4361f8f98142b910a2e7443"></a>
-uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>AddTraceEvent</b> (char phase, const uint8_t *category_enabled_flag, const char *name, const char *scope, uint64_t id, uint64_t bind_id, int32_t num_args, const char **arg_names, const uint8_t *arg_types, const uint64_t *arg_values, std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *arg_convertables, unsigned int flags)</td></tr>
+<tr class="memitem:a08cc544be4361f8f98142b910a2e7443"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a08cc544be4361f8f98142b910a2e7443">AddTraceEvent</a> (char phase, const uint8_t *category_enabled_flag, const char *name, const char *scope, uint64_t id, uint64_t bind_id, int32_t num_args, const char **arg_names, const uint8_t *arg_types, const uint64_t *arg_values, std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *arg_convertables, unsigned int flags)</td></tr>
 <tr class="separator:a08cc544be4361f8f98142b910a2e7443"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6a95093a2e1442b2e896ca36d104f58"><td class="memItemLeft" align="right" valign="top"><a id="ae6a95093a2e1442b2e896ca36d104f58"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateTraceEventDuration</b> (const uint8_t *category_enabled_flag, const char *name, uint64_t handle)</td></tr>
+<tr class="memitem:ae6a95093a2e1442b2e896ca36d104f58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#ae6a95093a2e1442b2e896ca36d104f58">UpdateTraceEventDuration</a> (const uint8_t *category_enabled_flag, const char *name, uint64_t handle)</td></tr>
 <tr class="separator:ae6a95093a2e1442b2e896ca36d104f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3362b081a3ba0eeff68655402d604e8f"><td class="memItemLeft" align="right" valign="top"><a id="a3362b081a3ba0eeff68655402d604e8f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>StartTracing</b> (<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceConfig.html">TraceConfig</a> *trace_config)</td></tr>
+<tr class="memitem:a3362b081a3ba0eeff68655402d604e8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a3362b081a3ba0eeff68655402d604e8f">StartTracing</a> (<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceConfig.html">TraceConfig</a> *trace_config)</td></tr>
 <tr class="separator:a3362b081a3ba0eeff68655402d604e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d617c726ecbd7a80bff714911957168"><td class="memItemLeft" align="right" valign="top"><a id="a7d617c726ecbd7a80bff714911957168"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>StopTracing</b> ()</td></tr>
+<tr class="memitem:a7d617c726ecbd7a80bff714911957168"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a7d617c726ecbd7a80bff714911957168">StopTracing</a> ()</td></tr>
 <tr class="separator:a7d617c726ecbd7a80bff714911957168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd4a49a33f9375b1bd869dd50ef4bd15"><td class="memItemLeft" align="right" valign="top"><a id="abd4a49a33f9375b1bd869dd50ef4bd15"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddTraceStateObserver</b> (<a class="el" href="classv8_1_1Platform_1_1TraceStateObserver.html">Platform::TraceStateObserver</a> *observer)</td></tr>
+<tr class="memitem:abd4a49a33f9375b1bd869dd50ef4bd15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#abd4a49a33f9375b1bd869dd50ef4bd15">AddTraceStateObserver</a> (<a class="el" href="classv8_1_1Platform_1_1TraceStateObserver.html">Platform::TraceStateObserver</a> *observer)</td></tr>
 <tr class="separator:abd4a49a33f9375b1bd869dd50ef4bd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa79927db71292a60e9f791b1eff67edf"><td class="memItemLeft" align="right" valign="top"><a id="aa79927db71292a60e9f791b1eff67edf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveTraceStateObserver</b> (<a class="el" href="classv8_1_1Platform_1_1TraceStateObserver.html">Platform::TraceStateObserver</a> *observer)</td></tr>
+<tr class="memitem:aa79927db71292a60e9f791b1eff67edf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#aa79927db71292a60e9f791b1eff67edf">RemoveTraceStateObserver</a> (<a class="el" href="classv8_1_1Platform_1_1TraceStateObserver.html">Platform::TraceStateObserver</a> *observer)</td></tr>
 <tr class="separator:aa79927db71292a60e9f791b1eff67edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad32e754f9d03b3d232482e474700c67c"><td class="memItemLeft" align="right" valign="top"><a id="ad32e754f9d03b3d232482e474700c67c"></a>
-static const char *&#160;</td><td class="memItemRight" valign="bottom"><b>GetCategoryGroupName</b> (const uint8_t *category_enabled_flag)</td></tr>
+<tr class="memitem:ad32e754f9d03b3d232482e474700c67c"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#ad32e754f9d03b3d232482e474700c67c">GetCategoryGroupName</a> (const uint8_t *category_enabled_flag)</td></tr>
 <tr class="separator:ad32e754f9d03b3d232482e474700c67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a794d2c176318855f27169e33d4711e16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a794d2c176318855f27169e33d4711e16">&#9670;&nbsp;</a></span>CategoryGroupEnabledFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a794d2c176318855f27169e33d4711e16">v8::platform::tracing::TracingController::CategoryGroupEnabledFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a794d2c176318855f27169e33d4711e16a129bafdcd205ebc5feebb3c927052838"></a>ENABLED_FOR_RECORDING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a794d2c176318855f27169e33d4711e16a700ee616f54e829cb394ec5404f0ffbd"></a>ENABLED_FOR_EVENT_CALLBACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a794d2c176318855f27169e33d4711e16a20d0055eaf62b7c760625c975a4c397c"></a>ENABLED_FOR_ETW_EXPORT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a37479bf3c6274a1e9789938615b64c45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37479bf3c6274a1e9789938615b64c45">&#9670;&nbsp;</a></span>Mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classv8_1_1platform_1_1tracing_1_1TracingController.html#a37479bf3c6274a1e9789938615b64c45">v8::platform::tracing::TracingController::Mode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a37479bf3c6274a1e9789938615b64c45a0497cc10c427209031f0ac237f65f45a"></a>DISABLED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37479bf3c6274a1e9789938615b64c45ac149746ba20498116720f226066b8e6c"></a>RECORDING_MODE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aafa9d439b827ad6f484193858902c06e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafa9d439b827ad6f484193858902c06e">&#9670;&nbsp;</a></span>TracingController()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::platform::tracing::TracingController::TracingController </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43e90351a749c999bd54bb468855f1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43e90351a749c999bd54bb468855f1e8">&#9670;&nbsp;</a></span>~TracingController()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::platform::tracing::TracingController::~TracingController </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a08cc544be4361f8f98142b910a2e7443"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08cc544be4361f8f98142b910a2e7443">&#9670;&nbsp;</a></span>AddTraceEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t v8::platform::tracing::TracingController::AddTraceEvent </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>phase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>category_enabled_flag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>scope</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>bind_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>num_args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char **&#160;</td>
+          <td class="paramname"><em>arg_names</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>arg_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint64_t *&#160;</td>
+          <td class="paramname"><em>arg_values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *&#160;</td>
+          <td class="paramname"><em>arg_convertables</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>flags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd4a49a33f9375b1bd869dd50ef4bd15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd4a49a33f9375b1bd869dd50ef4bd15">&#9670;&nbsp;</a></span>AddTraceStateObserver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::platform::tracing::TracingController::AddTraceStateObserver </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Platform_1_1TraceStateObserver.html">Platform::TraceStateObserver</a> *&#160;</td>
+          <td class="paramname"><em>observer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17601105601bf764813711e4007068db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17601105601bf764813711e4007068db">&#9670;&nbsp;</a></span>GetCategoryGroupEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint8_t* v8::platform::tracing::TracingController::GetCategoryGroupEnabled </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>category_group</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad32e754f9d03b3d232482e474700c67c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad32e754f9d03b3d232482e474700c67c">&#9670;&nbsp;</a></span>GetCategoryGroupName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const char* v8::platform::tracing::TracingController::GetCategoryGroupName </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>category_enabled_flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a361ffa698158fbb919c92adf24c1af75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a361ffa698158fbb919c92adf24c1af75">&#9670;&nbsp;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::platform::tracing::TracingController::Initialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceBuffer.html">TraceBuffer</a> *&#160;</td>
+          <td class="paramname"><em>trace_buffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa79927db71292a60e9f791b1eff67edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa79927db71292a60e9f791b1eff67edf">&#9670;&nbsp;</a></span>RemoveTraceStateObserver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::platform::tracing::TracingController::RemoveTraceStateObserver </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Platform_1_1TraceStateObserver.html">Platform::TraceStateObserver</a> *&#160;</td>
+          <td class="paramname"><em>observer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3362b081a3ba0eeff68655402d604e8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3362b081a3ba0eeff68655402d604e8f">&#9670;&nbsp;</a></span>StartTracing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::platform::tracing::TracingController::StartTracing </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceConfig.html">TraceConfig</a> *&#160;</td>
+          <td class="paramname"><em>trace_config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d617c726ecbd7a80bff714911957168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d617c726ecbd7a80bff714911957168">&#9670;&nbsp;</a></span>StopTracing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::platform::tracing::TracingController::StopTracing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6a95093a2e1442b2e896ca36d104f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6a95093a2e1442b2e896ca36d104f58">&#9670;&nbsp;</a></span>UpdateTraceEventDuration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::platform::tracing::TracingController::UpdateTraceEventDuration </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>category_enabled_flag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>handle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>libplatform/<a class="el" href="v8-tracing_8h_source.html">v8-tracing.h</a></li>
+<li>include/libplatform/<a class="el" href="v8-tracing_8h_source.html">v8-tracing.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: cppgc/custom-space.h Source File</title>
+<title>V8: include/cppgc/custom-space.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_908cff4095b52ed1341131b5cdfa5c2b.html">cppgc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_c3a29de58f961e253e7c5c44d07916b0.html">cppgc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,7 +69,7 @@ $(function() {
 <div class="title">custom-space.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
+<a href="custom-space_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
@@ -78,30 +78,30 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>cppgc {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecppgc.html">cppgc</a> {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structcppgc_1_1CustomSpaceIndex.html">   12</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structcppgc_1_1CustomSpaceIndex.html">CustomSpaceIndex</a> {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <a class="code" href="structcppgc_1_1CustomSpaceIndex.html">CustomSpaceIndex</a>(<span class="keywordtype">size_t</span> value) : value(value) {}  <span class="comment">// NOLINT</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keywordtype">size_t</span> value;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structcppgc_1_1CustomSpaceIndex.html#a8fba2f2d9d89786622f0f556e596fbd0">   13</a></span>&#160;  <a class="code" href="structcppgc_1_1CustomSpaceIndex.html#a8fba2f2d9d89786622f0f556e596fbd0">CustomSpaceIndex</a>(<span class="keywordtype">size_t</span> <a class="code" href="structcppgc_1_1CustomSpaceIndex.html#a4f5d4c5c60ffe00518b2b6891b5e5766">value</a>) : <a class="code" href="structcppgc_1_1CustomSpaceIndex.html#a4f5d4c5c60ffe00518b2b6891b5e5766">value</a>(<a class="code" href="structcppgc_1_1CustomSpaceIndex.html#a4f5d4c5c60ffe00518b2b6891b5e5766">value</a>) {}  <span class="comment">// NOLINT</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structcppgc_1_1CustomSpaceIndex.html#a4f5d4c5c60ffe00518b2b6891b5e5766">   14</a></span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="structcppgc_1_1CustomSpaceIndex.html#a4f5d4c5c60ffe00518b2b6891b5e5766">value</a>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;};</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classcppgc_1_1CustomSpaceBase.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcppgc_1_1CustomSpaceBase.html">CustomSpaceBase</a> {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classcppgc_1_1CustomSpaceBase.html">CustomSpaceBase</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="structcppgc_1_1CustomSpaceIndex.html">CustomSpaceIndex</a> GetCustomSpaceIndex() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classcppgc_1_1CustomSpaceBase.html#a6089d6d194c106490dac0791c7a37b4d">~CustomSpaceBase</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="structcppgc_1_1CustomSpaceIndex.html">CustomSpaceIndex</a> <a class="code" href="classcppgc_1_1CustomSpaceBase.html#acb6227f6db028fa0731cc718892bdfcd">GetCustomSpaceIndex</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> ConcreteCustomSpace&gt;</div>
 <div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classcppgc_1_1CustomSpace.html">   45</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcppgc_1_1CustomSpace.html">CustomSpace</a> : <span class="keyword">public</span> <a class="code" href="classcppgc_1_1CustomSpaceBase.html">CustomSpaceBase</a> {</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <a class="code" href="structcppgc_1_1CustomSpaceIndex.html">CustomSpaceIndex</a> GetCustomSpaceIndex() <span class="keyword">const</span> <span class="keyword">final</span> {</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classcppgc_1_1CustomSpace.html#ad567f39f643755eb62820894fcacff0a">   47</a></span>&#160;  <a class="code" href="structcppgc_1_1CustomSpaceIndex.html">CustomSpaceIndex</a> <a class="code" href="classcppgc_1_1CustomSpace.html#ad567f39f643755eb62820894fcacff0a">GetCustomSpaceIndex</a>() const final {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> ConcreteCustomSpace::kSpaceIndex;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  }</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;};</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> = <span class="keywordtype">void</span>&gt;</div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="structcppgc_1_1SpaceTrait.html">   56</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structcppgc_1_1SpaceTrait.html">SpaceTrait</a> {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">using</span> Space = void;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="structcppgc_1_1SpaceTrait.html#acbd7d27affe806b3872901505a11e1c1">   57</a></span>&#160;  <span class="keyword">using</span> <a class="code" href="structcppgc_1_1SpaceTrait.html#acbd7d27affe806b3872901505a11e1c1">Space</a> = void;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}  <span class="comment">// namespace cppgc</span></div>
@@ -111,7 +111,14 @@ $(function() {
 <div class="ttc" id="aclasscppgc_1_1CustomSpaceBase_html"><div class="ttname"><a href="classcppgc_1_1CustomSpaceBase.html">cppgc::CustomSpaceBase</a></div><div class="ttdef"><b>Definition:</b> custom-space.h:21</div></div>
 <div class="ttc" id="astructcppgc_1_1CustomSpaceIndex_html"><div class="ttname"><a href="structcppgc_1_1CustomSpaceIndex.html">cppgc::CustomSpaceIndex</a></div><div class="ttdef"><b>Definition:</b> custom-space.h:12</div></div>
 <div class="ttc" id="astructcppgc_1_1SpaceTrait_html"><div class="ttname"><a href="structcppgc_1_1SpaceTrait.html">cppgc::SpaceTrait</a></div><div class="ttdef"><b>Definition:</b> custom-space.h:56</div></div>
+<div class="ttc" id="anamespacecppgc_html"><div class="ttname"><a href="namespacecppgc.html">cppgc</a></div><div class="ttdef"><b>Definition:</b> allocation.h:18</div></div>
+<div class="ttc" id="aclasscppgc_1_1CustomSpaceBase_html_acb6227f6db028fa0731cc718892bdfcd"><div class="ttname"><a href="classcppgc_1_1CustomSpaceBase.html#acb6227f6db028fa0731cc718892bdfcd">cppgc::CustomSpaceBase::GetCustomSpaceIndex</a></div><div class="ttdeci">virtual CustomSpaceIndex GetCustomSpaceIndex() const =0</div></div>
+<div class="ttc" id="aclasscppgc_1_1CustomSpaceBase_html_a6089d6d194c106490dac0791c7a37b4d"><div class="ttname"><a href="classcppgc_1_1CustomSpaceBase.html#a6089d6d194c106490dac0791c7a37b4d">cppgc::CustomSpaceBase::~CustomSpaceBase</a></div><div class="ttdeci">virtual ~CustomSpaceBase()=default</div></div>
+<div class="ttc" id="astructcppgc_1_1SpaceTrait_html_acbd7d27affe806b3872901505a11e1c1"><div class="ttname"><a href="structcppgc_1_1SpaceTrait.html#acbd7d27affe806b3872901505a11e1c1">cppgc::SpaceTrait::Space</a></div><div class="ttdeci">void Space</div><div class="ttdef"><b>Definition:</b> custom-space.h:57</div></div>
 <div class="ttc" id="aclasscppgc_1_1CustomSpace_html"><div class="ttname"><a href="classcppgc_1_1CustomSpace.html">cppgc::CustomSpace</a></div><div class="ttdef"><b>Definition:</b> custom-space.h:45</div></div>
+<div class="ttc" id="astructcppgc_1_1CustomSpaceIndex_html_a8fba2f2d9d89786622f0f556e596fbd0"><div class="ttname"><a href="structcppgc_1_1CustomSpaceIndex.html#a8fba2f2d9d89786622f0f556e596fbd0">cppgc::CustomSpaceIndex::CustomSpaceIndex</a></div><div class="ttdeci">CustomSpaceIndex(size_t value)</div><div class="ttdef"><b>Definition:</b> custom-space.h:13</div></div>
+<div class="ttc" id="aclasscppgc_1_1CustomSpace_html_ad567f39f643755eb62820894fcacff0a"><div class="ttname"><a href="classcppgc_1_1CustomSpace.html#ad567f39f643755eb62820894fcacff0a">cppgc::CustomSpace::GetCustomSpaceIndex</a></div><div class="ttdeci">CustomSpaceIndex GetCustomSpaceIndex() const final</div><div class="ttdef"><b>Definition:</b> custom-space.h:47</div></div>
+<div class="ttc" id="astructcppgc_1_1CustomSpaceIndex_html_a4f5d4c5c60ffe00518b2b6891b5e5766"><div class="ttname"><a href="structcppgc_1_1CustomSpaceIndex.html#a4f5d4c5c60ffe00518b2b6891b5e5766">cppgc::CustomSpaceIndex::value</a></div><div class="ttdeci">size_t value</div><div class="ttdef"><b>Definition:</b> custom-space.h:14</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

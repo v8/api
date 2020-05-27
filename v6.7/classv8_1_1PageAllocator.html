@@ -78,15 +78,17 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a88f74b164fe97e053259f67a95758415"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1PageAllocator.html#a88f74b164fe97e053259f67a95758415">Permission</a> { <b>kNoAccess</b>, 
-<b>kReadWrite</b>, 
-<b>kReadWriteExecute</b>, 
-<b>kReadExecute</b>
+<tr class="memitem:a88f74b164fe97e053259f67a95758415"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1PageAllocator.html#a88f74b164fe97e053259f67a95758415">Permission</a> { <a class="el" href="classv8_1_1PageAllocator.html#a88f74b164fe97e053259f67a95758415a501acdacad072f7d6e5737159141301d">kNoAccess</a>, 
+<a class="el" href="classv8_1_1PageAllocator.html#a88f74b164fe97e053259f67a95758415abf9beddb1231fa2c23ab417197ea9f8a">kReadWrite</a>, 
+<a class="el" href="classv8_1_1PageAllocator.html#a88f74b164fe97e053259f67a95758415adc8515d6a0f879ed482ce27eca7301fe">kReadWriteExecute</a>, 
+<a class="el" href="classv8_1_1PageAllocator.html#a88f74b164fe97e053259f67a95758415a1aa2e51abe8d2706dfba3cd369bb78b0">kReadExecute</a>
  }</td></tr>
 <tr class="separator:a88f74b164fe97e053259f67a95758415"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a208d230788b4cd927e811825cd76eae3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1PageAllocator.html#a208d230788b4cd927e811825cd76eae3">~PageAllocator</a> ()=default</td></tr>
+<tr class="separator:a208d230788b4cd927e811825cd76eae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92c2f6dbb3afa6c47dafd4c12ab4641f"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1PageAllocator.html#a92c2f6dbb3afa6c47dafd4c12ab4641f">AllocatePageSize</a> ()=0</td></tr>
 <tr class="separator:a92c2f6dbb3afa6c47dafd4c12ab4641f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad817d87004151e3824997415f2dc57e9"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1PageAllocator.html#ad817d87004151e3824997415f2dc57e9">CommitPageSize</a> ()=0</td></tr>
@@ -120,6 +122,38 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Memory permissions. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a88f74b164fe97e053259f67a95758415a501acdacad072f7d6e5737159141301d"></a>kNoAccess&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88f74b164fe97e053259f67a95758415abf9beddb1231fa2c23ab417197ea9f8a"></a>kReadWrite&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88f74b164fe97e053259f67a95758415adc8515d6a0f879ed482ce27eca7301fe"></a>kReadWriteExecute&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88f74b164fe97e053259f67a95758415a1aa2e51abe8d2706dfba3cd369bb78b0"></a>kReadExecute&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a208d230788b4cd927e811825cd76eae3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a208d230788b4cd927e811825cd76eae3">&#9670;&nbsp;</a></span>~PageAllocator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::PageAllocator::~PageAllocator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -402,7 +436,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
+<li>include/<a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

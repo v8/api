@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['hit_5fcount_1125',['hit_count',['../structv8_1_1CpuProfileNode_1_1LineTick.html#a62653fb1e6d381a5747d24b83aab1c1b',1,'v8::CpuProfileNode::LineTick']]]
+  ['entry_5fhook_2023',['entry_hook',['../structv8_1_1Isolate_1_1CreateParams.html#aa7aa18bbe2d86713e5b074a93b38dc60',1,'v8::Isolate::CreateParams']]],
+  ['enumerator_2024',['enumerator',['../structv8_1_1NamedPropertyHandlerConfiguration.html#a9d24735d39fe1486a4235ccc48333be7',1,'v8::NamedPropertyHandlerConfiguration::enumerator()'],['../structv8_1_1IndexedPropertyHandlerConfiguration.html#aaa1cc6503b7fc76ac989f294e3af3ddb',1,'v8::IndexedPropertyHandlerConfiguration::enumerator()']]]
 ];

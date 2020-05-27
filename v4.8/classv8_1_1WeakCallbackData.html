@@ -73,30 +73,171 @@ $(function() {
 <div class="title">v8::WeakCallbackData&lt; T, P &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="v8_8h_source.html">v8.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a08a29122f54c663fc2442d8f42c08ac2"><td class="memItemLeft" align="right" valign="top"><a id="a08a29122f54c663fc2442d8f42c08ac2"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>Callback</b>) (const <a class="el" href="classv8_1_1WeakCallbackData.html">WeakCallbackData</a>&lt; T, P &gt; &amp;data)</td></tr>
+<tr class="memitem:a08a29122f54c663fc2442d8f42c08ac2"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1WeakCallbackData.html#a08a29122f54c663fc2442d8f42c08ac2">Callback</a>) (const <a class="el" href="classv8_1_1WeakCallbackData.html">WeakCallbackData</a>&lt; T, P &gt; &amp;data)</td></tr>
 <tr class="separator:a08a29122f54c663fc2442d8f42c08ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a804314135aa731fcab6d57aafddd26d3"><td class="memItemLeft" align="right" valign="top"><a id="a804314135aa731fcab6d57aafddd26d3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>WeakCallbackData</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, P *parameter, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt; handle)</td></tr>
+<tr class="memitem:a804314135aa731fcab6d57aafddd26d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1WeakCallbackData.html#a804314135aa731fcab6d57aafddd26d3">WeakCallbackData</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, P *parameter, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt; handle)</td></tr>
 <tr class="separator:a804314135aa731fcab6d57aafddd26d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97b50dfa21d8c483538f2360049db1fd"><td class="memItemLeft" align="right" valign="top"><a id="a97b50dfa21d8c483538f2360049db1fd"></a>
-V8_INLINE <a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetIsolate</b> () const</td></tr>
-<tr class="separator:a97b50dfa21d8c483538f2360049db1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1068deae0bf7f476fb86c41599b1740e"><td class="memItemLeft" align="right" valign="top"><a id="a1068deae0bf7f476fb86c41599b1740e"></a>
-V8_INLINE P *&#160;</td><td class="memItemRight" valign="bottom"><b>GetParameter</b> () const</td></tr>
-<tr class="separator:a1068deae0bf7f476fb86c41599b1740e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea156ce170bd5762535feae2802011df"><td class="memItemLeft" align="right" valign="top"><a id="aea156ce170bd5762535feae2802011df"></a>
-V8_INLINE <a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetValue</b> () const</td></tr>
-<tr class="separator:aea156ce170bd5762535feae2802011df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01f42aab4787b2ddbb1113baa7c0ad65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1WeakCallbackData.html#a01f42aab4787b2ddbb1113baa7c0ad65">GetIsolate</a> () const</td></tr>
+<tr class="separator:a01f42aab4787b2ddbb1113baa7c0ad65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ac1fbe9838467c6aeeaa90a108a39e4"><td class="memItemLeft" align="right" valign="top">P *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1WeakCallbackData.html#a7ac1fbe9838467c6aeeaa90a108a39e4">GetParameter</a> () const</td></tr>
+<tr class="separator:a7ac1fbe9838467c6aeeaa90a108a39e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9212c9bb43bd3d5244b6fcdd907e2bf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1WeakCallbackData.html#a9212c9bb43bd3d5244b6fcdd907e2bf1">GetValue</a> () const</td></tr>
+<tr class="separator:a9212c9bb43bd3d5244b6fcdd907e2bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a08a29122f54c663fc2442d8f42c08ac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08a29122f54c663fc2442d8f42c08ac2">&#9670;&nbsp;</a></span>Callback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T, class P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* <a class="el" href="classv8_1_1WeakCallbackData.html">v8::WeakCallbackData</a>&lt; T, P &gt;::Callback) (const <a class="el" href="classv8_1_1WeakCallbackData.html">WeakCallbackData</a>&lt; T, P &gt; &amp;data)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a804314135aa731fcab6d57aafddd26d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804314135aa731fcab6d57aafddd26d3">&#9670;&nbsp;</a></span>WeakCallbackData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T, class P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classv8_1_1WeakCallbackData.html">v8::WeakCallbackData</a>&lt; T, P &gt;::<a class="el" href="classv8_1_1WeakCallbackData.html">WeakCallbackData</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">P *&#160;</td>
+          <td class="paramname"><em>parameter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>handle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a01f42aab4787b2ddbb1113baa7c0ad65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f42aab4787b2ddbb1113baa7c0ad65">&#9670;&nbsp;</a></span>GetIsolate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T, class P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classv8_1_1Isolate.html">Isolate</a>* <a class="el" href="classv8_1_1WeakCallbackData.html">v8::WeakCallbackData</a>&lt; T, P &gt;::GetIsolate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ac1fbe9838467c6aeeaa90a108a39e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ac1fbe9838467c6aeeaa90a108a39e4">&#9670;&nbsp;</a></span>GetParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T, class P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">P* <a class="el" href="classv8_1_1WeakCallbackData.html">v8::WeakCallbackData</a>&lt; T, P &gt;::GetParameter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9212c9bb43bd3d5244b6fcdd907e2bf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9212c9bb43bd3d5244b6fcdd907e2bf1">&#9670;&nbsp;</a></span>GetValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T, class P&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classv8_1_1Local.html">Local</a>&lt;T&gt; <a class="el" href="classv8_1_1WeakCallbackData.html">v8::WeakCallbackData</a>&lt; T, P &gt;::GetValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

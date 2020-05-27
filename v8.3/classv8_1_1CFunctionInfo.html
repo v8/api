@@ -72,6 +72,8 @@ $(function() {
 <div class="title">v8::CFunctionInfo Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="v8-fast-api-calls_8h_source.html">v8-fast-api-calls.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for v8::CFunctionInfo:</div>
 <div class="dyncontent">
@@ -84,18 +86,98 @@ Inheritance diagram for v8::CFunctionInfo:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a55f7c6c2df899a77a076151241321040"><td class="memItemLeft" align="right" valign="top"><a id="a55f7c6c2df899a77a076151241321040"></a>
-virtual const <a class="el" href="classv8_1_1CTypeInfo.html">CTypeInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>ReturnInfo</b> () const =0</td></tr>
+<tr class="memitem:a55f7c6c2df899a77a076151241321040"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classv8_1_1CTypeInfo.html">CTypeInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CFunctionInfo.html#a55f7c6c2df899a77a076151241321040">ReturnInfo</a> () const =0</td></tr>
 <tr class="separator:a55f7c6c2df899a77a076151241321040"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4bf3439c94efa415c965b47f19adf76"><td class="memItemLeft" align="right" valign="top"><a id="ad4bf3439c94efa415c965b47f19adf76"></a>
-virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>ArgumentCount</b> () const =0</td></tr>
+<tr class="memitem:ad4bf3439c94efa415c965b47f19adf76"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CFunctionInfo.html#ad4bf3439c94efa415c965b47f19adf76">ArgumentCount</a> () const =0</td></tr>
 <tr class="separator:ad4bf3439c94efa415c965b47f19adf76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a783e756e35642929be00091c3202e563"><td class="memItemLeft" align="right" valign="top"><a id="a783e756e35642929be00091c3202e563"></a>
-virtual const <a class="el" href="classv8_1_1CTypeInfo.html">CTypeInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>ArgumentInfo</b> (unsigned int index) const =0</td></tr>
+<tr class="memitem:a783e756e35642929be00091c3202e563"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classv8_1_1CTypeInfo.html">CTypeInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CFunctionInfo.html#a783e756e35642929be00091c3202e563">ArgumentInfo</a> (unsigned int index) const =0</td></tr>
 <tr class="separator:a783e756e35642929be00091c3202e563"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad4bf3439c94efa415c965b47f19adf76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4bf3439c94efa415c965b47f19adf76">&#9670;&nbsp;</a></span>ArgumentCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual unsigned int v8::CFunctionInfo::ArgumentCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classv8_1_1internal_1_1CFunctionInfoImpl.html#a9f70843bfc668b8737daa8f1d9d182e3">v8::internal::CFunctionInfoImpl&lt; R, Args &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a783e756e35642929be00091c3202e563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a783e756e35642929be00091c3202e563">&#9670;&nbsp;</a></span>ArgumentInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="classv8_1_1CTypeInfo.html">CTypeInfo</a>&amp; v8::CFunctionInfo::ArgumentInfo </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classv8_1_1internal_1_1CFunctionInfoImpl.html#a563cf162cb63b0ea6eb5b29753153124">v8::internal::CFunctionInfoImpl&lt; R, Args &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a55f7c6c2df899a77a076151241321040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55f7c6c2df899a77a076151241321040">&#9670;&nbsp;</a></span>ReturnInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="classv8_1_1CTypeInfo.html">CTypeInfo</a>&amp; v8::CFunctionInfo::ReturnInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classv8_1_1internal_1_1CFunctionInfoImpl.html#adbcd3cc572507775bbcdd98c388a9a42">v8::internal::CFunctionInfoImpl&lt; R, Args &gt;</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-fast-api-calls_8h_source.html">v8-fast-api-calls.h</a></li>
+<li>include/<a class="el" href="v8-fast-api-calls_8h_source.html">v8-fast-api-calls.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

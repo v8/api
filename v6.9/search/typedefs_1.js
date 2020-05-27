@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['buildembeddergraphcallback_1693',['BuildEmbedderGraphCallback',['../classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40',1,'v8::HeapProfiler']]]
+  ['beforecallenteredcallback_3401',['BeforeCallEnteredCallback',['../namespacev8.html#abe10f58d37b0736a292a6c7f180fb40c',1,'v8']]],
+  ['buildembeddergraphcallback_3402',['BuildEmbedderGraphCallback',['../classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40',1,'v8::HeapProfiler']]]
 ];

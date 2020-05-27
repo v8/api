@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['hostcleanupfinalizationgroupcallback_1973',['HostCleanupFinalizationGroupCallback',['../namespacev8.html#ad9a286ca2c14a4eb126cc8dd0ea33558',1,'v8']]],
-  ['hostimportmoduledynamicallycallback_1974',['HostImportModuleDynamicallyCallback',['../namespacev8.html#a327d89ea1fb89b4ada3571a3571413cc',1,'v8']]],
-  ['hostinitializeimportmetaobjectcallback_1975',['HostInitializeImportMetaObjectCallback',['../namespacev8.html#a46fe0379312fafd495b9be892b2de443',1,'v8']]]
+  ['failedaccesscheckcallback_3852',['FailedAccessCheckCallback',['../namespacev8.html#a1352a0d6e487b7092ea79e2d3d4ecd12',1,'v8']]],
+  ['fatalerrorcallback_3853',['FatalErrorCallback',['../namespacev8.html#abc93f69508701f18dc5cc0ce165616aa',1,'v8']]],
+  ['finalizationcallback_3854',['FinalizationCallback',['../namespacecppgc_1_1internal.html#a68ece6c6de0778ffa9f67de7ff2e23ff',1,'cppgc::internal']]],
+  ['functioncallback_3855',['FunctionCallback',['../namespacev8.html#a9eb0624666bb117aea1fb9c9424dcc1b',1,'v8']]]
 ];

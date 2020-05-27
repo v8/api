@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['returnaddresslocationresolver_1122',['ReturnAddressLocationResolver',['../namespacev8.html#a8ce54c75241be41ff6a25e9944eefd2a',1,'v8']]]
+  ['logeventcallback_2120',['LogEventCallback',['../namespacev8.html#a1516c6948fdca41f79410b7ff91aeaf0',1,'v8']]]
 ];

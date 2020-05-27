@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['kpersistenthandlenoclassid_1780',['kPersistentHandleNoClassId',['../classv8_1_1HeapProfiler.html#a272c9af3ea5cd90a2737af3d22a7eb78',1,'v8::HeapProfiler']]],
-  ['krequiresexplicitdestruction_1781',['kRequiresExplicitDestruction',['../structv8_1_1TracedGlobalTrait.html#a51de9727689b33dfc4d0f49b9a1e9f94',1,'v8::TracedGlobalTrait']]],
-  ['kunknownobjectid_1782',['kUnknownObjectId',['../classv8_1_1HeapProfiler.html#abf2b9d8facb18473f9b124ab8baf5786',1,'v8::HeapProfiler']]]
+  ['flags_3406',['flags',['../structv8_1_1NamedPropertyHandlerConfiguration.html#add28e99c72adf78b64e73f1de5aa74c7',1,'v8::NamedPropertyHandlerConfiguration::flags()'],['../structv8_1_1IndexedPropertyHandlerConfiguration.html#a435b9a3495ba031611bd7feea4cb981b',1,'v8::IndexedPropertyHandlerConfiguration::flags()']]],
+  ['fp_3407',['fp',['../structv8_1_1RegisterState.html#aaeb80a1d7f6df3ae418f3e9b1295d156',1,'v8::RegisterState']]],
+  ['frames_5fcount_3408',['frames_count',['../structv8_1_1SampleInfo.html#a5f1e51bc358605e0c1d38fb2f3d344cd',1,'v8::SampleInfo']]]
 ];

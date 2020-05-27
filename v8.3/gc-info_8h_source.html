@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: cppgc/gc-info.h Source File</title>
+<title>V8: include/cppgc/gc-info.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_908cff4095b52ed1341131b5cdfa5c2b.html">cppgc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_c3a29de58f961e253e7c5c44d07916b0.html">cppgc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,7 +69,7 @@ $(function() {
 <div class="title">gc-info.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
+<a href="gc-info_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
@@ -78,33 +78,33 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;include/cppgc/finalizer-trait.h&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;include/v8config.h&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="finalizer-trait_8h.html">include/cppgc/finalizer-trait.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8config_8h.html">include/v8config.h</a>&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>cppgc {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecppgc.html">cppgc</a> {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>internal {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">using</span> GCInfoIndex = uint16_t;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="namespacecppgc_1_1internal.html#a3eedd623fc378ed16d8cb08158e929a3">   16</a></span>&#160;<span class="keyword">using</span> <a class="code" href="namespacecppgc_1_1internal.html#a3eedd623fc378ed16d8cb08158e929a3">GCInfoIndex</a> = uint16_t;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html">   18</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html">RegisteredGCInfoIndex</a> final {</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8config_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html">RegisteredGCInfoIndex</a> final {</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html">RegisteredGCInfoIndex</a>(FinalizationCallback finalization_callback,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html">RegisteredGCInfoIndex</a>(<a class="code" href="namespacecppgc_1_1internal.html#a68ece6c6de0778ffa9f67de7ff2e23ff">FinalizationCallback</a> finalization_callback,</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                        <span class="keywordtype">bool</span> has_v_table);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  GCInfoIndex GetIndex()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> index_; }</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html#a9f84e4df690cb9464739471d1b76c488">   22</a></span>&#160;  <a class="code" href="namespacecppgc_1_1internal.html#a3eedd623fc378ed16d8cb08158e929a3">GCInfoIndex</a> <a class="code" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html#a9f84e4df690cb9464739471d1b76c488">GetIndex</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> index_; }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keyword">const</span> GCInfoIndex index_;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keyword">const</span> <a class="code" href="namespacecppgc_1_1internal.html#a3eedd623fc378ed16d8cb08158e929a3">GCInfoIndex</a> index_;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">// Trait determines how the garbage collector treats objects wrt. to traversing,</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">// finalization, and naming.</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structcppgc_1_1internal_1_1GCInfoTrait.html">   31</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structcppgc_1_1internal_1_1GCInfoTrait.html">GCInfoTrait</a> {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keyword">static</span> GCInfoIndex Index() {</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structcppgc_1_1internal_1_1GCInfoTrait.html#a4e2d7e6e524b8092999641512f9fed50">   32</a></span>&#160;  <span class="keyword">static</span> <a class="code" href="namespacecppgc_1_1internal.html#a3eedd623fc378ed16d8cb08158e929a3">GCInfoIndex</a> <a class="code" href="structcppgc_1_1internal_1_1GCInfoTrait.html#a4e2d7e6e524b8092999641512f9fed50">Index</a>() {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    static_assert(<span class="keyword">sizeof</span>(T), <span class="stringliteral">&quot;T must be fully defined&quot;</span>);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html">RegisteredGCInfoIndex</a> registered_index(</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="structcppgc_1_1internal_1_1FinalizerTrait.html">FinalizerTrait&lt;T&gt;::kCallback</a>, std::is_polymorphic&lt;T&gt;::value);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">return</span> registered_index.GetIndex();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">return</span> registered_index.<a class="code" href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html#a9f84e4df690cb9464739471d1b76c488">GetIndex</a>();</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
@@ -113,9 +113,17 @@ $(function() {
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif  // INCLUDE_CPPGC_GC_INFO_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="afinalizer-trait_8h_html"><div class="ttname"><a href="finalizer-trait_8h.html">finalizer-trait.h</a></div></div>
+<div class="ttc" id="aclasscppgc_1_1internal_1_1RegisteredGCInfoIndex_html_a9f84e4df690cb9464739471d1b76c488"><div class="ttname"><a href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html#a9f84e4df690cb9464739471d1b76c488">cppgc::internal::RegisteredGCInfoIndex::GetIndex</a></div><div class="ttdeci">GCInfoIndex GetIndex() const</div><div class="ttdef"><b>Definition:</b> gc-info.h:22</div></div>
 <div class="ttc" id="aclasscppgc_1_1internal_1_1RegisteredGCInfoIndex_html"><div class="ttname"><a href="classcppgc_1_1internal_1_1RegisteredGCInfoIndex.html">cppgc::internal::RegisteredGCInfoIndex</a></div><div class="ttdef"><b>Definition:</b> gc-info.h:18</div></div>
 <div class="ttc" id="astructcppgc_1_1internal_1_1FinalizerTrait_html"><div class="ttname"><a href="structcppgc_1_1internal_1_1FinalizerTrait.html">cppgc::internal::FinalizerTrait</a></div><div class="ttdef"><b>Definition:</b> finalizer-trait.h:65</div></div>
+<div class="ttc" id="anamespacecppgc_1_1internal_html_a3eedd623fc378ed16d8cb08158e929a3"><div class="ttname"><a href="namespacecppgc_1_1internal.html#a3eedd623fc378ed16d8cb08158e929a3">cppgc::internal::GCInfoIndex</a></div><div class="ttdeci">uint16_t GCInfoIndex</div><div class="ttdef"><b>Definition:</b> gc-info.h:16</div></div>
+<div class="ttc" id="anamespacecppgc_html"><div class="ttname"><a href="namespacecppgc.html">cppgc</a></div><div class="ttdef"><b>Definition:</b> allocation.h:16</div></div>
+<div class="ttc" id="av8config_8h_html"><div class="ttname"><a href="v8config_8h.html">v8config.h</a></div></div>
+<div class="ttc" id="av8config_8h_html_a18b08424f4be6fab745092c7c5dad9f5"><div class="ttname"><a href="v8config_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a></div><div class="ttdeci">#define V8_EXPORT</div><div class="ttdef"><b>Definition:</b> v8config.h:458</div></div>
 <div class="ttc" id="astructcppgc_1_1internal_1_1GCInfoTrait_html"><div class="ttname"><a href="structcppgc_1_1internal_1_1GCInfoTrait.html">cppgc::internal::GCInfoTrait</a></div><div class="ttdef"><b>Definition:</b> gc-info.h:31</div></div>
+<div class="ttc" id="anamespacecppgc_1_1internal_html_a68ece6c6de0778ffa9f67de7ff2e23ff"><div class="ttname"><a href="namespacecppgc_1_1internal.html#a68ece6c6de0778ffa9f67de7ff2e23ff">cppgc::internal::FinalizationCallback</a></div><div class="ttdeci">void(*)(void *) FinalizationCallback</div><div class="ttdef"><b>Definition:</b> finalizer-trait.h:15</div></div>
+<div class="ttc" id="astructcppgc_1_1internal_1_1GCInfoTrait_html_a4e2d7e6e524b8092999641512f9fed50"><div class="ttname"><a href="structcppgc_1_1internal_1_1GCInfoTrait.html#a4e2d7e6e524b8092999641512f9fed50">cppgc::internal::GCInfoTrait::Index</a></div><div class="ttdeci">static GCInfoIndex Index()</div><div class="ttdef"><b>Definition:</b> gc-info.h:32</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

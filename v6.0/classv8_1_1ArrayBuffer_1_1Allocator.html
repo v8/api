@@ -79,17 +79,19 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab106d1fbad7be9f6fd8b0f5c550ac59e"><td class="memItemLeft" align="right" valign="top"><a id="ab106d1fbad7be9f6fd8b0f5c550ac59e"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>AllocationMode</b> { <b>kNormal</b>, 
-<b>kReservation</b>
+<tr class="memitem:ab106d1fbad7be9f6fd8b0f5c550ac59e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59e">AllocationMode</a> { <a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59ea07fa7a19aa722c635a15e94cb7f50416">AllocationMode::kNormal</a>, 
+<a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59ea6f8f300976cbd4227d599276b3206933">AllocationMode::kReservation</a>
  }</td></tr>
 <tr class="separator:ab106d1fbad7be9f6fd8b0f5c550ac59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae679dc00b4ebc65055a33216d6ef5136"><td class="memItemLeft" align="right" valign="top"><a id="ae679dc00b4ebc65055a33216d6ef5136"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Protection</b> { <b>kNoAccess</b>, 
-<b>kReadWrite</b>
+<tr class="memitem:ae679dc00b4ebc65055a33216d6ef5136"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ae679dc00b4ebc65055a33216d6ef5136">Protection</a> { <a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ae679dc00b4ebc65055a33216d6ef5136af5d6f15f85f8db76149a52e2f4a2aa70">Protection::kNoAccess</a>, 
+<a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ae679dc00b4ebc65055a33216d6ef5136af34c23f2eed93c9645e1aa681c77bec5">Protection::kReadWrite</a>
  }</td></tr>
 <tr class="separator:ae679dc00b4ebc65055a33216d6ef5136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aeeb119b0b88634faeeb7aa0c1a6d3318"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#aeeb119b0b88634faeeb7aa0c1a6d3318">~Allocator</a> ()</td></tr>
+<tr class="separator:aeeb119b0b88634faeeb7aa0c1a6d3318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a106b0d80120ed04fe9b9675e96f0340b"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#a106b0d80120ed04fe9b9675e96f0340b">Allocate</a> (size_t length)=0</td></tr>
 <tr class="separator:a106b0d80120ed04fe9b9675e96f0340b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b2d5c0a826d3c435e12f3ee178f37a"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#a92b2d5c0a826d3c435e12f3ee178f37a">AllocateUninitialized</a> (size_t length)=0</td></tr>
@@ -98,9 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5232e114da00c9ce5422b04338eda663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a419f59d2a103a5a8863809d7977c9cd8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#a419f59d2a103a5a8863809d7977c9cd8">Free</a> (void *data, size_t length)=0</td></tr>
 <tr class="separator:a419f59d2a103a5a8863809d7977c9cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaf1ec8820d5b994eb5a11f2c0ee38e0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#acaf1ec8820d5b994eb5a11f2c0ee38e0">Free</a> (void *data, size_t length, AllocationMode mode)</td></tr>
+<tr class="memitem:acaf1ec8820d5b994eb5a11f2c0ee38e0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#acaf1ec8820d5b994eb5a11f2c0ee38e0">Free</a> (void *data, size_t length, <a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59e">AllocationMode</a> mode)</td></tr>
 <tr class="separator:acaf1ec8820d5b994eb5a11f2c0ee38e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a623c5289834a5cc1850a120b532bad03"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#a623c5289834a5cc1850a120b532bad03">SetProtection</a> (void *data, size_t length, Protection protection)</td></tr>
+<tr class="memitem:a623c5289834a5cc1850a120b532bad03"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#a623c5289834a5cc1850a120b532bad03">SetProtection</a> (void *data, size_t length, <a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ae679dc00b4ebc65055a33216d6ef5136">Protection</a> protection)</td></tr>
 <tr class="separator:a623c5289834a5cc1850a120b532bad03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -112,7 +114,86 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A thread-safe allocator that <a class="el" href="classv8_1_1V8.html">V8</a> uses to allocate |ArrayBuffer|'s memory. The allocator is a global <a class="el" href="classv8_1_1V8.html">V8</a> setting. It has to be set via <a class="el" href="structv8_1_1Isolate_1_1CreateParams.html">Isolate::CreateParams</a>.</p>
 <p>Memory allocated through this allocator by <a class="el" href="classv8_1_1V8.html">V8</a> is accounted for as external memory by <a class="el" href="classv8_1_1V8.html">V8</a>. Note that <a class="el" href="classv8_1_1V8.html">V8</a> keeps track of the memory for all internalized |ArrayBuffer|s. Responsibility for tracking external memory (using <a class="el" href="classv8_1_1Isolate.html#aaeda5fa60961a3d9d476c46200e30711">Isolate::AdjustAmountOfExternalAllocatedMemory</a>) is handed over to the embedder upon externalization and taken over upon internalization (creating an internalized buffer from an existing buffer).</p>
 <p>Note that it is unsafe to call back into <a class="el" href="classv8_1_1V8.html">V8</a> from any of the allocator functions. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ab106d1fbad7be9f6fd8b0f5c550ac59e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab106d1fbad7be9f6fd8b0f5c550ac59e">&#9670;&nbsp;</a></span>AllocationMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59e">v8::ArrayBuffer::Allocator::AllocationMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab106d1fbad7be9f6fd8b0f5c550ac59ea07fa7a19aa722c635a15e94cb7f50416"></a>kNormal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab106d1fbad7be9f6fd8b0f5c550ac59ea6f8f300976cbd4227d599276b3206933"></a>kReservation&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ae679dc00b4ebc65055a33216d6ef5136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae679dc00b4ebc65055a33216d6ef5136">&#9670;&nbsp;</a></span>Protection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ae679dc00b4ebc65055a33216d6ef5136">v8::ArrayBuffer::Allocator::Protection</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae679dc00b4ebc65055a33216d6ef5136af5d6f15f85f8db76149a52e2f4a2aa70"></a>kNoAccess&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae679dc00b4ebc65055a33216d6ef5136af34c23f2eed93c9645e1aa681c77bec5"></a>kReadWrite&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aeeb119b0b88634faeeb7aa0c1a6d3318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb119b0b88634faeeb7aa0c1a6d3318">&#9670;&nbsp;</a></span>~Allocator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::ArrayBuffer::Allocator::~Allocator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a106b0d80120ed04fe9b9675e96f0340b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a106b0d80120ed04fe9b9675e96f0340b">&#9670;&nbsp;</a></span>Allocate()</h2>
 
@@ -228,7 +309,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">AllocationMode&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59e">AllocationMode</a>&#160;</td>
           <td class="paramname"><em>mode</em>&#160;</td>
         </tr>
         <tr>
@@ -271,6 +352,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>malloc/free based convenience allocator.</p>
 <p>Caller takes ownership, i.e. the returned object needs to be freed using |delete allocator| once it is no longer in use. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="process_8cc-example.html#a43">process.cc</a>, and <a class="el" href="shell_8cc-example.html#a16">shell.cc</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -325,7 +408,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Protection&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ae679dc00b4ebc65055a33216d6ef5136">Protection</a>&#160;</td>
           <td class="paramname"><em>protection</em>&#160;</td>
         </tr>
         <tr>
@@ -346,7 +429,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

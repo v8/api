@@ -1,8 +1,15 @@
 var searchData=
 [
-  ['v8_5fdeprecated_1126',['V8_DEPRECATED',['../classv8_1_1CpuProfiler.html#a26af7927eff24c33196beee4507d8924',1,'v8::CpuProfiler::V8_DEPRECATED(&quot;Use StartProfiling&quot;, void StartCpuProfiling(Handle&lt; String &gt; title, bool record_samples=false))'],['../classv8_1_1CpuProfiler.html#ad134cf9b3676fced85e430b3f2566275',1,'v8::CpuProfiler::V8_DEPRECATED(&quot;Use StopProfiling&quot;, const CpuProfile *StopCpuProfiling(Handle&lt; String &gt; title))'],['../classv8_1_1HeapGraphNode.html#af0c5bd1eebaa351d90db71311168729a',1,'v8::HeapGraphNode::V8_DEPRECATED()'],['../classv8_1_1Isolate.html#a17492788e89bcc21101d05d1ecb0e24e',1,'v8::Isolate::V8_DEPRECATED()']]],
-  ['valueof_1127',['ValueOf',['../classv8_1_1Date.html#adb9d292549a173e045ee177051dbde19',1,'v8::Date']]],
-  ['visitexternalresources_1128',['VisitExternalResources',['../classv8_1_1Isolate.html#a44d513b6426299de4c16e069958a723b',1,'v8::Isolate::VisitExternalResources()'],['../classv8_1_1V8.html#a7eb03e6ab4e2eca21632e55a4ad30061',1,'v8::V8::VisitExternalResources()']]],
-  ['visithandlesforpartialdependence_1129',['VisitHandlesForPartialDependence',['../classv8_1_1Isolate.html#ac5a3ecbb7ef90476150a20904c522744',1,'v8::Isolate::VisitHandlesForPartialDependence()'],['../classv8_1_1V8.html#af5e81135dae7560b5c503050e67c145a',1,'v8::V8::VisitHandlesForPartialDependence()']]],
-  ['visithandleswithclassids_1130',['VisitHandlesWithClassIds',['../classv8_1_1Isolate.html#a8c60c4e0f61250a422ba2336dcd50a75',1,'v8::Isolate::VisitHandlesWithClassIds()'],['../classv8_1_1V8.html#a824fd99c5cbc7c576370c9ffeca233d4',1,'v8::V8::VisitHandlesWithClassIds(PersistentHandleVisitor *visitor)'],['../classv8_1_1V8.html#a79ca881386f5341d0e5d68ebad6addcf',1,'v8::V8::VisitHandlesWithClassIds(Isolate *isolate, PersistentHandleVisitor *visitor)']]]
+  ['uint32value_1864',['Uint32Value',['../classv8_1_1Value.html#ae71b745cdf39dee8ffca8219db6c45d6',1,'v8::Value']]],
+  ['uncompilable_1865',['Uncompilable',['../classv8_1_1NonCopyablePersistentTraits.html#a0559135834685158ba58f7b1b03cdd49',1,'v8::NonCopyablePersistentTraits']]],
+  ['undefined_1866',['Undefined',['../namespacev8.html#af7d2f7fc42d6873af561b885151168d7',1,'v8']]],
+  ['uniqueid_1867',['UniqueId',['../classv8_1_1UniqueId.html#a94ba72efbc70dee13184b444c3d2399a',1,'v8::UniqueId']]],
+  ['uniquepersistent_1868',['UniquePersistent',['../classv8_1_1UniquePersistent.html#aace7c7db62ee4649d532e37c52d4dff8',1,'v8::UniquePersistent::UniquePersistent()'],['../classv8_1_1UniquePersistent.html#abfb39fdcefb77436b270e5a74e29fb77',1,'v8::UniquePersistent::UniquePersistent(Isolate *isolate, Handle&lt; S &gt; that)'],['../classv8_1_1UniquePersistent.html#ad63c8045f065a0780cafe6b4f270b3ec',1,'v8::UniquePersistent::UniquePersistent(Isolate *isolate, const PersistentBase&lt; S &gt; &amp;that)'],['../classv8_1_1UniquePersistent.html#a7983457a7ab50064d1cbbfbd8e6721c0',1,'v8::UniquePersistent::UniquePersistent(RValue rvalue)']]],
+  ['unlocker_1869',['Unlocker',['../classv8_1_1Unlocker.html#aa6789fe804cc059d9554c7ae7958c440',1,'v8::Unlocker']]],
+  ['updatenodeflag_1870',['UpdateNodeFlag',['../classv8_1_1internal_1_1Internals.html#ab04b251360d67fa23f5f4e714a0d11fd',1,'v8::internal::Internals']]],
+  ['updatenodestate_1871',['UpdateNodeState',['../classv8_1_1internal_1_1Internals.html#a3d21c413d733e9718fc346ac3123976c',1,'v8::internal::Internals']]],
+  ['used_5fheap_5fsize_1872',['used_heap_size',['../classv8_1_1HeapStatistics.html#a05ecb48bceea49d2fe430c81df02babc',1,'v8::HeapStatistics']]],
+  ['usedefaultsecuritytoken_1873',['UseDefaultSecurityToken',['../classv8_1_1Context.html#aa9e1a14982b64fd51ab87600a287bad2',1,'v8::Context']]],
+  ['utf8length_1874',['Utf8Length',['../classv8_1_1String.html#a03010150464f91fdabb73c837bf41706',1,'v8::String']]],
+  ['utf8value_1875',['Utf8Value',['../classv8_1_1String_1_1Utf8Value.html#aded9fd7ed406e79d5bc40eca15b6b3d7',1,'v8::String::Utf8Value']]]
 ];

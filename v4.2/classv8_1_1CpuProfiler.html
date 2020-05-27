@@ -81,12 +81,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac5b05c72fb899e20adfa7f8cc57f21fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a429a16655bbed7649b1869eefebb4fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfiler.html#a429a16655bbed7649b1869eefebb4fe9">StartProfiling</a> (<a class="el" href="classv8_1_1Handle.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; title, bool record_samples=false)</td></tr>
 <tr class="separator:a429a16655bbed7649b1869eefebb4fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26af7927eff24c33196beee4507d8924"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfiler.html#a26af7927eff24c33196beee4507d8924">V8_DEPRECATED</a> (&quot;Use <a class="el" href="classv8_1_1CpuProfiler.html#a429a16655bbed7649b1869eefebb4fe9">StartProfiling</a>&quot;, void StartCpuProfiling(<a class="el" href="classv8_1_1Handle.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; title, bool record_samples=false))</td></tr>
-<tr class="separator:a26af7927eff24c33196beee4507d8924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b2b49010708f0283c1613e2bdc1adc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfiler.html#a61b2b49010708f0283c1613e2bdc1adc">StartCpuProfiling</a> (<a class="el" href="classv8_1_1Handle.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; title, bool record_samples=false)</td></tr>
+<tr class="separator:a61b2b49010708f0283c1613e2bdc1adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a538b947e27524bc64ceab85df5e81c5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1CpuProfile.html">CpuProfile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfiler.html#a538b947e27524bc64ceab85df5e81c5f">StopProfiling</a> (<a class="el" href="classv8_1_1Handle.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; title)</td></tr>
 <tr class="separator:a538b947e27524bc64ceab85df5e81c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad134cf9b3676fced85e430b3f2566275"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfiler.html#ad134cf9b3676fced85e430b3f2566275">V8_DEPRECATED</a> (&quot;Use <a class="el" href="classv8_1_1CpuProfiler.html#a538b947e27524bc64ceab85df5e81c5f">StopProfiling</a>&quot;, const <a class="el" href="classv8_1_1CpuProfile.html">CpuProfile</a> *StopCpuProfiling(<a class="el" href="classv8_1_1Handle.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; title))</td></tr>
-<tr class="separator:ad134cf9b3676fced85e430b3f2566275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a531059626e708481ecb721a41a82a016"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classv8_1_1CpuProfile.html">CpuProfile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfiler.html#a531059626e708481ecb721a41a82a016">StopCpuProfiling</a> (<a class="el" href="classv8_1_1Handle.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; title)</td></tr>
+<tr class="separator:a531059626e708481ecb721a41a82a016"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68e6da6f9ff4a0d3bde505f378a9a7fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1CpuProfiler.html#a68e6da6f9ff4a0d3bde505f378a9a7fa">SetIdle</a> (bool is_idle)</td></tr>
 <tr class="separator:a68e6da6f9ff4a0d3bde505f378a9a7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -131,6 +131,35 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a61b2b49010708f0283c1613e2bdc1adc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b2b49010708f0283c1613e2bdc1adc">&#9670;&nbsp;</a></span>StartCpuProfiling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::CpuProfiler::StartCpuProfiling </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Handle.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt;&#160;</td>
+          <td class="paramname"><em>title</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>record_samples</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Deprecated. Use StartProfiling instead. </p>
+
+</div>
+</div>
 <a id="a429a16655bbed7649b1869eefebb4fe9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a429a16655bbed7649b1869eefebb4fe9">&#9670;&nbsp;</a></span>StartProfiling()</h2>
 
@@ -161,6 +190,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a531059626e708481ecb721a41a82a016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a531059626e708481ecb721a41a82a016">&#9670;&nbsp;</a></span>StopCpuProfiling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classv8_1_1CpuProfile.html">CpuProfile</a>* v8::CpuProfiler::StopCpuProfiling </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Handle.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt;&#160;</td>
+          <td class="paramname"><em>title</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Deprecated. Use StopProfiling instead. </p>
+
+</div>
+</div>
 <a id="a538b947e27524bc64ceab85df5e81c5f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a538b947e27524bc64ceab85df5e81c5f">&#9670;&nbsp;</a></span>StopProfiling()</h2>
 
@@ -180,66 +228,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a26af7927eff24c33196beee4507d8924"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26af7927eff24c33196beee4507d8924">&#9670;&nbsp;</a></span>V8_DEPRECATED() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">v8::CpuProfiler::V8_DEPRECATED </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use <a class="el" href="classv8_1_1CpuProfiler.html#a429a16655bbed7649b1869eefebb4fe9">StartProfiling</a>&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void &#160;</td>
-          <td class="paramname"><em>StartCpuProfiling</em>Handle&lt; String &gt; title, bool record_samples=false&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Deprecated. Use StartProfiling instead. </p>
-
-</div>
-</div>
-<a id="ad134cf9b3676fced85e430b3f2566275"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad134cf9b3676fced85e430b3f2566275">&#9670;&nbsp;</a></span>V8_DEPRECATED() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">v8::CpuProfiler::V8_DEPRECATED </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use <a class="el" href="classv8_1_1CpuProfiler.html#a538b947e27524bc64ceab85df5e81c5f">StopProfiling</a>&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classv8_1_1CpuProfile.html">CpuProfile</a> *&#160;</td>
-          <td class="paramname"><em>StopCpuProfiling</em>Handle&lt; String &gt; title&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Deprecated. Use StopProfiling instead. </p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
+<li>include/<a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

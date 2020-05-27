@@ -81,10 +81,11 @@ Collaboration diagram for v8::JitCodeEvent:</div>
 <div class="dyncontent">
 <div class="center"><img src="structv8_1_1JitCodeEvent__coll__graph.png" border="0" usemap="#v8_1_1JitCodeEvent_coll__map" alt="Collaboration graph"/></div>
 <map name="v8_1_1JitCodeEvent_coll__map" id="v8_1_1JitCodeEvent_coll__map">
-<area shape="rect" title=" " alt="" coords="313,64,436,91"/>
-<area shape="rect" href="structv8_1_1JitCodeEvent_1_1name__t.html" title=" " alt="" coords="21,5,196,32"/>
-<area shape="rect" href="structv8_1_1JitCodeEvent_1_1line__info__t.html" title=" " alt="" coords="33,57,184,98"/>
-<area shape="rect" href="classv8_1_1Local.html" title=" " alt="" coords="5,123,212,149"/>
+<area shape="rect" title=" " alt="" coords="605,64,728,91"/>
+<area shape="rect" href="structv8_1_1JitCodeEvent_1_1name__t.html" title=" " alt="" coords="313,5,488,32"/>
+<area shape="rect" href="structv8_1_1JitCodeEvent_1_1line__info__t.html" title=" " alt="" coords="325,57,476,98"/>
+<area shape="rect" href="classv8_1_1Local.html" title=" " alt="" coords="297,123,504,149"/>
+<area shape="rect" href="classv8_1_1Local.html" title=" " alt="" coords="5,123,112,149"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -97,56 +98,46 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac4f8e391762567a2710eb5552b5f11f7"><td class="memItemLeft" align="right" valign="top"><a id="ac4f8e391762567a2710eb5552b5f11f7"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EventType</b> { <br />
-&#160;&#160;<b>CODE_ADDED</b>, 
-<b>CODE_MOVED</b>, 
-<b>CODE_REMOVED</b>, 
-<b>CODE_ADD_LINE_POS_INFO</b>, 
+<tr class="memitem:ac4f8e391762567a2710eb5552b5f11f7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7">EventType</a> { <br />
+&#160;&#160;<a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7a2a8c1b25e2e9391a6e1abf642f1d8ec2">CODE_ADDED</a>, 
+<a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7a45d9a6389c771e8877028f991403b2a9">CODE_MOVED</a>, 
+<a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7ac737f028303ba1c2455cd447a668a050">CODE_REMOVED</a>, 
+<a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7abf6fa96318d66c592975617544702a2f">CODE_ADD_LINE_POS_INFO</a>, 
 <br />
-&#160;&#160;<b>CODE_START_LINE_INFO_RECORDING</b>, 
-<b>CODE_END_LINE_INFO_RECORDING</b>
+&#160;&#160;<a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7adf938bae709db93f46ff2b7b416cf7ba">CODE_START_LINE_INFO_RECORDING</a>, 
+<a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7a12a961435120824499949ce5b6e1bc9c">CODE_END_LINE_INFO_RECORDING</a>
 <br />
  }</td></tr>
 <tr class="separator:ac4f8e391762567a2710eb5552b5f11f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02ca6a3e363d0d95142591fd454c8ba9"><td class="memItemLeft" align="right" valign="top"><a id="a02ca6a3e363d0d95142591fd454c8ba9"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>PositionType</b> { <b>POSITION</b>, 
-<b>STATEMENT_POSITION</b>
+<tr class="memitem:a02ca6a3e363d0d95142591fd454c8ba9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv8_1_1JitCodeEvent.html#a02ca6a3e363d0d95142591fd454c8ba9">PositionType</a> { <a class="el" href="structv8_1_1JitCodeEvent.html#a02ca6a3e363d0d95142591fd454c8ba9a480d65a9158a515a25127942b565e7de">POSITION</a>, 
+<a class="el" href="structv8_1_1JitCodeEvent.html#a02ca6a3e363d0d95142591fd454c8ba9ac76a6292cb2d35ce5db6351f360af51c">STATEMENT_POSITION</a>
  }</td></tr>
 <tr class="separator:a02ca6a3e363d0d95142591fd454c8ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28835778c755f5f92afcf57d4e9a5075"><td class="memItemLeft" align="right" valign="top"><a id="a28835778c755f5f92afcf57d4e9a5075"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CodeType</b> { <b>BYTE_CODE</b>, 
-<b>JIT_CODE</b>
+<tr class="memitem:a28835778c755f5f92afcf57d4e9a5075"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv8_1_1JitCodeEvent.html#a28835778c755f5f92afcf57d4e9a5075">CodeType</a> { <a class="el" href="structv8_1_1JitCodeEvent.html#a28835778c755f5f92afcf57d4e9a5075ae7e2550a010188e81d01bd74a0fc53d3">BYTE_CODE</a>, 
+<a class="el" href="structv8_1_1JitCodeEvent.html#a28835778c755f5f92afcf57d4e9a5075a7c0504dbb4df884a860ae683aa20980d">JIT_CODE</a>
  }</td></tr>
 <tr class="separator:a28835778c755f5f92afcf57d4e9a5075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ace1fbc4119ac3ef609d8e0f89cbc2c9f"><td class="memItemLeft" align="right" valign="top"><a id="ace1fbc4119ac3ef609d8e0f89cbc2c9f"></a>
-EventType&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td></tr>
+<tr class="memitem:ace1fbc4119ac3ef609d8e0f89cbc2c9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7">EventType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv8_1_1JitCodeEvent.html#ace1fbc4119ac3ef609d8e0f89cbc2c9f">type</a></td></tr>
 <tr class="separator:ace1fbc4119ac3ef609d8e0f89cbc2c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe160860a394de2db6d4de56d8f89e99"><td class="memItemLeft" align="right" valign="top"><a id="afe160860a394de2db6d4de56d8f89e99"></a>
-CodeType&#160;</td><td class="memItemRight" valign="bottom"><b>code_type</b></td></tr>
+<tr class="memitem:afe160860a394de2db6d4de56d8f89e99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structv8_1_1JitCodeEvent.html#a28835778c755f5f92afcf57d4e9a5075">CodeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv8_1_1JitCodeEvent.html#afe160860a394de2db6d4de56d8f89e99">code_type</a></td></tr>
 <tr class="separator:afe160860a394de2db6d4de56d8f89e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeac614e6c125bf08bf785b070090d0f"><td class="memItemLeft" align="right" valign="top"><a id="aeeac614e6c125bf08bf785b070090d0f"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>code_start</b></td></tr>
+<tr class="memitem:aeeac614e6c125bf08bf785b070090d0f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv8_1_1JitCodeEvent.html#aeeac614e6c125bf08bf785b070090d0f">code_start</a></td></tr>
 <tr class="separator:aeeac614e6c125bf08bf785b070090d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad56f78749d03f5db29ed417c2f3b4666"><td class="memItemLeft" align="right" valign="top"><a id="ad56f78749d03f5db29ed417c2f3b4666"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>code_len</b></td></tr>
+<tr class="memitem:ad56f78749d03f5db29ed417c2f3b4666"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv8_1_1JitCodeEvent.html#ad56f78749d03f5db29ed417c2f3b4666">code_len</a></td></tr>
 <tr class="separator:ad56f78749d03f5db29ed417c2f3b4666"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50ac4979f3d15900647b6b29dae3db76"><td class="memItemLeft" align="right" valign="top"><a id="a50ac4979f3d15900647b6b29dae3db76"></a>
-<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>script</b></td></tr>
+<tr class="memitem:a50ac4979f3d15900647b6b29dae3db76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv8_1_1JitCodeEvent.html#a50ac4979f3d15900647b6b29dae3db76">script</a></td></tr>
 <tr class="separator:a50ac4979f3d15900647b6b29dae3db76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90597e06440ebd68fe582bd1361d6de6"><td class="memItemLeft" align="right" valign="top"><a id="a90597e06440ebd68fe582bd1361d6de6"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>user_data</b></td></tr>
+<tr class="memitem:a90597e06440ebd68fe582bd1361d6de6"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structv8_1_1JitCodeEvent.html#a90597e06440ebd68fe582bd1361d6de6">user_data</a></td></tr>
 <tr class="separator:a90597e06440ebd68fe582bd1361d6de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac14b424318a17995e873ac96f802d7cd"><td class="memItemLeft" ><a id="ac14b424318a17995e873ac96f802d7cd"></a>
-union {</td></tr>
-<tr class="memitem:aa223fdc97af778335c2d297848fe3534"><td class="memItemLeft" >
-&#160;&#160;&#160;struct <a class="el" href="structv8_1_1JitCodeEvent_1_1name__t.html">name_t</a>&#160;&#160;&#160;<b>name</b></td></tr>
+<tr class="memitem:ac14b424318a17995e873ac96f802d7cd"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:aa223fdc97af778335c2d297848fe3534"><td class="memItemLeft" >&#160;&#160;&#160;struct <a class="el" href="structv8_1_1JitCodeEvent_1_1name__t.html">name_t</a>&#160;&#160;&#160;<a class="el" href="structv8_1_1JitCodeEvent.html#a4b185f7e3d16cf4275bf4ae4b2f64c67">name</a></td></tr>
 <tr class="separator:aa223fdc97af778335c2d297848fe3534"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55a38fcda7840504a8b4c81237fcf70b"><td class="memItemLeft" >
-&#160;&#160;&#160;struct <a class="el" href="structv8_1_1JitCodeEvent_1_1line__info__t.html">line_info_t</a>&#160;&#160;&#160;<b>line_info</b></td></tr>
+<tr class="memitem:a55a38fcda7840504a8b4c81237fcf70b"><td class="memItemLeft" >&#160;&#160;&#160;struct <a class="el" href="structv8_1_1JitCodeEvent_1_1line__info__t.html">line_info_t</a>&#160;&#160;&#160;<a class="el" href="structv8_1_1JitCodeEvent.html#a7dcc6173ae6f41146cb82cdd67870447">line_info</a></td></tr>
 <tr class="separator:a55a38fcda7840504a8b4c81237fcf70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c6b21eeedc72db6aa2bf714afc7dd0b"><td class="memItemLeft" >
-&#160;&#160;&#160;void *&#160;&#160;&#160;<b>new_code_start</b></td></tr>
+<tr class="memitem:a2c6b21eeedc72db6aa2bf714afc7dd0b"><td class="memItemLeft" >&#160;&#160;&#160;void *&#160;&#160;&#160;<a class="el" href="structv8_1_1JitCodeEvent.html#aafed22740697df24f7431d1af73ddc57">new_code_start</a></td></tr>
 <tr class="separator:a2c6b21eeedc72db6aa2bf714afc7dd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac14b424318a17995e873ac96f802d7cd"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:ac14b424318a17995e873ac96f802d7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,8 +145,208 @@ union {</td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A JIT code event is issued each time code is added, moved or removed.</p>
 <dl class="section note"><dt>Note</dt><dd>removal events are not currently issued. </dd></dl>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a28835778c755f5f92afcf57d4e9a5075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28835778c755f5f92afcf57d4e9a5075">&#9670;&nbsp;</a></span>CodeType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structv8_1_1JitCodeEvent.html#a28835778c755f5f92afcf57d4e9a5075">v8::JitCodeEvent::CodeType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a28835778c755f5f92afcf57d4e9a5075ae7e2550a010188e81d01bd74a0fc53d3"></a>BYTE_CODE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a28835778c755f5f92afcf57d4e9a5075a7c0504dbb4df884a860ae683aa20980d"></a>JIT_CODE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ac4f8e391762567a2710eb5552b5f11f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4f8e391762567a2710eb5552b5f11f7">&#9670;&nbsp;</a></span>EventType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7">v8::JitCodeEvent::EventType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac4f8e391762567a2710eb5552b5f11f7a2a8c1b25e2e9391a6e1abf642f1d8ec2"></a>CODE_ADDED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac4f8e391762567a2710eb5552b5f11f7a45d9a6389c771e8877028f991403b2a9"></a>CODE_MOVED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac4f8e391762567a2710eb5552b5f11f7ac737f028303ba1c2455cd447a668a050"></a>CODE_REMOVED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac4f8e391762567a2710eb5552b5f11f7abf6fa96318d66c592975617544702a2f"></a>CODE_ADD_LINE_POS_INFO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac4f8e391762567a2710eb5552b5f11f7adf938bae709db93f46ff2b7b416cf7ba"></a>CODE_START_LINE_INFO_RECORDING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac4f8e391762567a2710eb5552b5f11f7a12a961435120824499949ce5b6e1bc9c"></a>CODE_END_LINE_INFO_RECORDING&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a02ca6a3e363d0d95142591fd454c8ba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02ca6a3e363d0d95142591fd454c8ba9">&#9670;&nbsp;</a></span>PositionType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structv8_1_1JitCodeEvent.html#a02ca6a3e363d0d95142591fd454c8ba9">v8::JitCodeEvent::PositionType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a02ca6a3e363d0d95142591fd454c8ba9a480d65a9158a515a25127942b565e7de"></a>POSITION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a02ca6a3e363d0d95142591fd454c8ba9ac76a6292cb2d35ce5db6351f360af51c"></a>STATEMENT_POSITION&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac14b424318a17995e873ac96f802d7cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac14b424318a17995e873ac96f802d7cd">&#9670;&nbsp;</a></span>@6</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad56f78749d03f5db29ed417c2f3b4666"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad56f78749d03f5db29ed417c2f3b4666">&#9670;&nbsp;</a></span>code_len</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t v8::JitCodeEvent::code_len</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeeac614e6c125bf08bf785b070090d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeac614e6c125bf08bf785b070090d0f">&#9670;&nbsp;</a></span>code_start</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* v8::JitCodeEvent::code_start</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe160860a394de2db6d4de56d8f89e99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe160860a394de2db6d4de56d8f89e99">&#9670;&nbsp;</a></span>code_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structv8_1_1JitCodeEvent.html#a28835778c755f5f92afcf57d4e9a5075">CodeType</a> v8::JitCodeEvent::code_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7dcc6173ae6f41146cb82cdd67870447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dcc6173ae6f41146cb82cdd67870447">&#9670;&nbsp;</a></span>line_info</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structv8_1_1JitCodeEvent_1_1line__info__t.html">line_info_t</a> v8::JitCodeEvent::line_info</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b185f7e3d16cf4275bf4ae4b2f64c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b185f7e3d16cf4275bf4ae4b2f64c67">&#9670;&nbsp;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structv8_1_1JitCodeEvent_1_1name__t.html">name_t</a> v8::JitCodeEvent::name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafed22740697df24f7431d1af73ddc57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafed22740697df24f7431d1af73ddc57">&#9670;&nbsp;</a></span>new_code_start</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* v8::JitCodeEvent::new_code_start</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50ac4979f3d15900647b6b29dae3db76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ac4979f3d15900647b6b29dae3db76">&#9670;&nbsp;</a></span>script</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a>&gt; v8::JitCodeEvent::script</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace1fbc4119ac3ef609d8e0f89cbc2c9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1fbc4119ac3ef609d8e0f89cbc2c9f">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7">EventType</a> v8::JitCodeEvent::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90597e06440ebd68fe582bd1361d6de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90597e06440ebd68fe582bd1361d6de6">&#9670;&nbsp;</a></span>user_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* v8::JitCodeEvent::user_data</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

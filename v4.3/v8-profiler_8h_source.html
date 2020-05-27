@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: v8-profiler.h Source File</title>
+<title>V8: include/v8-profiler.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -45,7 +45,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,28 +59,33 @@ $(function() {
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">v8-profiler.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2010 the V8 project authors. All rights reserved.</span></div>
+<a href="v8-profiler_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2010 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef V8_V8_PROFILER_H_</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define V8_V8_PROFILER_H_</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;v8.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8_8h.html">v8.h</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacev8.html">v8</a> {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>HeapGraphNode;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">struct </span>HeapStatsUpdate;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">   16</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structv8_1_1HeapStatsUpdate.html">HeapStatsUpdate</a>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">typedef</span> uint32_t SnapshotObjectId;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">typedef</span> uint32_t <a class="code" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a>;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classv8_1_1CpuProfileNode.html">   23</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1CpuProfileNode.html">CpuProfileNode</a> {</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classv8_1_1CpuProfileNode.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1CpuProfileNode.html">CpuProfileNode</a> {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structv8_1_1CpuProfileNode_1_1LineTick.html">   25</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structv8_1_1CpuProfileNode_1_1LineTick.html">LineTick</a> {</div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="structv8_1_1CpuProfileNode_1_1LineTick.html#af96fbdefbc07b2c84cf41d74555626f6">   27</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structv8_1_1CpuProfileNode_1_1LineTick.html#af96fbdefbc07b2c84cf41d74555626f6">line</a>;</div>
@@ -115,12 +119,12 @@ $(function() {
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keyword">const</span> <a class="code" href="classv8_1_1CpuProfileNode.html">CpuProfileNode</a>* GetChild(<span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> kNoLineNumberInfo = Message::kNoLineNumberInfo;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> kNoColumnNumberInfo = Message::kNoColumnInfo;</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="classv8_1_1CpuProfileNode.html#ad54213fe8a795cb6669566f0272fc5ba">   88</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> kNoLineNumberInfo = <a class="code" href="classv8_1_1Message.html#a35649a6c0c813ba82c9886a2b17da124">Message::kNoLineNumberInfo</a>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="classv8_1_1CpuProfileNode.html#a7c8c1dea3ae0cf4c219b7b1f15a8405b">   89</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> kNoColumnNumberInfo = <a class="code" href="classv8_1_1Message.html#a8cb643dbf408b0fd2526b23a8202c4a6">Message::kNoColumnInfo</a>;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;};</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classv8_1_1CpuProfile.html">   97</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1CpuProfile.html">CpuProfile</a> {</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classv8_1_1CpuProfile.html">   97</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1CpuProfile.html">CpuProfile</a> {</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <a class="code" href="classv8_1_1Handle.html">Handle&lt;String&gt;</a> GetTitle() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
@@ -140,7 +144,7 @@ $(function() {
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;};</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; </div>
-<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="classv8_1_1CpuProfiler.html">  149</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1CpuProfiler.html">CpuProfiler</a> {</div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="classv8_1_1CpuProfiler.html">  149</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1CpuProfiler.html">CpuProfiler</a> {</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <span class="keywordtype">void</span> SetSamplingInterval(<span class="keywordtype">int</span> us);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
@@ -158,20 +162,20 @@ $(function() {
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;};</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160; </div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
-<div class="line"><a name="l00194"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html">  194</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1HeapGraphEdge.html">HeapGraphEdge</a> {</div>
+<div class="line"><a name="l00194"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html">  194</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1HeapGraphEdge.html">HeapGraphEdge</a> {</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  <span class="keyword">enum</span> Type {</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    kContextVariable = 0,  <span class="comment">// A variable from a function context.</span></div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    kElement = 1,          <span class="comment">// An element of an array.</span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    kProperty = 2,         <span class="comment">// A named object property.</span></div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    kInternal = 3,         <span class="comment">// A link that can&#39;t be accessed from JS,</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259b">  196</a></span>&#160;  <span class="keyword">enum</span> <a class="code" href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259b">Type</a> {</div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259ba961a7c0ca26377d4eb9bb82bdcf63ddd">  197</a></span>&#160;    kContextVariable = 0,  <span class="comment">// A variable from a function context.</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259ba02517c100def447ed83a653e70406dde">  198</a></span>&#160;    kElement = 1,          <span class="comment">// An element of an array.</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259ba9e36d9379269968e7742cfd59e0e4e41">  199</a></span>&#160;    kProperty = 2,         <span class="comment">// A named object property.</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259ba0069a287dd6e662a89cfac11f2f4544b">  200</a></span>&#160;    kInternal = 3,         <span class="comment">// A link that can&#39;t be accessed from JS,</span></div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                           <span class="comment">// thus, its name isn&#39;t a real property name</span></div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                           <span class="comment">// (e.g. parts of a ConsString).</span></div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    kHidden = 4,           <span class="comment">// A link that is needed for proper sizes</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259bae3470dd36fc8f97e910d8d77decf5695">  203</a></span>&#160;    kHidden = 4,           <span class="comment">// A link that is needed for proper sizes</span></div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                           <span class="comment">// calculation, but may be hidden from user.</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    kShortcut = 5,         <span class="comment">// A link that must not be followed during</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259ba2b64b91a4e16ef3e33fdef57a9488d3e">  205</a></span>&#160;    kShortcut = 5,         <span class="comment">// A link that must not be followed during</span></div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                           <span class="comment">// sizes calculation.</span></div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    kWeak = 6              <span class="comment">// A weak reference (ignored by the GC).</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259ba93fb3b0bf4c8eeb82ebf84b8ee3c5ccf">  207</a></span>&#160;    <a class="code" href="namespacev8.html#ad2a33b8f8a1701a800a691dd025f7ddea12b5294b9a7ab78f73f89b3a0d648110">kWeak</a> = 6              <span class="comment">// A weak reference (ignored by the GC).</span></div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  };</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160; </div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  Type GetType() <span class="keyword">const</span>;</div>
@@ -184,30 +188,30 @@ $(function() {
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;};</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160; </div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
-<div class="line"><a name="l00230"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html">  230</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1HeapGraphNode.html">HeapGraphNode</a> {</div>
+<div class="line"><a name="l00230"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html">  230</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1HeapGraphNode.html">HeapGraphNode</a> {</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;  <span class="keyword">enum</span> Type {</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    kHidden = 0,         <span class="comment">// Hidden node, may be filtered when shown to user.</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    kArray = 1,          <span class="comment">// An array of elements.</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    kString = 2,         <span class="comment">// A string.</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    kObject = 3,         <span class="comment">// A JS object (except for arrays and strings).</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    kCode = 4,           <span class="comment">// Compiled code.</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    kClosure = 5,        <span class="comment">// Function closure.</span></div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    kRegExp = 6,         <span class="comment">// RegExp.</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    kHeapNumber = 7,     <span class="comment">// Number stored in the heap.</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    kNative = 8,         <span class="comment">// Native object (not from V8 heap).</span></div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    kSynthetic = 9,      <span class="comment">// Synthetic object, usualy used for grouping</span></div>
+<div class="line"><a name="l00232"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479ed">  232</a></span>&#160;  <span class="keyword">enum</span> <a class="code" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479ed">Type</a> {</div>
+<div class="line"><a name="l00233"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479eda371c8d30618cf1d4a61a1974c966034d">  233</a></span>&#160;    kHidden = 0,         <span class="comment">// Hidden node, may be filtered when shown to user.</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479eda6d36647564d3fa18fba58e0d984270d9">  234</a></span>&#160;    kArray = 1,          <span class="comment">// An array of elements.</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479edac38e03929fcffec54b9523ed8d1f64a3">  235</a></span>&#160;    kString = 2,         <span class="comment">// A string.</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479eda76d80ad86d479d892fb2af4f94bb4e2e">  236</a></span>&#160;    kObject = 3,         <span class="comment">// A JS object (except for arrays and strings).</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479eda11d045482774375281af260238a32480">  237</a></span>&#160;    kCode = 4,           <span class="comment">// Compiled code.</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479eda3b6e27079e35760a722c6c335f37eb21">  238</a></span>&#160;    kClosure = 5,        <span class="comment">// Function closure.</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479edacc9a687dc74f249b333213bc26193fb2">  239</a></span>&#160;    kRegExp = 6,         <span class="comment">// RegExp.</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479eda995d175b44663293d42a335861f7904b">  240</a></span>&#160;    kHeapNumber = 7,     <span class="comment">// Number stored in the heap.</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479eda59a5882c06b8ed29cd7603a16cfa7441">  241</a></span>&#160;    kNative = 8,         <span class="comment">// Native object (not from V8 heap).</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479edac80678d96a1feb06a1020169270d3759">  242</a></span>&#160;    kSynthetic = 9,      <span class="comment">// Synthetic object, usualy used for grouping</span></div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                         <span class="comment">// snapshot items together.</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    kConsString = 10,    <span class="comment">// Concatenated string. A pair of pointers to strings.</span></div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    kSlicedString = 11,  <span class="comment">// Sliced string. A fragment of another string.</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    kSymbol = 12         <span class="comment">// A Symbol (ES6).</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479edac707f1f4b2de349cf98dc84467c0c004">  244</a></span>&#160;    kConsString = 10,    <span class="comment">// Concatenated string. A pair of pointers to strings.</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479edaa79512372dbd9af85ca748dc8d446982">  245</a></span>&#160;    kSlicedString = 11,  <span class="comment">// Sliced string. A fragment of another string.</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479eda1208a3bd03b7cd7fa7062bc05571562f">  246</a></span>&#160;    kSymbol = 12         <span class="comment">// A Symbol (ES6).</span></div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  };</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  Type GetType() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  <a class="code" href="classv8_1_1Handle.html">Handle&lt;String&gt;</a> GetName() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  SnapshotObjectId GetId() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  <a class="code" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> GetId() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  <span class="keywordtype">size_t</span> GetShallowSize() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160; </div>
@@ -217,37 +221,37 @@ $(function() {
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;};</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160; </div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160; </div>
-<div class="line"><a name="l00279"></a><span class="lineno"><a class="line" href="classv8_1_1OutputStream.html">  279</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1OutputStream.html">OutputStream</a> {  <span class="comment">// NOLINT</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno"><a class="line" href="classv8_1_1OutputStream.html">  279</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1OutputStream.html">OutputStream</a> {  <span class="comment">// NOLINT</span></div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <span class="keyword">enum</span> WriteResult {</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    kContinue = 0,</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    kAbort = 1</div>
+<div class="line"><a name="l00281"></a><span class="lineno"><a class="line" href="classv8_1_1OutputStream.html#a336c7605a0ce4fbe6f6fca3b03bc16de">  281</a></span>&#160;  <span class="keyword">enum</span> <a class="code" href="classv8_1_1OutputStream.html#a336c7605a0ce4fbe6f6fca3b03bc16de">WriteResult</a> {</div>
+<div class="line"><a name="l00282"></a><span class="lineno"><a class="line" href="classv8_1_1OutputStream.html#a336c7605a0ce4fbe6f6fca3b03bc16dea3bde106caea14e9b2f32996b8eb3cdb1">  282</a></span>&#160;    kContinue = 0,</div>
+<div class="line"><a name="l00283"></a><span class="lineno"><a class="line" href="classv8_1_1OutputStream.html#a336c7605a0ce4fbe6f6fca3b03bc16dea66b4fe9e98bb50ed0e083ae00638e136">  283</a></span>&#160;    kAbort = 1</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  };</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classv8_1_1OutputStream.html">OutputStream</a>() {}</div>
+<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="classv8_1_1OutputStream.html#a3710df8ba6d4831e0a08ed5e0ce0a753">  285</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classv8_1_1OutputStream.html#a3710df8ba6d4831e0a08ed5e0ce0a753">~OutputStream</a>() {}</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> EndOfStream() = 0;</div>
 <div class="line"><a name="l00289"></a><span class="lineno"><a class="line" href="classv8_1_1OutputStream.html#a93bdaa790cbd66a7283fad2cca3f48f7">  289</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classv8_1_1OutputStream.html#a93bdaa790cbd66a7283fad2cca3f48f7">GetChunkSize</a>() { <span class="keywordflow">return</span> 1024; }</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  <span class="keyword">virtual</span> WriteResult WriteAsciiChunk(<span class="keywordtype">char</span>* data, <span class="keywordtype">int</span> size) = 0;</div>
-<div class="line"><a name="l00301"></a><span class="lineno"><a class="line" href="classv8_1_1OutputStream.html#a104fd1a0b5ef685e1d4967aaacbb9e9d">  301</a></span>&#160;  <span class="keyword">virtual</span> WriteResult <a class="code" href="classv8_1_1OutputStream.html#a104fd1a0b5ef685e1d4967aaacbb9e9d">WriteHeapStatsChunk</a>(<a class="code" href="structv8_1_1HeapStatsUpdate.html">HeapStatsUpdate</a>* data, <span class="keywordtype">int</span> count) {</div>
+<div class="line"><a name="l00301"></a><span class="lineno"><a class="line" href="classv8_1_1OutputStream.html#a104fd1a0b5ef685e1d4967aaacbb9e9d">  301</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classv8_1_1OutputStream.html#a336c7605a0ce4fbe6f6fca3b03bc16de">WriteResult</a> <a class="code" href="classv8_1_1OutputStream.html#a104fd1a0b5ef685e1d4967aaacbb9e9d">WriteHeapStatsChunk</a>(<a class="code" href="structv8_1_1HeapStatsUpdate.html">HeapStatsUpdate</a>* data, <span class="keywordtype">int</span> count) {</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">return</span> kAbort;</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;  }</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;};</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160; </div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160; </div>
-<div class="line"><a name="l00310"></a><span class="lineno"><a class="line" href="classv8_1_1HeapSnapshot.html">  310</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1HeapSnapshot.html">HeapSnapshot</a> {</div>
+<div class="line"><a name="l00310"></a><span class="lineno"><a class="line" href="classv8_1_1HeapSnapshot.html">  310</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1HeapSnapshot.html">HeapSnapshot</a> {</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;  <span class="keyword">enum</span> SerializationFormat {</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    kJSON = 0  <span class="comment">// See format description near &#39;Serialize&#39; method.</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno"><a class="line" href="classv8_1_1HeapSnapshot.html#a8ed7909568af85f7a36ef5f4da4dd495">  312</a></span>&#160;  <span class="keyword">enum</span> <a class="code" href="classv8_1_1HeapSnapshot.html#a8ed7909568af85f7a36ef5f4da4dd495">SerializationFormat</a> {</div>
+<div class="line"><a name="l00313"></a><span class="lineno"><a class="line" href="classv8_1_1HeapSnapshot.html#a8ed7909568af85f7a36ef5f4da4dd495a4b55053eb4cfe5f432f379941f97efa2">  313</a></span>&#160;    kJSON = 0  <span class="comment">// See format description near &#39;Serialize&#39; method.</span></div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;  };</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160; </div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  <span class="keyword">const</span> <a class="code" href="classv8_1_1HeapGraphNode.html">HeapGraphNode</a>* GetRoot() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160; </div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  <span class="keyword">const</span> <a class="code" href="classv8_1_1HeapGraphNode.html">HeapGraphNode</a>* GetNodeById(SnapshotObjectId <span class="keywordtype">id</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  <span class="keyword">const</span> <a class="code" href="classv8_1_1HeapGraphNode.html">HeapGraphNode</a>* GetNodeById(<a class="code" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> <span class="keywordtype">id</span>) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  <span class="keywordtype">int</span> GetNodesCount() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160; </div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  <span class="keyword">const</span> <a class="code" href="classv8_1_1HeapGraphNode.html">HeapGraphNode</a>* GetNode(<span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160; </div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  SnapshotObjectId GetMaxSnapshotJSObjectId() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  <a class="code" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> GetMaxSnapshotJSObjectId() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160; </div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;  <span class="keywordtype">void</span> Delete();</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160; </div>
@@ -256,18 +260,18 @@ $(function() {
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;};</div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160; </div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160; </div>
-<div class="line"><a name="l00373"></a><span class="lineno"><a class="line" href="classv8_1_1ActivityControl.html">  373</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1ActivityControl.html">ActivityControl</a> {  <span class="comment">// NOLINT</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno"><a class="line" href="classv8_1_1ActivityControl.html">  373</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1ActivityControl.html">ActivityControl</a> {  <span class="comment">// NOLINT</span></div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;  <span class="keyword">enum</span> ControlOption {</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    kContinue = 0,</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    kAbort = 1</div>
+<div class="line"><a name="l00375"></a><span class="lineno"><a class="line" href="classv8_1_1ActivityControl.html#a6d261e8c21e8076ce86b4add231a8ef9">  375</a></span>&#160;  <span class="keyword">enum</span> <a class="code" href="classv8_1_1ActivityControl.html#a6d261e8c21e8076ce86b4add231a8ef9">ControlOption</a> {</div>
+<div class="line"><a name="l00376"></a><span class="lineno"><a class="line" href="classv8_1_1ActivityControl.html#a6d261e8c21e8076ce86b4add231a8ef9a7ffd2f3ee72356c546a3ac1c880ab134">  376</a></span>&#160;    kContinue = 0,</div>
+<div class="line"><a name="l00377"></a><span class="lineno"><a class="line" href="classv8_1_1ActivityControl.html#a6d261e8c21e8076ce86b4add231a8ef9ab9a517d23706dd0ca46356d39da8f128">  377</a></span>&#160;    kAbort = 1</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  };</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classv8_1_1ActivityControl.html">ActivityControl</a>() {}</div>
+<div class="line"><a name="l00379"></a><span class="lineno"><a class="line" href="classv8_1_1ActivityControl.html#af0c470333a5636e3e76f06cce81157c5">  379</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classv8_1_1ActivityControl.html#af0c470333a5636e3e76f06cce81157c5">~ActivityControl</a>() {}</div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  <span class="keyword">virtual</span> ControlOption ReportProgressValue(<span class="keywordtype">int</span> done, <span class="keywordtype">int</span> total) = 0;</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;};</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160; </div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160; </div>
-<div class="line"><a name="l00392"></a><span class="lineno"><a class="line" href="classv8_1_1HeapProfiler.html">  392</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1HeapProfiler.html">HeapProfiler</a> {</div>
+<div class="line"><a name="l00392"></a><span class="lineno"><a class="line" href="classv8_1_1HeapProfiler.html">  392</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1HeapProfiler.html">HeapProfiler</a> {</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keyword">typedef</span> <a class="code" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a>* (*WrapperInfoCallback)</div>
 <div class="line"><a name="l00401"></a><span class="lineno"><a class="line" href="classv8_1_1HeapProfiler.html#a696d8d6590879eeb5a4ad2814eafb599">  401</a></span>&#160;      (uint16_t class_id, <a class="code" href="classv8_1_1Handle.html">Handle&lt;Value&gt;</a> wrapper);</div>
@@ -276,28 +280,28 @@ $(function() {
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160; </div>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  <span class="keyword">const</span> <a class="code" href="classv8_1_1HeapSnapshot.html">HeapSnapshot</a>* GetHeapSnapshot(<span class="keywordtype">int</span> index);</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160; </div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;  SnapshotObjectId GetObjectId(<a class="code" href="classv8_1_1Handle.html">Handle&lt;Value&gt;</a> value);</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;  <a class="code" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> GetObjectId(<a class="code" href="classv8_1_1Handle.html">Handle&lt;Value&gt;</a> value);</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160; </div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;  <a class="code" href="classv8_1_1Handle.html">Handle&lt;Value&gt;</a> FindObjectById(SnapshotObjectId <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;  <a class="code" href="classv8_1_1Handle.html">Handle&lt;Value&gt;</a> FindObjectById(<a class="code" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> <span class="keywordtype">id</span>);</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160; </div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;  <span class="keywordtype">void</span> ClearObjectIds();</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160; </div>
-<div class="line"><a name="l00433"></a><span class="lineno"><a class="line" href="classv8_1_1HeapProfiler.html#abf2b9d8facb18473f9b124ab8baf5786">  433</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> SnapshotObjectId kUnknownObjectId = 0;</div>
+<div class="line"><a name="l00433"></a><span class="lineno"><a class="line" href="classv8_1_1HeapProfiler.html#abf2b9d8facb18473f9b124ab8baf5786">  433</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> kUnknownObjectId = 0;</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160; </div>
 <div class="line"><a name="l00438"></a><span class="lineno"><a class="line" href="classv8_1_1HeapProfiler_1_1ObjectNameResolver.html">  438</a></span>&#160;  <span class="keyword">class </span><a class="code" href="classv8_1_1HeapProfiler_1_1ObjectNameResolver.html">ObjectNameResolver</a> {</div>
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;   <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* GetName(<a class="code" href="classv8_1_1Handle.html">Handle&lt;Object&gt;</a> <span class="keywordtype">object</span>) = 0;</div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;   <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classv8_1_1HeapProfiler_1_1ObjectNameResolver.html">ObjectNameResolver</a>() {}</div>
+<div class="line"><a name="l00446"></a><span class="lineno"><a class="line" href="classv8_1_1HeapProfiler_1_1ObjectNameResolver.html#a246ba56c1462b91a730ae1a05d2b2a32">  446</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classv8_1_1HeapProfiler_1_1ObjectNameResolver.html#a246ba56c1462b91a730ae1a05d2b2a32">~ObjectNameResolver</a>() {}</div>
 <div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;  };</div>
 <div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160; </div>
 <div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;  <span class="keyword">const</span> <a class="code" href="classv8_1_1HeapSnapshot.html">HeapSnapshot</a>* TakeHeapSnapshot(</div>
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;      <a class="code" href="classv8_1_1ActivityControl.html">ActivityControl</a>* control = NULL,</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;      <a class="code" href="classv8_1_1HeapProfiler_1_1ObjectNameResolver.html">ObjectNameResolver</a>* global_object_name_resolver = NULL);</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;      ObjectNameResolver* global_object_name_resolver = NULL);</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160; </div>
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;  <span class="keywordtype">void</span> StartTrackingHeapObjects(<span class="keywordtype">bool</span> track_allocations = <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160; </div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;  SnapshotObjectId GetHeapStats(<a class="code" href="classv8_1_1OutputStream.html">OutputStream</a>* stream,</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;  <a class="code" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> GetHeapStats(<a class="code" href="classv8_1_1OutputStream.html">OutputStream</a>* stream,</div>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;                                int64_t* timestamp_us = NULL);</div>
 <div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160; </div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;  <span class="keywordtype">void</span> StopTrackingHeapObjects();</div>
@@ -322,7 +326,7 @@ $(function() {
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;};</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160; </div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160; </div>
-<div class="line"><a name="l00548"></a><span class="lineno"><a class="line" href="classv8_1_1RetainedObjectInfo.html">  548</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a> {  <span class="comment">// NOLINT</span></div>
+<div class="line"><a name="l00548"></a><span class="lineno"><a class="line" href="classv8_1_1RetainedObjectInfo.html">  548</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a> {  <span class="comment">// NOLINT</span></div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> Dispose() = 0;</div>
 <div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160; </div>
@@ -339,21 +343,21 @@ $(function() {
 <div class="line"><a name="l00586"></a><span class="lineno"><a class="line" href="classv8_1_1RetainedObjectInfo.html#a1a899eed0b1f6e046edc3c7a7c08aa8c">  586</a></span>&#160;  <span class="keyword">virtual</span> intptr_t <a class="code" href="classv8_1_1RetainedObjectInfo.html#a1a899eed0b1f6e046edc3c7a7c08aa8c">GetSizeInBytes</a>() { <span class="keywordflow">return</span> -1; }</div>
 <div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160; </div>
 <div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160; <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;  <a class="code" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a>() {}</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;  <span class="keyword">virtual</span> ~RetainedObjectInfo() {}</div>
+<div class="line"><a name="l00589"></a><span class="lineno"><a class="line" href="classv8_1_1RetainedObjectInfo.html#a24e935c2ddd73e5e35841eb8cb095099">  589</a></span>&#160;  <a class="code" href="classv8_1_1RetainedObjectInfo.html#a24e935c2ddd73e5e35841eb8cb095099">RetainedObjectInfo</a>() {}</div>
+<div class="line"><a name="l00590"></a><span class="lineno"><a class="line" href="classv8_1_1RetainedObjectInfo.html#a3ad17cbdc9a4efdd18b7afe0bc29303c">  590</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classv8_1_1RetainedObjectInfo.html#a3ad17cbdc9a4efdd18b7afe0bc29303c">~RetainedObjectInfo</a>() {}</div>
 <div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160; </div>
 <div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;  RetainedObjectInfo(<span class="keyword">const</span> RetainedObjectInfo&amp;);</div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;  RetainedObjectInfo&amp; operator=(<span class="keyword">const</span> RetainedObjectInfo&amp;);</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;  <a class="code" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a>(<span class="keyword">const</span> <a class="code" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a>&amp;);</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;  <a class="code" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a>&amp;);</div>
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;};</div>
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160; </div>
 <div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160; </div>
 <div class="line"><a name="l00602"></a><span class="lineno"><a class="line" href="structv8_1_1HeapStatsUpdate.html">  602</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structv8_1_1HeapStatsUpdate.html">HeapStatsUpdate</a> {</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;  <a class="code" href="structv8_1_1HeapStatsUpdate.html">HeapStatsUpdate</a>(uint32_t index, uint32_t count, uint32_t size)</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    : index(index), count(count), size(size) { }</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;  uint32_t index;  <span class="comment">// Index of the time interval that was changed.</span></div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;  uint32_t count;  <span class="comment">// New value of count field for the interval with this index.</span></div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;  uint32_t size;  <span class="comment">// New value of size field for the interval with this index.</span></div>
+<div class="line"><a name="l00603"></a><span class="lineno"><a class="line" href="structv8_1_1HeapStatsUpdate.html#aba606181fa7071647cc91a558c450cf3">  603</a></span>&#160;  <a class="code" href="structv8_1_1HeapStatsUpdate.html#aba606181fa7071647cc91a558c450cf3">HeapStatsUpdate</a>(uint32_t <a class="code" href="structv8_1_1HeapStatsUpdate.html#a90f427acc6e9b8cf2001ca09541545d7">index</a>, uint32_t <a class="code" href="structv8_1_1HeapStatsUpdate.html#aa74badb1bd196e538b45b971350c33de">count</a>, uint32_t <a class="code" href="structv8_1_1HeapStatsUpdate.html#a842a199bd372f411f0ae5816e38c45e2">size</a>)</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    : <a class="code" href="structv8_1_1HeapStatsUpdate.html#a90f427acc6e9b8cf2001ca09541545d7">index</a>(<a class="code" href="structv8_1_1HeapStatsUpdate.html#a90f427acc6e9b8cf2001ca09541545d7">index</a>), <a class="code" href="structv8_1_1HeapStatsUpdate.html#aa74badb1bd196e538b45b971350c33de">count</a>(<a class="code" href="structv8_1_1HeapStatsUpdate.html#aa74badb1bd196e538b45b971350c33de">count</a>), <a class="code" href="structv8_1_1HeapStatsUpdate.html#a842a199bd372f411f0ae5816e38c45e2">size</a>(<a class="code" href="structv8_1_1HeapStatsUpdate.html#a842a199bd372f411f0ae5816e38c45e2">size</a>) { }</div>
+<div class="line"><a name="l00605"></a><span class="lineno"><a class="line" href="structv8_1_1HeapStatsUpdate.html#a90f427acc6e9b8cf2001ca09541545d7">  605</a></span>&#160;  uint32_t <a class="code" href="structv8_1_1HeapStatsUpdate.html#a90f427acc6e9b8cf2001ca09541545d7">index</a>;  <span class="comment">// Index of the time interval that was changed.</span></div>
+<div class="line"><a name="l00606"></a><span class="lineno"><a class="line" href="structv8_1_1HeapStatsUpdate.html#aa74badb1bd196e538b45b971350c33de">  606</a></span>&#160;  uint32_t <a class="code" href="structv8_1_1HeapStatsUpdate.html#aa74badb1bd196e538b45b971350c33de">count</a>;  <span class="comment">// New value of count field for the interval with this index.</span></div>
+<div class="line"><a name="l00607"></a><span class="lineno"><a class="line" href="structv8_1_1HeapStatsUpdate.html#a842a199bd372f411f0ae5816e38c45e2">  607</a></span>&#160;  uint32_t <a class="code" href="structv8_1_1HeapStatsUpdate.html#a842a199bd372f411f0ae5816e38c45e2">size</a>;  <span class="comment">// New value of size field for the interval with this index.</span></div>
 <div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;};</div>
 <div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160; </div>
 <div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160; </div>
@@ -363,27 +367,47 @@ $(function() {
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;<span class="preprocessor">#endif  // V8_V8_PROFILER_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassv8_1_1OutputStream_html_a104fd1a0b5ef685e1d4967aaacbb9e9d"><div class="ttname"><a href="classv8_1_1OutputStream.html#a104fd1a0b5ef685e1d4967aaacbb9e9d">v8::OutputStream::WriteHeapStatsChunk</a></div><div class="ttdeci">virtual WriteResult WriteHeapStatsChunk(HeapStatsUpdate *data, int count)</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:301</div></div>
+<div class="ttc" id="aclassv8_1_1RetainedObjectInfo_html_a24e935c2ddd73e5e35841eb8cb095099"><div class="ttname"><a href="classv8_1_1RetainedObjectInfo.html#a24e935c2ddd73e5e35841eb8cb095099">v8::RetainedObjectInfo::RetainedObjectInfo</a></div><div class="ttdeci">RetainedObjectInfo()</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:589</div></div>
+<div class="ttc" id="astructv8_1_1HeapStatsUpdate_html_aba606181fa7071647cc91a558c450cf3"><div class="ttname"><a href="structv8_1_1HeapStatsUpdate.html#aba606181fa7071647cc91a558c450cf3">v8::HeapStatsUpdate::HeapStatsUpdate</a></div><div class="ttdeci">HeapStatsUpdate(uint32_t index, uint32_t count, uint32_t size)</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:603</div></div>
+<div class="ttc" id="aclassv8_1_1Message_html_a35649a6c0c813ba82c9886a2b17da124"><div class="ttname"><a href="classv8_1_1Message.html#a35649a6c0c813ba82c9886a2b17da124">v8::Message::kNoLineNumberInfo</a></div><div class="ttdeci">static const int kNoLineNumberInfo</div><div class="ttdef"><b>Definition:</b> v8.h:1515</div></div>
 <div class="ttc" id="aclassv8_1_1HeapSnapshot_html"><div class="ttname"><a href="classv8_1_1HeapSnapshot.html">v8::HeapSnapshot</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:310</div></div>
+<div class="ttc" id="aclassv8_1_1HeapGraphEdge_html_a252500cf4307fe9e4fcb0335a907259b"><div class="ttname"><a href="classv8_1_1HeapGraphEdge.html#a252500cf4307fe9e4fcb0335a907259b">v8::HeapGraphEdge::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:196</div></div>
 <div class="ttc" id="aclassv8_1_1UniqueId_html"><div class="ttname"><a href="classv8_1_1UniqueId.html">v8::UniqueId</a></div><div class="ttdef"><b>Definition:</b> v8.h:156</div></div>
+<div class="ttc" id="aclassv8_1_1OutputStream_html_a3710df8ba6d4831e0a08ed5e0ce0a753"><div class="ttname"><a href="classv8_1_1OutputStream.html#a3710df8ba6d4831e0a08ed5e0ce0a753">v8::OutputStream::~OutputStream</a></div><div class="ttdeci">virtual ~OutputStream()</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:285</div></div>
+<div class="ttc" id="astructv8_1_1HeapStatsUpdate_html_aa74badb1bd196e538b45b971350c33de"><div class="ttname"><a href="structv8_1_1HeapStatsUpdate.html#aa74badb1bd196e538b45b971350c33de">v8::HeapStatsUpdate::count</a></div><div class="ttdeci">uint32_t count</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:606</div></div>
 <div class="ttc" id="astructv8_1_1CpuProfileNode_1_1LineTick_html_a62653fb1e6d381a5747d24b83aab1c1b"><div class="ttname"><a href="structv8_1_1CpuProfileNode_1_1LineTick.html#a62653fb1e6d381a5747d24b83aab1c1b">v8::CpuProfileNode::LineTick::hit_count</a></div><div class="ttdeci">unsigned int hit_count</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:30</div></div>
+<div class="ttc" id="aclassv8_1_1RetainedObjectInfo_html_a3ad17cbdc9a4efdd18b7afe0bc29303c"><div class="ttname"><a href="classv8_1_1RetainedObjectInfo.html#a3ad17cbdc9a4efdd18b7afe0bc29303c">v8::RetainedObjectInfo::~RetainedObjectInfo</a></div><div class="ttdeci">virtual ~RetainedObjectInfo()</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:590</div></div>
 <div class="ttc" id="aclassv8_1_1CpuProfile_html"><div class="ttname"><a href="classv8_1_1CpuProfile.html">v8::CpuProfile</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:97</div></div>
 <div class="ttc" id="astructv8_1_1CpuProfileNode_1_1LineTick_html_af96fbdefbc07b2c84cf41d74555626f6"><div class="ttname"><a href="structv8_1_1CpuProfileNode_1_1LineTick.html#af96fbdefbc07b2c84cf41d74555626f6">v8::CpuProfileNode::LineTick::line</a></div><div class="ttdeci">int line</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:27</div></div>
+<div class="ttc" id="aclassv8_1_1HeapProfiler_1_1ObjectNameResolver_html_a246ba56c1462b91a730ae1a05d2b2a32"><div class="ttname"><a href="classv8_1_1HeapProfiler_1_1ObjectNameResolver.html#a246ba56c1462b91a730ae1a05d2b2a32">v8::HeapProfiler::ObjectNameResolver::~ObjectNameResolver</a></div><div class="ttdeci">virtual ~ObjectNameResolver()</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:446</div></div>
+<div class="ttc" id="aclassv8_1_1Message_html_a8cb643dbf408b0fd2526b23a8202c4a6"><div class="ttname"><a href="classv8_1_1Message.html#a8cb643dbf408b0fd2526b23a8202c4a6">v8::Message::kNoColumnInfo</a></div><div class="ttdeci">static const int kNoColumnInfo</div><div class="ttdef"><b>Definition:</b> v8.h:1516</div></div>
 <div class="ttc" id="aclassv8_1_1RetainedObjectInfo_html_adf835370c5516f2a89dd2d3f83dee10b"><div class="ttname"><a href="classv8_1_1RetainedObjectInfo.html#adf835370c5516f2a89dd2d3f83dee10b">v8::RetainedObjectInfo::GetGroupLabel</a></div><div class="ttdeci">virtual const char * GetGroupLabel()</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:577</div></div>
 <div class="ttc" id="aclassv8_1_1CpuProfileNode_html"><div class="ttname"><a href="classv8_1_1CpuProfileNode.html">v8::CpuProfileNode</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:23</div></div>
 <div class="ttc" id="aclassv8_1_1Handle_html"><div class="ttname"><a href="classv8_1_1Handle.html">v8::Handle</a></div><div class="ttdef"><b>Definition:</b> v8.h:109</div></div>
 <div class="ttc" id="aclassv8_1_1HeapGraphNode_html"><div class="ttname"><a href="classv8_1_1HeapGraphNode.html">v8::HeapGraphNode</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:230</div></div>
+<div class="ttc" id="aclassv8_1_1OutputStream_html_a336c7605a0ce4fbe6f6fca3b03bc16de"><div class="ttname"><a href="classv8_1_1OutputStream.html#a336c7605a0ce4fbe6f6fca3b03bc16de">v8::OutputStream::WriteResult</a></div><div class="ttdeci">WriteResult</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:281</div></div>
+<div class="ttc" id="anamespacev8_html_acc05be0fdcf26b26fbb410e75a048e63"><div class="ttname"><a href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">v8::SnapshotObjectId</a></div><div class="ttdeci">uint32_t SnapshotObjectId</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:16</div></div>
 <div class="ttc" id="aclassv8_1_1HeapProfiler_html"><div class="ttname"><a href="classv8_1_1HeapProfiler.html">v8::HeapProfiler</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:392</div></div>
 <div class="ttc" id="aclassv8_1_1ActivityControl_html"><div class="ttname"><a href="classv8_1_1ActivityControl.html">v8::ActivityControl</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:373</div></div>
+<div class="ttc" id="aclassv8_1_1HeapGraphNode_html_ab674a58103a51abc56f99edc6a1479ed"><div class="ttname"><a href="classv8_1_1HeapGraphNode.html#ab674a58103a51abc56f99edc6a1479ed">v8::HeapGraphNode::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:232</div></div>
 <div class="ttc" id="astructv8_1_1HeapStatsUpdate_html"><div class="ttname"><a href="structv8_1_1HeapStatsUpdate.html">v8::HeapStatsUpdate</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:602</div></div>
+<div class="ttc" id="aclassv8_1_1ActivityControl_html_a6d261e8c21e8076ce86b4add231a8ef9"><div class="ttname"><a href="classv8_1_1ActivityControl.html#a6d261e8c21e8076ce86b4add231a8ef9">v8::ActivityControl::ControlOption</a></div><div class="ttdeci">ControlOption</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:375</div></div>
+<div class="ttc" id="aclassv8_1_1ActivityControl_html_af0c470333a5636e3e76f06cce81157c5"><div class="ttname"><a href="classv8_1_1ActivityControl.html#af0c470333a5636e3e76f06cce81157c5">v8::ActivityControl::~ActivityControl</a></div><div class="ttdeci">virtual ~ActivityControl()</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:379</div></div>
 <div class="ttc" id="aclassv8_1_1HeapProfiler_1_1ObjectNameResolver_html"><div class="ttname"><a href="classv8_1_1HeapProfiler_1_1ObjectNameResolver.html">v8::HeapProfiler::ObjectNameResolver</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:438</div></div>
+<div class="ttc" id="anamespacev8_html_ad2a33b8f8a1701a800a691dd025f7ddea12b5294b9a7ab78f73f89b3a0d648110"><div class="ttname"><a href="namespacev8.html#ad2a33b8f8a1701a800a691dd025f7ddea12b5294b9a7ab78f73f89b3a0d648110">v8::kWeak</a></div><div class="ttdef"><b>Definition:</b> v8-util.h:28</div></div>
 <div class="ttc" id="aclassv8_1_1RetainedObjectInfo_html_ae6865597469bc7d28bd8ec71b4b890bd"><div class="ttname"><a href="classv8_1_1RetainedObjectInfo.html#ae6865597469bc7d28bd8ec71b4b890bd">v8::RetainedObjectInfo::GetElementCount</a></div><div class="ttdeci">virtual intptr_t GetElementCount()</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:583</div></div>
 <div class="ttc" id="anamespacev8_html"><div class="ttname"><a href="namespacev8.html">v8</a></div><div class="ttdef"><b>Definition:</b> libplatform.h:10</div></div>
 <div class="ttc" id="astructv8_1_1CpuProfileNode_1_1LineTick_html"><div class="ttname"><a href="structv8_1_1CpuProfileNode_1_1LineTick.html">v8::CpuProfileNode::LineTick</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:25</div></div>
 <div class="ttc" id="aclassv8_1_1OutputStream_html_a93bdaa790cbd66a7283fad2cca3f48f7"><div class="ttname"><a href="classv8_1_1OutputStream.html#a93bdaa790cbd66a7283fad2cca3f48f7">v8::OutputStream::GetChunkSize</a></div><div class="ttdeci">virtual int GetChunkSize()</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:289</div></div>
+<div class="ttc" id="astructv8_1_1HeapStatsUpdate_html_a842a199bd372f411f0ae5816e38c45e2"><div class="ttname"><a href="structv8_1_1HeapStatsUpdate.html#a842a199bd372f411f0ae5816e38c45e2">v8::HeapStatsUpdate::size</a></div><div class="ttdeci">uint32_t size</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:607</div></div>
+<div class="ttc" id="aclassv8_1_1HeapSnapshot_html_a8ed7909568af85f7a36ef5f4da4dd495"><div class="ttname"><a href="classv8_1_1HeapSnapshot.html#a8ed7909568af85f7a36ef5f4da4dd495">v8::HeapSnapshot::SerializationFormat</a></div><div class="ttdeci">SerializationFormat</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:312</div></div>
 <div class="ttc" id="aclassv8_1_1HeapGraphEdge_html"><div class="ttname"><a href="classv8_1_1HeapGraphEdge.html">v8::HeapGraphEdge</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:194</div></div>
+<div class="ttc" id="av8_8h_html"><div class="ttname"><a href="v8_8h.html">v8.h</a></div></div>
 <div class="ttc" id="aclassv8_1_1CpuProfiler_html"><div class="ttname"><a href="classv8_1_1CpuProfiler.html">v8::CpuProfiler</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:149</div></div>
 <div class="ttc" id="aclassv8_1_1RetainedObjectInfo_html"><div class="ttname"><a href="classv8_1_1RetainedObjectInfo.html">v8::RetainedObjectInfo</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:548</div></div>
 <div class="ttc" id="aclassv8_1_1OutputStream_html"><div class="ttname"><a href="classv8_1_1OutputStream.html">v8::OutputStream</a></div><div class="ttdef"><b>Definition:</b> v8-profiler.h:279</div></div>
+<div class="ttc" id="av8_8h_html_a18b08424f4be6fab745092c7c5dad9f5"><div class="ttname"><a href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a></div><div class="ttdeci">#define V8_EXPORT</div><div class="ttdef"><b>Definition:</b> v8.h:58</div></div>
+<div class="ttc" id="astructv8_1_1HeapStatsUpdate_html_a90f427acc6e9b8cf2001ca09541545d7"><div class="ttname"><a href="structv8_1_1HeapStatsUpdate.html#a90f427acc6e9b8cf2001ca09541545d7">v8::HeapStatsUpdate::index</a></div><div class="ttdeci">uint32_t index</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:605</div></div>
 <div class="ttc" id="aclassv8_1_1RetainedObjectInfo_html_a1a899eed0b1f6e046edc3c7a7c08aa8c"><div class="ttname"><a href="classv8_1_1RetainedObjectInfo.html#a1a899eed0b1f6e046edc3c7a7c08aa8c">v8::RetainedObjectInfo::GetSizeInBytes</a></div><div class="ttdeci">virtual intptr_t GetSizeInBytes()</div><div class="ttdef"><b>Definition:</b> v8-profiler.h:586</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

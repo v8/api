@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['garbagecollectiontype_1689',['GarbageCollectionType',['../classv8_1_1Isolate.html#a5ae00cc99d8aca148c6f5f9698c432c9',1,'v8::Isolate']]],
-  ['gccallbackflags_1690',['GCCallbackFlags',['../namespacev8.html#a247c37a849f4d6c293b9b16e94e1944b',1,'v8']]],
-  ['gctype_1691',['GCType',['../namespacev8.html#ac109d6f27e0c0f9ef4e98bcf7a806cf2',1,'v8']]]
+  ['embedderdatafields_3380',['EmbedderDataFields',['../classv8_1_1Context.html#a8e8a8c567e2d193f25f1ec211db0b5f9',1,'v8::Context']]],
+  ['encoding_3381',['Encoding',['../classv8_1_1ScriptCompiler_1_1StreamedSource.html#a17b52f85ac22120e687b16357d662da2',1,'v8::ScriptCompiler::StreamedSource::Encoding()'],['../classv8_1_1String.html#a2f4a2e9516c246eef602b889ce049c49',1,'v8::String::Encoding()']]],
+  ['eventtype_3382',['EventType',['../structv8_1_1JitCodeEvent.html#ac4f8e391762567a2710eb5552b5f11f7',1,'v8::JitCodeEvent']]]
 ];

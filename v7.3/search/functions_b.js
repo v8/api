@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['makeexternal_1192',['MakeExternal',['../classv8_1_1String.html#a5efd1eba40c1fa8a6aae2c4a175a63be',1,'v8::String::MakeExternal(ExternalStringResource *resource)'],['../classv8_1_1String.html#a607d632c720eec5133649f522aefa944',1,'v8::String::MakeExternal(ExternalOneByteStringResource *resource)']]],
-  ['markactive_1193',['MarkActive',['../classv8_1_1PersistentBase.html#a7244edd33a45b7d95e566fce85e3f87d',1,'v8::PersistentBase']]],
-  ['markashandled_1194',['MarkAsHandled',['../classv8_1_1Promise.html#a17d6e3484dc051e1c05a31fd285b0f9f',1,'v8::Promise']]],
-  ['markasundetectable_1195',['MarkAsUndetectable',['../classv8_1_1ObjectTemplate.html#a7e40ef313b44c2ad336c73051523b4f8',1,'v8::ObjectTemplate']]],
-  ['memoryspan_1196',['MemorySpan',['../classv8_1_1MemorySpan.html#a608d88ac62c94507720daad3b27dc1fb',1,'v8::MemorySpan']]],
-  ['monotonicallyincreasingtime_1197',['MonotonicallyIncreasingTime',['../classv8_1_1Platform.html#a6d4d7c2dcf6b0c7113099b97fa7f57b7',1,'v8::Platform']]]
+  ['leak_2788',['Leak',['../classv8_1_1PersistentValueMapBase.html#adacf68ca7b9fb19deab68711a70a8313',1,'v8::PersistentValueMapBase']]],
+  ['length_2789',['length',['../classv8__inspector_1_1StringView.html#a2e851af43b41d8af7978c8b2480cbb34',1,'v8_inspector::StringView::length()'],['../classv8_1_1String_1_1ExternalStringResource.html#ab5ca300fea077d7c7774ec49d32e4da1',1,'v8::String::ExternalStringResource::length()'],['../classv8_1_1String_1_1ExternalOneByteStringResource.html#ad6b702f05798bcfc3975cb922f32b5ab',1,'v8::String::ExternalOneByteStringResource::length()'],['../classv8_1_1String_1_1Utf8Value.html#acf903e28f4aa775e3dbe3a73161fdcbc',1,'v8::String::Utf8Value::length()'],['../classv8_1_1String_1_1Value.html#aeb5be29097c4c23c2c63fe833145dfe4',1,'v8::String::Value::length()'],['../classv8_1_1ExternalOneByteStringResourceImpl.html#ab6c9f53b40102cdd9bf044faf5ed3337',1,'v8::ExternalOneByteStringResourceImpl::length()'],['../classv8_1_1PrimitiveArray.html#a7e51b026e03b0a4ab3c3bec4676dfd9e',1,'v8::PrimitiveArray::Length()'],['../classv8_1_1String.html#afaa18eae27056bb7058f09920a238f53',1,'v8::String::Length()'],['../classv8_1_1Array.html#ad6b33c7dd543044ca2311c000a1642dd',1,'v8::Array::Length()'],['../classv8_1_1FunctionCallbackInfo.html#af97dd3f1cb01ed039f9479152ad63a84',1,'v8::FunctionCallbackInfo::Length()'],['../classv8_1_1TypedArray.html#abb1047225d53d960c0da9c9f83cd7042',1,'v8::TypedArray::Length()']]],
+  ['local_2790',['Local',['../classv8_1_1Local.html#ad595a5906329a40788fbac32f39a7482',1,'v8::Local::Local()'],['../classv8_1_1Local.html#af7cf8d2fe7e10a14ad382189712adaff',1,'v8::Local::Local(Local&lt; S &gt; that)']]],
+  ['location_2791',['Location',['../classv8_1_1Location.html#a193b270e28ce9a0825522ab46c43745c',1,'v8::Location']]],
+  ['lock_2792',['Lock',['../classv8_1_1String_1_1ExternalStringResourceBase.html#ae539b974907cc2737e58797ace2652b4',1,'v8::String::ExternalStringResourceBase']]],
+  ['locker_2793',['Locker',['../classv8_1_1Locker.html#a40299c4c4c5b3c6808249c70b81c0ad1',1,'v8::Locker::Locker(Isolate *isolate)'],['../classv8_1_1Locker.html#aa9afe5a3dc3d28bcfe3f418c3a5a8d1e',1,'v8::Locker::Locker(const Locker &amp;)=delete']]],
+  ['lowmemorynotification_2794',['LowMemoryNotification',['../classv8_1_1Isolate.html#aaf446f4877e4707a93d2c406fffd9fd6',1,'v8::Isolate']]]
 ];

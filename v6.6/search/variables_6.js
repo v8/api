@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['line_1613',['line',['../structv8_1_1CpuProfileNode_1_1LineTick.html#af96fbdefbc07b2c84cf41d74555626f6',1,'v8::CpuProfileNode::LineTick']]],
-  ['line_5fnumber_1614',['line_number',['../structv8_1_1AllocationProfile_1_1Node.html#ac9773c92a3af3a9a9420337599e68bd9',1,'v8::AllocationProfile::Node']]]
+  ['getter_3108',['getter',['../structv8_1_1NamedPropertyHandlerConfiguration.html#a7e0f2f6be4b716330f78e08dafb43512',1,'v8::NamedPropertyHandlerConfiguration::getter()'],['../structv8_1_1IndexedPropertyHandlerConfiguration.html#a026928df0639b471a63c8795f0d13190',1,'v8::IndexedPropertyHandlerConfiguration::getter()']]],
+  ['groups_3109',['groups',['../structv8_1_1HeapProfiler_1_1RetainerInfos.html#ac955e4c7a262b0d374e70d6229d5b672',1,'v8::HeapProfiler::RetainerInfos']]]
 ];

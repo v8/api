@@ -79,16 +79,17 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ace7f666b2b5995bb0e898e12fa660718"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718">ExpectedRuntime</a> { <b>kShortRunningTask</b>, 
-<b>kLongRunningTask</b>
+<tr class="memitem:ace7f666b2b5995bb0e898e12fa660718"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718">ExpectedRuntime</a> { <a class="el" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a3c9b5c2d3552261fea49c62590370522">kShortRunningTask</a>, 
+<a class="el" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a274d7214159118b553a1f89c56137b25">kLongRunningTask</a>
  }</td></tr>
 <tr class="separator:ace7f666b2b5995bb0e898e12fa660718"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae7b558077a24b6ce9cacfe8e9320943"><td class="memItemLeft" align="right" valign="top"><a id="aae7b558077a24b6ce9cacfe8e9320943"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>StackTracePrinter</b>) ()</td></tr>
+<tr class="memitem:aae7b558077a24b6ce9cacfe8e9320943"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aae7b558077a24b6ce9cacfe8e9320943">StackTracePrinter</a>) ()</td></tr>
 <tr class="separator:aae7b558077a24b6ce9cacfe8e9320943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ab725966a93204e93ec742e1d823e1a05"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ab725966a93204e93ec742e1d823e1a05">~Platform</a> ()=default</td></tr>
+<tr class="separator:ab725966a93204e93ec742e1d823e1a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ed41bddc1d1ebe51c55539198d0026e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a7ed41bddc1d1ebe51c55539198d0026e">OnCriticalMemoryPressure</a> ()</td></tr>
 <tr class="separator:a7ed41bddc1d1ebe51c55539198d0026e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15886ccf5a6a085a2192b305709a527c"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a15886ccf5a6a085a2192b305709a527c">NumberOfAvailableBackgroundThreads</a> ()</td></tr>
@@ -107,7 +108,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d4d7c2dcf6b0c7113099b97fa7f57b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8aa46c7f8e492351ebe1bc8168ec9c2f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a8aa46c7f8e492351ebe1bc8168ec9c2f">CurrentClockTimeMillis</a> ()=0</td></tr>
 <tr class="separator:a8aa46c7f8e492351ebe1bc8168ec9c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadb2594e6ff9a6f6a0657412ff5a7206"><td class="memItemLeft" align="right" valign="top">virtual StackTracePrinter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aadb2594e6ff9a6f6a0657412ff5a7206">GetStackTracePrinter</a> ()</td></tr>
+<tr class="memitem:aadb2594e6ff9a6f6a0657412ff5a7206"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classv8_1_1Platform.html#aae7b558077a24b6ce9cacfe8e9320943">StackTracePrinter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aadb2594e6ff9a6f6a0657412ff5a7206">GetStackTracePrinter</a> ()</td></tr>
 <tr class="separator:aadb2594e6ff9a6f6a0657412ff5a7206"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa760c7bf8c46495eb650d2be72399747"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classv8_1_1TracingController.html">TracingController</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aa760c7bf8c46495eb650d2be72399747">GetTracingController</a> ()=0</td></tr>
 <tr class="separator:aa760c7bf8c46495eb650d2be72399747"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,7 +121,24 @@ Static Protected Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classv8_1_1V8.html">V8</a> <a class="el" href="classv8_1_1Platform.html">Platform</a> abstraction layer.</p>
 <p>The embedder has to provide an implementation of this interface before initializing the rest of <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="process_8cc-example.html#_a27">process.cc</a>, and <a class="el" href="shell_8cc-example.html#_a2">shell.cc</a>.</dd>
+</dl>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aae7b558077a24b6ce9cacfe8e9320943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae7b558077a24b6ce9cacfe8e9320943">&#9670;&nbsp;</a></span>StackTracePrinter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* v8::Platform::StackTracePrinter) ()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ace7f666b2b5995bb0e898e12fa660718"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace7f666b2b5995bb0e898e12fa660718">&#9670;&nbsp;</a></span>ExpectedRuntime</h2>
 
@@ -133,6 +151,36 @@ Static Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>This enum is used to indicate whether a task is potentially long running, or causes a long wait. The embedder might want to use this hint to decide whether to execute the task on a dedicated thread. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ace7f666b2b5995bb0e898e12fa660718a3c9b5c2d3552261fea49c62590370522"></a>kShortRunningTask&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace7f666b2b5995bb0e898e12fa660718a274d7214159118b553a1f89c56137b25"></a>kLongRunningTask&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab725966a93204e93ec742e1d823e1a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab725966a93204e93ec742e1d823e1a05">&#9670;&nbsp;</a></span>~Platform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::Platform::~Platform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -327,7 +375,7 @@ Static Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual StackTracePrinter v8::Platform::GetStackTracePrinter </td>
+          <td class="memname">virtual <a class="el" href="classv8_1_1Platform.html#aae7b558077a24b6ce9cacfe8e9320943">StackTracePrinter</a> v8::Platform::GetStackTracePrinter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -501,7 +549,7 @@ Static Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
+<li>include/<a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

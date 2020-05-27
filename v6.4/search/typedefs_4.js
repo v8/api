@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['hostimportmoduledynamicallycallback_1562',['HostImportModuleDynamicallyCallback',['../namespacev8.html#a327d89ea1fb89b4ada3571a3571413cc',1,'v8']]],
-  ['hostinitializeimportmetaobjectcallback_1563',['HostInitializeImportMetaObjectCallback',['../namespacev8.html#a46fe0379312fafd495b9be892b2de443',1,'v8']]]
+  ['entropysource_3247',['EntropySource',['../namespacev8.html#ab699f4bbbb56350e6e915682e420fcdc',1,'v8']]],
+  ['eventcallback_3248',['EventCallback',['../classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8',1,'v8::Debug']]],
+  ['extensioncallback_3249',['ExtensionCallback',['../namespacev8.html#aa2658de2b2db3011b6d7ca633683e384',1,'v8']]]
 ];

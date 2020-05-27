@@ -1,10 +1,13 @@
 <map id="v8::IndexedPropertyHandlerConfiguration" name="v8::IndexedPropertyHandlerConfiguration">
-<area shape="rect" id="node1" title=" " alt="" coords="481,169,665,211"/>
-<area shape="rect" id="node2" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="197,5,364,47"/>
-<area shape="rect" id="node3" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="197,71,364,112"/>
-<area shape="rect" id="node4" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="197,136,364,177"/>
-<area shape="rect" id="node5" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="197,201,364,243"/>
-<area shape="rect" id="node6" href="$classv8_1_1Handle.html" title=" " alt="" coords="199,267,363,294"/>
-<area shape="rect" id="node7" href="$classv8_1_1Local.html" title=" " alt="" coords="215,318,347,345"/>
-<area shape="rect" id="node8" href="$classv8_1_1Handle.html" title=" " alt="" coords="5,318,148,345"/>
+<area shape="rect" id="node1" title=" " alt="" coords="949,173,1133,215"/>
+<area shape="rect" id="node2" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="665,5,832,47"/>
+<area shape="rect" id="node3" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="255,111,453,138"/>
+<area shape="rect" id="node4" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="665,71,832,112"/>
+<area shape="rect" id="node5" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="665,136,832,177"/>
+<area shape="rect" id="node6" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="665,201,832,243"/>
+<area shape="rect" id="node7" href="$classv8_1_1Handle.html" title=" " alt="" coords="477,269,641,295"/>
+<area shape="rect" id="node8" href="$classv8_1_1Handle.html" title=" " alt="" coords="5,319,123,346"/>
+<area shape="rect" id="node10" href="$classv8_1_1Handle.html" title=" " alt="" coords="283,319,425,346"/>
+<area shape="rect" id="node11" href="$classv8_1_1Local.html" title=" " alt="" coords="301,370,407,397"/>
+<area shape="rect" id="node9" href="$classv8_1_1Local.html" title=" " alt="" coords="683,330,815,357"/>
 </map>

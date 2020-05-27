@@ -77,6 +77,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a54ebb938c27f12f2140a632ad54f87ac"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler_1_1ExternalSourceStream.html#a54ebb938c27f12f2140a632ad54f87ac">~ExternalSourceStream</a> ()</td></tr>
+<tr class="separator:a54ebb938c27f12f2140a632ad54f87ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3a0221b5725f0b612a6342d8e83d899"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler_1_1ExternalSourceStream.html#ac3a0221b5725f0b612a6342d8e83d899">GetMoreData</a> (const uint8_t **src)=0</td></tr>
 <tr class="separator:ac3a0221b5725f0b612a6342d8e83d899"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6848508547b3508a2d016738f12561e8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler_1_1ExternalSourceStream.html#a6848508547b3508a2d016738f12561e8">SetBookmark</a> ()</td></tr>
@@ -85,8 +87,34 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a425cf1ba265eeca194b805fe5c52bc19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>For streaming incomplete script data to V8. The embedder should implement a subclass of this class. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p>For streaming incomplete script data to <a class="el" href="classv8_1_1V8.html">V8</a>. The embedder should implement a subclass of this class. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a54ebb938c27f12f2140a632ad54f87ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ebb938c27f12f2140a632ad54f87ac">&#9670;&nbsp;</a></span>~ExternalSourceStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::ScriptCompiler::ExternalSourceStream::~ExternalSourceStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac3a0221b5725f0b612a6342d8e83d899"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3a0221b5725f0b612a6342d8e83d899">&#9670;&nbsp;</a></span>GetMoreData()</h2>
 
@@ -110,10 +138,10 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>V8 calls this to request the next chunk of data from the embedder. This function will be called on a background thread, so it's OK to block and wait for the data, if the embedder doesn't have data yet. Returns the length of the data returned. When the data ends, GetMoreData should return 0. Caller takes ownership of the data.</p>
-<p>When streaming UTF-8 data, V8 handles multi-byte characters split between two data chunks, but doesn't handle multi-byte characters split between more than two data chunks. The embedder can avoid this problem by always returning at least 2 bytes of data.</p>
-<p>When streaming UTF-16 data, V8 does not handle characters split between two data chunks. The embedder has to make sure that chunks have an even length.</p>
-<p>If the embedder wants to cancel the streaming, they should make the next GetMoreData call return 0. V8 will interpret it as end of data (and most probably, parsing will fail). The streaming task will return as soon as V8 has parsed the data it received so far. </p>
+<p><a class="el" href="classv8_1_1V8.html">V8</a> calls this to request the next chunk of data from the embedder. This function will be called on a background thread, so it's OK to block and wait for the data, if the embedder doesn't have data yet. Returns the length of the data returned. When the data ends, GetMoreData should return 0. Caller takes ownership of the data.</p>
+<p>When streaming UTF-8 data, <a class="el" href="classv8_1_1V8.html">V8</a> handles multi-byte characters split between two data chunks, but doesn't handle multi-byte characters split between more than two data chunks. The embedder can avoid this problem by always returning at least 2 bytes of data.</p>
+<p>When streaming UTF-16 data, <a class="el" href="classv8_1_1V8.html">V8</a> does not handle characters split between two data chunks. The embedder has to make sure that chunks have an even length.</p>
+<p>If the embedder wants to cancel the streaming, they should make the next GetMoreData call return 0. <a class="el" href="classv8_1_1V8.html">V8</a> will interpret it as end of data (and most probably, parsing will fail). The streaming task will return as soon as <a class="el" href="classv8_1_1V8.html">V8</a> has parsed the data it received so far. </p>
 
 </div>
 </div>
@@ -139,7 +167,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>V8 calls this to return to a previously set bookmark. </p>
+<p><a class="el" href="classv8_1_1V8.html">V8</a> calls this to return to a previously set bookmark. </p>
 
 </div>
 </div>
@@ -165,13 +193,13 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>V8 calls this method to set a 'bookmark' at the current position in the source stream, for the purpose of (maybe) later calling ResetToBookmark. If ResetToBookmark is called later, then subsequent calls to GetMoreData should return the same data as they did when SetBookmark was called earlier.</p>
+<p><a class="el" href="classv8_1_1V8.html">V8</a> calls this method to set a 'bookmark' at the current position in the source stream, for the purpose of (maybe) later calling ResetToBookmark. If ResetToBookmark is called later, then subsequent calls to GetMoreData should return the same data as they did when SetBookmark was called earlier.</p>
 <p>The embedder may return 'false' to indicate it cannot provide this functionality. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,11 +1,17 @@
 var searchData=
 [
-  ['namedpropertyhandlerconfiguration_970',['NamedPropertyHandlerConfiguration',['../structv8_1_1NamedPropertyHandlerConfiguration.html#a192a4ed58ec8d3398b8fe11a8894f9d4',1,'v8::NamedPropertyHandlerConfiguration']]],
-  ['neuter_971',['Neuter',['../classv8_1_1ArrayBuffer.html#a3420f7d38a8fe20e8f40fb82e6acb325',1,'v8::ArrayBuffer']]],
-  ['new_972',['New',['../classv8_1_1Local.html#a1b3c386fb10d9e8f67aecec9174de1fa',1,'v8::Local::New()'],['../classv8_1_1Array.html#a892f18fe6a25dfc0bc7b435759a30226',1,'v8::Array::New()'],['../classv8_1_1Function.html#a56e303d1019aaa7954de668aee8486f7',1,'v8::Function::New()'],['../classv8_1_1ArrayBuffer.html#ad752e03d7cc7fe863656ad6183785ab7',1,'v8::ArrayBuffer::New(Isolate *isolate, size_t byte_length)'],['../classv8_1_1ArrayBuffer.html#acc65e714766b0d0d791b0d43ec52d0bb',1,'v8::ArrayBuffer::New(Isolate *isolate, void *data, size_t byte_length, ArrayBufferCreationMode mode=ArrayBufferCreationMode::kExternalized)'],['../classv8_1_1FunctionTemplate.html#a67822fdf0ef2ac00e20e923e649f3f5f',1,'v8::FunctionTemplate::New()'],['../classv8_1_1ObjectTemplate.html#aaddf51cecb8c0f7b2d8072bb33615999',1,'v8::ObjectTemplate::New()'],['../classv8_1_1Isolate.html#ab6accf94a5a897fcc1220ab2c049e502',1,'v8::Isolate::New()'],['../classv8_1_1Context.html#a43329765465b5f525ff28368b0cef2d4',1,'v8::Context::New()']]],
-  ['newfromonebyte_973',['NewFromOneByte',['../classv8_1_1String.html#a2b8cf518523a62d97360c07ed33d8aa6',1,'v8::String']]],
-  ['newfromtwobyte_974',['NewFromTwoByte',['../classv8_1_1String.html#aaad4c7c856c29d79db85994c301fe601',1,'v8::String']]],
-  ['newfromutf8_975',['NewFromUtf8',['../classv8_1_1String.html#a851bcf20fecb01b97f14131ce609f701',1,'v8::String']]],
-  ['numberofhandles_976',['NumberOfHandles',['../classv8_1_1HandleScope.html#abab7214c9b9388b02f575fd5270b7e2f',1,'v8::HandleScope']]],
-  ['numberofheapspaces_977',['NumberOfHeapSpaces',['../classv8_1_1Isolate.html#ad948acf0892e677a95fbc743b63ca5fa',1,'v8::Isolate']]]
+  ['makeexternal_1675',['MakeExternal',['../classv8_1_1String.html#a5efd1eba40c1fa8a6aae2c4a175a63be',1,'v8::String::MakeExternal(ExternalStringResource *resource)'],['../classv8_1_1String.html#a607d632c720eec5133649f522aefa944',1,'v8::String::MakeExternal(ExternalOneByteStringResource *resource)']]],
+  ['mapfromweakcallbackdata_1676',['MapFromWeakCallbackData',['../classv8_1_1DefaultPersistentValueMapTraits.html#a721a7a6624ffe207af1adee6d6be2fe3',1,'v8::DefaultPersistentValueMapTraits']]],
+  ['mapfromweakcallbackinfo_1677',['MapFromWeakCallbackInfo',['../classv8_1_1DefaultGlobalMapTraits.html#ae65c4d78f93d033712aa328654c00250',1,'v8::DefaultGlobalMapTraits']]],
+  ['markasundetectable_1678',['MarkAsUndetectable',['../classv8_1_1ObjectTemplate.html#a7e40ef313b44c2ad336c73051523b4f8',1,'v8::ObjectTemplate']]],
+  ['markindependent_1679',['MarkIndependent',['../classv8_1_1PersistentBase.html#aed12b0a54bc5ade1fb44e3bdb3a1fe74',1,'v8::PersistentBase']]],
+  ['markpartiallydependent_1680',['MarkPartiallyDependent',['../classv8_1_1PersistentBase.html#a4a876d30dda0dfb812e82bb240e4686e',1,'v8::PersistentBase']]],
+  ['match_1681',['match',['../classv8_1_1TypeSwitch.html#a678fe45db1e97ba46df7359b51752483',1,'v8::TypeSwitch']]],
+  ['max_5favailable_5fthreads_1682',['max_available_threads',['../classv8_1_1ResourceConstraints.html#aac8536ee267ec64a5b05a2d584052e33',1,'v8::ResourceConstraints']]],
+  ['max_5fexecutable_5fsize_1683',['max_executable_size',['../classv8_1_1ResourceConstraints.html#ab4baaaaac308945a9b74a233aa5b333c',1,'v8::ResourceConstraints']]],
+  ['max_5fold_5fspace_5fsize_1684',['max_old_space_size',['../classv8_1_1ResourceConstraints.html#a4bd25c39c149de18df06d519bc26e85b',1,'v8::ResourceConstraints']]],
+  ['max_5fsemi_5fspace_5fsize_1685',['max_semi_space_size',['../classv8_1_1ResourceConstraints.html#a3071cbc5ea3f6990ece2372f7539b2f1',1,'v8::ResourceConstraints']]],
+  ['maybelocal_1686',['MaybeLocal',['../classv8_1_1MaybeLocal.html#aba65bec4b6c9f9efd84b133a51c8ebe1',1,'v8::MaybeLocal::MaybeLocal()'],['../classv8_1_1MaybeLocal.html#ae405d2a7bc6f64c123cf4b807e649783',1,'v8::MaybeLocal::MaybeLocal(Local&lt; S &gt; that)']]],
+  ['message_1687',['Message',['../classv8_1_1TryCatch.html#a91a41367c87e7a59ada09bcb9aae76c0',1,'v8::TryCatch']]],
+  ['monotonicallyincreasingtime_1688',['MonotonicallyIncreasingTime',['../classv8_1_1Platform.html#a6d4d7c2dcf6b0c7113099b97fa7f57b7',1,'v8::Platform']]]
 ];

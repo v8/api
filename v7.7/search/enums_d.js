@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['timezonedetection_1837',['TimeZoneDetection',['../classv8_1_1Isolate.html#a57dcf1e56d6498b7426ef7a489454ffe',1,'v8::Isolate']]]
+  ['railmode_3659',['RAILMode',['../namespacev8.html#a7c25f81a5982658557e4a930ed879e5b',1,'v8']]],
+  ['recordcentryframe_3660',['RecordCEntryFrame',['../structv8_1_1TickSample.html#ae3223c2114f7140f8af1793802b94d42',1,'v8::TickSample']]]
 ];

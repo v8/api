@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['newstringtype_1655',['NewStringType',['../namespacev8.html#ac9163ab12fb3b2a95907a3a0367c6095',1,'v8']]],
-  ['nocachereason_1656',['NoCacheReason',['../classv8_1_1ScriptCompiler.html#a7f13fa15484cfc500ae51927756e0d60',1,'v8::ScriptCompiler']]]
+  ['jitcodeeventoptions_3373',['JitCodeEventOptions',['../namespacev8.html#a06f34fa4fa4cfc8518366808d1d461c1',1,'v8']]]
 ];

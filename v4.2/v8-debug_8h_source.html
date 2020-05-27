@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: v8-debug.h Source File</title>
+<title>V8: include/v8-debug.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -45,7 +45,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,41 +59,46 @@ $(function() {
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">v8-debug.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2008 the V8 project authors. All rights reserved.</span></div>
+<a href="v8-debug_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2008 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef V8_V8_DEBUG_H_</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define V8_V8_DEBUG_H_</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;v8.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8_8h.html">v8.h</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacev8.html">v8</a> {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// Debug events which can occur in the V8 JavaScript engine.</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">enum</span> DebugEvent {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  Break = 1,</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  Exception = 2,</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  NewFunction = 3,</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  BeforeCompile = 4,</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  AfterCompile  = 5,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  CompileError = 6,</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  PromiseEvent = 7,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  AsyncTaskEvent = 8,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  BreakForCommand = 9</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853">   16</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853">DebugEvent</a> {</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853ac2095c1d07466a4d2ae065ab6e7494f7">   17</a></span>&#160;  <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853ac2095c1d07466a4d2ae065ab6e7494f7">Break</a> = 1,</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a348e3897db4a5da63ceea0ec03829e7a">   18</a></span>&#160;  <a class="code" href="classv8_1_1Exception.html">Exception</a> = 2,</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853ac55440e8d4771f984aa9f84163982527">   19</a></span>&#160;  <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853ac55440e8d4771f984aa9f84163982527">NewFunction</a> = 3,</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a18d72d8787633314f4dce2d1e7b2a0bd">   20</a></span>&#160;  <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a18d72d8787633314f4dce2d1e7b2a0bd">BeforeCompile</a> = 4,</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a28f1956ff63d6d3268c0b7ee909bf76e">   21</a></span>&#160;  <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a28f1956ff63d6d3268c0b7ee909bf76e">AfterCompile</a>  = 5,</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853ab300941d800398e2b43331e0f8aabc8a">   22</a></span>&#160;  <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853ab300941d800398e2b43331e0f8aabc8a">CompileError</a> = 6,</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a131947d9a17ce5cdd770eee70d0986bb">   23</a></span>&#160;  <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a131947d9a17ce5cdd770eee70d0986bb">PromiseEvent</a> = 7,</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a866eb48791e9e83743e28f53d3694d25">   24</a></span>&#160;  <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a866eb48791e9e83743e28f53d3694d25">AsyncTaskEvent</a> = 8,</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a56f2a9e87b627016f4b41f25fb548698">   25</a></span>&#160;  <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a56f2a9e87b627016f4b41f25fb548698">BreakForCommand</a> = 9</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classv8_1_1Debug.html">   29</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classv8_1_1Debug.html">Debug</a> {</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classv8_1_1Debug.html">   29</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classv8_1_1Debug.html">Debug</a> {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classv8_1_1Debug_1_1ClientData.html">   35</a></span>&#160;  <span class="keyword">class </span><a class="code" href="classv8_1_1Debug_1_1ClientData.html">ClientData</a> {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;   <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classv8_1_1Debug_1_1ClientData.html">ClientData</a>() {}</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classv8_1_1Debug_1_1ClientData.html#af8517b8b5fa46835b70fd91d33dc2d96">   37</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classv8_1_1Debug_1_1ClientData.html#af8517b8b5fa46835b70fd91d33dc2d96">~ClientData</a>() {}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  };</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
@@ -102,7 +106,7 @@ $(function() {
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;   <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> IsEvent() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> IsResponse() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">virtual</span> DebugEvent GetEvent() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853">DebugEvent</a> GetEvent() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> WillStartRunning() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
@@ -117,13 +121,13 @@ $(function() {
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classv8_1_1Isolate.html">Isolate</a>* GetIsolate() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classv8_1_1Debug_1_1Message.html">Message</a>() {}</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="classv8_1_1Debug_1_1Message.html#ae158cb5cb19d7e5c75475c194bc87c62">   90</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classv8_1_1Debug_1_1Message.html#ae158cb5cb19d7e5c75475c194bc87c62">~Message</a>() {}</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  };</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
 <div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classv8_1_1Debug_1_1EventDetails.html">   97</a></span>&#160;  <span class="keyword">class </span><a class="code" href="classv8_1_1Debug_1_1EventDetails.html">EventDetails</a> {</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;   <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">virtual</span> DebugEvent GetEvent() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853">DebugEvent</a> GetEvent() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classv8_1_1Handle.html">Handle&lt;Object&gt;</a> GetExecutionState() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classv8_1_1Handle.html">Handle&lt;Object&gt;</a> GetEventData() <span class="keyword">const</span> = 0;</div>
@@ -134,7 +138,7 @@ $(function() {
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classv8_1_1Debug_1_1ClientData.html">ClientData</a>* GetClientData() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classv8_1_1Debug_1_1EventDetails.html">EventDetails</a>() {}</div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="classv8_1_1Debug_1_1EventDetails.html#a0b2ee3e78f7bb3db02fe0ff3e8e92f35">  131</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classv8_1_1Debug_1_1EventDetails.html#a0b2ee3e78f7bb3db02fe0ff3e8e92f35">~EventDetails</a>() {}</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  };</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
 <div class="line"><a name="l00142"></a><span class="lineno"><a class="line" href="classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8">  142</a></span>&#160;  <span class="keyword">typedef</span> void (*EventCallback)(<span class="keyword">const</span> <a class="code" href="classv8_1_1Debug_1_1EventDetails.html">EventDetails</a>&amp; event_details);</div>
@@ -195,12 +199,27 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassv8_1_1Local_html"><div class="ttname"><a href="classv8_1_1Local.html">v8::Local&lt; Value &gt;</a></div></div>
 <div class="ttc" id="aclassv8_1_1Debug_1_1EventDetails_html"><div class="ttname"><a href="classv8_1_1Debug_1_1EventDetails.html">v8::Debug::EventDetails</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:97</div></div>
+<div class="ttc" id="anamespacev8_html_a4157e857c3767e2b82686a53ae3da853a131947d9a17ce5cdd770eee70d0986bb"><div class="ttname"><a href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a131947d9a17ce5cdd770eee70d0986bb">v8::PromiseEvent</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:23</div></div>
+<div class="ttc" id="aclassv8_1_1Debug_1_1EventDetails_html_a0b2ee3e78f7bb3db02fe0ff3e8e92f35"><div class="ttname"><a href="classv8_1_1Debug_1_1EventDetails.html#a0b2ee3e78f7bb3db02fe0ff3e8e92f35">v8::Debug::EventDetails::~EventDetails</a></div><div class="ttdeci">virtual ~EventDetails()</div><div class="ttdef"><b>Definition:</b> v8-debug.h:131</div></div>
+<div class="ttc" id="anamespacev8_html_a4157e857c3767e2b82686a53ae3da853ab300941d800398e2b43331e0f8aabc8a"><div class="ttname"><a href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853ab300941d800398e2b43331e0f8aabc8a">v8::CompileError</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:22</div></div>
+<div class="ttc" id="aclassv8_1_1Debug_1_1Message_html_ae158cb5cb19d7e5c75475c194bc87c62"><div class="ttname"><a href="classv8_1_1Debug_1_1Message.html#ae158cb5cb19d7e5c75475c194bc87c62">v8::Debug::Message::~Message</a></div><div class="ttdeci">virtual ~Message()</div><div class="ttdef"><b>Definition:</b> v8-debug.h:90</div></div>
+<div class="ttc" id="aclassv8_1_1Debug_1_1ClientData_html_af8517b8b5fa46835b70fd91d33dc2d96"><div class="ttname"><a href="classv8_1_1Debug_1_1ClientData.html#af8517b8b5fa46835b70fd91d33dc2d96">v8::Debug::ClientData::~ClientData</a></div><div class="ttdeci">virtual ~ClientData()</div><div class="ttdef"><b>Definition:</b> v8-debug.h:37</div></div>
 <div class="ttc" id="aclassv8_1_1Debug_1_1Message_html"><div class="ttname"><a href="classv8_1_1Debug_1_1Message.html">v8::Debug::Message</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:44</div></div>
 <div class="ttc" id="aclassv8_1_1Handle_html"><div class="ttname"><a href="classv8_1_1Handle.html">v8::Handle</a></div><div class="ttdef"><b>Definition:</b> v8.h:106</div></div>
+<div class="ttc" id="aclassv8_1_1Exception_html"><div class="ttname"><a href="classv8_1_1Exception.html">v8::Exception</a></div><div class="ttdef"><b>Definition:</b> v8.h:4349</div></div>
+<div class="ttc" id="anamespacev8_html_a4157e857c3767e2b82686a53ae3da853ac55440e8d4771f984aa9f84163982527"><div class="ttname"><a href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853ac55440e8d4771f984aa9f84163982527">v8::NewFunction</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:19</div></div>
+<div class="ttc" id="anamespacev8_html_a4157e857c3767e2b82686a53ae3da853a28f1956ff63d6d3268c0b7ee909bf76e"><div class="ttname"><a href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a28f1956ff63d6d3268c0b7ee909bf76e">v8::AfterCompile</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:21</div></div>
 <div class="ttc" id="aclassv8_1_1Debug_html"><div class="ttname"><a href="classv8_1_1Debug.html">v8::Debug</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:29</div></div>
+<div class="ttc" id="anamespacev8_html_a4157e857c3767e2b82686a53ae3da853"><div class="ttname"><a href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853">v8::DebugEvent</a></div><div class="ttdeci">DebugEvent</div><div class="ttdef"><b>Definition:</b> v8-debug.h:16</div></div>
+<div class="ttc" id="anamespacev8_html_a4157e857c3767e2b82686a53ae3da853a56f2a9e87b627016f4b41f25fb548698"><div class="ttname"><a href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a56f2a9e87b627016f4b41f25fb548698">v8::BreakForCommand</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:25</div></div>
 <div class="ttc" id="anamespacev8_html"><div class="ttname"><a href="namespacev8.html">v8</a></div><div class="ttdef"><b>Definition:</b> libplatform.h:10</div></div>
 <div class="ttc" id="aclassv8_1_1Isolate_html"><div class="ttname"><a href="classv8_1_1Isolate.html">v8::Isolate</a></div><div class="ttdef"><b>Definition:</b> v8.h:4641</div></div>
 <div class="ttc" id="aclassv8_1_1Debug_1_1ClientData_html"><div class="ttname"><a href="classv8_1_1Debug_1_1ClientData.html">v8::Debug::ClientData</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:35</div></div>
+<div class="ttc" id="av8_8h_html"><div class="ttname"><a href="v8_8h.html">v8.h</a></div></div>
+<div class="ttc" id="av8_8h_html_a18b08424f4be6fab745092c7c5dad9f5"><div class="ttname"><a href="v8_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a></div><div class="ttdeci">#define V8_EXPORT</div><div class="ttdef"><b>Definition:</b> v8.h:58</div></div>
+<div class="ttc" id="anamespacev8_html_a4157e857c3767e2b82686a53ae3da853a866eb48791e9e83743e28f53d3694d25"><div class="ttname"><a href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a866eb48791e9e83743e28f53d3694d25">v8::AsyncTaskEvent</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:24</div></div>
+<div class="ttc" id="anamespacev8_html_a4157e857c3767e2b82686a53ae3da853ac2095c1d07466a4d2ae065ab6e7494f7"><div class="ttname"><a href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853ac2095c1d07466a4d2ae065ab6e7494f7">v8::Break</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:17</div></div>
+<div class="ttc" id="anamespacev8_html_a4157e857c3767e2b82686a53ae3da853a18d72d8787633314f4dce2d1e7b2a0bd"><div class="ttname"><a href="namespacev8.html#a4157e857c3767e2b82686a53ae3da853a18d72d8787633314f4dce2d1e7b2a0bd">v8::BeforeCompile</a></div><div class="ttdef"><b>Definition:</b> v8-debug.h:20</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

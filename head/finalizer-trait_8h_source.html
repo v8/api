@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: cppgc/internal/finalizer-trait.h Source File</title>
+<title>V8: include/cppgc/internal/finalizer-trait.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_908cff4095b52ed1341131b5cdfa5c2b.html">cppgc</a></li><li class="navelem"><a class="el" href="dir_28129e0190e9a2bade397851af27ec7a.html">internal</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_c3a29de58f961e253e7c5c44d07916b0.html">cppgc</a></li><li class="navelem"><a class="el" href="dir_7c393fd3d067eeba5379a7db4bd22b0f.html">internal</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,7 +69,7 @@ $(function() {
 <div class="title">finalizer-trait.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
+<a href="finalizer-trait_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
@@ -78,19 +78,19 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;type_traits&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;cppgc/type-traits.h&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="type-traits_8h.html">cppgc/type-traits.h</a>&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>cppgc {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecppgc.html">cppgc</a> {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>internal {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">using</span> FinalizationCallback = void (*)(<span class="keywordtype">void</span>*);</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="namespacecppgc_1_1internal.html#a68ece6c6de0778ffa9f67de7ff2e23ff">   15</a></span>&#160;<span class="keyword">using</span> <a class="code" href="namespacecppgc_1_1internal.html#a68ece6c6de0778ffa9f67de7ff2e23ff">FinalizationCallback</a> = void (*)(<span class="keywordtype">void</span>*);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> = <span class="keywordtype">void</span>&gt;</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structcppgc_1_1internal_1_1HasFinalizeGarbageCollectedObject.html">   18</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structcppgc_1_1internal_1_1HasFinalizeGarbageCollectedObject.html">HasFinalizeGarbageCollectedObject</a> : std::false_type {};</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structcppgc_1_1internal_1_1HasFinalizeGarbageCollectedObject_3_01T_00_01void__t_3_01decltype_07sa61520700171f43425adcc1b691e5825.html">   21</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structcppgc_1_1internal_1_1HasFinalizeGarbageCollectedObject.html">HasFinalizeGarbageCollectedObject</a>&lt;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    T, void_t&lt;decltype(std::declval&lt;T&gt;().FinalizeGarbageCollectedObject())&gt;&gt;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    T, <a class="code" href="namespacecppgc_1_1internal.html#ab6ac8c930ba9e382bfc20086d5112e10">void_t</a>&lt;decltype(std::declval&lt;T&gt;().FinalizeGarbageCollectedObject())&gt;&gt;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    : std::true_type {};</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">// The FinalizerTraitImpl specifies how to finalize objects.</span></div>
@@ -117,7 +117,7 @@ $(function() {
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                         Destructor&gt;;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> Finalize(<span class="keywordtype">void</span>* obj) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="structcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01true_01_4.html#a97ddebde54fe8eb0f1e9f38ef45c6583">   49</a></span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="structcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01true_01_4.html#a97ddebde54fe8eb0f1e9f38ef45c6583">Finalize</a>(<span class="keywordtype">void</span>* obj) {</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    static_assert(<span class="keyword">sizeof</span>(T), <span class="stringliteral">&quot;T must be fully defined&quot;</span>);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    FinalizeImpl::Call(obj);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }</div>
@@ -125,7 +125,7 @@ $(function() {
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="structcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01false_01_4.html">   56</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structcppgc_1_1internal_1_1FinalizerTraitImpl.html">FinalizerTraitImpl</a>&lt;T, false&gt; {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> Finalize(<span class="keywordtype">void</span>* obj) {</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="structcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01false_01_4.html#a1b1d54b92112d573c96718684217a085">   57</a></span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="structcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01false_01_4.html#a1b1d54b92112d573c96718684217a085">Finalize</a>(<span class="keywordtype">void</span>* obj) {</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    static_assert(<span class="keyword">sizeof</span>(T), <span class="stringliteral">&quot;T must be fully defined&quot;</span>);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  }</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;};</div>
@@ -148,21 +148,28 @@ $(function() {
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="comment">// The callback used to finalize an object of type T.</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keyword">static</span> constexpr FinalizationCallback kCallback =</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="structcppgc_1_1internal_1_1FinalizerTrait.html#af3afe78fe04e3285393d67ed1e18ffc7">   80</a></span>&#160;  <span class="keyword">static</span> constexpr <a class="code" href="namespacecppgc_1_1internal.html#a68ece6c6de0778ffa9f67de7ff2e23ff">FinalizationCallback</a> <a class="code" href="structcppgc_1_1internal_1_1FinalizerTrait.html#af3afe78fe04e3285393d67ed1e18ffc7">kCallback</a> =</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      kNonTrivialFinalizer ? Finalize : <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;};</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;constexpr FinalizationCallback <a class="code" href="structcppgc_1_1internal_1_1FinalizerTrait.html">FinalizerTrait&lt;T&gt;::kCallback</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;constexpr <a class="code" href="namespacecppgc_1_1internal.html#a68ece6c6de0778ffa9f67de7ff2e23ff">FinalizationCallback</a> <a class="code" href="structcppgc_1_1internal_1_1FinalizerTrait.html">FinalizerTrait&lt;T&gt;::kCallback</a>;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}  <span class="comment">// namespace internal</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}  <span class="comment">// namespace cppgc</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#endif  // INCLUDE_CPPGC_INTERNAL_FINALIZER_TRAIT_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="anamespacecppgc_1_1internal_html_ab6ac8c930ba9e382bfc20086d5112e10"><div class="ttname"><a href="namespacecppgc_1_1internal.html#ab6ac8c930ba9e382bfc20086d5112e10">cppgc::internal::void_t</a></div><div class="ttdeci">typename make_void&lt; Ts... &gt;::type void_t</div><div class="ttdef"><b>Definition:</b> type-traits.h:22</div></div>
+<div class="ttc" id="astructcppgc_1_1internal_1_1FinalizerTrait_html_af3afe78fe04e3285393d67ed1e18ffc7"><div class="ttname"><a href="structcppgc_1_1internal_1_1FinalizerTrait.html#af3afe78fe04e3285393d67ed1e18ffc7">cppgc::internal::FinalizerTrait::kCallback</a></div><div class="ttdeci">static constexpr FinalizationCallback kCallback</div><div class="ttdef"><b>Definition:</b> finalizer-trait.h:80</div></div>
+<div class="ttc" id="astructcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01true_01_4_html_a97ddebde54fe8eb0f1e9f38ef45c6583"><div class="ttname"><a href="structcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01true_01_4.html#a97ddebde54fe8eb0f1e9f38ef45c6583">cppgc::internal::FinalizerTraitImpl&lt; T, true &gt;::Finalize</a></div><div class="ttdeci">static void Finalize(void *obj)</div><div class="ttdef"><b>Definition:</b> finalizer-trait.h:49</div></div>
 <div class="ttc" id="astructcppgc_1_1internal_1_1FinalizerTrait_html"><div class="ttname"><a href="structcppgc_1_1internal_1_1FinalizerTrait.html">cppgc::internal::FinalizerTrait</a></div><div class="ttdef"><b>Definition:</b> finalizer-trait.h:65</div></div>
+<div class="ttc" id="anamespacecppgc_html"><div class="ttname"><a href="namespacecppgc.html">cppgc</a></div><div class="ttdef"><b>Definition:</b> allocation.h:18</div></div>
 <div class="ttc" id="astructcppgc_1_1internal_1_1FinalizerTraitImpl_html"><div class="ttname"><a href="structcppgc_1_1internal_1_1FinalizerTraitImpl.html">cppgc::internal::FinalizerTraitImpl</a></div><div class="ttdef"><b>Definition:</b> finalizer-trait.h:27</div></div>
+<div class="ttc" id="atype-traits_8h_html"><div class="ttname"><a href="type-traits_8h.html">type-traits.h</a></div></div>
 <div class="ttc" id="astructcppgc_1_1internal_1_1HasFinalizeGarbageCollectedObject_html"><div class="ttname"><a href="structcppgc_1_1internal_1_1HasFinalizeGarbageCollectedObject.html">cppgc::internal::HasFinalizeGarbageCollectedObject</a></div><div class="ttdef"><b>Definition:</b> finalizer-trait.h:18</div></div>
+<div class="ttc" id="astructcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01false_01_4_html_a1b1d54b92112d573c96718684217a085"><div class="ttname"><a href="structcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01false_01_4.html#a1b1d54b92112d573c96718684217a085">cppgc::internal::FinalizerTraitImpl&lt; T, false &gt;::Finalize</a></div><div class="ttdeci">static void Finalize(void *obj)</div><div class="ttdef"><b>Definition:</b> finalizer-trait.h:57</div></div>
+<div class="ttc" id="anamespacecppgc_1_1internal_html_a68ece6c6de0778ffa9f67de7ff2e23ff"><div class="ttname"><a href="namespacecppgc_1_1internal.html#a68ece6c6de0778ffa9f67de7ff2e23ff">cppgc::internal::FinalizationCallback</a></div><div class="ttdeci">void(*)(void *) FinalizationCallback</div><div class="ttdef"><b>Definition:</b> finalizer-trait.h:15</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

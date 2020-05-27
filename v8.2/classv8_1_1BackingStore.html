@@ -96,6 +96,8 @@ Collaboration diagram for v8::BackingStore:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aa80ebad5b6ed6c34d76c165c0d65bf41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1BackingStore.html#aa80ebad5b6ed6c34d76c165c0d65bf41">~BackingStore</a> ()</td></tr>
+<tr class="separator:aa80ebad5b6ed6c34d76c165c0d65bf41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21fe00d6db56b2a2065a0d9a10f49aa3"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1BackingStore.html#a21fe00d6db56b2a2065a0d9a10f49aa3">Data</a> () const</td></tr>
 <tr class="separator:a21fe00d6db56b2a2065a0d9a10f49aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab88a37cc13cd71451cbe44020021512"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1BackingStore.html#aab88a37cc13cd71451cbe44020021512">ByteLength</a> () const</td></tr>
@@ -111,8 +113,26 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A wrapper around the backing store (i.e. the raw memory) of an array buffer. See a document linked in <a href="http://crbug.com/v8/9908">http://crbug.com/v8/9908</a> for more information.</p>
 <p>The allocation and destruction of backing stores is generally managed by <a class="el" href="classv8_1_1V8.html">V8</a>. Clients should always use standard C++ memory ownership types (i.e. std::unique_ptr and std::shared_ptr) to manage lifetimes of backing stores properly, since <a class="el" href="classv8_1_1V8.html">V8</a> internal objects may alias backing stores.</p>
-<p>This object does not keep the underlying |ArrayBuffer::Allocator| alive by default. Use Isolate::CreateParams::array_buffer_allocator_shared when creating the <a class="el" href="classv8_1_1Isolate.html">Isolate</a> to make it hold a reference to the allocator itself. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p>This object does not keep the underlying |ArrayBuffer::Allocator| alive by default. Use <a class="el" href="structv8_1_1Isolate_1_1CreateParams.html#af8349bfe7d7229db578d37a6f1f1d509">Isolate::CreateParams::array_buffer_allocator_shared</a> when creating the <a class="el" href="classv8_1_1Isolate.html">Isolate</a> to make it hold a reference to the allocator itself. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa80ebad5b6ed6c34d76c165c0d65bf41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa80ebad5b6ed6c34d76c165c0d65bf41">&#9670;&nbsp;</a></span>~BackingStore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::BackingStore::~BackingStore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aab88a37cc13cd71451cbe44020021512"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab88a37cc13cd71451cbe44020021512">&#9670;&nbsp;</a></span>ByteLength()</h2>
 
@@ -211,7 +231,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

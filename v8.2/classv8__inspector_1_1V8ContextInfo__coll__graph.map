@@ -1,5 +1,6 @@
 <map id="v8_inspector::V8ContextInfo" name="v8_inspector::V8ContextInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="89,124,277,151"/>
-<area shape="rect" id="node2" href="$classv8_1_1Local.html" title=" " alt="" coords="5,5,172,32"/>
-<area shape="rect" id="node3" href="$classv8__inspector_1_1StringView.html" title=" " alt="" coords="196,5,363,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="137,213,325,240"/>
+<area shape="rect" id="node2" href="$classv8_1_1Local.html" title=" " alt="" coords="5,95,172,121"/>
+<area shape="rect" id="node3" href="$classv8_1_1Local.html" title=" " alt="" coords="35,5,142,32"/>
+<area shape="rect" id="node4" href="$classv8__inspector_1_1StringView.html" title=" " alt="" coords="196,95,363,121"/>
 </map>

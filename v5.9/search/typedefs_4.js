@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['hostimportmoduledynamicallycallback_1497',['HostImportModuleDynamicallyCallback',['../namespacev8.html#a5481baff9c2d09856b86e00cc4951333',1,'v8']]]
+  ['entropysource_3066',['EntropySource',['../namespacev8.html#ab699f4bbbb56350e6e915682e420fcdc',1,'v8']]],
+  ['eventcallback_3067',['EventCallback',['../classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8',1,'v8::Debug']]],
+  ['extensioncallback_3068',['ExtensionCallback',['../namespacev8.html#aa2658de2b2db3011b6d7ca633683e384',1,'v8']]]
 ];

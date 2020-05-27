@@ -79,12 +79,13 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aae7b558077a24b6ce9cacfe8e9320943"><td class="memItemLeft" align="right" valign="top"><a id="aae7b558077a24b6ce9cacfe8e9320943"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>StackTracePrinter</b>) ()</td></tr>
+<tr class="memitem:aae7b558077a24b6ce9cacfe8e9320943"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aae7b558077a24b6ce9cacfe8e9320943">StackTracePrinter</a>) ()</td></tr>
 <tr class="separator:aae7b558077a24b6ce9cacfe8e9320943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ab725966a93204e93ec742e1d823e1a05"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ab725966a93204e93ec742e1d823e1a05">~Platform</a> ()=default</td></tr>
+<tr class="separator:ab725966a93204e93ec742e1d823e1a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c1886dd8131f7389b805bc98276702"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classv8_1_1PageAllocator.html">PageAllocator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ab7c1886dd8131f7389b805bc98276702">GetPageAllocator</a> ()</td></tr>
 <tr class="separator:ab7c1886dd8131f7389b805bc98276702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ed41bddc1d1ebe51c55539198d0026e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a7ed41bddc1d1ebe51c55539198d0026e">OnCriticalMemoryPressure</a> ()</td></tr>
@@ -93,7 +94,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0de4b8a7bb8865ce65beb5afbaabe4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57cdd7eb4c482bfb806c378beeda716d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a57cdd7eb4c482bfb806c378beeda716d">NumberOfWorkerThreads</a> ()=0</td></tr>
 <tr class="separator:a57cdd7eb4c482bfb806c378beeda716d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0d18c6bbefa133c5d11ec8a460d0278"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classv8_1_1TaskRunner.html">v8::TaskRunner</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#af0d18c6bbefa133c5d11ec8a460d0278">GetForegroundTaskRunner</a> (Isolate *isolate)=0</td></tr>
+<tr class="memitem:af0d18c6bbefa133c5d11ec8a460d0278"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classv8_1_1TaskRunner.html">v8::TaskRunner</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#af0d18c6bbefa133c5d11ec8a460d0278">GetForegroundTaskRunner</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)=0</td></tr>
 <tr class="separator:af0d18c6bbefa133c5d11ec8a460d0278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92dc9c2f54c9a0fea87e15df8d58d699"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a92dc9c2f54c9a0fea87e15df8d58d699">CallOnWorkerThread</a> (std::unique_ptr&lt; <a class="el" href="classv8_1_1Task.html">Task</a> &gt; task)=0</td></tr>
 <tr class="separator:a92dc9c2f54c9a0fea87e15df8d58d699"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -101,19 +102,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ada31b440048763bf8d9c296ca4cf2e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a808b0e55ed3efca10ebca031bbd6ecc6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a808b0e55ed3efca10ebca031bbd6ecc6">CallDelayedOnWorkerThread</a> (std::unique_ptr&lt; <a class="el" href="classv8_1_1Task.html">Task</a> &gt; task, double delay_in_seconds)=0</td></tr>
 <tr class="separator:a808b0e55ed3efca10ebca031bbd6ecc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a25af03a35d938b37f2378d25ad4c6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a2a25af03a35d938b37f2378d25ad4c6e">V8_DEPRECATE_SOON</a> (&quot;Use a taskrunner acquired by <a class="el" href="classv8_1_1Platform.html#af0d18c6bbefa133c5d11ec8a460d0278">GetForegroundTaskRunner</a> instead.&quot;, virtual void CallOnForegroundThread(Isolate *isolate, <a class="el" href="classv8_1_1Task.html">Task</a> *task))=0</td></tr>
-<tr class="separator:a2a25af03a35d938b37f2378d25ad4c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bdd7f9f31ce5fe5c5f0fd8a0e597d04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a7bdd7f9f31ce5fe5c5f0fd8a0e597d04">V8_DEPRECATE_SOON</a> (&quot;Use a taskrunner acquired by <a class="el" href="classv8_1_1Platform.html#af0d18c6bbefa133c5d11ec8a460d0278">GetForegroundTaskRunner</a> instead.&quot;, virtual void CallDelayedOnForegroundThread(Isolate *isolate, <a class="el" href="classv8_1_1Task.html">Task</a> *task, double delay_in_seconds))=0</td></tr>
-<tr class="separator:a7bdd7f9f31ce5fe5c5f0fd8a0e597d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2164bf101f39010ec95e117a69a4e782"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a2164bf101f39010ec95e117a69a4e782">V8_DEPRECATE_SOON</a> (&quot;Use a taskrunner acquired by <a class="el" href="classv8_1_1Platform.html#af0d18c6bbefa133c5d11ec8a460d0278">GetForegroundTaskRunner</a> instead.&quot;, virtual void CallIdleOnForegroundThread(Isolate *isolate, <a class="el" href="classv8_1_1IdleTask.html">IdleTask</a> *task))</td></tr>
-<tr class="separator:a2164bf101f39010ec95e117a69a4e782"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad229642bf16a066d2e8d866dc128141e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ad229642bf16a066d2e8d866dc128141e">IdleTasksEnabled</a> (Isolate *isolate)</td></tr>
+<tr class="memitem:a8fa13959f919d1d3ff170bceea939915"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a8fa13959f919d1d3ff170bceea939915">CallOnForegroundThread</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Task.html">Task</a> *task)=0</td></tr>
+<tr class="separator:a8fa13959f919d1d3ff170bceea939915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72bff12d95fbf2118279b0e8f53f8a4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a72bff12d95fbf2118279b0e8f53f8a4b">CallDelayedOnForegroundThread</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Task.html">Task</a> *task, double delay_in_seconds)=0</td></tr>
+<tr class="separator:a72bff12d95fbf2118279b0e8f53f8a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae495999016432391f04d323452084b12"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ae495999016432391f04d323452084b12">CallIdleOnForegroundThread</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1IdleTask.html">IdleTask</a> *task)</td></tr>
+<tr class="separator:ae495999016432391f04d323452084b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad229642bf16a066d2e8d866dc128141e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ad229642bf16a066d2e8d866dc128141e">IdleTasksEnabled</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
 <tr class="separator:ad229642bf16a066d2e8d866dc128141e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d4d7c2dcf6b0c7113099b97fa7f57b7"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a6d4d7c2dcf6b0c7113099b97fa7f57b7">MonotonicallyIncreasingTime</a> ()=0</td></tr>
 <tr class="separator:a6d4d7c2dcf6b0c7113099b97fa7f57b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8aa46c7f8e492351ebe1bc8168ec9c2f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a8aa46c7f8e492351ebe1bc8168ec9c2f">CurrentClockTimeMillis</a> ()=0</td></tr>
 <tr class="separator:a8aa46c7f8e492351ebe1bc8168ec9c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadb2594e6ff9a6f6a0657412ff5a7206"><td class="memItemLeft" align="right" valign="top">virtual StackTracePrinter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aadb2594e6ff9a6f6a0657412ff5a7206">GetStackTracePrinter</a> ()</td></tr>
+<tr class="memitem:aadb2594e6ff9a6f6a0657412ff5a7206"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classv8_1_1Platform.html#aae7b558077a24b6ce9cacfe8e9320943">StackTracePrinter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aadb2594e6ff9a6f6a0657412ff5a7206">GetStackTracePrinter</a> ()</td></tr>
 <tr class="separator:aadb2594e6ff9a6f6a0657412ff5a7206"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa760c7bf8c46495eb650d2be72399747"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classv8_1_1TracingController.html">TracingController</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aa760c7bf8c46495eb650d2be72399747">GetTracingController</a> ()=0</td></tr>
 <tr class="separator:aa760c7bf8c46495eb650d2be72399747"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,9 +125,52 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="separator:a18ccdaf3a1a738bd4082dbbe749d026b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>V8 <a class="el" href="classv8_1_1Platform.html">Platform</a> abstraction layer.</p>
-<p>The embedder has to provide an implementation of this interface before initializing the rest of V8. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p><a class="el" href="classv8_1_1V8.html">V8</a> <a class="el" href="classv8_1_1Platform.html">Platform</a> abstraction layer.</p>
+<p>The embedder has to provide an implementation of this interface before initializing the rest of <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="process_8cc-example.html#_a27">process.cc</a>, and <a class="el" href="shell_8cc-example.html#_a2">shell.cc</a>.</dd>
+</dl>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aae7b558077a24b6ce9cacfe8e9320943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae7b558077a24b6ce9cacfe8e9320943">&#9670;&nbsp;</a></span>StackTracePrinter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* v8::Platform::StackTracePrinter) ()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab725966a93204e93ec742e1d823e1a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab725966a93204e93ec742e1d823e1a05">&#9670;&nbsp;</a></span>~Platform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::Platform::~Platform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ada31b440048763bf8d9c296ca4cf2e1b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada31b440048763bf8d9c296ca4cf2e1b">&#9670;&nbsp;</a></span>CallBlockingTaskOnWorkerThread()</h2>
 
@@ -151,6 +195,49 @@ Static Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Schedules a task that blocks the main thread to be invoked with high-priority on a worker thread. </p>
+
+</div>
+</div>
+<a id="a72bff12d95fbf2118279b0e8f53f8a4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72bff12d95fbf2118279b0e8f53f8a4b">&#9670;&nbsp;</a></span>CallDelayedOnForegroundThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void v8::Platform::CallDelayedOnForegroundThread </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Task.html">Task</a> *&#160;</td>
+          <td class="paramname"><em>task</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>delay_in_seconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Schedules a task to be invoked on a foreground thread wrt a specific |isolate| after the given number of seconds |delay_in_seconds|. Tasks posted for the same isolate should be execute in order of scheduling. The definition of "foreground" is opaque to <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
 
 </div>
 </div>
@@ -188,6 +275,80 @@ Static Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Schedules a task to be invoked on a worker thread after |delay_in_seconds| expires. </p>
+
+</div>
+</div>
+<a id="ae495999016432391f04d323452084b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae495999016432391f04d323452084b12">&#9670;&nbsp;</a></span>CallIdleOnForegroundThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void v8::Platform::CallIdleOnForegroundThread </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1IdleTask.html">IdleTask</a> *&#160;</td>
+          <td class="paramname"><em>task</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Schedules a task to be invoked on a foreground thread wrt a specific |isolate| when the embedder is idle. Requires that SupportsIdleTasks(isolate) is true. Idle tasks may be reordered relative to other task types and may be starved for an arbitrarily long time if no idle time is available. The definition of "foreground" is opaque to <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
+
+</div>
+</div>
+<a id="a8fa13959f919d1d3ff170bceea939915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fa13959f919d1d3ff170bceea939915">&#9670;&nbsp;</a></span>CallOnForegroundThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void v8::Platform::CallOnForegroundThread </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Task.html">Task</a> *&#160;</td>
+          <td class="paramname"><em>task</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Schedules a task to be invoked on a foreground thread wrt a specific |isolate|. Tasks posted for the same isolate should be execute in order of scheduling. The definition of "foreground" is opaque to <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
 
 </div>
 </div>
@@ -256,7 +417,7 @@ Static Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classv8_1_1TaskRunner.html">v8::TaskRunner</a>&gt; v8::Platform::GetForegroundTaskRunner </td>
           <td>(</td>
-          <td class="paramtype">Isolate *&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
           <td class="paramname"><em>isolate</em></td><td>)</td>
           <td></td>
         </tr>
@@ -307,7 +468,7 @@ Static Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual StackTracePrinter v8::Platform::GetStackTracePrinter </td>
+          <td class="memname">virtual <a class="el" href="classv8_1_1Platform.html#aae7b558077a24b6ce9cacfe8e9320943">StackTracePrinter</a> v8::Platform::GetStackTracePrinter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -361,7 +522,7 @@ Static Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool v8::Platform::IdleTasksEnabled </td>
           <td>(</td>
-          <td class="paramtype">Isolate *&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
           <td class="paramname"><em>isolate</em></td><td>)</td>
           <td></td>
         </tr>
@@ -424,7 +585,7 @@ Static Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Gets the number of worker threads used by Call(BlockingTask)OnWorkerThread(). This can be used to estimate the number of tasks a work package should be split into. A return value of 0 means that there are no worker threads available. Note that a value of 0 won't prohibit V8 from posting tasks using |CallOnWorkerThread|. </p>
+<p>Gets the number of worker threads used by Call(BlockingTask)OnWorkerThread(). This can be used to estimate the number of tasks a work package should be split into. A return value of 0 means that there are no worker threads available. Note that a value of 0 won't prohibit <a class="el" href="classv8_1_1V8.html">V8</a> from posting tasks using |CallOnWorkerThread|. </p>
 
 </div>
 </div>
@@ -450,7 +611,7 @@ Static Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Enables the embedder to respond in cases where V8 can't allocate large blocks of memory. V8 retries the failed allocation once after calling this method. On success, execution continues; otherwise V8 exits with a fatal error. Embedder overrides of this function must NOT call back into V8. </p>
+<p>Enables the embedder to respond in cases where <a class="el" href="classv8_1_1V8.html">V8</a> can't allocate large blocks of memory. <a class="el" href="classv8_1_1V8.html">V8</a> retries the failed allocation once after calling this method. On success, execution continues; otherwise <a class="el" href="classv8_1_1V8.html">V8</a> exits with a fatal error. Embedder overrides of this function must NOT call back into <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
 
 </div>
 </div>
@@ -477,8 +638,8 @@ Static Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Enables the embedder to respond in cases where V8 can't allocate large memory regions. The |length| parameter is the amount of memory needed. Returns true if memory is now available. Returns false if no memory could be made available. V8 will retry allocations until this method returns false.</p>
-<p>Embedder overrides of this function must NOT call back into V8. </p>
+<p>Enables the embedder to respond in cases where <a class="el" href="classv8_1_1V8.html">V8</a> can't allocate large memory regions. The |length| parameter is the amount of memory needed. Returns true if memory is now available. Returns false if no memory could be made available. <a class="el" href="classv8_1_1V8.html">V8</a> will retry allocations until this method returns false.</p>
+<p>Embedder overrides of this function must NOT call back into <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
 
 </div>
 </div>
@@ -508,119 +669,8 @@ Static Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7bdd7f9f31ce5fe5c5f0fd8a0e597d04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bdd7f9f31ce5fe5c5f0fd8a0e597d04">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">v8::Platform::V8_DEPRECATE_SOON </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use a taskrunner acquired by <a class="el" href="classv8_1_1Platform.html#af0d18c6bbefa133c5d11ec8a460d0278">GetForegroundTaskRunner</a> instead.&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">virtual void &#160;</td>
-          <td class="paramname"><em>CallDelayedOnForegroundThread</em>Isolate *isolate, Task *task, double delay_in_seconds&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Schedules a task to be invoked on a foreground thread wrt a specific |isolate| after the given number of seconds |delay_in_seconds|. Tasks posted for the same isolate should be execute in order of scheduling. The definition of "foreground" is opaque to V8. </p>
-
-</div>
-</div>
-<a id="a2164bf101f39010ec95e117a69a4e782"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2164bf101f39010ec95e117a69a4e782">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">v8::Platform::V8_DEPRECATE_SOON </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use a taskrunner acquired by <a class="el" href="classv8_1_1Platform.html#af0d18c6bbefa133c5d11ec8a460d0278">GetForegroundTaskRunner</a> instead.&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">virtual void &#160;</td>
-          <td class="paramname"><em>CallIdleOnForegroundThread</em>Isolate *isolate, IdleTask *task&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Schedules a task to be invoked on a foreground thread wrt a specific |isolate| when the embedder is idle. Requires that SupportsIdleTasks(isolate) is true. Idle tasks may be reordered relative to other task types and may be starved for an arbitrarily long time if no idle time is available. The definition of "foreground" is opaque to V8. </p>
-
-</div>
-</div>
-<a id="a2a25af03a35d938b37f2378d25ad4c6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a25af03a35d938b37f2378d25ad4c6e">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">v8::Platform::V8_DEPRECATE_SOON </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use a taskrunner acquired by <a class="el" href="classv8_1_1Platform.html#af0d18c6bbefa133c5d11ec8a460d0278">GetForegroundTaskRunner</a> instead.&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">virtual void &#160;</td>
-          <td class="paramname"><em>CallOnForegroundThread</em>Isolate *isolate, Task *task&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Schedules a task to be invoked on a foreground thread wrt a specific |isolate|. Tasks posted for the same isolate should be execute in order of scheduling. The definition of "foreground" is opaque to V8. </p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
+<li>include/<a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

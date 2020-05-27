@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['makeexternal_964',['MakeExternal',['../classv8_1_1String.html#a5efd1eba40c1fa8a6aae2c4a175a63be',1,'v8::String::MakeExternal(ExternalStringResource *resource)'],['../classv8_1_1String.html#a607d632c720eec5133649f522aefa944',1,'v8::String::MakeExternal(ExternalOneByteStringResource *resource)']]],
-  ['markasundetectable_965',['MarkAsUndetectable',['../classv8_1_1ObjectTemplate.html#a7e40ef313b44c2ad336c73051523b4f8',1,'v8::ObjectTemplate']]],
-  ['markindependent_966',['MarkIndependent',['../classv8_1_1PersistentBase.html#aed12b0a54bc5ade1fb44e3bdb3a1fe74',1,'v8::PersistentBase']]],
-  ['markpartiallydependent_967',['MarkPartiallyDependent',['../classv8_1_1PersistentBase.html#a4a876d30dda0dfb812e82bb240e4686e',1,'v8::PersistentBase']]],
-  ['message_968',['Message',['../classv8_1_1TryCatch.html#a91a41367c87e7a59ada09bcb9aae76c0',1,'v8::TryCatch']]],
-  ['monotonicallyincreasingtime_969',['MonotonicallyIncreasingTime',['../classv8_1_1Platform.html#a6d4d7c2dcf6b0c7113099b97fa7f57b7',1,'v8::Platform']]]
+  ['leak_1670',['Leak',['../classv8_1_1PersistentValueMapBase.html#adacf68ca7b9fb19deab68711a70a8313',1,'v8::PersistentValueMapBase']]],
+  ['length_1671',['length',['../classv8_1_1String_1_1ExternalStringResource.html#ab5ca300fea077d7c7774ec49d32e4da1',1,'v8::String::ExternalStringResource::length()'],['../classv8_1_1String_1_1ExternalOneByteStringResource.html#ad6b702f05798bcfc3975cb922f32b5ab',1,'v8::String::ExternalOneByteStringResource::length()'],['../classv8_1_1String_1_1Utf8Value.html#acf903e28f4aa775e3dbe3a73161fdcbc',1,'v8::String::Utf8Value::length()'],['../classv8_1_1String_1_1Value.html#aeb5be29097c4c23c2c63fe833145dfe4',1,'v8::String::Value::length()'],['../classv8_1_1ExternalOneByteStringResourceImpl.html#a4015ab4f74c209ac484e5183b2039f58',1,'v8::ExternalOneByteStringResourceImpl::length()'],['../classv8_1_1String.html#afaa18eae27056bb7058f09920a238f53',1,'v8::String::Length()'],['../classv8_1_1Array.html#ad6b33c7dd543044ca2311c000a1642dd',1,'v8::Array::Length()'],['../classv8_1_1FunctionCallbackInfo.html#af97dd3f1cb01ed039f9479152ad63a84',1,'v8::FunctionCallbackInfo::Length()'],['../classv8_1_1TypedArray.html#abb1047225d53d960c0da9c9f83cd7042',1,'v8::TypedArray::Length()']]],
+  ['local_1672',['Local',['../classv8_1_1Local.html#ad595a5906329a40788fbac32f39a7482',1,'v8::Local::Local()'],['../classv8_1_1Local.html#af7cf8d2fe7e10a14ad382189712adaff',1,'v8::Local::Local(Local&lt; S &gt; that)']]],
+  ['locker_1673',['Locker',['../classv8_1_1Locker.html#a40299c4c4c5b3c6808249c70b81c0ad1',1,'v8::Locker']]],
+  ['lowmemorynotification_1674',['LowMemoryNotification',['../classv8_1_1Isolate.html#aaf446f4877e4707a93d2c406fffd9fd6',1,'v8::Isolate']]]
 ];

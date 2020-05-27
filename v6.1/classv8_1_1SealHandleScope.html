@@ -77,20 +77,108 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acfdab75cc53b53d3ba1a50ab5f4fe16e"><td class="memItemLeft" align="right" valign="top"><a id="acfdab75cc53b53d3ba1a50ab5f4fe16e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>SealHandleScope</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
+<tr class="memitem:acfdab75cc53b53d3ba1a50ab5f4fe16e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SealHandleScope.html#acfdab75cc53b53d3ba1a50ab5f4fe16e">SealHandleScope</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
 <tr class="separator:acfdab75cc53b53d3ba1a50ab5f4fe16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1f6e49a9aa67bb570437fa98097e75"><td class="memItemLeft" align="right" valign="top"><a id="a5e1f6e49a9aa67bb570437fa98097e75"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>SealHandleScope</b> (const <a class="el" href="classv8_1_1SealHandleScope.html">SealHandleScope</a> &amp;)=delete</td></tr>
+<tr class="memitem:a82c58c60f19674ce66a15a7c4aeef434"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SealHandleScope.html#a82c58c60f19674ce66a15a7c4aeef434">~SealHandleScope</a> ()</td></tr>
+<tr class="separator:a82c58c60f19674ce66a15a7c4aeef434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1f6e49a9aa67bb570437fa98097e75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SealHandleScope.html#a5e1f6e49a9aa67bb570437fa98097e75">SealHandleScope</a> (const <a class="el" href="classv8_1_1SealHandleScope.html">SealHandleScope</a> &amp;)=delete</td></tr>
 <tr class="separator:a5e1f6e49a9aa67bb570437fa98097e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61b69e50f3996e315c4d3f41c1f67956"><td class="memItemLeft" align="right" valign="top"><a id="a61b69e50f3996e315c4d3f41c1f67956"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classv8_1_1SealHandleScope.html">SealHandleScope</a> &amp;)=delete</td></tr>
+<tr class="memitem:a61b69e50f3996e315c4d3f41c1f67956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SealHandleScope.html#a61b69e50f3996e315c4d3f41c1f67956">operator=</a> (const <a class="el" href="classv8_1_1SealHandleScope.html">SealHandleScope</a> &amp;)=delete</td></tr>
 <tr class="separator:a61b69e50f3996e315c4d3f41c1f67956"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A <a class="el" href="classv8_1_1SealHandleScope.html">SealHandleScope</a> acts like a handle scope in which no handle allocations are allowed. It can be useful for debugging handle leaks. Handles can be allocated within inner normal HandleScopes. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="acfdab75cc53b53d3ba1a50ab5f4fe16e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfdab75cc53b53d3ba1a50ab5f4fe16e">&#9670;&nbsp;</a></span>SealHandleScope() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::SealHandleScope::SealHandleScope </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82c58c60f19674ce66a15a7c4aeef434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82c58c60f19674ce66a15a7c4aeef434">&#9670;&nbsp;</a></span>~SealHandleScope()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::SealHandleScope::~SealHandleScope </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e1f6e49a9aa67bb570437fa98097e75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e1f6e49a9aa67bb570437fa98097e75">&#9670;&nbsp;</a></span>SealHandleScope() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::SealHandleScope::SealHandleScope </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classv8_1_1SealHandleScope.html">SealHandleScope</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a61b69e50f3996e315c4d3f41c1f67956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b69e50f3996e315c4d3f41c1f67956">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::SealHandleScope::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classv8_1_1SealHandleScope.html">SealHandleScope</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

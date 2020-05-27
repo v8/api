@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>cppgc</b></li><li class="navelem"><b>internal</b></li><li class="navelem"><a class="el" href="classcppgc_1_1internal_1_1MakeGarbageCollectedTraitInternal.html">MakeGarbageCollectedTraitInternal</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacecppgc.html">cppgc</a></li><li class="navelem"><a class="el" href="namespacecppgc_1_1internal.html">internal</a></li><li class="navelem"><a class="el" href="classcppgc_1_1internal_1_1MakeGarbageCollectedTraitInternal.html">MakeGarbageCollectedTraitInternal</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -73,6 +73,8 @@ $(function() {
 <div class="title">cppgc::internal::MakeGarbageCollectedTraitInternal Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="allocation_8h_source.html">allocation.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for cppgc::internal::MakeGarbageCollectedTraitInternal:</div>
 <div class="dyncontent">
@@ -86,21 +88,110 @@ Inheritance diagram for cppgc::internal::MakeGarbageCollectedTraitInternal:</div
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:af0b49ea167f0710a3d4260bdeed1bf46"><td class="memItemLeft" align="right" valign="top"><a id="af0b49ea167f0710a3d4260bdeed1bf46"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>MarkObjectAsFullyConstructed</b> (const void *payload)</td></tr>
+<tr class="memitem:af0b49ea167f0710a3d4260bdeed1bf46"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppgc_1_1internal_1_1MakeGarbageCollectedTraitInternal.html#af0b49ea167f0710a3d4260bdeed1bf46">MarkObjectAsFullyConstructed</a> (const void *payload)</td></tr>
 <tr class="separator:af0b49ea167f0710a3d4260bdeed1bf46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25262c27e76baf7b9237f372b28b4e37"><td class="memItemLeft" align="right" valign="top"><a id="a25262c27e76baf7b9237f372b28b4e37"></a>
-static void *&#160;</td><td class="memItemRight" valign="bottom"><b>Allocate</b> (<a class="el" href="classcppgc_1_1Heap.html">cppgc::Heap</a> *heap, size_t size, GCInfoIndex index)</td></tr>
+<tr class="memitem:a25262c27e76baf7b9237f372b28b4e37"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppgc_1_1internal_1_1MakeGarbageCollectedTraitInternal.html#a25262c27e76baf7b9237f372b28b4e37">Allocate</a> (<a class="el" href="classcppgc_1_1Heap.html">cppgc::Heap</a> *heap, size_t size, <a class="el" href="namespacecppgc_1_1internal.html#a3eedd623fc378ed16d8cb08158e929a3">GCInfoIndex</a> index)</td></tr>
 <tr class="separator:a25262c27e76baf7b9237f372b28b4e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a5b26ff39abae46f2ff44b168f6a6684c"><td class="memItemLeft" align="right" valign="top"><a id="a5b26ff39abae46f2ff44b168f6a6684c"></a>
-class&#160;</td><td class="memItemRight" valign="bottom"><b>HeapObjectHeader</b></td></tr>
+<tr class="memitem:a5b26ff39abae46f2ff44b168f6a6684c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppgc_1_1internal_1_1MakeGarbageCollectedTraitInternal.html#a5b26ff39abae46f2ff44b168f6a6684c">HeapObjectHeader</a></td></tr>
 <tr class="separator:a5b26ff39abae46f2ff44b168f6a6684c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a25262c27e76baf7b9237f372b28b4e37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25262c27e76baf7b9237f372b28b4e37">&#9670;&nbsp;</a></span>Allocate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void* cppgc::internal::MakeGarbageCollectedTraitInternal::Allocate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcppgc_1_1Heap.html">cppgc::Heap</a> *&#160;</td>
+          <td class="paramname"><em>heap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacecppgc_1_1internal.html#a3eedd623fc378ed16d8cb08158e929a3">GCInfoIndex</a>&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0b49ea167f0710a3d4260bdeed1bf46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0b49ea167f0710a3d4260bdeed1bf46">&#9670;&nbsp;</a></span>MarkObjectAsFullyConstructed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void cppgc::internal::MakeGarbageCollectedTraitInternal::MarkObjectAsFullyConstructed </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>payload</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a5b26ff39abae46f2ff44b168f6a6684c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b26ff39abae46f2ff44b168f6a6684c">&#9670;&nbsp;</a></span>HeapObjectHeader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class HeapObjectHeader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>cppgc/<a class="el" href="allocation_8h_source.html">allocation.h</a></li>
+<li>include/cppgc/<a class="el" href="allocation_8h_source.html">allocation.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -79,18 +79,17 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a9c2a22c9cb8e928d570c38648c648b7e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Module.html#a9c2a22c9cb8e928d570c38648c648b7e">Status</a> { <br />
-&#160;&#160;<b>kUninstantiated</b>, 
-<b>kInstantiating</b>, 
-<b>kInstantiated</b>, 
-<b>kEvaluating</b>, 
+&#160;&#160;<a class="el" href="classv8_1_1Module.html#a9c2a22c9cb8e928d570c38648c648b7ea9e46243c92d028a0852ed3f1663a1798">kUninstantiated</a>, 
+<a class="el" href="classv8_1_1Module.html#a9c2a22c9cb8e928d570c38648c648b7ea22139acec7f5d563664f3b2e373b2416">kInstantiating</a>, 
+<a class="el" href="classv8_1_1Module.html#a9c2a22c9cb8e928d570c38648c648b7ea9962a7659d8bd1a791c3e26c5901d2ac">kInstantiated</a>, 
+<a class="el" href="classv8_1_1Module.html#a9c2a22c9cb8e928d570c38648c648b7eabdf17de99ed8fee20fe1410c5bd634b2">kEvaluating</a>, 
 <br />
-&#160;&#160;<b>kEvaluated</b>, 
-<b>kErrored</b>
+&#160;&#160;<a class="el" href="classv8_1_1Module.html#a9c2a22c9cb8e928d570c38648c648b7eaf16adbfece3693748165cd6860157604">kEvaluated</a>, 
+<a class="el" href="classv8_1_1Module.html#a9c2a22c9cb8e928d570c38648c648b7ead44e2076c4d0e851f3b2e294720dab96">kErrored</a>
 <br />
  }</td></tr>
 <tr class="separator:a9c2a22c9cb8e928d570c38648c648b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49b31b9f2408284c0ce3c622b5e29027"><td class="memItemLeft" align="right" valign="top"><a id="a49b31b9f2408284c0ce3c622b5e29027"></a>
-typedef <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Module.html">Module</a> &gt;(*&#160;</td><td class="memItemRight" valign="bottom"><b>ResolveCallback</b>) (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; specifier, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Module.html">Module</a> &gt; referrer)</td></tr>
+<tr class="memitem:a49b31b9f2408284c0ce3c622b5e29027"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Module.html">Module</a> &gt;(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Module.html#a49b31b9f2408284c0ce3c622b5e29027">ResolveCallback</a>) (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; specifier, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Module.html">Module</a> &gt; referrer)</td></tr>
 <tr class="separator:a49b31b9f2408284c0ce3c622b5e29027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -107,10 +106,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a95b5467ac9bcfc120470b6944c7da111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2966a54ccb783a91ab494407782e9e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Module.html#aa2966a54ccb783a91ab494407782e9e3">GetIdentityHash</a> () const</td></tr>
 <tr class="separator:aa2966a54ccb783a91ab494407782e9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d7d35ce8451c547294fe9964f72d9ca"><td class="memItemLeft" align="right" valign="top">V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1Maybe.html">Maybe</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Module.html#a2d7d35ce8451c547294fe9964f72d9ca">InstantiateModule</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, ResolveCallback callback)</td></tr>
-<tr class="separator:a2d7d35ce8451c547294fe9964f72d9ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0785fa83cd3dde1dee086e1f9d31abdc"><td class="memItemLeft" align="right" valign="top">V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Module.html#a0785fa83cd3dde1dee086e1f9d31abdc">Evaluate</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context)</td></tr>
-<tr class="separator:a0785fa83cd3dde1dee086e1f9d31abdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47ecc3aa59b3c5e3b1036241d392b08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Maybe.html">Maybe</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Module.html#ab47ecc3aa59b3c5e3b1036241d392b08">InstantiateModule</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Module.html#a49b31b9f2408284c0ce3c622b5e29027">ResolveCallback</a> callback)</td></tr>
+<tr class="separator:ab47ecc3aa59b3c5e3b1036241d392b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075d980653a3ea69b6c59c560c3de5b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Module.html#a075d980653a3ea69b6c59c560c3de5b1">Evaluate</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context)</td></tr>
+<tr class="separator:a075d980653a3ea69b6c59c560c3de5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fd11de1b44b850f3351b2765f32da68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Module.html#a3fd11de1b44b850f3351b2765f32da68">GetModuleNamespace</a> ()</td></tr>
 <tr class="separator:a3fd11de1b44b850f3351b2765f32da68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47dc498d5645eef50ddceb874f5ed3a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1UnboundModuleScript.html">UnboundModuleScript</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Module.html#a47dc498d5645eef50ddceb874f5ed3a1">GetUnboundModuleScript</a> ()</td></tr>
@@ -118,7 +117,22 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A compiled JavaScript module. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a49b31b9f2408284c0ce3c622b5e29027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49b31b9f2408284c0ce3c622b5e29027">&#9670;&nbsp;</a></span>ResolveCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1Module.html">Module</a>&gt;(* v8::Module::ResolveCallback) (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; specifier, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Module.html">Module</a> &gt; referrer)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a9c2a22c9cb8e928d570c38648c648b7e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c2a22c9cb8e928d570c38648c648b7e">&#9670;&nbsp;</a></span>Status</h2>
 
@@ -132,18 +146,26 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The different states a module can be in.</p>
 <p>This corresponds to the states used in ECMAScript except that "evaluated" is split into kEvaluated and kErrored, indicating success and failure, respectively. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9c2a22c9cb8e928d570c38648c648b7ea9e46243c92d028a0852ed3f1663a1798"></a>kUninstantiated&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9c2a22c9cb8e928d570c38648c648b7ea22139acec7f5d563664f3b2e373b2416"></a>kInstantiating&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9c2a22c9cb8e928d570c38648c648b7ea9962a7659d8bd1a791c3e26c5901d2ac"></a>kInstantiated&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9c2a22c9cb8e928d570c38648c648b7eabdf17de99ed8fee20fe1410c5bd634b2"></a>kEvaluating&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9c2a22c9cb8e928d570c38648c648b7eaf16adbfece3693748165cd6860157604"></a>kEvaluated&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9c2a22c9cb8e928d570c38648c648b7ead44e2076c4d0e851f3b2e294720dab96"></a>kErrored&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0785fa83cd3dde1dee086e1f9d31abdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0785fa83cd3dde1dee086e1f9d31abdc">&#9670;&nbsp;</a></span>Evaluate()</h2>
+<a id="a075d980653a3ea69b6c59c560c3de5b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a075d980653a3ea69b6c59c560c3de5b1">&#9670;&nbsp;</a></span>Evaluate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1Value.html">Value</a>&gt; v8::Module::Evaluate </td>
+          <td class="memname"><a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1Value.html">Value</a>&gt; v8::Module::Evaluate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
           <td class="paramname"><em>context</em></td><td>)</td>
@@ -304,14 +326,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2d7d35ce8451c547294fe9964f72d9ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d7d35ce8451c547294fe9964f72d9ca">&#9670;&nbsp;</a></span>InstantiateModule()</h2>
+<a id="ab47ecc3aa59b3c5e3b1036241d392b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab47ecc3aa59b3c5e3b1036241d392b08">&#9670;&nbsp;</a></span>InstantiateModule()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1Maybe.html">Maybe</a>&lt;bool&gt; v8::Module::InstantiateModule </td>
+          <td class="memname"><a class="el" href="classv8_1_1Maybe.html">Maybe</a>&lt;bool&gt; v8::Module::InstantiateModule </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
           <td class="paramname"><em>context</em>, </td>
@@ -319,7 +341,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ResolveCallback&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Module.html#a49b31b9f2408284c0ce3c622b5e29027">ResolveCallback</a>&#160;</td>
           <td class="paramname"><em>callback</em>&#160;</td>
         </tr>
         <tr>
@@ -335,7 +357,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

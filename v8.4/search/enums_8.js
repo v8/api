@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['measurememoryexecution_2122',['MeasureMemoryExecution',['../namespacev8.html#ae7d05bf926fdcef988b14900496ea931',1,'v8']]],
-  ['measurememorymode_2123',['MeasureMemoryMode',['../namespacev8.html#af0a35d935e967468adc5b6dc7f8da883',1,'v8']]],
-  ['memorypressurelevel_2124',['MemoryPressureLevel',['../namespacev8.html#ae0e9a25bf51e518585f555806e7dc7b9',1,'v8']]],
-  ['microtaskspolicy_2125',['MicrotasksPolicy',['../namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04da',1,'v8']]]
+  ['keycollectionmode_4291',['KeyCollectionMode',['../namespacev8.html#a0cee20f5c7f0d59d0835af8e537388dc',1,'v8']]],
+  ['keyconversionmode_4292',['KeyConversionMode',['../namespacev8.html#aa65aeff871614520d8033dead4b34e38',1,'v8']]]
 ];

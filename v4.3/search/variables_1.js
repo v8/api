@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['entry_5fhook_1086',['entry_hook',['../structv8_1_1Isolate_1_1CreateParams.html#aa7aa18bbe2d86713e5b074a93b38dc60',1,'v8::Isolate::CreateParams']]]
+  ['buffer_5fpolicy_1976',['buffer_policy',['../structv8_1_1ScriptCompiler_1_1CachedData.html#a1e5c9ff625ac790139aec4294493fe32',1,'v8::ScriptCompiler::CachedData']]]
 ];

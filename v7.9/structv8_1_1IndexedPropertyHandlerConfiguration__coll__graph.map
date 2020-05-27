@@ -1,10 +1,12 @@
 <map id="v8::IndexedPropertyHandlerConfiguration" name="v8::IndexedPropertyHandlerConfiguration">
-<area shape="rect" id="node1" title=" " alt="" coords="289,201,473,243"/>
-<area shape="rect" id="node2" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="5,5,172,47"/>
-<area shape="rect" id="node3" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="5,71,172,112"/>
-<area shape="rect" id="node4" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="5,136,172,177"/>
-<area shape="rect" id="node5" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="5,201,172,243"/>
-<area shape="rect" id="node6" href="$classv8_1_1PropertyDescriptor.html" title=" " alt="" coords="12,267,165,294"/>
-<area shape="rect" id="node7" href="$classv8_1_1Local.html" title=" " alt="" coords="23,318,155,345"/>
-<area shape="rect" id="node8" href="$classv8_1_1Local.html" title=" " alt="" coords="11,369,166,395"/>
+<area shape="rect" id="node1" title=" " alt="" coords="620,201,804,243"/>
+<area shape="rect" id="node2" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="336,5,503,47"/>
+<area shape="rect" id="node3" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="5,111,204,138"/>
+<area shape="rect" id="node4" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="336,71,503,112"/>
+<area shape="rect" id="node5" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="336,136,503,177"/>
+<area shape="rect" id="node6" href="$classv8_1_1PropertyCallbackInfo.html" title=" " alt="" coords="336,201,503,243"/>
+<area shape="rect" id="node7" href="$classv8_1_1PropertyDescriptor.html" title=" " alt="" coords="343,267,496,294"/>
+<area shape="rect" id="node8" href="$classv8_1_1Local.html" title=" " alt="" coords="353,318,485,345"/>
+<area shape="rect" id="node9" href="$classv8_1_1Local.html" title=" " alt="" coords="51,343,158,370"/>
+<area shape="rect" id="node10" href="$classv8_1_1Local.html" title=" " alt="" coords="342,369,497,395"/>
 </map>

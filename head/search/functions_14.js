@@ -1,13 +1,22 @@
 var searchData=
 [
-  ['wake_2030',['Wake',['../classv8_1_1Isolate_1_1AtomicsWaitWakeHandle.html#a3d31d451537b6eee01e71360f7e66c2e',1,'v8::Isolate::AtomicsWaitWakeHandle']]],
-  ['wordcount_2031',['WordCount',['../classv8_1_1BigInt.html#a840783db8ae94178040c5a8a7bb52875',1,'v8::BigInt']]],
-  ['wrapperclassid_2032',['WrapperClassId',['../classv8_1_1PersistentBase.html#ac81668d70faff8ee84aa6db410b3ce3c',1,'v8::PersistentBase::WrapperClassId()'],['../classv8_1_1TracedReferenceBase.html#a86db116f9ca456f79238ae1a5f133869',1,'v8::TracedReferenceBase::WrapperClassId()']]],
-  ['wrappernode_2033',['WrapperNode',['../classv8_1_1EmbedderGraph_1_1Node.html#acfe58e3b4db90c2ebbfcee5f81415181',1,'v8::EmbedderGraph::Node']]],
-  ['writeasciichunk_2034',['WriteAsciiChunk',['../classv8_1_1OutputStream.html#a42adc62ebe43d00159f80328538f217f',1,'v8::OutputStream']]],
-  ['writeheader_2035',['WriteHeader',['../classv8_1_1ValueSerializer.html#ac0bdf1a7731ee4e93823dabdfa8c8661',1,'v8::ValueSerializer']]],
-  ['writeheapstatschunk_2036',['WriteHeapStatsChunk',['../classv8_1_1OutputStream.html#a104fd1a0b5ef685e1d4967aaacbb9e9d',1,'v8::OutputStream']]],
-  ['writehostobject_2037',['WriteHostObject',['../classv8_1_1ValueSerializer_1_1Delegate.html#ae97808060b22d7a94517f725922b72c6',1,'v8::ValueSerializer::Delegate']]],
-  ['writeuint32_2038',['WriteUint32',['../classv8_1_1ValueSerializer.html#a8345af97eb58727384cab6a2738924d1',1,'v8::ValueSerializer']]],
-  ['writevalue_2039',['WriteValue',['../classv8_1_1ValueSerializer.html#a32b08083cb7d83bf3b117b61f327ea23',1,'v8::ValueSerializer']]]
+  ['uint32value_3795',['Uint32Value',['../classv8_1_1Value.html#ad28d838fb2de35d29a5f88568fea3c49',1,'v8::Value']]],
+  ['uint64value_3796',['Uint64Value',['../classv8_1_1BigInt.html#a32d8d340aef40da93cde35a9baf7e58d',1,'v8::BigInt']]],
+  ['undefined_3797',['Undefined',['../namespacev8.html#a61ff26a76e48cb9d79d5c6984a241094',1,'v8']]],
+  ['unlock_3798',['Unlock',['../classv8_1_1String_1_1ExternalStringResourceBase.html#a6c6892d46c8fafaa938df542a6e334cd',1,'v8::String::ExternalStringResourceBase']]],
+  ['unlocker_3799',['Unlocker',['../classv8_1_1Unlocker.html#aa6789fe804cc059d9554c7ae7958c440',1,'v8::Unlocker']]],
+  ['unmutemetrics_3800',['unmuteMetrics',['../classv8__inspector_1_1V8InspectorClient.html#a283517b17f71fbeb75e0c19dde9f8189',1,'v8_inspector::V8InspectorClient']]],
+  ['unpack_3801',['Unpack',['../classv8_1_1WasmStreaming.html#a343acdb301ae8c21b49c177ac28f2b07',1,'v8::WasmStreaming']]],
+  ['unwrapobject_3802',['unwrapObject',['../classv8__inspector_1_1V8InspectorSession.html#a269366284a5efb997eb78dee2ba243aa',1,'v8_inspector::V8InspectorSession']]],
+  ['updateduration_3803',['UpdateDuration',['../classv8_1_1platform_1_1tracing_1_1TraceObject.html#ac7bc3b2b76c56a0c3ac7911ce36174cd',1,'v8::platform::tracing::TraceObject']]],
+  ['updatenodeflag_3804',['UpdateNodeFlag',['../classv8_1_1internal_1_1Internals.html#a481ef4db5956e6e2d909c48e57ef7dde',1,'v8::internal::Internals']]],
+  ['updatenodestate_3805',['UpdateNodeState',['../classv8_1_1internal_1_1Internals.html#a7fa2a8e95ea74615db5aef983efbe84a',1,'v8::internal::Internals']]],
+  ['updateowner_3806',['UpdateOwner',['../classcppgc_1_1internal_1_1PersistentNode.html#a1ca2104547bd2139cb56233c575a38f9',1,'cppgc::internal::PersistentNode']]],
+  ['updatetraceeventduration_3807',['UpdateTraceEventDuration',['../classv8_1_1platform_1_1tracing_1_1TracingController.html#ade75afc5e244dc4c9152c040cffc7930',1,'v8::platform::tracing::TracingController::UpdateTraceEventDuration()'],['../classv8_1_1TracingController.html#ac1fda6cdae5f6515b896b3df05d5a97e',1,'v8::TracingController::UpdateTraceEventDuration()']]],
+  ['used_5fglobal_5fhandles_5fsize_3808',['used_global_handles_size',['../classv8_1_1HeapStatistics.html#a584eb432f04c4051ff372a4b314686c3',1,'v8::HeapStatistics']]],
+  ['used_5fheap_5fsize_3809',['used_heap_size',['../classv8_1_1HeapStatistics.html#a05ecb48bceea49d2fe430c81df02babc',1,'v8::HeapStatistics']]],
+  ['usedefaultsecuritytoken_3810',['UseDefaultSecurityToken',['../classv8_1_1Context.html#aa9e1a14982b64fd51ab87600a287bad2',1,'v8::Context']]],
+  ['usedetailedsourcepositionsforprofiling_3811',['UseDetailedSourcePositionsForProfiling',['../classv8_1_1CpuProfiler.html#ae62325c49592ebdc030fbcf21e470c16',1,'v8::CpuProfiler']]],
+  ['utf8length_3812',['Utf8Length',['../classv8_1_1String.html#af99433ee51ed45337e5b4536bd28a834',1,'v8::String']]],
+  ['utf8value_3813',['Utf8Value',['../classv8_1_1String_1_1Utf8Value.html#a6dd031d0040e83fc7ffc4b4a1c990654',1,'v8::String::Utf8Value::Utf8Value(Isolate *isolate, Local&lt; v8::Value &gt; obj)'],['../classv8_1_1String_1_1Utf8Value.html#a8a9d1b3ccc59550ecb288eea858dc060',1,'v8::String::Utf8Value::Utf8Value(const Utf8Value &amp;)=delete']]]
 ];

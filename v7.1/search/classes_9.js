@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['json_757',['JSON',['../classv8_1_1JSON.html',1,'v8']]]
+  ['jitcodeevent_2002',['JitCodeEvent',['../structv8_1_1JitCodeEvent.html',1,'v8']]],
+  ['json_2003',['JSON',['../classv8_1_1JSON.html',1,'v8']]]
 ];

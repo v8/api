@@ -79,13 +79,15 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab106d1fbad7be9f6fd8b0f5c550ac59e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59e">AllocationMode</a> { <b>kNormal</b>, 
-<b>kReservation</b>
+<tr class="memitem:ab106d1fbad7be9f6fd8b0f5c550ac59e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59e">AllocationMode</a> { <a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59ea07fa7a19aa722c635a15e94cb7f50416">AllocationMode::kNormal</a>, 
+<a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#ab106d1fbad7be9f6fd8b0f5c550ac59ea6f8f300976cbd4227d599276b3206933">AllocationMode::kReservation</a>
  }</td></tr>
 <tr class="separator:ab106d1fbad7be9f6fd8b0f5c550ac59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aeeb119b0b88634faeeb7aa0c1a6d3318"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#aeeb119b0b88634faeeb7aa0c1a6d3318">~Allocator</a> ()</td></tr>
+<tr class="separator:aeeb119b0b88634faeeb7aa0c1a6d3318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a106b0d80120ed04fe9b9675e96f0340b"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#a106b0d80120ed04fe9b9675e96f0340b">Allocate</a> (size_t length)=0</td></tr>
 <tr class="separator:a106b0d80120ed04fe9b9675e96f0340b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b2d5c0a826d3c435e12f3ee178f37a"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ArrayBuffer_1_1Allocator.html#a92b2d5c0a826d3c435e12f3ee178f37a">AllocateUninitialized</a> (size_t length)=0</td></tr>
@@ -123,6 +125,36 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p><a class="el" href="classv8_1_1ArrayBuffer.html">ArrayBuffer</a> allocation mode. kNormal is a malloc/free style allocation, while kReservation is for larger allocations with the ability to set access permissions. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab106d1fbad7be9f6fd8b0f5c550ac59ea07fa7a19aa722c635a15e94cb7f50416"></a>kNormal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab106d1fbad7be9f6fd8b0f5c550ac59ea6f8f300976cbd4227d599276b3206933"></a>kReservation&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aeeb119b0b88634faeeb7aa0c1a6d3318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb119b0b88634faeeb7aa0c1a6d3318">&#9670;&nbsp;</a></span>~Allocator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::ArrayBuffer::Allocator::~Allocator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -242,11 +274,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>malloc/free based convenience allocator.</p>
 <p>Caller takes ownership, i.e. the returned object needs to be freed using |delete allocator| once it is no longer in use. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="process_8cc-example.html#a34">process.cc</a>, and <a class="el" href="shell_8cc-example.html#a16">shell.cc</a>.</dd>
+</dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

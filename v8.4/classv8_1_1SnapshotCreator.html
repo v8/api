@@ -78,8 +78,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a8b1f50812dc699d0dce347fd557b77c2"><td class="memItemLeft" align="right" valign="top"><a id="a8b1f50812dc699d0dce347fd557b77c2"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>FunctionCodeHandling</b> { <b>kClear</b>, 
-<b>kKeep</b>
+<tr class="memitem:a8b1f50812dc699d0dce347fd557b77c2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#a8b1f50812dc699d0dce347fd557b77c2">FunctionCodeHandling</a> { <a class="el" href="classv8_1_1SnapshotCreator.html#a8b1f50812dc699d0dce347fd557b77c2afb40ba5ffb9b51df54135ccaeb0fc48c">FunctionCodeHandling::kClear</a>, 
+<a class="el" href="classv8_1_1SnapshotCreator.html#a8b1f50812dc699d0dce347fd557b77c2afae526507e17bfc6f0d14e125189063a">FunctionCodeHandling::kKeep</a>
  }</td></tr>
 <tr class="separator:a8b1f50812dc699d0dce347fd557b77c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -97,35 +97,52 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaeed7b1a205009c62d7e60deefe6e805"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefaa477c494707e73b493047f4711a0a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#aefaa477c494707e73b493047f4711a0a">AddContext</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="structv8_1_1SerializeInternalFieldsCallback.html">SerializeInternalFieldsCallback</a> callback=<a class="el" href="structv8_1_1SerializeInternalFieldsCallback.html">SerializeInternalFieldsCallback</a>())</td></tr>
 <tr class="separator:aefaa477c494707e73b493047f4711a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7388b4c160b8d1b6b7ff23833bafb339"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a7388b4c160b8d1b6b7ff23833bafb339"><td class="memTemplItemLeft" align="right" valign="top">V8_INLINE size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#a7388b4c160b8d1b6b7ff23833bafb339">AddData</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt; object)</td></tr>
-<tr class="separator:a7388b4c160b8d1b6b7ff23833bafb339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14522fba865a20f502805bc54104bee7"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a14522fba865a20f502805bc54104bee7"><td class="memTemplItemLeft" align="right" valign="top">V8_INLINE size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#a14522fba865a20f502805bc54104bee7">AddData</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt; object)</td></tr>
-<tr class="separator:a14522fba865a20f502805bc54104bee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86b2023acdb88a9bd6eae2695f2b0a8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1StartupData.html">StartupData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#a86b2023acdb88a9bd6eae2695f2b0a8a">CreateBlob</a> (FunctionCodeHandling function_code_handling)</td></tr>
-<tr class="separator:a86b2023acdb88a9bd6eae2695f2b0a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ecd3018fb28bae605b6dd26cc21ec44"><td class="memItemLeft" align="right" valign="top"><a id="a2ecd3018fb28bae605b6dd26cc21ec44"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>SnapshotCreator</b> (const <a class="el" href="classv8_1_1SnapshotCreator.html">SnapshotCreator</a> &amp;)=delete</td></tr>
-<tr class="separator:a2ecd3018fb28bae605b6dd26cc21ec44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad764835d6388b3442b75016257b9a6df"><td class="memItemLeft" align="right" valign="top"><a id="ad764835d6388b3442b75016257b9a6df"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classv8_1_1SnapshotCreator.html">SnapshotCreator</a> &amp;)=delete</td></tr>
-<tr class="separator:ad764835d6388b3442b75016257b9a6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bc97ea7ead4892f2dfa64fef20454d9"><td class="memTemplParams" colspan="2"><a id="a0bc97ea7ead4892f2dfa64fef20454d9"></a>
-template&lt;class T &gt; </td></tr>
-<tr class="memitem:a0bc97ea7ead4892f2dfa64fef20454d9"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><b>AddData</b> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt; object)</td></tr>
+<tr class="memitem:a0bc97ea7ead4892f2dfa64fef20454d9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a0bc97ea7ead4892f2dfa64fef20454d9"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#a0bc97ea7ead4892f2dfa64fef20454d9">AddData</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt; object)</td></tr>
 <tr class="separator:a0bc97ea7ead4892f2dfa64fef20454d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8f73b9c58c3851ddf43f3a1b53d4af8"><td class="memTemplParams" colspan="2"><a id="aa8f73b9c58c3851ddf43f3a1b53d4af8"></a>
-template&lt;class T &gt; </td></tr>
-<tr class="memitem:aa8f73b9c58c3851ddf43f3a1b53d4af8"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><b>AddData</b> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt; object)</td></tr>
+<tr class="memitem:aa8f73b9c58c3851ddf43f3a1b53d4af8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa8f73b9c58c3851ddf43f3a1b53d4af8"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#aa8f73b9c58c3851ddf43f3a1b53d4af8">AddData</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt; object)</td></tr>
 <tr class="separator:aa8f73b9c58c3851ddf43f3a1b53d4af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86b2023acdb88a9bd6eae2695f2b0a8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1StartupData.html">StartupData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#a86b2023acdb88a9bd6eae2695f2b0a8a">CreateBlob</a> (<a class="el" href="classv8_1_1SnapshotCreator.html#a8b1f50812dc699d0dce347fd557b77c2">FunctionCodeHandling</a> function_code_handling)</td></tr>
+<tr class="separator:a86b2023acdb88a9bd6eae2695f2b0a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ecd3018fb28bae605b6dd26cc21ec44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#a2ecd3018fb28bae605b6dd26cc21ec44">SnapshotCreator</a> (const <a class="el" href="classv8_1_1SnapshotCreator.html">SnapshotCreator</a> &amp;)=delete</td></tr>
+<tr class="separator:a2ecd3018fb28bae605b6dd26cc21ec44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad764835d6388b3442b75016257b9a6df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1SnapshotCreator.html#ad764835d6388b3442b75016257b9a6df">operator=</a> (const <a class="el" href="classv8_1_1SnapshotCreator.html">SnapshotCreator</a> &amp;)=delete</td></tr>
+<tr class="separator:ad764835d6388b3442b75016257b9a6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class to create a snapshot data blob.</p>
 <p>The <a class="el" href="classv8_1_1Isolate.html">Isolate</a> used by a <a class="el" href="classv8_1_1SnapshotCreator.html">SnapshotCreator</a> is owned by it, and will be entered and exited by the constructor and destructor, respectively; The destructor will also destroy the <a class="el" href="classv8_1_1Isolate.html">Isolate</a>. Experimental language features, including those available by default, are not available while creating a snapshot. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a8b1f50812dc699d0dce347fd557b77c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b1f50812dc699d0dce347fd557b77c2">&#9670;&nbsp;</a></span>FunctionCodeHandling</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classv8_1_1SnapshotCreator.html#a8b1f50812dc699d0dce347fd557b77c2">v8::SnapshotCreator::FunctionCodeHandling</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8b1f50812dc699d0dce347fd557b77c2afb40ba5ffb9b51df54135ccaeb0fc48c"></a>kClear&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b1f50812dc699d0dce347fd557b77c2afae526507e17bfc6f0d14e125189063a"></a>kKeep&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a561a072e2d0656946b8b976fa2769dea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a561a072e2d0656946b8b976fa2769dea">&#9670;&nbsp;</a></span>SnapshotCreator() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a561a072e2d0656946b8b976fa2769dea">&#9670;&nbsp;</a></span>SnapshotCreator() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +183,7 @@ template&lt;class T &gt; </td></tr>
 </div>
 </div>
 <a id="acde479ff9349a5f61d3e1bd4bc78d833"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acde479ff9349a5f61d3e1bd4bc78d833">&#9670;&nbsp;</a></span>SnapshotCreator() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acde479ff9349a5f61d3e1bd4bc78d833">&#9670;&nbsp;</a></span>SnapshotCreator() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,6 +235,32 @@ template&lt;class T &gt; </td></tr>
 
 </div>
 </div>
+<a id="a2ecd3018fb28bae605b6dd26cc21ec44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ecd3018fb28bae605b6dd26cc21ec44">&#9670;&nbsp;</a></span>SnapshotCreator() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::SnapshotCreator::SnapshotCreator </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classv8_1_1SnapshotCreator.html">SnapshotCreator</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aefaa477c494707e73b493047f4711a0a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefaa477c494707e73b493047f4711a0a">&#9670;&nbsp;</a></span>AddContext()</h2>
@@ -255,16 +298,19 @@ template&lt;class T &gt; </td></tr>
 
 </div>
 </div>
-<a id="a7388b4c160b8d1b6b7ff23833bafb339"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7388b4c160b8d1b6b7ff23833bafb339">&#9670;&nbsp;</a></span>AddData() <span class="overload">[1/2]</span></h2>
+<a id="a0bc97ea7ead4892f2dfa64fef20454d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc97ea7ead4892f2dfa64fef20454d9">&#9670;&nbsp;</a></span>AddData() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">V8_INLINE size_t v8::SnapshotCreator::AddData </td>
+          <td class="memname">size_t v8::SnapshotCreator::AddData </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
           <td class="paramname"><em>context</em>, </td>
@@ -281,27 +327,40 @@ template&lt;class T &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Attach arbitrary V8::Data to the context snapshot, which can be retrieved via Context::GetDataFromSnapshot after deserialization. This data does not survive when a new snapshot is created from an existing snapshot. </p><dl class="section return"><dt>Returns</dt><dd>the index for retrieval. </dd></dl>
 
 </div>
 </div>
-<a id="a14522fba865a20f502805bc54104bee7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14522fba865a20f502805bc54104bee7">&#9670;&nbsp;</a></span>AddData() <span class="overload">[2/2]</span></h2>
+<a id="aa8f73b9c58c3851ddf43f3a1b53d4af8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8f73b9c58c3851ddf43f3a1b53d4af8">&#9670;&nbsp;</a></span>AddData() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">V8_INLINE size_t v8::SnapshotCreator::AddData </td>
+          <td class="memname">size_t v8::SnapshotCreator::AddData </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; T &gt;&#160;</td>
           <td class="paramname"><em>object</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Attach arbitrary V8::Data to the isolate snapshot, which can be retrieved via Isolate::GetDataFromSnapshot after deserialization. This data does not survive when a new snapshot is created from an existing snapshot. </p><dl class="section return"><dt>Returns</dt><dd>the index for retrieval. </dd></dl>
 
@@ -316,7 +375,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classv8_1_1StartupData.html">StartupData</a> v8::SnapshotCreator::CreateBlob </td>
           <td>(</td>
-          <td class="paramtype">FunctionCodeHandling&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1SnapshotCreator.html#a8b1f50812dc699d0dce347fd557b77c2">FunctionCodeHandling</a>&#160;</td>
           <td class="paramname"><em>function_code_handling</em></td><td>)</td>
           <td></td>
         </tr>
@@ -347,6 +406,32 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the isolate prepared by the snapshot creator. </dd></dl>
+
+</div>
+</div>
+<a id="ad764835d6388b3442b75016257b9a6df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad764835d6388b3442b75016257b9a6df">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::SnapshotCreator::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classv8_1_1SnapshotCreator.html">SnapshotCreator</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -386,7 +471,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

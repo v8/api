@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['memorypressurelevel_1697',['MemoryPressureLevel',['../namespacev8.html#ae0e9a25bf51e518585f555806e7dc7b9',1,'v8']]],
-  ['microtaskspolicy_1698',['MicrotasksPolicy',['../namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04da',1,'v8']]]
+  ['jitcodeeventoptions_3394',['JitCodeEventOptions',['../namespacev8.html#a06f34fa4fa4cfc8518366808d1d461c1',1,'v8']]]
 ];

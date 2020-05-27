@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacev8.html">v8</a></li><li class="navelem"><b>platform</b></li><li class="navelem"><b>tracing</b></li><li class="navelem"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html">TraceObject</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacev8.html">v8</a></li><li class="navelem"><a class="el" href="namespacev8_1_1platform.html">platform</a></li><li class="navelem"><a class="el" href="namespacev8_1_1platform_1_1tracing.html">tracing</a></li><li class="navelem"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html">TraceObject</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -73,6 +73,8 @@ $(function() {
 <div class="title">v8::platform::tracing::TraceObject Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="v8-tracing_8h_source.html">v8-tracing.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -81,72 +83,801 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaa2b2f4c50e28cd65d2146cbf84f1449"><td class="memItemLeft" align="right" valign="top"><a id="aaa2b2f4c50e28cd65d2146cbf84f1449"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (char phase, const uint8_t *category_enabled_flag, const char *name, const char *scope, uint64_t id, uint64_t bind_id, int num_args, const char **arg_names, const uint8_t *arg_types, const uint64_t *arg_values, std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *arg_convertables, unsigned int flags, int64_t timestamp, int64_t cpu_timestamp)</td></tr>
+<tr class="memitem:a93dbfc48ee24179cac2d7c936c38c1bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a93dbfc48ee24179cac2d7c936c38c1bd">TraceObject</a> ()</td></tr>
+<tr class="separator:a93dbfc48ee24179cac2d7c936c38c1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d143c6b94c5ae1d40c23808eea30970"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a0d143c6b94c5ae1d40c23808eea30970">~TraceObject</a> ()</td></tr>
+<tr class="separator:a0d143c6b94c5ae1d40c23808eea30970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2b2f4c50e28cd65d2146cbf84f1449"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aaa2b2f4c50e28cd65d2146cbf84f1449">Initialize</a> (char <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a9aeff0bc84517ff7a5740de1ecf06f2f">phase</a>, const uint8_t *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a56b8afc0b8867f866a68d3a3c6b6ef50">category_enabled_flag</a>, const char *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a98533aedf93db780b77ba948e9baa89e">name</a>, const char *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a97240c11b42d8a131ef8fa855fb5265d">scope</a>, uint64_t <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ae927964e6a42130adb33594ffd7923bd">id</a>, uint64_t <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aba3ba558dc95062fa26564cccd2b7b82">bind_id</a>, int <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aa82b5395cf4fa451d9f365294578846f">num_args</a>, const char **<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a91c8a7bd1af6fbeac9b44c6b94668fab">arg_names</a>, const uint8_t *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a87c3c8319757d996065fdcdf528726df">arg_types</a>, const uint64_t *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a1ff06902a7a7a25780d83b67106de10f">arg_values</a>, std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a9e20b05dd61b524ab744ca46be8fe2b7">arg_convertables</a>, unsigned int <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ab80f30a4e91c4abb56aeaa9e36c96591">flags</a>, int64_t timestamp, int64_t cpu_timestamp)</td></tr>
 <tr class="separator:aaa2b2f4c50e28cd65d2146cbf84f1449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7bc3b2b76c56a0c3ac7911ce36174cd"><td class="memItemLeft" align="right" valign="top"><a id="ac7bc3b2b76c56a0c3ac7911ce36174cd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateDuration</b> (int64_t timestamp, int64_t cpu_timestamp)</td></tr>
+<tr class="memitem:ac7bc3b2b76c56a0c3ac7911ce36174cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ac7bc3b2b76c56a0c3ac7911ce36174cd">UpdateDuration</a> (int64_t timestamp, int64_t cpu_timestamp)</td></tr>
 <tr class="separator:ac7bc3b2b76c56a0c3ac7911ce36174cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac72dae1918276021f3c747ef2056b710"><td class="memItemLeft" align="right" valign="top"><a id="ac72dae1918276021f3c747ef2056b710"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InitializeForTesting</b> (char phase, const uint8_t *category_enabled_flag, const char *name, const char *scope, uint64_t id, uint64_t bind_id, int num_args, const char **arg_names, const uint8_t *arg_types, const uint64_t *arg_values, std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *arg_convertables, unsigned int flags, int pid, int tid, int64_t ts, int64_t tts, uint64_t duration, uint64_t cpu_duration)</td></tr>
+<tr class="memitem:ac72dae1918276021f3c747ef2056b710"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ac72dae1918276021f3c747ef2056b710">InitializeForTesting</a> (char <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a9aeff0bc84517ff7a5740de1ecf06f2f">phase</a>, const uint8_t *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a56b8afc0b8867f866a68d3a3c6b6ef50">category_enabled_flag</a>, const char *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a98533aedf93db780b77ba948e9baa89e">name</a>, const char *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a97240c11b42d8a131ef8fa855fb5265d">scope</a>, uint64_t <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ae927964e6a42130adb33594ffd7923bd">id</a>, uint64_t <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aba3ba558dc95062fa26564cccd2b7b82">bind_id</a>, int <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aa82b5395cf4fa451d9f365294578846f">num_args</a>, const char **<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a91c8a7bd1af6fbeac9b44c6b94668fab">arg_names</a>, const uint8_t *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a87c3c8319757d996065fdcdf528726df">arg_types</a>, const uint64_t *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a1ff06902a7a7a25780d83b67106de10f">arg_values</a>, std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *<a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a9e20b05dd61b524ab744ca46be8fe2b7">arg_convertables</a>, unsigned int <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ab80f30a4e91c4abb56aeaa9e36c96591">flags</a>, int <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#afd37b401fca52334e264fb14e956aa77">pid</a>, int <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#abed685a45e1ec0119f296d9dce82e49b">tid</a>, int64_t <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aafa4ee41e7b9c25fed7a77fc1a42d50c">ts</a>, int64_t <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ae36c95f3b341f1d4453e3c13a91b3883">tts</a>, uint64_t <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aa1e75659d2248c1ff133f07454ffcf28">duration</a>, uint64_t <a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a9fb55c21b3c20d8e1c629457676fdbbb">cpu_duration</a>)</td></tr>
 <tr class="separator:ac72dae1918276021f3c747ef2056b710"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd37b401fca52334e264fb14e956aa77"><td class="memItemLeft" align="right" valign="top"><a id="afd37b401fca52334e264fb14e956aa77"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>pid</b> () const</td></tr>
+<tr class="memitem:afd37b401fca52334e264fb14e956aa77"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#afd37b401fca52334e264fb14e956aa77">pid</a> () const</td></tr>
 <tr class="separator:afd37b401fca52334e264fb14e956aa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abed685a45e1ec0119f296d9dce82e49b"><td class="memItemLeft" align="right" valign="top"><a id="abed685a45e1ec0119f296d9dce82e49b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>tid</b> () const</td></tr>
+<tr class="memitem:abed685a45e1ec0119f296d9dce82e49b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#abed685a45e1ec0119f296d9dce82e49b">tid</a> () const</td></tr>
 <tr class="separator:abed685a45e1ec0119f296d9dce82e49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9aeff0bc84517ff7a5740de1ecf06f2f"><td class="memItemLeft" align="right" valign="top"><a id="a9aeff0bc84517ff7a5740de1ecf06f2f"></a>
-char&#160;</td><td class="memItemRight" valign="bottom"><b>phase</b> () const</td></tr>
+<tr class="memitem:a9aeff0bc84517ff7a5740de1ecf06f2f"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a9aeff0bc84517ff7a5740de1ecf06f2f">phase</a> () const</td></tr>
 <tr class="separator:a9aeff0bc84517ff7a5740de1ecf06f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56b8afc0b8867f866a68d3a3c6b6ef50"><td class="memItemLeft" align="right" valign="top"><a id="a56b8afc0b8867f866a68d3a3c6b6ef50"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>category_enabled_flag</b> () const</td></tr>
+<tr class="memitem:a56b8afc0b8867f866a68d3a3c6b6ef50"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a56b8afc0b8867f866a68d3a3c6b6ef50">category_enabled_flag</a> () const</td></tr>
 <tr class="separator:a56b8afc0b8867f866a68d3a3c6b6ef50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98533aedf93db780b77ba948e9baa89e"><td class="memItemLeft" align="right" valign="top"><a id="a98533aedf93db780b77ba948e9baa89e"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const</td></tr>
+<tr class="memitem:a98533aedf93db780b77ba948e9baa89e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a98533aedf93db780b77ba948e9baa89e">name</a> () const</td></tr>
 <tr class="separator:a98533aedf93db780b77ba948e9baa89e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97240c11b42d8a131ef8fa855fb5265d"><td class="memItemLeft" align="right" valign="top"><a id="a97240c11b42d8a131ef8fa855fb5265d"></a>
-const char *&#160;</td><td class="memItemRight" valign="bottom"><b>scope</b> () const</td></tr>
+<tr class="memitem:a97240c11b42d8a131ef8fa855fb5265d"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a97240c11b42d8a131ef8fa855fb5265d">scope</a> () const</td></tr>
 <tr class="separator:a97240c11b42d8a131ef8fa855fb5265d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae927964e6a42130adb33594ffd7923bd"><td class="memItemLeft" align="right" valign="top"><a id="ae927964e6a42130adb33594ffd7923bd"></a>
-uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>id</b> () const</td></tr>
+<tr class="memitem:ae927964e6a42130adb33594ffd7923bd"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ae927964e6a42130adb33594ffd7923bd">id</a> () const</td></tr>
 <tr class="separator:ae927964e6a42130adb33594ffd7923bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba3ba558dc95062fa26564cccd2b7b82"><td class="memItemLeft" align="right" valign="top"><a id="aba3ba558dc95062fa26564cccd2b7b82"></a>
-uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>bind_id</b> () const</td></tr>
+<tr class="memitem:aba3ba558dc95062fa26564cccd2b7b82"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aba3ba558dc95062fa26564cccd2b7b82">bind_id</a> () const</td></tr>
 <tr class="separator:aba3ba558dc95062fa26564cccd2b7b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa82b5395cf4fa451d9f365294578846f"><td class="memItemLeft" align="right" valign="top"><a id="aa82b5395cf4fa451d9f365294578846f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>num_args</b> () const</td></tr>
+<tr class="memitem:aa82b5395cf4fa451d9f365294578846f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aa82b5395cf4fa451d9f365294578846f">num_args</a> () const</td></tr>
 <tr class="separator:aa82b5395cf4fa451d9f365294578846f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91c8a7bd1af6fbeac9b44c6b94668fab"><td class="memItemLeft" align="right" valign="top"><a id="a91c8a7bd1af6fbeac9b44c6b94668fab"></a>
-const char **&#160;</td><td class="memItemRight" valign="bottom"><b>arg_names</b> ()</td></tr>
+<tr class="memitem:a91c8a7bd1af6fbeac9b44c6b94668fab"><td class="memItemLeft" align="right" valign="top">const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a91c8a7bd1af6fbeac9b44c6b94668fab">arg_names</a> ()</td></tr>
 <tr class="separator:a91c8a7bd1af6fbeac9b44c6b94668fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87c3c8319757d996065fdcdf528726df"><td class="memItemLeft" align="right" valign="top"><a id="a87c3c8319757d996065fdcdf528726df"></a>
-uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>arg_types</b> ()</td></tr>
+<tr class="memitem:a87c3c8319757d996065fdcdf528726df"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a87c3c8319757d996065fdcdf528726df">arg_types</a> ()</td></tr>
 <tr class="separator:a87c3c8319757d996065fdcdf528726df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ff06902a7a7a25780d83b67106de10f"><td class="memItemLeft" align="right" valign="top"><a id="a1ff06902a7a7a25780d83b67106de10f"></a>
-<a class="el" href="unionv8_1_1platform_1_1tracing_1_1TraceObject_1_1ArgValue.html">ArgValue</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>arg_values</b> ()</td></tr>
+<tr class="memitem:a1ff06902a7a7a25780d83b67106de10f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unionv8_1_1platform_1_1tracing_1_1TraceObject_1_1ArgValue.html">ArgValue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a1ff06902a7a7a25780d83b67106de10f">arg_values</a> ()</td></tr>
 <tr class="separator:a1ff06902a7a7a25780d83b67106de10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e20b05dd61b524ab744ca46be8fe2b7"><td class="memItemLeft" align="right" valign="top"><a id="a9e20b05dd61b524ab744ca46be8fe2b7"></a>
-std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>arg_convertables</b> ()</td></tr>
+<tr class="memitem:a9e20b05dd61b524ab744ca46be8fe2b7"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a9e20b05dd61b524ab744ca46be8fe2b7">arg_convertables</a> ()</td></tr>
 <tr class="separator:a9e20b05dd61b524ab744ca46be8fe2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab80f30a4e91c4abb56aeaa9e36c96591"><td class="memItemLeft" align="right" valign="top"><a id="ab80f30a4e91c4abb56aeaa9e36c96591"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>flags</b> () const</td></tr>
+<tr class="memitem:ab80f30a4e91c4abb56aeaa9e36c96591"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ab80f30a4e91c4abb56aeaa9e36c96591">flags</a> () const</td></tr>
 <tr class="separator:ab80f30a4e91c4abb56aeaa9e36c96591"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafa4ee41e7b9c25fed7a77fc1a42d50c"><td class="memItemLeft" align="right" valign="top"><a id="aafa4ee41e7b9c25fed7a77fc1a42d50c"></a>
-int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>ts</b> ()</td></tr>
+<tr class="memitem:aafa4ee41e7b9c25fed7a77fc1a42d50c"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aafa4ee41e7b9c25fed7a77fc1a42d50c">ts</a> ()</td></tr>
 <tr class="separator:aafa4ee41e7b9c25fed7a77fc1a42d50c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae36c95f3b341f1d4453e3c13a91b3883"><td class="memItemLeft" align="right" valign="top"><a id="ae36c95f3b341f1d4453e3c13a91b3883"></a>
-int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>tts</b> ()</td></tr>
+<tr class="memitem:ae36c95f3b341f1d4453e3c13a91b3883"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#ae36c95f3b341f1d4453e3c13a91b3883">tts</a> ()</td></tr>
 <tr class="separator:ae36c95f3b341f1d4453e3c13a91b3883"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1e75659d2248c1ff133f07454ffcf28"><td class="memItemLeft" align="right" valign="top"><a id="aa1e75659d2248c1ff133f07454ffcf28"></a>
-uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>duration</b> ()</td></tr>
+<tr class="memitem:aa1e75659d2248c1ff133f07454ffcf28"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#aa1e75659d2248c1ff133f07454ffcf28">duration</a> ()</td></tr>
 <tr class="separator:aa1e75659d2248c1ff133f07454ffcf28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fb55c21b3c20d8e1c629457676fdbbb"><td class="memItemLeft" align="right" valign="top"><a id="a9fb55c21b3c20d8e1c629457676fdbbb"></a>
-uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>cpu_duration</b> ()</td></tr>
+<tr class="memitem:a9fb55c21b3c20d8e1c629457676fdbbb"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1platform_1_1tracing_1_1TraceObject.html#a9fb55c21b3c20d8e1c629457676fdbbb">cpu_duration</a> ()</td></tr>
 <tr class="separator:a9fb55c21b3c20d8e1c629457676fdbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a93dbfc48ee24179cac2d7c936c38c1bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93dbfc48ee24179cac2d7c936c38c1bd">&#9670;&nbsp;</a></span>TraceObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::platform::tracing::TraceObject::TraceObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d143c6b94c5ae1d40c23808eea30970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d143c6b94c5ae1d40c23808eea30970">&#9670;&nbsp;</a></span>~TraceObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::platform::tracing::TraceObject::~TraceObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9e20b05dd61b524ab744ca46be8fe2b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e20b05dd61b524ab744ca46be8fe2b7">&#9670;&nbsp;</a></span>arg_convertables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a>&gt;* v8::platform::tracing::TraceObject::arg_convertables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91c8a7bd1af6fbeac9b44c6b94668fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91c8a7bd1af6fbeac9b44c6b94668fab">&#9670;&nbsp;</a></span>arg_names()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char** v8::platform::tracing::TraceObject::arg_names </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87c3c8319757d996065fdcdf528726df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c3c8319757d996065fdcdf528726df">&#9670;&nbsp;</a></span>arg_types()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t* v8::platform::tracing::TraceObject::arg_types </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ff06902a7a7a25780d83b67106de10f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ff06902a7a7a25780d83b67106de10f">&#9670;&nbsp;</a></span>arg_values()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unionv8_1_1platform_1_1tracing_1_1TraceObject_1_1ArgValue.html">ArgValue</a>* v8::platform::tracing::TraceObject::arg_values </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba3ba558dc95062fa26564cccd2b7b82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba3ba558dc95062fa26564cccd2b7b82">&#9670;&nbsp;</a></span>bind_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t v8::platform::tracing::TraceObject::bind_id </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56b8afc0b8867f866a68d3a3c6b6ef50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b8afc0b8867f866a68d3a3c6b6ef50">&#9670;&nbsp;</a></span>category_enabled_flag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint8_t* v8::platform::tracing::TraceObject::category_enabled_flag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9fb55c21b3c20d8e1c629457676fdbbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fb55c21b3c20d8e1c629457676fdbbb">&#9670;&nbsp;</a></span>cpu_duration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t v8::platform::tracing::TraceObject::cpu_duration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1e75659d2248c1ff133f07454ffcf28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1e75659d2248c1ff133f07454ffcf28">&#9670;&nbsp;</a></span>duration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t v8::platform::tracing::TraceObject::duration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab80f30a4e91c4abb56aeaa9e36c96591"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab80f30a4e91c4abb56aeaa9e36c96591">&#9670;&nbsp;</a></span>flags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int v8::platform::tracing::TraceObject::flags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae927964e6a42130adb33594ffd7923bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae927964e6a42130adb33594ffd7923bd">&#9670;&nbsp;</a></span>id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t v8::platform::tracing::TraceObject::id </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa2b2f4c50e28cd65d2146cbf84f1449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2b2f4c50e28cd65d2146cbf84f1449">&#9670;&nbsp;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::platform::tracing::TraceObject::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>phase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>category_enabled_flag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>scope</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>bind_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char **&#160;</td>
+          <td class="paramname"><em>arg_names</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>arg_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint64_t *&#160;</td>
+          <td class="paramname"><em>arg_values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *&#160;</td>
+          <td class="paramname"><em>arg_convertables</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>flags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>timestamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>cpu_timestamp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac72dae1918276021f3c747ef2056b710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac72dae1918276021f3c747ef2056b710">&#9670;&nbsp;</a></span>InitializeForTesting()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::platform::tracing::TraceObject::InitializeForTesting </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>phase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>category_enabled_flag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>scope</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>bind_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char **&#160;</td>
+          <td class="paramname"><em>arg_names</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>arg_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint64_t *&#160;</td>
+          <td class="paramname"><em>arg_values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classv8_1_1ConvertableToTraceFormat.html">v8::ConvertableToTraceFormat</a> &gt; *&#160;</td>
+          <td class="paramname"><em>arg_convertables</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>flags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>ts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>tts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>cpu_duration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98533aedf93db780b77ba948e9baa89e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98533aedf93db780b77ba948e9baa89e">&#9670;&nbsp;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* v8::platform::tracing::TraceObject::name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa82b5395cf4fa451d9f365294578846f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa82b5395cf4fa451d9f365294578846f">&#9670;&nbsp;</a></span>num_args()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int v8::platform::tracing::TraceObject::num_args </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9aeff0bc84517ff7a5740de1ecf06f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aeff0bc84517ff7a5740de1ecf06f2f">&#9670;&nbsp;</a></span>phase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char v8::platform::tracing::TraceObject::phase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd37b401fca52334e264fb14e956aa77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd37b401fca52334e264fb14e956aa77">&#9670;&nbsp;</a></span>pid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int v8::platform::tracing::TraceObject::pid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97240c11b42d8a131ef8fa855fb5265d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97240c11b42d8a131ef8fa855fb5265d">&#9670;&nbsp;</a></span>scope()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* v8::platform::tracing::TraceObject::scope </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abed685a45e1ec0119f296d9dce82e49b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed685a45e1ec0119f296d9dce82e49b">&#9670;&nbsp;</a></span>tid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int v8::platform::tracing::TraceObject::tid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafa4ee41e7b9c25fed7a77fc1a42d50c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafa4ee41e7b9c25fed7a77fc1a42d50c">&#9670;&nbsp;</a></span>ts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t v8::platform::tracing::TraceObject::ts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae36c95f3b341f1d4453e3c13a91b3883"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36c95f3b341f1d4453e3c13a91b3883">&#9670;&nbsp;</a></span>tts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t v8::platform::tracing::TraceObject::tts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7bc3b2b76c56a0c3ac7911ce36174cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7bc3b2b76c56a0c3ac7911ce36174cd">&#9670;&nbsp;</a></span>UpdateDuration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::platform::tracing::TraceObject::UpdateDuration </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>timestamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>cpu_timestamp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>libplatform/<a class="el" href="v8-tracing_8h_source.html">v8-tracing.h</a></li>
+<li>include/libplatform/<a class="el" href="v8-tracing_8h_source.html">v8-tracing.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

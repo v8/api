@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: libplatform/libplatform.h Source File</title>
+<title>V8: include/libplatform/libplatform.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_5cb46604b10446643ec460f6635cdfae.html">libplatform</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_4b115f4a4385e80dbbb632542e3abce3.html">libplatform</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,22 +69,22 @@ $(function() {
 <div class="title">libplatform.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2014 the V8 project authors. All rights reserved.</span></div>
+<a href="libplatform_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2014 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef V8_LIBPLATFORM_LIBPLATFORM_H_</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define V8_LIBPLATFORM_LIBPLATFORM_H_</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;include/v8-platform.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8-platform_8h.html">include/v8-platform.h</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
 <div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="namespacev8.html">   10</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacev8.html">v8</a> {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>platform {</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="namespacev8_1_1platform.html">   11</a></span>&#160;<span class="keyword">namespace </span>platform {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<a class="code" href="classv8_1_1Platform.html">v8::Platform</a>* CreateDefaultPlatform(<span class="keywordtype">int</span> thread_pool_size = 0);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<a class="code" href="classv8_1_1Platform.html">v8::Platform</a>* <a class="code" href="namespacev8_1_1platform.html#a25065eda932a4d9410de6daa6e0edf84">CreateDefaultPlatform</a>(<span class="keywordtype">int</span> thread_pool_size = 0);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">bool</span> PumpMessageLoop(<a class="code" href="classv8_1_1Platform.html">v8::Platform</a>* platform, <a class="code" href="classv8_1_1Isolate.html">v8::Isolate</a>* isolate);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="namespacev8_1_1platform.html#a6553956be75b496251cd7acb9aca4228">PumpMessageLoop</a>(<a class="code" href="classv8_1_1Platform.html">v8::Platform</a>* platform, <a class="code" href="classv8_1_1Isolate.html">v8::Isolate</a>* isolate);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}  <span class="comment">// namespace platform</span></div>
@@ -93,8 +93,11 @@ $(function() {
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif  // V8_LIBPLATFORM_LIBPLATFORM_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="anamespacev8_html"><div class="ttname"><a href="namespacev8.html">v8</a></div><div class="ttdef"><b>Definition:</b> libplatform.h:10</div></div>
+<div class="ttc" id="av8-platform_8h_html"><div class="ttname"><a href="v8-platform_8h.html">v8-platform.h</a></div></div>
 <div class="ttc" id="aclassv8_1_1Isolate_html"><div class="ttname"><a href="classv8_1_1Isolate.html">v8::Isolate</a></div><div class="ttdef"><b>Definition:</b> v8.h:5190</div></div>
 <div class="ttc" id="aclassv8_1_1Platform_html"><div class="ttname"><a href="classv8_1_1Platform.html">v8::Platform</a></div><div class="ttdef"><b>Definition:</b> v8-platform.h:28</div></div>
+<div class="ttc" id="anamespacev8_1_1platform_html_a6553956be75b496251cd7acb9aca4228"><div class="ttname"><a href="namespacev8_1_1platform.html#a6553956be75b496251cd7acb9aca4228">v8::platform::PumpMessageLoop</a></div><div class="ttdeci">bool PumpMessageLoop(v8::Platform *platform, v8::Isolate *isolate)</div></div>
+<div class="ttc" id="anamespacev8_1_1platform_html_a25065eda932a4d9410de6daa6e0edf84"><div class="ttname"><a href="namespacev8_1_1platform.html#a25065eda932a4d9410de6daa6e0edf84">v8::platform::CreateDefaultPlatform</a></div><div class="ttdeci">v8::Platform * CreateDefaultPlatform(int thread_pool_size=0)</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

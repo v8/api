@@ -87,26 +87,23 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa7826fbe67065080b08309e8f649e049"><td class="memItemLeft" align="right" valign="top"><a id="aa7826fbe67065080b08309e8f649e049"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>SamplingFlags</b> { <b>kSamplingNoFlags</b> = 0, 
-<b>kSamplingForceGC</b> = 1 &lt;&lt; 0
+<tr class="memitem:aa7826fbe67065080b08309e8f649e049"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#aa7826fbe67065080b08309e8f649e049">SamplingFlags</a> { <a class="el" href="classv8_1_1HeapProfiler.html#aa7826fbe67065080b08309e8f649e049a9c35f2975bc5a6374b2e3b0236201b0d">kSamplingNoFlags</a> = 0, 
+<a class="el" href="classv8_1_1HeapProfiler.html#aa7826fbe67065080b08309e8f649e049a02d19627d8f7b43485879f3d06275fd4">kSamplingForceGC</a> = 1 &lt;&lt; 0
  }</td></tr>
 <tr class="separator:aa7826fbe67065080b08309e8f649e049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a459770a1e023a4a98a817ec2f0d0195c"><td class="memItemLeft" align="right" valign="top"><a id="a459770a1e023a4a98a817ec2f0d0195c"></a>
-typedef std::unordered_set&lt; const <a class="el" href="classv8_1_1PersistentBase.html">v8::PersistentBase</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>RetainerChildren</b></td></tr>
+<tr class="memitem:a459770a1e023a4a98a817ec2f0d0195c"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_set&lt; const <a class="el" href="classv8_1_1PersistentBase.html">v8::PersistentBase</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a459770a1e023a4a98a817ec2f0d0195c">RetainerChildren</a></td></tr>
 <tr class="separator:a459770a1e023a4a98a817ec2f0d0195c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab61d84f0fbd7ec48a7a4d29928621c62"><td class="memItemLeft" align="right" valign="top"><a id="ab61d84f0fbd7ec48a7a4d29928621c62"></a>
-typedef std::vector&lt; std::pair&lt; <a class="el" href="classv8_1_1RetainedObjectInfo.html">v8::RetainedObjectInfo</a> *, RetainerChildren &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>RetainerGroups</b></td></tr>
+<tr class="memitem:ab61d84f0fbd7ec48a7a4d29928621c62"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; std::pair&lt; <a class="el" href="classv8_1_1RetainedObjectInfo.html">v8::RetainedObjectInfo</a> *, <a class="el" href="classv8_1_1HeapProfiler.html#a459770a1e023a4a98a817ec2f0d0195c">RetainerChildren</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#ab61d84f0fbd7ec48a7a4d29928621c62">RetainerGroups</a></td></tr>
 <tr class="separator:ab61d84f0fbd7ec48a7a4d29928621c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3b813a74e2b76b4d617c7eea269fa0f"><td class="memItemLeft" align="right" valign="top"><a id="ab3b813a74e2b76b4d617c7eea269fa0f"></a>
-typedef std::vector&lt; std::pair&lt; const <a class="el" href="classv8_1_1PersistentBase.html">v8::PersistentBase</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; *, const <a class="el" href="classv8_1_1PersistentBase.html">v8::PersistentBase</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>RetainerEdges</b></td></tr>
+<tr class="memitem:ab3b813a74e2b76b4d617c7eea269fa0f"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; std::pair&lt; const <a class="el" href="classv8_1_1PersistentBase.html">v8::PersistentBase</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; *, const <a class="el" href="classv8_1_1PersistentBase.html">v8::PersistentBase</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#ab3b813a74e2b76b4d617c7eea269fa0f">RetainerEdges</a></td></tr>
 <tr class="separator:ab3b813a74e2b76b4d617c7eea269fa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f34c8eb67f9502e5778695187ea0e96"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structv8_1_1HeapProfiler_1_1RetainerInfos.html">RetainerInfos</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a7f34c8eb67f9502e5778695187ea0e96">GetRetainerInfosCallback</a>) (v8::Isolate *isolate)</td></tr>
+<tr class="memitem:a7f34c8eb67f9502e5778695187ea0e96"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structv8_1_1HeapProfiler_1_1RetainerInfos.html">RetainerInfos</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a7f34c8eb67f9502e5778695187ea0e96">GetRetainerInfosCallback</a>) (<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *isolate)</td></tr>
 <tr class="separator:a7f34c8eb67f9502e5778695187ea0e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a677025dd201fd832e0464e5ab0b0d0d4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a677025dd201fd832e0464e5ab0b0d0d4">WrapperInfoCallback</a>) (uint16_t class_id, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; wrapper)</td></tr>
 <tr class="separator:a677025dd201fd832e0464e5ab0b0d0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29c98afa5ce0ea543eef904201bc3e40"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40">BuildEmbedderGraphCallback</a>) (v8::Isolate *isolate, <a class="el" href="classv8_1_1EmbedderGraph.html">v8::EmbedderGraph</a> *graph, void *data)</td></tr>
+<tr class="memitem:a29c98afa5ce0ea543eef904201bc3e40"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40">BuildEmbedderGraphCallback</a>) (<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *isolate, <a class="el" href="classv8_1_1EmbedderGraph.html">v8::EmbedderGraph</a> *graph, void *data)</td></tr>
 <tr class="separator:a29c98afa5ce0ea543eef904201bc3e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafaa85413706329f7767f559b701eb1a"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#aafaa85413706329f7767f559b701eb1a">LegacyBuildEmbedderGraphCallback</a>) (v8::Isolate *isolate, <a class="el" href="classv8_1_1EmbedderGraph.html">v8::EmbedderGraph</a> *graph)</td></tr>
+<tr class="memitem:aafaa85413706329f7767f559b701eb1a"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#aafaa85413706329f7767f559b701eb1a">LegacyBuildEmbedderGraphCallback</a>) (<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *isolate, <a class="el" href="classv8_1_1EmbedderGraph.html">v8::EmbedderGraph</a> *graph)</td></tr>
 <tr class="separator:aafaa85413706329f7767f559b701eb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -115,9 +112,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a24830775a0ab938eb0a29ed8f3dfd265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9093f6ca6e5558315f354c7ccb55484"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classv8_1_1HeapSnapshot.html">HeapSnapshot</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#af9093f6ca6e5558315f354c7ccb55484">GetHeapSnapshot</a> (int index)</td></tr>
 <tr class="separator:af9093f6ca6e5558315f354c7ccb55484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab926a1f1ed95b731d4ef3133e67eef19"><td class="memItemLeft" align="right" valign="top">SnapshotObjectId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#ab926a1f1ed95b731d4ef3133e67eef19">GetObjectId</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; value)</td></tr>
+<tr class="memitem:ab926a1f1ed95b731d4ef3133e67eef19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#ab926a1f1ed95b731d4ef3133e67eef19">GetObjectId</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; value)</td></tr>
 <tr class="separator:ab926a1f1ed95b731d4ef3133e67eef19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace729f9b7dbb2ca8b2fd67551bf5aae8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#ace729f9b7dbb2ca8b2fd67551bf5aae8">FindObjectById</a> (SnapshotObjectId id)</td></tr>
+<tr class="memitem:ace729f9b7dbb2ca8b2fd67551bf5aae8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#ace729f9b7dbb2ca8b2fd67551bf5aae8">FindObjectById</a> (<a class="el" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> id)</td></tr>
 <tr class="separator:ace729f9b7dbb2ca8b2fd67551bf5aae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a90c630543ed1875cbf9166239ff8d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a8a90c630543ed1875cbf9166239ff8d3">ClearObjectIds</a> ()</td></tr>
 <tr class="separator:a8a90c630543ed1875cbf9166239ff8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,11 +122,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4af9159585ab024175d8eff551804ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02917db133b7efd468c9c73075a15171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a02917db133b7efd468c9c73075a15171">StartTrackingHeapObjects</a> (bool track_allocations=false)</td></tr>
 <tr class="separator:a02917db133b7efd468c9c73075a15171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a756d71126e0effc7543fb33e856dd738"><td class="memItemLeft" align="right" valign="top">SnapshotObjectId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a756d71126e0effc7543fb33e856dd738">GetHeapStats</a> (<a class="el" href="classv8_1_1OutputStream.html">OutputStream</a> *stream, int64_t *timestamp_us=NULL)</td></tr>
+<tr class="memitem:a756d71126e0effc7543fb33e856dd738"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a756d71126e0effc7543fb33e856dd738">GetHeapStats</a> (<a class="el" href="classv8_1_1OutputStream.html">OutputStream</a> *stream, int64_t *timestamp_us=NULL)</td></tr>
 <tr class="separator:a756d71126e0effc7543fb33e856dd738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae448d9474ae34781133d4a4547b08cb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#ae448d9474ae34781133d4a4547b08cb1">StopTrackingHeapObjects</a> ()</td></tr>
 <tr class="separator:ae448d9474ae34781133d4a4547b08cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b9450bbf1f4e1a4909df92d4df4a174"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a6b9450bbf1f4e1a4909df92d4df4a174">StartSamplingHeapProfiler</a> (uint64_t sample_interval=512 *1024, int stack_depth=16, SamplingFlags flags=kSamplingNoFlags)</td></tr>
+<tr class="memitem:a6b9450bbf1f4e1a4909df92d4df4a174"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a6b9450bbf1f4e1a4909df92d4df4a174">StartSamplingHeapProfiler</a> (uint64_t sample_interval=512 *1024, int stack_depth=16, <a class="el" href="classv8_1_1HeapProfiler.html#aa7826fbe67065080b08309e8f649e049">SamplingFlags</a> flags=<a class="el" href="classv8_1_1HeapProfiler.html#aa7826fbe67065080b08309e8f649e049a9c35f2975bc5a6374b2e3b0236201b0d">kSamplingNoFlags</a>)</td></tr>
 <tr class="separator:a6b9450bbf1f4e1a4909df92d4df4a174"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc43e12e6febb087be251c0629ff17bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#abc43e12e6febb087be251c0629ff17bf">StopSamplingHeapProfiler</a> ()</td></tr>
 <tr class="separator:abc43e12e6febb087be251c0629ff17bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,30 +134,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaadb22168da6a2889796ed3b5638cd50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a75bcc6d8350858597b6a6ce5e349a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a6a75bcc6d8350858597b6a6ce5e349a2">DeleteAllHeapSnapshots</a> ()</td></tr>
 <tr class="separator:a6a75bcc6d8350858597b6a6ce5e349a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af41ccd8baea0da8d701e565b7b2e8eab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#af41ccd8baea0da8d701e565b7b2e8eab">V8_DEPRECATED</a> (&quot;Use AddBuildEmbedderGraphCallback to provide info about embedder nodes&quot;, void SetWrapperClassInfoProvider(uint16_t class_id, <a class="el" href="classv8_1_1HeapProfiler.html#a677025dd201fd832e0464e5ab0b0d0d4">WrapperInfoCallback</a> callback))</td></tr>
-<tr class="separator:af41ccd8baea0da8d701e565b7b2e8eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eec72179d8275779d119eddd999af47"><td class="memItemLeft" align="right" valign="top"><a id="a3eec72179d8275779d119eddd999af47"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>V8_DEPRECATED</b> (&quot;Use AddBuildEmbedderGraphCallback to provide info about embedder nodes&quot;, void SetGetRetainerInfosCallback(<a class="el" href="classv8_1_1HeapProfiler.html#a7f34c8eb67f9502e5778695187ea0e96">GetRetainerInfosCallback</a> callback))</td></tr>
-<tr class="separator:a3eec72179d8275779d119eddd999af47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad59e7bd760ee8eb06685391193e38ae"><td class="memItemLeft" align="right" valign="top"><a id="aad59e7bd760ee8eb06685391193e38ae"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>V8_DEPRECATED</b> (&quot;Use AddBuildEmbedderGraphCallback to provide info about embedder nodes&quot;, void SetBuildEmbedderGraphCallback(<a class="el" href="classv8_1_1HeapProfiler.html#aafaa85413706329f7767f559b701eb1a">LegacyBuildEmbedderGraphCallback</a> callback))</td></tr>
-<tr class="separator:aad59e7bd760ee8eb06685391193e38ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aa69e692d215f7b4599afe2c9dbfbfd"><td class="memItemLeft" align="right" valign="top"><a id="a4aa69e692d215f7b4599afe2c9dbfbfd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddBuildEmbedderGraphCallback</b> (<a class="el" href="classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40">BuildEmbedderGraphCallback</a> callback, void *data)</td></tr>
+<tr class="memitem:a7744cf111ad9c6b0b409841f8ed8bcdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a7744cf111ad9c6b0b409841f8ed8bcdd">SetWrapperClassInfoProvider</a> (uint16_t class_id, <a class="el" href="classv8_1_1HeapProfiler.html#a677025dd201fd832e0464e5ab0b0d0d4">WrapperInfoCallback</a> callback)</td></tr>
+<tr class="separator:a7744cf111ad9c6b0b409841f8ed8bcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8520122532a8c5e5f45761e514ed60c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a8520122532a8c5e5f45761e514ed60c4">SetGetRetainerInfosCallback</a> (<a class="el" href="classv8_1_1HeapProfiler.html#a7f34c8eb67f9502e5778695187ea0e96">GetRetainerInfosCallback</a> callback)</td></tr>
+<tr class="separator:a8520122532a8c5e5f45761e514ed60c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d270119220e7e2b49b936f3553fd5dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a1d270119220e7e2b49b936f3553fd5dc">SetBuildEmbedderGraphCallback</a> (<a class="el" href="classv8_1_1HeapProfiler.html#aafaa85413706329f7767f559b701eb1a">LegacyBuildEmbedderGraphCallback</a> callback)</td></tr>
+<tr class="separator:a1d270119220e7e2b49b936f3553fd5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa69e692d215f7b4599afe2c9dbfbfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a4aa69e692d215f7b4599afe2c9dbfbfd">AddBuildEmbedderGraphCallback</a> (<a class="el" href="classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40">BuildEmbedderGraphCallback</a> callback, void *data)</td></tr>
 <tr class="separator:a4aa69e692d215f7b4599afe2c9dbfbfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f7289d12816af7738944f530d28495d"><td class="memItemLeft" align="right" valign="top"><a id="a3f7289d12816af7738944f530d28495d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveBuildEmbedderGraphCallback</b> (<a class="el" href="classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40">BuildEmbedderGraphCallback</a> callback, void *data)</td></tr>
+<tr class="memitem:a3f7289d12816af7738944f530d28495d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a3f7289d12816af7738944f530d28495d">RemoveBuildEmbedderGraphCallback</a> (<a class="el" href="classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40">BuildEmbedderGraphCallback</a> callback, void *data)</td></tr>
 <tr class="separator:a3f7289d12816af7738944f530d28495d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:abf2b9d8facb18473f9b124ab8baf5786"><td class="memItemLeft" align="right" valign="top">static const SnapshotObjectId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#abf2b9d8facb18473f9b124ab8baf5786">kUnknownObjectId</a> = 0</td></tr>
+<tr class="memitem:abf2b9d8facb18473f9b124ab8baf5786"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#abf2b9d8facb18473f9b124ab8baf5786">kUnknownObjectId</a> = 0</td></tr>
 <tr class="separator:abf2b9d8facb18473f9b124ab8baf5786"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a272c9af3ea5cd90a2737af3d22a7eb78"><td class="memItemLeft" align="right" valign="top">static const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1HeapProfiler.html#a272c9af3ea5cd90a2737af3d22a7eb78">kPersistentHandleNoClassId</a> = 0</td></tr>
 <tr class="separator:a272c9af3ea5cd90a2737af3d22a7eb78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Interface for controlling heap profiling. Instance of the profiler can be retrieved using v8::Isolate::GetHeapProfiler. </p>
+<div class="textblock"><p>Interface for controlling heap profiling. Instance of the profiler can be retrieved using <a class="el" href="classv8_1_1Isolate.html#a9c48259615e8370f6f0efd27cd7f99a6">v8::Isolate::GetHeapProfiler</a>. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a29c98afa5ce0ea543eef904201bc3e40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29c98afa5ce0ea543eef904201bc3e40">&#9670;&nbsp;</a></span>BuildEmbedderGraphCallback</h2>
@@ -169,11 +162,11 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* v8::HeapProfiler::BuildEmbedderGraphCallback) (v8::Isolate *isolate, <a class="el" href="classv8_1_1EmbedderGraph.html">v8::EmbedderGraph</a> *graph, void *data)</td>
+          <td class="memname">typedef void(* v8::HeapProfiler::BuildEmbedderGraphCallback) (<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *isolate, <a class="el" href="classv8_1_1EmbedderGraph.html">v8::EmbedderGraph</a> *graph, void *data)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Callback function invoked during heap snapshot generation to retrieve the embedder object graph. The callback should use graph-&gt;AddEdge(..) to add references between the objects. The callback must not trigger garbage collection in V8. </p>
+<p>Callback function invoked during heap snapshot generation to retrieve the embedder object graph. The callback should use graph-&gt;AddEdge(..) to add references between the objects. The callback must not trigger garbage collection in <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
 
 </div>
 </div>
@@ -184,7 +177,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="structv8_1_1HeapProfiler_1_1RetainerInfos.html">RetainerInfos</a>(* v8::HeapProfiler::GetRetainerInfosCallback) (v8::Isolate *isolate)</td>
+          <td class="memname">typedef <a class="el" href="structv8_1_1HeapProfiler_1_1RetainerInfos.html">RetainerInfos</a>(* v8::HeapProfiler::GetRetainerInfosCallback) (<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *isolate)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -199,11 +192,53 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* v8::HeapProfiler::LegacyBuildEmbedderGraphCallback) (v8::Isolate *isolate, <a class="el" href="classv8_1_1EmbedderGraph.html">v8::EmbedderGraph</a> *graph)</td>
+          <td class="memname">typedef void(* v8::HeapProfiler::LegacyBuildEmbedderGraphCallback) (<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *isolate, <a class="el" href="classv8_1_1EmbedderGraph.html">v8::EmbedderGraph</a> *graph)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>TODO(addaleax): Remove </p>
+
+</div>
+</div>
+<a id="a459770a1e023a4a98a817ec2f0d0195c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a459770a1e023a4a98a817ec2f0d0195c">&#9670;&nbsp;</a></span>RetainerChildren</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_set&lt;const <a class="el" href="classv8_1_1PersistentBase.html">v8::PersistentBase</a>&lt;<a class="el" href="classv8_1_1Value.html">v8::Value</a>&gt;*&gt; <a class="el" href="classv8_1_1HeapProfiler.html#a459770a1e023a4a98a817ec2f0d0195c">v8::HeapProfiler::RetainerChildren</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3b813a74e2b76b4d617c7eea269fa0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3b813a74e2b76b4d617c7eea269fa0f">&#9670;&nbsp;</a></span>RetainerEdges</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;std::pair&lt;const <a class="el" href="classv8_1_1PersistentBase.html">v8::PersistentBase</a>&lt;<a class="el" href="classv8_1_1Value.html">v8::Value</a>&gt;*, const <a class="el" href="classv8_1_1PersistentBase.html">v8::PersistentBase</a>&lt;<a class="el" href="classv8_1_1Value.html">v8::Value</a>&gt;*&gt; &gt; <a class="el" href="classv8_1_1HeapProfiler.html#ab3b813a74e2b76b4d617c7eea269fa0f">v8::HeapProfiler::RetainerEdges</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab61d84f0fbd7ec48a7a4d29928621c62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab61d84f0fbd7ec48a7a4d29928621c62">&#9670;&nbsp;</a></span>RetainerGroups</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;std::pair&lt;<a class="el" href="classv8_1_1RetainedObjectInfo.html">v8::RetainedObjectInfo</a>*, <a class="el" href="classv8_1_1HeapProfiler.html#a459770a1e023a4a98a817ec2f0d0195c">RetainerChildren</a>&gt; &gt; <a class="el" href="classv8_1_1HeapProfiler.html#ab61d84f0fbd7ec48a7a4d29928621c62">v8::HeapProfiler::RetainerGroups</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -218,11 +253,58 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Callback function invoked for obtaining <a class="el" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a> for the given JavaScript wrapper object. It is prohibited to enter V8 while the callback is running: only getters on the handle and GetPointerFromInternalField on the objects are allowed. </p>
+<p>Callback function invoked for obtaining <a class="el" href="classv8_1_1RetainedObjectInfo.html">RetainedObjectInfo</a> for the given JavaScript wrapper object. It is prohibited to enter <a class="el" href="classv8_1_1V8.html">V8</a> while the callback is running: only getters on the handle and GetPointerFromInternalField on the objects are allowed. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="aa7826fbe67065080b08309e8f649e049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7826fbe67065080b08309e8f649e049">&#9670;&nbsp;</a></span>SamplingFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classv8_1_1HeapProfiler.html#aa7826fbe67065080b08309e8f649e049">v8::HeapProfiler::SamplingFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa7826fbe67065080b08309e8f649e049a9c35f2975bc5a6374b2e3b0236201b0d"></a>kSamplingNoFlags&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa7826fbe67065080b08309e8f649e049a02d19627d8f7b43485879f3d06275fd4"></a>kSamplingForceGC&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4aa69e692d215f7b4599afe2c9dbfbfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aa69e692d215f7b4599afe2c9dbfbfd">&#9670;&nbsp;</a></span>AddBuildEmbedderGraphCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::HeapProfiler::AddBuildEmbedderGraphCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40">BuildEmbedderGraphCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8a90c630543ed1875cbf9166239ff8d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a90c630543ed1875cbf9166239ff8d3">&#9670;&nbsp;</a></span>ClearObjectIds()</h2>
 
@@ -268,7 +350,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1Value.html">Value</a>&gt; v8::HeapProfiler::FindObjectById </td>
           <td>(</td>
-          <td class="paramtype">SnapshotObjectId&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td></td>
         </tr>
@@ -322,7 +404,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SnapshotObjectId v8::HeapProfiler::GetHeapStats </td>
+          <td class="memname"><a class="el" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> v8::HeapProfiler::GetHeapStats </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classv8_1_1OutputStream.html">OutputStream</a> *&#160;</td>
           <td class="paramname"><em>stream</em>, </td>
@@ -352,7 +434,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SnapshotObjectId v8::HeapProfiler::GetObjectId </td>
+          <td class="memname"><a class="el" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> v8::HeapProfiler::GetObjectId </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
@@ -382,6 +464,99 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3f7289d12816af7738944f530d28495d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f7289d12816af7738944f530d28495d">&#9670;&nbsp;</a></span>RemoveBuildEmbedderGraphCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::HeapProfiler::RemoveBuildEmbedderGraphCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1HeapProfiler.html#a29c98afa5ce0ea543eef904201bc3e40">BuildEmbedderGraphCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d270119220e7e2b49b936f3553fd5dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d270119220e7e2b49b936f3553fd5dc">&#9670;&nbsp;</a></span>SetBuildEmbedderGraphCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::HeapProfiler::SetBuildEmbedderGraphCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1HeapProfiler.html#aafaa85413706329f7767f559b701eb1a">LegacyBuildEmbedderGraphCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8520122532a8c5e5f45761e514ed60c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8520122532a8c5e5f45761e514ed60c4">&#9670;&nbsp;</a></span>SetGetRetainerInfosCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::HeapProfiler::SetGetRetainerInfosCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1HeapProfiler.html#a7f34c8eb67f9502e5778695187ea0e96">GetRetainerInfosCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7744cf111ad9c6b0b409841f8ed8bcdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7744cf111ad9c6b0b409841f8ed8bcdd">&#9670;&nbsp;</a></span>SetWrapperClassInfoProvider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::HeapProfiler::SetWrapperClassInfoProvider </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>class_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1HeapProfiler.html#a677025dd201fd832e0464e5ab0b0d0d4">WrapperInfoCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Binds a callback to embedder's class ID. </p>
+
+</div>
+</div>
 <a id="a6b9450bbf1f4e1a4909df92d4df4a174"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b9450bbf1f4e1a4909df92d4df4a174">&#9670;&nbsp;</a></span>StartSamplingHeapProfiler()</h2>
 
@@ -403,8 +578,8 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">SamplingFlags&#160;</td>
-          <td class="paramname"><em>flags</em> = <code>kSamplingNoFlags</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1HeapProfiler.html#aa7826fbe67065080b08309e8f649e049">SamplingFlags</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code><a class="el" href="classv8_1_1HeapProfiler.html#aa7826fbe67065080b08309e8f649e049a9c35f2975bc5a6374b2e3b0236201b0d">kSamplingNoFlags</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -507,35 +682,6 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af41ccd8baea0da8d701e565b7b2e8eab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af41ccd8baea0da8d701e565b7b2e8eab">&#9670;&nbsp;</a></span>V8_DEPRECATED()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">v8::HeapProfiler::V8_DEPRECATED </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use AddBuildEmbedderGraphCallback to provide info about embedder nodes&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void &#160;</td>
-          <td class="paramname"><em>SetWrapperClassInfoProvider</em>uint16_t class_id, WrapperInfoCallback callback&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Binds a callback to embedder's class ID. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a272c9af3ea5cd90a2737af3d22a7eb78"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a272c9af3ea5cd90a2737af3d22a7eb78">&#9670;&nbsp;</a></span>kPersistentHandleNoClassId</h2>
@@ -570,7 +716,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const SnapshotObjectId v8::HeapProfiler::kUnknownObjectId = 0</td>
+          <td class="memname">const <a class="el" href="namespacev8.html#acc05be0fdcf26b26fbb410e75a048e63">SnapshotObjectId</a> v8::HeapProfiler::kUnknownObjectId = 0</td>
         </tr>
       </table>
   </td>
@@ -584,7 +730,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
+<li>include/<a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

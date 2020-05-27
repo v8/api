@@ -79,12 +79,13 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aae7b558077a24b6ce9cacfe8e9320943"><td class="memItemLeft" align="right" valign="top"><a id="aae7b558077a24b6ce9cacfe8e9320943"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>StackTracePrinter</b>) ()</td></tr>
+<tr class="memitem:aae7b558077a24b6ce9cacfe8e9320943"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aae7b558077a24b6ce9cacfe8e9320943">StackTracePrinter</a>) ()</td></tr>
 <tr class="separator:aae7b558077a24b6ce9cacfe8e9320943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ab725966a93204e93ec742e1d823e1a05"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ab725966a93204e93ec742e1d823e1a05">~Platform</a> ()=default</td></tr>
+<tr class="separator:ab725966a93204e93ec742e1d823e1a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c1886dd8131f7389b805bc98276702"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classv8_1_1PageAllocator.html">PageAllocator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ab7c1886dd8131f7389b805bc98276702">GetPageAllocator</a> ()</td></tr>
 <tr class="separator:ab7c1886dd8131f7389b805bc98276702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ed41bddc1d1ebe51c55539198d0026e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a7ed41bddc1d1ebe51c55539198d0026e">OnCriticalMemoryPressure</a> ()</td></tr>
@@ -111,7 +112,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d4d7c2dcf6b0c7113099b97fa7f57b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8aa46c7f8e492351ebe1bc8168ec9c2f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a8aa46c7f8e492351ebe1bc8168ec9c2f">CurrentClockTimeMillis</a> ()=0</td></tr>
 <tr class="separator:a8aa46c7f8e492351ebe1bc8168ec9c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadb2594e6ff9a6f6a0657412ff5a7206"><td class="memItemLeft" align="right" valign="top">virtual StackTracePrinter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aadb2594e6ff9a6f6a0657412ff5a7206">GetStackTracePrinter</a> ()</td></tr>
+<tr class="memitem:aadb2594e6ff9a6f6a0657412ff5a7206"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classv8_1_1Platform.html#aae7b558077a24b6ce9cacfe8e9320943">StackTracePrinter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aadb2594e6ff9a6f6a0657412ff5a7206">GetStackTracePrinter</a> ()</td></tr>
 <tr class="separator:aadb2594e6ff9a6f6a0657412ff5a7206"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa760c7bf8c46495eb650d2be72399747"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classv8_1_1TracingController.html">TracingController</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aa760c7bf8c46495eb650d2be72399747">GetTracingController</a> ()=0</td></tr>
 <tr class="separator:aa760c7bf8c46495eb650d2be72399747"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,13 +121,56 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:aba96d5880420b432060b3d2647fd4626"><td class="memItemLeft" align="right" valign="top">static V8_EXPORT double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aba96d5880420b432060b3d2647fd4626">SystemClockTimeMillis</a> ()</td></tr>
-<tr class="separator:aba96d5880420b432060b3d2647fd4626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18ccdaf3a1a738bd4082dbbe749d026b"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a18ccdaf3a1a738bd4082dbbe749d026b">SystemClockTimeMillis</a> ()</td></tr>
+<tr class="separator:a18ccdaf3a1a738bd4082dbbe749d026b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classv8_1_1V8.html">V8</a> <a class="el" href="classv8_1_1Platform.html">Platform</a> abstraction layer.</p>
 <p>The embedder has to provide an implementation of this interface before initializing the rest of <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="process_8cc-example.html#_a27">process.cc</a>, and <a class="el" href="shell_8cc-example.html#_a2">shell.cc</a>.</dd>
+</dl>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aae7b558077a24b6ce9cacfe8e9320943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae7b558077a24b6ce9cacfe8e9320943">&#9670;&nbsp;</a></span>StackTracePrinter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* v8::Platform::StackTracePrinter) ()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab725966a93204e93ec742e1d823e1a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab725966a93204e93ec742e1d823e1a05">&#9670;&nbsp;</a></span>~Platform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::Platform::~Platform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ada31b440048763bf8d9c296ca4cf2e1b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada31b440048763bf8d9c296ca4cf2e1b">&#9670;&nbsp;</a></span>CallBlockingTaskOnWorkerThread()</h2>
 
@@ -360,7 +404,7 @@ Static Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual StackTracePrinter v8::Platform::GetStackTracePrinter </td>
+          <td class="memname">virtual <a class="el" href="classv8_1_1Platform.html#aae7b558077a24b6ce9cacfe8e9320943">StackTracePrinter</a> v8::Platform::GetStackTracePrinter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -574,13 +618,13 @@ Static Protected Member Functions</h2></td></tr>
 <p class="startli">size_t GetMaxConcurrency() const override { return worker_queue_.GetSize(); // Thread safe. } }; auto handle = PostJob(<a class="el" href="namespacev8.html#a680c1a715d1d5df94b21e8b1ee1bf051a602dfdb2b16ea7a1f4392dc3d5761f7d">TaskPriority::kUserVisible</a>, std::make_unique&lt;MyJobTask&gt;(...)); handle-&gt;Join();</p>
 </li>
 </ul>
-<p><a class="el" href="classv8_1_1Platform.html#a50497718037f54bfd100261b9c1c798e">PostJob()</a> and methods of the returned JobHandle/JobDelegate, must never be called while holding a lock that could be acquired by JobTask::Run or <a class="el" href="classv8_1_1JobTask.html#a73d7c8df04f69fc60f1fa5d870ac7102">JobTask::GetMaxConcurrency</a> &ndash; that could result in a deadlock. This is because [1] <a class="el" href="classv8_1_1JobTask.html#a73d7c8df04f69fc60f1fa5d870ac7102">JobTask::GetMaxConcurrency</a> may be invoked while holding internal lock (A), hence <a class="el" href="classv8_1_1JobTask.html#a73d7c8df04f69fc60f1fa5d870ac7102">JobTask::GetMaxConcurrency</a> can only use a lock (B) if that lock is <em>never</em> held while calling back into <a class="el" href="classv8_1_1JobHandle.html">JobHandle</a> from any thread (A=&gt;B/B=&gt;A deadlock) and [2] JobTask::Run or <a class="el" href="classv8_1_1JobTask.html#a73d7c8df04f69fc60f1fa5d870ac7102">JobTask::GetMaxConcurrency</a> may be invoked synchronously from <a class="el" href="classv8_1_1JobHandle.html">JobHandle</a> (B=&gt;JobHandle::foo=&gt;B deadlock).</p>
+<p><a class="el" href="classv8_1_1Platform.html#a50497718037f54bfd100261b9c1c798e">PostJob()</a> and methods of the returned JobHandle/JobDelegate, must never be called while holding a lock that could be acquired by <a class="el" href="classv8_1_1JobTask.html#a9b6d0cee5615420f30b0db8a4c5e8c3b">JobTask::Run</a> or <a class="el" href="classv8_1_1JobTask.html#a73d7c8df04f69fc60f1fa5d870ac7102">JobTask::GetMaxConcurrency</a> &ndash; that could result in a deadlock. This is because [1] <a class="el" href="classv8_1_1JobTask.html#a73d7c8df04f69fc60f1fa5d870ac7102">JobTask::GetMaxConcurrency</a> may be invoked while holding internal lock (A), hence <a class="el" href="classv8_1_1JobTask.html#a73d7c8df04f69fc60f1fa5d870ac7102">JobTask::GetMaxConcurrency</a> can only use a lock (B) if that lock is <em>never</em> held while calling back into <a class="el" href="classv8_1_1JobHandle.html">JobHandle</a> from any thread (A=&gt;B/B=&gt;A deadlock) and [2] <a class="el" href="classv8_1_1JobTask.html#a9b6d0cee5615420f30b0db8a4c5e8c3b">JobTask::Run</a> or <a class="el" href="classv8_1_1JobTask.html#a73d7c8df04f69fc60f1fa5d870ac7102">JobTask::GetMaxConcurrency</a> may be invoked synchronously from <a class="el" href="classv8_1_1JobHandle.html">JobHandle</a> (B=&gt;JobHandle::foo=&gt;B deadlock).</p>
 <p>A sufficient <a class="el" href="classv8_1_1Platform.html#a50497718037f54bfd100261b9c1c798e">PostJob()</a> implementation that uses the default Job provided in libplatform looks like: std::unique_ptr&lt;JobHandle&gt; PostJob( TaskPriority priority, std::unique_ptr&lt;JobTask&gt; job_task) override { return std::make_unique&lt;DefaultJobHandle&gt;( std::make_shared&lt;DefaultJobState&gt;( this, std::move(job_task), kNumThreads)); } </p>
 
 </div>
 </div>
-<a id="aba96d5880420b432060b3d2647fd4626"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba96d5880420b432060b3d2647fd4626">&#9670;&nbsp;</a></span>SystemClockTimeMillis()</h2>
+<a id="a18ccdaf3a1a738bd4082dbbe749d026b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18ccdaf3a1a738bd4082dbbe749d026b">&#9670;&nbsp;</a></span>SystemClockTimeMillis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -589,7 +633,7 @@ Static Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static V8_EXPORT double v8::Platform::SystemClockTimeMillis </td>
+          <td class="memname">static double v8::Platform::SystemClockTimeMillis </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -606,7 +650,7 @@ Static Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
+<li>include/<a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

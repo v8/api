@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['messagehandler_1166',['MessageHandler',['../classv8_1_1Debug.html#a526826b857bd3e3efa184e12bcebc694',1,'v8::Debug']]]
+  ['jitcodeeventhandler_2076',['JitCodeEventHandler',['../namespacev8.html#a39243bc91e63d64d111452fdb98c4733',1,'v8']]]
 ];

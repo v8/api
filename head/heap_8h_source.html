@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: cppgc/heap.h Source File</title>
+<title>V8: include/cppgc/heap.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_908cff4095b52ed1341131b5cdfa5c2b.html">cppgc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_c3a29de58f961e253e7c5c44d07916b0.html">cppgc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,7 +69,7 @@ $(function() {
 <div class="title">heap.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
+<a href="heap_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
@@ -79,21 +79,21 @@ $(function() {
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;cppgc/common.h&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;cppgc/custom-space.h&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;v8config.h&quot;</span>  <span class="comment">// NOLINT(build/include_directory)</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="common_8h.html">cppgc/common.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="custom-space_8h.html">cppgc/custom-space.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="v8config_8h.html">v8config.h</a>&quot;</span>  <span class="comment">// NOLINT(build/include_directory)</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>cppgc {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecppgc.html">cppgc</a> {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span>internal {</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>Heap;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}  <span class="comment">// namespace internal</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classcppgc_1_1Heap.html">   20</a></span>&#160;<span class="keyword">class </span>V8_EXPORT <a class="code" href="classcppgc_1_1Heap.html">Heap</a> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classcppgc_1_1Heap.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="v8config_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a> <a class="code" href="classcppgc_1_1Heap.html">Heap</a> {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classcppgc_1_1Heap.html#accb0c89fed4aa98a9784072f300a2189">   25</a></span>&#160;  <span class="keyword">using</span> StackState = EmbedderStackState;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classcppgc_1_1Heap.html#accb0c89fed4aa98a9784072f300a2189">   25</a></span>&#160;  <span class="keyword">using</span> <a class="code" href="namespacecppgc.html#a91b484d5d6eea7664c25f4050c0d6eb8">StackState</a> = <a class="code" href="namespacecppgc.html#a91b484d5d6eea7664c25f4050c0d6eb8">EmbedderStackState</a>;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="structcppgc_1_1Heap_1_1HeapOptions.html">   27</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structcppgc_1_1Heap_1_1HeapOptions.html">HeapOptions</a> {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">static</span> <a class="code" href="structcppgc_1_1Heap_1_1HeapOptions.html">HeapOptions</a> Default() { <span class="keywordflow">return</span> {}; }</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="structcppgc_1_1Heap_1_1HeapOptions.html#ac9277328aa23b093cc19a10a32c2e96b">   28</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="structcppgc_1_1Heap_1_1HeapOptions.html">HeapOptions</a> <a class="code" href="structcppgc_1_1Heap_1_1HeapOptions.html#ac9277328aa23b093cc19a10a32c2e96b">Default</a>() { <span class="keywordflow">return</span> {}; }</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="structcppgc_1_1Heap_1_1HeapOptions.html#aba1ff00749e87f4a68898486357bb68f">   35</a></span>&#160;    std::vector&lt;std::unique_ptr&lt;CustomSpaceBase&gt;&gt; <a class="code" href="structcppgc_1_1Heap_1_1HeapOptions.html#aba1ff00749e87f4a68898486357bb68f">custom_spaces</a>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  };</div>
@@ -104,20 +104,28 @@ $(function() {
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">void</span> ForceGarbageCollectionSlow(</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">char</span>* source, <span class="keyword">const</span> <span class="keywordtype">char</span>* reason,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      StackState stack_state = StackState::kMayContainHeapPointers);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <a class="code" href="namespacecppgc.html#a91b484d5d6eea7664c25f4050c0d6eb8">StackState</a> stack_state = <a class="code" href="namespacecppgc.html#a91b484d5d6eea7664c25f4050c0d6eb8a480c3f61c9b87b2b070129e8ee24244a">StackState::kMayContainHeapPointers</a>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <a class="code" href="classcppgc_1_1Heap.html">Heap</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keyword">friend</span> <span class="keyword">class </span>internal::Heap;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classcppgc_1_1Heap.html#a20a566310503e50c1b32668c772a14b2">   58</a></span>&#160;  <span class="keyword">friend</span> <span class="keyword">class </span>internal::Heap;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}  <span class="comment">// namespace cppgc</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif  // INCLUDE_CPPGC_HEAP_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="acustom-space_8h_html"><div class="ttname"><a href="custom-space_8h.html">custom-space.h</a></div></div>
 <div class="ttc" id="astructcppgc_1_1Heap_1_1HeapOptions_html"><div class="ttname"><a href="structcppgc_1_1Heap_1_1HeapOptions.html">cppgc::Heap::HeapOptions</a></div><div class="ttdef"><b>Definition:</b> heap.h:27</div></div>
+<div class="ttc" id="anamespacecppgc_html"><div class="ttname"><a href="namespacecppgc.html">cppgc</a></div><div class="ttdef"><b>Definition:</b> allocation.h:18</div></div>
+<div class="ttc" id="av8config_8h_html"><div class="ttname"><a href="v8config_8h.html">v8config.h</a></div></div>
+<div class="ttc" id="av8config_8h_html_a18b08424f4be6fab745092c7c5dad9f5"><div class="ttname"><a href="v8config_8h.html#a18b08424f4be6fab745092c7c5dad9f5">V8_EXPORT</a></div><div class="ttdeci">#define V8_EXPORT</div><div class="ttdef"><b>Definition:</b> v8config.h:467</div></div>
+<div class="ttc" id="anamespacecppgc_html_a91b484d5d6eea7664c25f4050c0d6eb8"><div class="ttname"><a href="namespacecppgc.html#a91b484d5d6eea7664c25f4050c0d6eb8">cppgc::EmbedderStackState</a></div><div class="ttdeci">EmbedderStackState</div><div class="ttdef"><b>Definition:</b> common.h:14</div></div>
+<div class="ttc" id="astructcppgc_1_1Heap_1_1HeapOptions_html_ac9277328aa23b093cc19a10a32c2e96b"><div class="ttname"><a href="structcppgc_1_1Heap_1_1HeapOptions.html#ac9277328aa23b093cc19a10a32c2e96b">cppgc::Heap::HeapOptions::Default</a></div><div class="ttdeci">static HeapOptions Default()</div><div class="ttdef"><b>Definition:</b> heap.h:28</div></div>
 <div class="ttc" id="astructcppgc_1_1Heap_1_1HeapOptions_html_aba1ff00749e87f4a68898486357bb68f"><div class="ttname"><a href="structcppgc_1_1Heap_1_1HeapOptions.html#aba1ff00749e87f4a68898486357bb68f">cppgc::Heap::HeapOptions::custom_spaces</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; CustomSpaceBase &gt; &gt; custom_spaces</div><div class="ttdef"><b>Definition:</b> heap.h:35</div></div>
+<div class="ttc" id="anamespacecppgc_html_a91b484d5d6eea7664c25f4050c0d6eb8a480c3f61c9b87b2b070129e8ee24244a"><div class="ttname"><a href="namespacecppgc.html#a91b484d5d6eea7664c25f4050c0d6eb8a480c3f61c9b87b2b070129e8ee24244a">cppgc::EmbedderStackState::kMayContainHeapPointers</a></div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
 <div class="ttc" id="aclasscppgc_1_1Heap_html"><div class="ttname"><a href="classcppgc_1_1Heap.html">cppgc::Heap</a></div><div class="ttdef"><b>Definition:</b> heap.h:20</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

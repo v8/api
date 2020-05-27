@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['genericnamedpropertydefinercallback_1320',['GenericNamedPropertyDefinerCallback',['../namespacev8.html#a66c854bc88d612ab4c65354bc0dc74a0',1,'v8']]],
-  ['genericnamedpropertydeletercallback_1321',['GenericNamedPropertyDeleterCallback',['../namespacev8.html#ad2aecc0406ea4bc02d5a4f84a433b273',1,'v8']]],
-  ['genericnamedpropertydescriptorcallback_1322',['GenericNamedPropertyDescriptorCallback',['../namespacev8.html#a8cf8faa26baffa84173a24906c0d49f6',1,'v8']]],
-  ['genericnamedpropertyenumeratorcallback_1323',['GenericNamedPropertyEnumeratorCallback',['../namespacev8.html#a20826eb7e52e84fa4f632534e8eddd04',1,'v8']]],
-  ['genericnamedpropertygettercallback_1324',['GenericNamedPropertyGetterCallback',['../namespacev8.html#a24b1801fa53a7c5a71366d8044927563',1,'v8']]],
-  ['genericnamedpropertyquerycallback_1325',['GenericNamedPropertyQueryCallback',['../namespacev8.html#add9f7ab11e4a9a2b9ad2c4536b0e1a64',1,'v8']]],
-  ['genericnamedpropertysettercallback_1326',['GenericNamedPropertySetterCallback',['../namespacev8.html#af74716c6e95a269c6cd4314662fd0a7e',1,'v8']]],
-  ['getretainerinfoscallback_1327',['GetRetainerInfosCallback',['../classv8_1_1HeapProfiler.html#a7f34c8eb67f9502e5778695187ea0e96',1,'v8::HeapProfiler']]]
+  ['callback_3402',['Callback',['../classv8_1_1WeakCallbackInfo.html#a75f50fddcc9d5989e9cc04f8ab144d7d',1,'v8::WeakCallbackInfo']]],
+  ['callbackfunction_3403',['CallbackFunction',['../structv8_1_1SerializeInternalFieldsCallback.html#a65e0231420540feb0211553b1821d508',1,'v8::SerializeInternalFieldsCallback::CallbackFunction()'],['../structv8_1_1DeserializeInternalFieldsCallback.html#a3c407d887c4152824274df536ce3890d',1,'v8::DeserializeInternalFieldsCallback::CallbackFunction()']]],
+  ['callcompletedcallback_3404',['CallCompletedCallback',['../namespacev8.html#a5003dc8cb6a81f522a9c6b05b98d9e34',1,'v8']]],
+  ['callerownedbuffer_3405',['CallerOwnedBuffer',['../classv8_1_1WasmCompiledModule.html#a7557d28d9ebd6c501f89b65573f55d58',1,'v8::WasmCompiledModule']]],
+  ['copyablepersistent_3406',['CopyablePersistent',['../structv8_1_1CopyablePersistentTraits.html#a327724a22ee06da5ae54dd29982d068e',1,'v8::CopyablePersistentTraits']]],
+  ['counterlookupcallback_3407',['CounterLookupCallback',['../namespacev8.html#a5efca05a9f1f278a4eec832ce419104f',1,'v8']]],
+  ['createhistogramcallback_3408',['CreateHistogramCallback',['../namespacev8.html#aafbf15734701792a14c02dbca7535b75',1,'v8']]]
 ];

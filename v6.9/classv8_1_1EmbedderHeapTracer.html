@@ -69,6 +69,7 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classv8_1_1EmbedderHeapTracer-members.html">List of all members</a>  </div>
@@ -95,8 +96,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a03f39acf619cc4b3de1061a514e4c27d"><td class="memItemLeft" align="right" valign="top"><a id="a03f39acf619cc4b3de1061a514e4c27d"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ForceCompletionAction</b> { <b>FORCE_COMPLETION</b>, 
-<b>DO_NOT_FORCE_COMPLETION</b>
+<tr class="memitem:a03f39acf619cc4b3de1061a514e4c27d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a03f39acf619cc4b3de1061a514e4c27d">ForceCompletionAction</a> { <a class="el" href="classv8_1_1EmbedderHeapTracer.html#a03f39acf619cc4b3de1061a514e4c27dad538691ae1165fd35219605bf4b2840f">FORCE_COMPLETION</a>, 
+<a class="el" href="classv8_1_1EmbedderHeapTracer.html#a03f39acf619cc4b3de1061a514e4c27da0a19b21b01948772b65e1829ae416eb6">DO_NOT_FORCE_COMPLETION</a>
  }</td></tr>
 <tr class="separator:a03f39acf619cc4b3de1061a514e4c27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -108,8 +109,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af4f747aa1d77a0d2f341846b94f6b1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33e9ab6a32d22aa104ccdfac9a023ddb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a33e9ab6a32d22aa104ccdfac9a023ddb">AdvanceTracing</a> (double deadline_in_ms, <a class="el" href="structv8_1_1EmbedderHeapTracer_1_1AdvanceTracingActions.html">AdvanceTracingActions</a> actions)=0</td></tr>
 <tr class="separator:a33e9ab6a32d22aa104ccdfac9a023ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbae420dc5bfc113c5c18a2c1e5af482"><td class="memItemLeft" align="right" valign="top"><a id="afbae420dc5bfc113c5c18a2c1e5af482"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTracingDone</b> ()</td></tr>
+<tr class="memitem:afbae420dc5bfc113c5c18a2c1e5af482"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#afbae420dc5bfc113c5c18a2c1e5af482">IsTracingDone</a> ()</td></tr>
 <tr class="separator:afbae420dc5bfc113c5c18a2c1e5af482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b8dc3260247e2c47af8ad8f5775991"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a61b8dc3260247e2c47af8ad8f5775991">TraceEpilogue</a> ()=0</td></tr>
 <tr class="separator:a61b8dc3260247e2c47af8ad8f5775991"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,31 +117,77 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTracingDone
 <tr class="separator:a802d0e71f8b360c1391d166f32caf098"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a997b79af3a065c17868638bfc0c0a0ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a997b79af3a065c17868638bfc0c0a0ab">AbortTracing</a> ()=0</td></tr>
 <tr class="separator:a997b79af3a065c17868638bfc0c0a0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1828fe003680e216a5111a63cd3b6149"><td class="memItemLeft" align="right" valign="top"><a id="a1828fe003680e216a5111a63cd3b6149"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>FinalizeTracing</b> ()</td></tr>
+<tr class="memitem:a1828fe003680e216a5111a63cd3b6149"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a1828fe003680e216a5111a63cd3b6149">FinalizeTracing</a> ()</td></tr>
 <tr class="separator:a1828fe003680e216a5111a63cd3b6149"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d0d7438df5ed1bf18287c7d6253d276"><td class="memItemLeft" align="right" valign="top"><a id="a7d0d7438df5ed1bf18287c7d6253d276"></a>
-<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>isolate</b> () const</td></tr>
+<tr class="memitem:a7d0d7438df5ed1bf18287c7d6253d276"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a7d0d7438df5ed1bf18287c7d6253d276">isolate</a> () const</td></tr>
 <tr class="separator:a7d0d7438df5ed1bf18287c7d6253d276"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ee993c45a50443baa7b3ad036f9e1fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a1ee993c45a50443baa7b3ad036f9e1fa">V8_DEPRECATE_SOON</a> (&quot;Use IsTracingDone&quot;, virtual size_t NumberOfWrappersToTrace() { return 0;})</td></tr>
-<tr class="separator:a1ee993c45a50443baa7b3ad036f9e1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad380fefb5c8486acd41493f0545256e1"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#ad380fefb5c8486acd41493f0545256e1">NumberOfWrappersToTrace</a> ()</td></tr>
+<tr class="separator:ad380fefb5c8486acd41493f0545256e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2b8d82d66dce5234876186213ab0566f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a2b8d82d66dce5234876186213ab0566f">~EmbedderHeapTracer</a> ()=default</td></tr>
+<tr class="separator:a2b8d82d66dce5234876186213ab0566f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a7a04822523cb72d457a40f84d964297b"><td class="memItemLeft" align="right" valign="top"><a id="a7a04822523cb72d457a40f84d964297b"></a>
-<a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>isolate_</b> = nullptr</td></tr>
+<tr class="memitem:a7a04822523cb72d457a40f84d964297b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a7a04822523cb72d457a40f84d964297b">isolate_</a> = nullptr</td></tr>
 <tr class="separator:a7a04822523cb72d457a40f84d964297b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a913fc415ac93e773a8e5d41f2f1878b6"><td class="memItemLeft" align="right" valign="top"><a id="a913fc415ac93e773a8e5d41f2f1878b6"></a>
-class&#160;</td><td class="memItemRight" valign="bottom"><b>internal::LocalEmbedderHeapTracer</b></td></tr>
+<tr class="memitem:a913fc415ac93e773a8e5d41f2f1878b6"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderHeapTracer.html#a913fc415ac93e773a8e5d41f2f1878b6">internal::LocalEmbedderHeapTracer</a></td></tr>
 <tr class="separator:a913fc415ac93e773a8e5d41f2f1878b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for tracing through the embedder heap. During a <a class="el" href="namespacev8.html">v8</a> garbage collection, <a class="el" href="namespacev8.html">v8</a> collects hidden fields of all potential wrappers, and at the end of its marking phase iterates the collection and asks the embedder to trace through its heap and use reporter to report each JavaScript object reachable from any of the given wrappers.</p>
 <p>Before the first call to the TraceWrappersFrom function TracePrologue will be called. When the garbage collection cycle is finished, TraceEpilogue will be called. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a03f39acf619cc4b3de1061a514e4c27d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03f39acf619cc4b3de1061a514e4c27d">&#9670;&nbsp;</a></span>ForceCompletionAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classv8_1_1EmbedderHeapTracer.html#a03f39acf619cc4b3de1061a514e4c27d">v8::EmbedderHeapTracer::ForceCompletionAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a03f39acf619cc4b3de1061a514e4c27dad538691ae1165fd35219605bf4b2840f"></a>FORCE_COMPLETION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03f39acf619cc4b3de1061a514e4c27da0a19b21b01948772b65e1829ae416eb6"></a>DO_NOT_FORCE_COMPLETION&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a2b8d82d66dce5234876186213ab0566f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b8d82d66dce5234876186213ab0566f">&#9670;&nbsp;</a></span>~EmbedderHeapTracer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::EmbedderHeapTracer::~EmbedderHeapTracer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a997b79af3a065c17868638bfc0c0a0ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a997b79af3a065c17868638bfc0c0a0ab">&#9670;&nbsp;</a></span>AbortTracing()</h2>
 
@@ -234,6 +280,99 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>internal::LocalEmbed
 
 </div>
 </div>
+<a id="a1828fe003680e216a5111a63cd3b6149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1828fe003680e216a5111a63cd3b6149">&#9670;&nbsp;</a></span>FinalizeTracing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void v8::EmbedderHeapTracer::FinalizeTracing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d0d7438df5ed1bf18287c7d6253d276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0d7438df5ed1bf18287c7d6253d276">&#9670;&nbsp;</a></span>isolate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a>* v8::EmbedderHeapTracer::isolate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbae420dc5bfc113c5c18a2c1e5af482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbae420dc5bfc113c5c18a2c1e5af482">&#9670;&nbsp;</a></span>IsTracingDone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool v8::EmbedderHeapTracer::IsTracingDone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad380fefb5c8486acd41493f0545256e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad380fefb5c8486acd41493f0545256e1">&#9670;&nbsp;</a></span>NumberOfWrappersToTrace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t v8::EmbedderHeapTracer::NumberOfWrappersToTrace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the number of wrappers that are still to be traced by the embedder. </p>
+
+</div>
+</div>
 <a id="a17660234b628c92f17c3f54904126c1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17660234b628c92f17c3f54904126c1f">&#9670;&nbsp;</a></span>RegisterV8References()</h2>
 
@@ -315,37 +454,54 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>internal::LocalEmbed
 
 </div>
 </div>
-<a id="a1ee993c45a50443baa7b3ad036f9e1fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ee993c45a50443baa7b3ad036f9e1fa">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON()</h2>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a913fc415ac93e773a8e5d41f2f1878b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a913fc415ac93e773a8e5d41f2f1878b6">&#9670;&nbsp;</a></span>internal::LocalEmbedderHeapTracer</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">v8::EmbedderHeapTracer::V8_DEPRECATE_SOON </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use IsTracingDone&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">virtual size_t NumberOfWrappersToTrace() { return 0;}&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">friend class internal::LocalEmbedderHeapTracer</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>Returns the number of wrappers that are still to be traced by the embedder. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7a04822523cb72d457a40f84d964297b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a04822523cb72d457a40f84d964297b">&#9670;&nbsp;</a></span>isolate_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classv8_1_1Isolate.html">v8::Isolate</a>* v8::EmbedderHeapTracer::isolate_ = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

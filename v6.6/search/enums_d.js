@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['writeoptions_1681',['WriteOptions',['../classv8_1_1String.html#a9ce7f1458ffd08f8eb2b9c8dc056e616',1,'v8::String']]]
+  ['railmode_3364',['RAILMode',['../namespacev8.html#a317cb610383138992c7200c35f8abe5f',1,'v8']]],
+  ['recordcentryframe_3365',['RecordCEntryFrame',['../structv8_1_1TickSample.html#ae3223c2114f7140f8af1793802b94d42',1,'v8::TickSample']]]
 ];

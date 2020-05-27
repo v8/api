@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['memorypressurelevel_1786',['MemoryPressureLevel',['../namespacev8.html#ae0e9a25bf51e518585f555806e7dc7b9',1,'v8']]],
-  ['microtaskspolicy_1787',['MicrotasksPolicy',['../namespacev8.html#a2f183b102b3d1b7a30a805e8c53c04da',1,'v8']]]
+  ['keycollectionmode_3583',['KeyCollectionMode',['../namespacev8.html#a0cee20f5c7f0d59d0835af8e537388dc',1,'v8']]],
+  ['keyconversionmode_3584',['KeyConversionMode',['../namespacev8.html#aa65aeff871614520d8033dead4b34e38',1,'v8']]]
 ];

@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['indexedpropertydeletercallback_1103',['IndexedPropertyDeleterCallback',['../namespacev8.html#a53863728de14cde48dd6543207b2f2da',1,'v8']]],
-  ['indexedpropertyenumeratorcallback_1104',['IndexedPropertyEnumeratorCallback',['../namespacev8.html#adbb0a6d5537371953f9ba807d4f6275e',1,'v8']]],
-  ['indexedpropertygettercallback_1105',['IndexedPropertyGetterCallback',['../namespacev8.html#a48e7816ba64447bf32a25d194588daaf',1,'v8']]],
-  ['indexedpropertyquerycallback_1106',['IndexedPropertyQueryCallback',['../namespacev8.html#a980b62c33eb664783e61e25c3b27f9ee',1,'v8']]],
-  ['indexedpropertysettercallback_1107',['IndexedPropertySetterCallback',['../namespacev8.html#a4ac7cc6185ebc8b6a199f9fa8e6bf5c3',1,'v8']]],
-  ['indexedsecuritycallback_1108',['IndexedSecurityCallback',['../namespacev8.html#aebbcc7837753e51112d944ad96520da1',1,'v8']]]
+  ['gcepiloguecallback_2108',['GCEpilogueCallback',['../classv8_1_1Isolate.html#a3e7351067af07d2a56c57d855fada4bb',1,'v8::Isolate::GCEpilogueCallback()'],['../namespacev8.html#a4a818ae1aee0cb378a4c2037dfc4a4c2',1,'v8::GCEpilogueCallback()']]],
+  ['gcprologuecallback_2109',['GCPrologueCallback',['../classv8_1_1Isolate.html#ab14f02c51e012f839e6cc184ede4814a',1,'v8::Isolate::GCPrologueCallback()'],['../namespacev8.html#a09e509ff7a94ad074420980c5f5762af',1,'v8::GCPrologueCallback()']]],
+  ['genericnamedpropertydeletercallback_2110',['GenericNamedPropertyDeleterCallback',['../namespacev8.html#ad2aecc0406ea4bc02d5a4f84a433b273',1,'v8']]],
+  ['genericnamedpropertyenumeratorcallback_2111',['GenericNamedPropertyEnumeratorCallback',['../namespacev8.html#a20826eb7e52e84fa4f632534e8eddd04',1,'v8']]],
+  ['genericnamedpropertygettercallback_2112',['GenericNamedPropertyGetterCallback',['../namespacev8.html#a24b1801fa53a7c5a71366d8044927563',1,'v8']]],
+  ['genericnamedpropertyquerycallback_2113',['GenericNamedPropertyQueryCallback',['../namespacev8.html#add9f7ab11e4a9a2b9ad2c4536b0e1a64',1,'v8']]],
+  ['genericnamedpropertysettercallback_2114',['GenericNamedPropertySetterCallback',['../namespacev8.html#af74716c6e95a269c6cd4314662fd0a7e',1,'v8']]]
 ];

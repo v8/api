@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: cppgc/internal/accessors.h Source File</title>
+<title>V8: include/cppgc/internal/accessors.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_908cff4095b52ed1341131b5cdfa5c2b.html">cppgc</a></li><li class="navelem"><a class="el" href="dir_28129e0190e9a2bade397851af27ec7a.html">internal</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_c3a29de58f961e253e7c5c44d07916b0.html">cppgc</a></li><li class="navelem"><a class="el" href="dir_7c393fd3d067eeba5379a7db4bd22b0f.html">internal</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,22 +69,22 @@ $(function() {
 <div class="title">accessors.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
+<a href="accessors_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef INCLUDE_CPPGC_INTERNAL_ACCESSORS_H_</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define INCLUDE_CPPGC_INTERNAL_ACCESSORS_H_</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;cppgc/internal/api-constants.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="api-constants_8h.html">cppgc/internal/api-constants.h</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>cppgc {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecppgc.html">cppgc</a> {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span>Heap;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>internal {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">inline</span> <a class="code" href="classcppgc_1_1Heap.html">cppgc::Heap</a>* GetHeapFromPayload(<span class="keyword">const</span> <span class="keywordtype">void</span>* payload) {</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="namespacecppgc_1_1internal.html#a61d91000cbda652cdd6c7ae5396eec01">   16</a></span>&#160;<span class="keyword">inline</span> <a class="code" href="classcppgc_1_1Heap.html">cppgc::Heap</a>* <a class="code" href="namespacecppgc_1_1internal.html#a61d91000cbda652cdd6c7ae5396eec01">GetHeapFromPayload</a>(<span class="keyword">const</span> <span class="keywordtype">void</span>* payload) {</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keywordflow">return</span> *reinterpret_cast&lt;cppgc::Heap**&gt;(</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;      ((reinterpret_cast&lt;uintptr_t&gt;(payload) &amp; api_constants::kPageBaseMask) +</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;       api_constants::kGuardPageSize) +</div>
@@ -96,6 +96,9 @@ $(function() {
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif  // INCLUDE_CPPGC_INTERNAL_ACCESSORS_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="anamespacecppgc_1_1internal_html_a61d91000cbda652cdd6c7ae5396eec01"><div class="ttname"><a href="namespacecppgc_1_1internal.html#a61d91000cbda652cdd6c7ae5396eec01">cppgc::internal::GetHeapFromPayload</a></div><div class="ttdeci">cppgc::Heap * GetHeapFromPayload(const void *payload)</div><div class="ttdef"><b>Definition:</b> accessors.h:16</div></div>
+<div class="ttc" id="anamespacecppgc_html"><div class="ttname"><a href="namespacecppgc.html">cppgc</a></div><div class="ttdef"><b>Definition:</b> allocation.h:18</div></div>
+<div class="ttc" id="aapi-constants_8h_html"><div class="ttname"><a href="api-constants_8h.html">api-constants.h</a></div></div>
 <div class="ttc" id="aclasscppgc_1_1Heap_html"><div class="ttname"><a href="classcppgc_1_1Heap.html">cppgc::Heap</a></div><div class="ttdef"><b>Definition:</b> heap.h:20</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

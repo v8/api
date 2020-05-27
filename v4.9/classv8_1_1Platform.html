@@ -78,13 +78,15 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ace7f666b2b5995bb0e898e12fa660718"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718">ExpectedRuntime</a> { <b>kShortRunningTask</b>, 
-<b>kLongRunningTask</b>
+<tr class="memitem:ace7f666b2b5995bb0e898e12fa660718"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718">ExpectedRuntime</a> { <a class="el" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a3c9b5c2d3552261fea49c62590370522">kShortRunningTask</a>, 
+<a class="el" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718a274d7214159118b553a1f89c56137b25">kLongRunningTask</a>
  }</td></tr>
 <tr class="separator:ace7f666b2b5995bb0e898e12fa660718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a60a2b8edc8f52dcdaed9b093b3944e24"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a60a2b8edc8f52dcdaed9b093b3944e24">~Platform</a> ()</td></tr>
+<tr class="separator:a60a2b8edc8f52dcdaed9b093b3944e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa715e6839c1954b4e23b9d2df00bd3ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#aa715e6839c1954b4e23b9d2df00bd3ea">CallOnBackgroundThread</a> (<a class="el" href="classv8_1_1Task.html">Task</a> *task, <a class="el" href="classv8_1_1Platform.html#ace7f666b2b5995bb0e898e12fa660718">ExpectedRuntime</a> expected_runtime)=0</td></tr>
 <tr class="separator:aa715e6839c1954b4e23b9d2df00bd3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fa13959f919d1d3ff170bceea939915"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Platform.html#a8fa13959f919d1d3ff170bceea939915">CallOnForegroundThread</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Task.html">Task</a> *task)=0</td></tr>
@@ -109,6 +111,8 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classv8_1_1V8.html">V8</a> <a class="el" href="classv8_1_1Platform.html">Platform</a> abstraction layer.</p>
 <p>The embedder has to provide an implementation of this interface before initializing the rest of <a class="el" href="classv8_1_1V8.html">V8</a>. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="process_8cc-example.html#_a35">process.cc</a>, and <a class="el" href="shell_8cc-example.html#_a2">shell.cc</a>.</dd>
+</dl>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ace7f666b2b5995bb0e898e12fa660718"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace7f666b2b5995bb0e898e12fa660718">&#9670;&nbsp;</a></span>ExpectedRuntime</h2>
@@ -122,6 +126,36 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>This enum is used to indicate whether a task is potentially long running, or causes a long wait. The embedder might want to use this hint to decide whether to execute the task on a dedicated thread. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ace7f666b2b5995bb0e898e12fa660718a3c9b5c2d3552261fea49c62590370522"></a>kShortRunningTask&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace7f666b2b5995bb0e898e12fa660718a274d7214159118b553a1f89c56137b25"></a>kLongRunningTask&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a60a2b8edc8f52dcdaed9b093b3944e24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60a2b8edc8f52dcdaed9b093b3944e24">&#9670;&nbsp;</a></span>~Platform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::Platform::~Platform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -516,7 +550,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
+<li>include/<a class="el" href="v8-platform_8h_source.html">v8-platform.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

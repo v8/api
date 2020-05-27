@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: cppgc/prefinalizer.h Source File</title>
+<title>V8: include/cppgc/prefinalizer.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_908cff4095b52ed1341131b5cdfa5c2b.html">cppgc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_c3a29de58f961e253e7c5c44d07916b0.html">cppgc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,31 +69,31 @@ $(function() {
 <div class="title">prefinalizer.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
+<a href="prefinalizer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2020 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef INCLUDE_CPPGC_PREFINALIZER_H_</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define INCLUDE_CPPGC_PREFINALIZER_H_</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;cppgc/internal/accessors.h&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;cppgc/internal/compiler-specific.h&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;cppgc/internal/prefinalizer-handler.h&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;cppgc/liveness-broker.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="accessors_8h.html">cppgc/internal/accessors.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="compiler-specific_8h.html">cppgc/internal/compiler-specific.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="prefinalizer-handler_8h.html">cppgc/internal/prefinalizer-handler.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="liveness-broker_8h.html">cppgc/liveness-broker.h</a>&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>cppgc {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecppgc.html">cppgc</a> {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>internal {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classcppgc_1_1internal_1_1PrefinalizerRegistration.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcppgc_1_1internal_1_1PrefinalizerRegistration.html">PrefinalizerRegistration</a> final {</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keyword">explicit</span> <a class="code" href="classcppgc_1_1internal_1_1PrefinalizerRegistration.html">PrefinalizerRegistration</a>(T* <span class="keyword">self</span>) {</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classcppgc_1_1internal_1_1PrefinalizerRegistration.html#a2d150df9f9e864be8e22a77775762516">   20</a></span>&#160;  <span class="keyword">explicit</span> <a class="code" href="classcppgc_1_1internal_1_1PrefinalizerRegistration.html#a2d150df9f9e864be8e22a77775762516">PrefinalizerRegistration</a>(T* <span class="keyword">self</span>) {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    static_assert(<span class="keyword">sizeof</span>(&amp;T::InvokePreFinalizer) &gt; 0,</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                  <span class="stringliteral">&quot;USING_PRE_FINALIZER(T) must be defined.&quot;</span>);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    cppgc::internal::PreFinalizerRegistrationDispatcher::RegisterPrefinalizer(</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        internal::GetHeapFromPayload(<span class="keyword">self</span>), {<span class="keyword">self</span>, T::InvokePreFinalizer});</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="classcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher.html#a54191e44fdbd5db31a950cb2788c3560">cppgc::internal::PreFinalizerRegistrationDispatcher::RegisterPrefinalizer</a>(</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="namespacecppgc_1_1internal.html#a61d91000cbda652cdd6c7ae5396eec01">internal::GetHeapFromPayload</a>(<span class="keyword">self</span>), {<span class="keyword">self</span>, T::InvokePreFinalizer});</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  }</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span>(size_t, <span class="keywordtype">void</span>* location) = <span class="keyword">delete</span>;</div>
@@ -102,7 +102,7 @@ $(function() {
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}  <span class="comment">// namespace internal</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#define CPPGC_USING_PRE_FINALIZER(Class, PreFinalizer)                      \</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="prefinalizer_8h.html#a8fe2d393e69a1d54655d237b843d7598">   34</a></span>&#160;<span class="preprocessor">#define CPPGC_USING_PRE_FINALIZER(Class, PreFinalizer)                      \</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor"> public:                                                                    \</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">  static bool InvokePreFinalizer(const LivenessBroker&amp; liveness_broker,     \</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">                                 void* object) {                            \</span></div>
@@ -123,7 +123,15 @@ $(function() {
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif  // INCLUDE_CPPGC_PREFINALIZER_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aaccessors_8h_html"><div class="ttname"><a href="accessors_8h.html">accessors.h</a></div></div>
+<div class="ttc" id="aclasscppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher_html_a54191e44fdbd5db31a950cb2788c3560"><div class="ttname"><a href="classcppgc_1_1internal_1_1PreFinalizerRegistrationDispatcher.html#a54191e44fdbd5db31a950cb2788c3560">cppgc::internal::PreFinalizerRegistrationDispatcher::RegisterPrefinalizer</a></div><div class="ttdeci">static void RegisterPrefinalizer(cppgc::Heap *heap, PreFinalizer prefinalzier)</div></div>
+<div class="ttc" id="anamespacecppgc_1_1internal_html_a61d91000cbda652cdd6c7ae5396eec01"><div class="ttname"><a href="namespacecppgc_1_1internal.html#a61d91000cbda652cdd6c7ae5396eec01">cppgc::internal::GetHeapFromPayload</a></div><div class="ttdeci">cppgc::Heap * GetHeapFromPayload(const void *payload)</div><div class="ttdef"><b>Definition:</b> accessors.h:16</div></div>
 <div class="ttc" id="aclasscppgc_1_1internal_1_1PrefinalizerRegistration_html"><div class="ttname"><a href="classcppgc_1_1internal_1_1PrefinalizerRegistration.html">cppgc::internal::PrefinalizerRegistration</a></div><div class="ttdef"><b>Definition:</b> prefinalizer.h:18</div></div>
+<div class="ttc" id="acompiler-specific_8h_html"><div class="ttname"><a href="compiler-specific_8h.html">compiler-specific.h</a></div></div>
+<div class="ttc" id="anamespacecppgc_html"><div class="ttname"><a href="namespacecppgc.html">cppgc</a></div><div class="ttdef"><b>Definition:</b> allocation.h:18</div></div>
+<div class="ttc" id="aclasscppgc_1_1internal_1_1PrefinalizerRegistration_html_a2d150df9f9e864be8e22a77775762516"><div class="ttname"><a href="classcppgc_1_1internal_1_1PrefinalizerRegistration.html#a2d150df9f9e864be8e22a77775762516">cppgc::internal::PrefinalizerRegistration::PrefinalizerRegistration</a></div><div class="ttdeci">PrefinalizerRegistration(T *self)</div><div class="ttdef"><b>Definition:</b> prefinalizer.h:20</div></div>
+<div class="ttc" id="aprefinalizer-handler_8h_html"><div class="ttname"><a href="prefinalizer-handler_8h.html">prefinalizer-handler.h</a></div></div>
+<div class="ttc" id="aliveness-broker_8h_html"><div class="ttname"><a href="liveness-broker_8h.html">liveness-broker.h</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

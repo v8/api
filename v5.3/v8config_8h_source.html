@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>V8: v8config.h Source File</title>
+<title>V8: include/v8config.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -45,7 +45,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,12 +59,17 @@ $(function() {
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">v8config.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2013 the V8 project authors. All rights reserved.</span></div>
+<a href="v8config_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright 2013 the V8 project authors. All rights reserved.</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Use of this source code is governed by a BSD-style license that can be</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// found in the LICENSE file.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
@@ -95,7 +99,7 @@ $(function() {
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"># define V8_GLIBC_PREREQ(major, minor)                                    \</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">    ((__GLIBC__ * 100 + __GLIBC_MINOR__) &gt;= ((major) * 100 + (minor)))</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"># define V8_GLIBC_PREREQ(major, minor) 0</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="v8config_8h.html#a3601a5787a0498af77ccf52246e15842">   31</a></span>&#160;<span class="preprocessor"># define V8_GLIBC_PREREQ(major, minor) 0</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
@@ -115,7 +119,7 @@ $(function() {
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">    ((__GNUC__ * 10000 + __GNUC_MINOR__ * 100) &gt;=      \</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">     ((major) * 10000 + (minor) * 100 + (patchlevel)))</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor"># define V8_GNUC_PREREQ(major, minor, patchlevel) 0</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="v8config_8h.html#a86b9cf0142f262f615666aa7a0279f2d">   51</a></span>&#160;<span class="preprocessor"># define V8_GNUC_PREREQ(major, minor, patchlevel) 0</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
@@ -212,7 +216,7 @@ $(function() {
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="preprocessor">#elif defined(__GLIBC__) || defined(__GNU_LIBRARY__)</span></div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor"># define V8_LIBC_GLIBC 1</span></div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor"># define V8_LIBC_BSD V8_OS_BSD</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="v8config_8h.html#a915210fe350da05d907d27e4de893f86">  148</a></span>&#160;<span class="preprocessor"># define V8_LIBC_BSD V8_OS_BSD</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
@@ -365,7 +369,7 @@ $(function() {
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor">#elif !defined(DEBUG) &amp;&amp; V8_HAS___FORCEINLINE</span></div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="preprocessor"># define V8_INLINE __forceinline</span></div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor"># define V8_INLINE inline</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno"><a class="line" href="v8config_8h.html#a24a5c8b6c341efc8dc6de3e6d0d73a50">  301</a></span>&#160;<span class="preprocessor"># define V8_INLINE inline</span></div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160; </div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160; </div>
@@ -378,7 +382,7 @@ $(function() {
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="preprocessor">#elif !defined(DEBUG) &amp;&amp; V8_HAS_DECLSPEC_NOINLINE</span></div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="preprocessor"># define V8_NOINLINE __declspec(noinline)</span></div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor"># define V8_NOINLINE </span><span class="comment">/* NOT SUPPORTED */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="v8config_8h.html#aae8e4cfdd8ebf80e774cb42d8b4980e6">  314</a></span>&#160;<span class="preprocessor"># define V8_NOINLINE </span><span class="comment">/* NOT SUPPORTED */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160; </div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160; </div>
@@ -390,7 +394,7 @@ $(function() {
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">#elif HAS_DECLSPEC_NORETURN</span></div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="preprocessor"># define V8_NORETURN __declspec(noreturn)</span></div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="preprocessor"># define V8_NORETURN </span><span class="comment">/* NOT SUPPORTED */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00326"></a><span class="lineno"><a class="line" href="v8config_8h.html#afdcfd7bf16390d440aae6073527e0d8c">  326</a></span>&#160;<span class="preprocessor"># define V8_NORETURN </span><span class="comment">/* NOT SUPPORTED */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160; </div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160; </div>
@@ -404,7 +408,7 @@ $(function() {
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">#elif defined(V8_DEPRECATION_WARNINGS) &amp;&amp; V8_HAS_DECLSPEC_DEPRECATED</span></div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">#define V8_DEPRECATED(message, declarator) __declspec(deprecated) declarator</span></div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor">#define V8_DEPRECATED(message, declarator) declarator</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno"><a class="line" href="v8config_8h.html#a105face9e018a0eb5e5d8c3ba1a1296f">  340</a></span>&#160;<span class="preprocessor">#define V8_DEPRECATED(message, declarator) declarator</span></div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160; </div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160; </div>
@@ -419,7 +423,7 @@ $(function() {
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<span class="preprocessor">#elif defined(V8_IMMINENT_DEPRECATION_WARNINGS) &amp;&amp; V8_HAS_DECLSPEC_DEPRECATED</span></div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="preprocessor">#define V8_DEPRECATE_SOON(message, declarator) __declspec(deprecated) declarator</span></div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="preprocessor">#define V8_DEPRECATE_SOON(message, declarator) declarator</span></div>
+<div class="line"><a name="l00355"></a><span class="lineno"><a class="line" href="v8config_8h.html#a85cb8495236a8757e7c07fcc4acbcd86">  355</a></span>&#160;<span class="preprocessor">#define V8_DEPRECATE_SOON(message, declarator) declarator</span></div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160; </div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160; </div>
@@ -428,8 +432,8 @@ $(function() {
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="preprocessor"># define V8_UNLIKELY(condition) (__builtin_expect(!!(condition), 0))</span></div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="preprocessor"># define V8_LIKELY(condition) (__builtin_expect(!!(condition), 1))</span></div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="preprocessor"># define V8_UNLIKELY(condition) (condition)</span></div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<span class="preprocessor"># define V8_LIKELY(condition) (condition)</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno"><a class="line" href="v8config_8h.html#a67bd29db07c711b0fb11ff1c324ebb60">  364</a></span>&#160;<span class="preprocessor"># define V8_UNLIKELY(condition) (condition)</span></div>
+<div class="line"><a name="l00365"></a><span class="lineno"><a class="line" href="v8config_8h.html#a4f489f1b838163ab33f251c9e470d938">  365</a></span>&#160;<span class="preprocessor"># define V8_LIKELY(condition) (condition)</span></div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160; </div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160; </div>
@@ -444,7 +448,7 @@ $(function() {
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;<span class="preprocessor">#elif V8_HAS_DECLSPEC_ALIGN</span></div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;<span class="preprocessor"># define V8_ALIGNED(n) __declspec(align(n))</span></div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="preprocessor"># define V8_ALIGNED(n) </span><span class="comment">/* NOT SUPPORTED */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00380"></a><span class="lineno"><a class="line" href="v8config_8h.html#a50dc5baffddf8cb9261d953f9a36f17a">  380</a></span>&#160;<span class="preprocessor"># define V8_ALIGNED(n) </span><span class="comment">/* NOT SUPPORTED */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160; </div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160; </div>
@@ -462,7 +466,7 @@ $(function() {
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;<span class="preprocessor">#elif V8_HAS___ALIGNOF__ &amp;&amp; V8_HAS_ATTRIBUTE_ALIGNED</span></div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;<span class="preprocessor"># define V8_ALIGNAS(type, alignment) __attribute__((aligned(__alignof__(type))))</span></div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;<span class="preprocessor"># define V8_ALIGNAS(type, alignment) V8_ALIGNED(alignment)</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno"><a class="line" href="v8config_8h.html#a0674be24a5ed5a71bc695f7655f7ef61">  398</a></span>&#160;<span class="preprocessor"># define V8_ALIGNAS(type, alignment) V8_ALIGNED(alignment)</span></div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160; </div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160; </div>
@@ -482,7 +486,7 @@ $(function() {
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;<span class="comment">// alignment of the type stand-alone (because of ancient ABIs), so this</span></div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;<span class="comment">// should only be used as a last resort.</span></div>
 <div class="line"><a name="l00417"></a><span class="lineno"><a class="line" href="classv8_1_1AlignOfHelper.html">  417</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacev8.html">v8</a> { <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keyword">class </span><a class="code" href="classv8_1_1AlignOfHelper.html">AlignOfHelper</a> { <span class="keywordtype">char</span> c; T t; }; }</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;<span class="preprocessor"># define V8_ALIGNOF(type) (sizeof(::v8::AlignOfHelper&lt;type&gt;) - sizeof(type))</span></div>
+<div class="line"><a name="l00418"></a><span class="lineno"><a class="line" href="v8config_8h.html#a3bb05a9d12db7f4ce82ef863eb4db024">  418</a></span>&#160;<span class="preprocessor"># define V8_ALIGNOF(type) (sizeof(::v8::AlignOfHelper&lt;type&gt;) - sizeof(type))</span></div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160; </div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;<span class="comment">// Annotate a function indicating the caller must examine the return value.</span></div>
@@ -491,7 +495,7 @@ $(function() {
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;<span class="preprocessor">#if V8_HAS_ATTRIBUTE_WARN_UNUSED_RESULT</span></div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;<span class="preprocessor">#define V8_WARN_UNUSED_RESULT __attribute__((warn_unused_result))</span></div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;<span class="preprocessor">#define V8_WARN_UNUSED_RESULT </span><span class="comment">/* NOT SUPPORTED */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00427"></a><span class="lineno"><a class="line" href="v8config_8h.html#a63258e4bf5dc9fb8c78f881c8405d83b">  427</a></span>&#160;<span class="preprocessor">#define V8_WARN_UNUSED_RESULT </span><span class="comment">/* NOT SUPPORTED */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160; </div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;<span class="comment">// clang-format on</span></div>

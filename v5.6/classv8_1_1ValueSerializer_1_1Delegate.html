@@ -72,24 +72,181 @@ $(function() {
 <div class="title">v8::ValueSerializer::Delegate Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="v8_8h_source.html">v8.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3681bfcd9a6c45f0b12bd7a8bdf34d85"><td class="memItemLeft" align="right" valign="top"><a id="a3681bfcd9a6c45f0b12bd7a8bdf34d85"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>ThrowDataCloneError</b> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; message)=0</td></tr>
+<tr class="memitem:a42f009022da8b4085b4b91f6b7a8ce68"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ValueSerializer_1_1Delegate.html#a42f009022da8b4085b4b91f6b7a8ce68">~Delegate</a> ()</td></tr>
+<tr class="separator:a42f009022da8b4085b4b91f6b7a8ce68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3681bfcd9a6c45f0b12bd7a8bdf34d85"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ValueSerializer_1_1Delegate.html#a3681bfcd9a6c45f0b12bd7a8bdf34d85">ThrowDataCloneError</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; message)=0</td></tr>
 <tr class="separator:a3681bfcd9a6c45f0b12bd7a8bdf34d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae97808060b22d7a94517f725922b72c6"><td class="memItemLeft" align="right" valign="top"><a id="ae97808060b22d7a94517f725922b72c6"></a>
-virtual <a class="el" href="classv8_1_1Maybe.html">Maybe</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>WriteHostObject</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Object.html">Object</a> &gt; object)</td></tr>
+<tr class="memitem:ae97808060b22d7a94517f725922b72c6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classv8_1_1Maybe.html">Maybe</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ValueSerializer_1_1Delegate.html#ae97808060b22d7a94517f725922b72c6">WriteHostObject</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Object.html">Object</a> &gt; object)</td></tr>
 <tr class="separator:ae97808060b22d7a94517f725922b72c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28e0ab8d14f5c9391df47cf75b4594fc"><td class="memItemLeft" align="right" valign="top"><a id="a28e0ab8d14f5c9391df47cf75b4594fc"></a>
-virtual void *&#160;</td><td class="memItemRight" valign="bottom"><b>ReallocateBufferMemory</b> (void *old_buffer, size_t size, size_t *actual_size)</td></tr>
+<tr class="memitem:a28e0ab8d14f5c9391df47cf75b4594fc"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ValueSerializer_1_1Delegate.html#a28e0ab8d14f5c9391df47cf75b4594fc">ReallocateBufferMemory</a> (void *old_buffer, size_t size, size_t *actual_size)</td></tr>
 <tr class="separator:a28e0ab8d14f5c9391df47cf75b4594fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cea3e757221e6e15b0fdb708482a176"><td class="memItemLeft" align="right" valign="top"><a id="a6cea3e757221e6e15b0fdb708482a176"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>FreeBufferMemory</b> (void *buffer)</td></tr>
+<tr class="memitem:a6cea3e757221e6e15b0fdb708482a176"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ValueSerializer_1_1Delegate.html#a6cea3e757221e6e15b0fdb708482a176">FreeBufferMemory</a> (void *buffer)</td></tr>
 <tr class="separator:a6cea3e757221e6e15b0fdb708482a176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a42f009022da8b4085b4b91f6b7a8ce68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42f009022da8b4085b4b91f6b7a8ce68">&#9670;&nbsp;</a></span>~Delegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::ValueSerializer::Delegate::~Delegate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6cea3e757221e6e15b0fdb708482a176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cea3e757221e6e15b0fdb708482a176">&#9670;&nbsp;</a></span>FreeBufferMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void v8::ValueSerializer::Delegate::FreeBufferMemory </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28e0ab8d14f5c9391df47cf75b4594fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28e0ab8d14f5c9391df47cf75b4594fc">&#9670;&nbsp;</a></span>ReallocateBufferMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void* v8::ValueSerializer::Delegate::ReallocateBufferMemory </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>old_buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>actual_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3681bfcd9a6c45f0b12bd7a8bdf34d85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3681bfcd9a6c45f0b12bd7a8bdf34d85">&#9670;&nbsp;</a></span>ThrowDataCloneError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void v8::ValueSerializer::Delegate::ThrowDataCloneError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt;&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae97808060b22d7a94517f725922b72c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae97808060b22d7a94517f725922b72c6">&#9670;&nbsp;</a></span>WriteHostObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classv8_1_1Maybe.html">Maybe</a>&lt;bool&gt; v8::ValueSerializer::Delegate::WriteHostObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Object.html">Object</a> &gt;&#160;</td>
+          <td class="paramname"><em>object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

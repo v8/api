@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['snapshot_5fblob_1096',['snapshot_blob',['../structv8_1_1Isolate_1_1CreateParams.html#a25d38476e4dec79ae96c59292eee4a64',1,'v8::Isolate::CreateParams']]]
+  ['hit_5fcount_1983',['hit_count',['../structv8_1_1CpuProfileNode_1_1LineTick.html#a62653fb1e6d381a5747d24b83aab1c1b',1,'v8::CpuProfileNode::LineTick']]]
 ];

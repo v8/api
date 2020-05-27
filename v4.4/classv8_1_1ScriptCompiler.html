@@ -92,53 +92,71 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa6db7774ab5d8793cd88db6b35a71818"><td class="memItemLeft" align="right" valign="top"><a id="aa6db7774ab5d8793cd88db6b35a71818"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CompileOptions</b> { <br />
-&#160;&#160;<b>kNoCompileOptions</b> = 0, 
-<b>kProduceParserCache</b>, 
-<b>kConsumeParserCache</b>, 
-<b>kProduceCodeCache</b>, 
+<tr class="memitem:aa6db7774ab5d8793cd88db6b35a71818"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a> { <br />
+&#160;&#160;<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a> = 0, 
+<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a7e84c00be139b11ba2fff41067a65bbb">kProduceParserCache</a>, 
+<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a8197ce7737c195e5a874a01ce4c11970">kConsumeParserCache</a>, 
+<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a9624541ec61348a71c3b7ea9ec81d7d7">kProduceCodeCache</a>, 
 <br />
-&#160;&#160;<b>kConsumeCodeCache</b>, 
-<b>kProduceDataToCache</b>
+&#160;&#160;<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818afbc9e8e1bb024c696d68e5253100d0f7">kConsumeCodeCache</a>, 
+<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a9b6cb5aabc05bf8dcc87b8831f0fdca7">kProduceDataToCache</a>
 <br />
  }</td></tr>
 <tr class="separator:aa6db7774ab5d8793cd88db6b35a71818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a092d08beb6c7c73e731197d0caf3abb3"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a092d08beb6c7c73e731197d0caf3abb3">V8_DEPRECATE_SOON</a> (&quot;Use maybe version&quot;, Local&lt; <a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a> &gt; CompileUnbound(<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, CompileOptions options=kNoCompileOptions))</td></tr>
-<tr class="separator:a092d08beb6c7c73e731197d0caf3abb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d3ed07e15d6ed5a5f569b44abc2cda9"><td class="memItemLeft" align="right" valign="top"><a id="a4d3ed07e15d6ed5a5f569b44abc2cda9"></a>
-static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CompileUnboundScript</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, CompileOptions options=kNoCompileOptions)</td></tr>
-<tr class="separator:a4d3ed07e15d6ed5a5f569b44abc2cda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c0f68d88fd3ce1a648e1f352797319"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a43c0f68d88fd3ce1a648e1f352797319">V8_DEPRECATE_SOON</a> (&quot;Use maybe version&quot;, Local&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt; Compile(<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, CompileOptions options=kNoCompileOptions))</td></tr>
-<tr class="separator:a43c0f68d88fd3ce1a648e1f352797319"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bb0c5823fe340b0ad3fdfb595cea9a4"><td class="memItemLeft" align="right" valign="top"><a id="a5bb0c5823fe340b0ad3fdfb595cea9a4"></a>
-static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Compile</b> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, CompileOptions options=kNoCompileOptions)</td></tr>
-<tr class="separator:a5bb0c5823fe340b0ad3fdfb595cea9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a406bb44ef02d644d94bccd3f7b04f2d4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1ScriptCompiler_1_1ScriptStreamingTask.html">ScriptStreamingTask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a406bb44ef02d644d94bccd3f7b04f2d4">StartStreamingScript</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *source, CompileOptions options=kNoCompileOptions)</td></tr>
+<tr class="memitem:a5f590f94e2705d12392c17b7fa097e1d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a5f590f94e2705d12392c17b7fa097e1d">CompileUnbound</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, <a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a> options=<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a>)</td></tr>
+<tr class="separator:a5f590f94e2705d12392c17b7fa097e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307ff1cfa0852f1affaecbec73fb710d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a307ff1cfa0852f1affaecbec73fb710d">CompileUnboundScript</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, <a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a> options=<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a>)</td></tr>
+<tr class="separator:a307ff1cfa0852f1affaecbec73fb710d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cef8b34c2744f6508a9ce53182c19bf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a4cef8b34c2744f6508a9ce53182c19bf">Compile</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, <a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a> options=<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a>)</td></tr>
+<tr class="separator:a4cef8b34c2744f6508a9ce53182c19bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f41beeb5c5a0e505595ce9d91f2af1c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a5f41beeb5c5a0e505595ce9d91f2af1c">Compile</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, <a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a> options=<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a>)</td></tr>
+<tr class="separator:a5f41beeb5c5a0e505595ce9d91f2af1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a406bb44ef02d644d94bccd3f7b04f2d4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1ScriptCompiler_1_1ScriptStreamingTask.html">ScriptStreamingTask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a406bb44ef02d644d94bccd3f7b04f2d4">StartStreamingScript</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *source, <a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a> options=<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a>)</td></tr>
 <tr class="separator:a406bb44ef02d644d94bccd3f7b04f2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef0e62712c6d324649fc9d5c545ac080"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#aef0e62712c6d324649fc9d5c545ac080">V8_DEPRECATE_SOON</a> (&quot;Use maybe version&quot;, Local&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt; Compile(<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *source, <a class="el" href="classv8_1_1Local.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; full_source_string, const <a class="el" href="classv8_1_1ScriptOrigin.html">ScriptOrigin</a> &amp;origin))</td></tr>
-<tr class="separator:aef0e62712c6d324649fc9d5c545ac080"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac41889cf066e8c697acac3be41c66679"><td class="memItemLeft" align="right" valign="top"><a id="ac41889cf066e8c697acac3be41c66679"></a>
-static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Compile</b> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *source, <a class="el" href="classv8_1_1Local.html">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; full_source_string, const <a class="el" href="classv8_1_1ScriptOrigin.html">ScriptOrigin</a> &amp;origin)</td></tr>
-<tr class="separator:ac41889cf066e8c697acac3be41c66679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45b17bbe1da31c32e3783b91bdde9fcb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a45b17bbe1da31c32e3783b91bdde9fcb">Compile</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *source, <a class="el" href="namespacev8.html#a9b42f6a6adfdc70e92717a20a2e99ba3">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; full_source_string, const <a class="el" href="classv8_1_1ScriptOrigin.html">ScriptOrigin</a> &amp;origin)</td></tr>
+<tr class="separator:a45b17bbe1da31c32e3783b91bdde9fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c42c8bb7b45d8e71760a7873718c7e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#ab5c42c8bb7b45d8e71760a7873718c7e">Compile</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *source, <a class="el" href="namespacev8.html#a9b42f6a6adfdc70e92717a20a2e99ba3">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; full_source_string, const <a class="el" href="classv8_1_1ScriptOrigin.html">ScriptOrigin</a> &amp;origin)</td></tr>
+<tr class="separator:ab5c42c8bb7b45d8e71760a7873718c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea78877b0dccde1e587ee1ddeda1c155"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#aea78877b0dccde1e587ee1ddeda1c155">CachedDataVersionTag</a> ()</td></tr>
 <tr class="separator:aea78877b0dccde1e587ee1ddeda1c155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08429ae707662767137f56e488f211b0"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a08429ae707662767137f56e488f211b0">V8_DEPRECATE_SOON</a> (&quot;Use maybe version&quot;, Local&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt; CompileModule(<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, CompileOptions options=kNoCompileOptions))</td></tr>
-<tr class="separator:a08429ae707662767137f56e488f211b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42373c4d7c20048db0dd9482410d48d6"><td class="memItemLeft" align="right" valign="top"><a id="a42373c4d7c20048db0dd9482410d48d6"></a>
-static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CompileModule</b> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, CompileOptions options=kNoCompileOptions)</td></tr>
-<tr class="separator:a42373c4d7c20048db0dd9482410d48d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2a02a50577714e996a23b8d3396af4d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#ac2a02a50577714e996a23b8d3396af4d">V8_DEPRECATE_SOON</a> (&quot;Use maybe version&quot;, Local&lt; <a class="el" href="classv8_1_1Function.html">Function</a> &gt; CompileFunctionInContext(<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, size_t arguments_count, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; arguments[], size_t context_extension_count, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Object.html">Object</a> &gt; context_extensions[]))</td></tr>
-<tr class="separator:ac2a02a50577714e996a23b8d3396af4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa11d1768d4c9d5afda451a63360223a5"><td class="memItemLeft" align="right" valign="top"><a id="aa11d1768d4c9d5afda451a63360223a5"></a>
-static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Function.html">Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CompileFunctionInContext</b> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, size_t arguments_count, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; arguments[], size_t context_extension_count, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Object.html">Object</a> &gt; context_extensions[])</td></tr>
-<tr class="separator:aa11d1768d4c9d5afda451a63360223a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96bafa715e4a9c413824f2ce6c7db434"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a96bafa715e4a9c413824f2ce6c7db434">CompileModule</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, <a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a> options=<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a>)</td></tr>
+<tr class="separator:a96bafa715e4a9c413824f2ce6c7db434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e70ba9da6a017bb3f00b74767138f0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a11e70ba9da6a017bb3f00b74767138f0">CompileModule</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, <a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a> options=<a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a>)</td></tr>
+<tr class="separator:a11e70ba9da6a017bb3f00b74767138f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0811ba4ae8b6700d44d0d082a4812794"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Function.html">Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#a0811ba4ae8b6700d44d0d082a4812794">CompileFunctionInContext</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, size_t arguments_count, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; arguments[], size_t context_extension_count, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Object.html">Object</a> &gt; context_extensions[])</td></tr>
+<tr class="separator:a0811ba4ae8b6700d44d0d082a4812794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac286ba52efccb19d7db261c302244ff3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Function.html">Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1ScriptCompiler.html#ac286ba52efccb19d7db261c302244ff3">CompileFunctionInContext</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *source, size_t arguments_count, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt; arguments[], size_t context_extension_count, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Object.html">Object</a> &gt; context_extensions[])</td></tr>
+<tr class="separator:ac286ba52efccb19d7db261c302244ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>For compiling scripts. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="aa6db7774ab5d8793cd88db6b35a71818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6db7774ab5d8793cd88db6b35a71818">&#9670;&nbsp;</a></span>CompileOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">v8::ScriptCompiler::CompileOptions</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1"></a>kNoCompileOptions&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6db7774ab5d8793cd88db6b35a71818a7e84c00be139b11ba2fff41067a65bbb"></a>kProduceParserCache&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6db7774ab5d8793cd88db6b35a71818a8197ce7737c195e5a874a01ce4c11970"></a>kConsumeParserCache&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6db7774ab5d8793cd88db6b35a71818a9624541ec61348a71c3b7ea9ec81d7d7"></a>kProduceCodeCache&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6db7774ab5d8793cd88db6b35a71818afbc9e8e1bb024c696d68e5253100d0f7"></a>kConsumeCodeCache&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa6db7774ab5d8793cd88db6b35a71818a9b6cb5aabc05bf8dcc87b8831f0fdca7"></a>kProduceDataToCache&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aea78877b0dccde1e587ee1ddeda1c155"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea78877b0dccde1e587ee1ddeda1c155">&#9670;&nbsp;</a></span>CachedDataVersionTag()</h2>
 
@@ -169,8 +187,8 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
 
 </div>
 </div>
-<a id="a406bb44ef02d644d94bccd3f7b04f2d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a406bb44ef02d644d94bccd3f7b04f2d4">&#9670;&nbsp;</a></span>StartStreamingScript()</h2>
+<a id="a4cef8b34c2744f6508a9ce53182c19bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cef8b34c2744f6508a9ce53182c19bf">&#9670;&nbsp;</a></span>Compile() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,7 +197,7 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classv8_1_1ScriptCompiler_1_1ScriptStreamingTask.html">ScriptStreamingTask</a>* v8::ScriptCompiler::StartStreamingScript </td>
+          <td class="memname">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1Script.html">Script</a>&gt; v8::ScriptCompiler::Compile </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
           <td class="paramname"><em>isolate</em>, </td>
@@ -187,91 +205,14 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *&#160;</td>
           <td class="paramname"><em>source</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">CompileOptions&#160;</td>
-          <td class="paramname"><em>options</em> = <code>kNoCompileOptions</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Returns a task which streams script data into <a class="el" href="classv8_1_1V8.html">V8</a>, or NULL if the script cannot be streamed. The user is responsible for running the task on a background thread and deleting it. When ran, the task starts parsing the script, and it will request data from the <a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> as needed. When ScriptStreamingTask::Run exits, all data has been streamed and the script can be compiled (see Compile below).</p>
-<p>This API allows to start the streaming with as little data as possible, and the remaining data (for example, the <a class="el" href="classv8_1_1ScriptOrigin.html">ScriptOrigin</a>) is passed to Compile. </p>
-
-</div>
-</div>
-<a id="ac2a02a50577714e996a23b8d3396af4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2a02a50577714e996a23b8d3396af4d">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static v8::ScriptCompiler::V8_DEPRECATE_SOON </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use maybe version&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Function.html">Function</a> &gt; &#160;</td>
-          <td class="paramname"><em>CompileFunctionInContext</em>Isolate *isolate, Source *source, Local&lt; Context &gt; context, size_t arguments_count, Local&lt; String &gt; arguments[], size_t context_extension_count, Local&lt; Object &gt; context_extensions[]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Compile a function for a given context. This is equivalent to running</p>
-<p>with (obj) { return function(args) { ... } }</p>
-<p>It is possible to specify multiple context extensions (obj in the above example). </p>
-
-</div>
-</div>
-<a id="a43c0f68d88fd3ce1a648e1f352797319"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43c0f68d88fd3ce1a648e1f352797319">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static v8::ScriptCompiler::V8_DEPRECATE_SOON </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Use maybe version&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt; &#160;</td>
-          <td class="paramname"><em>Compile</em>Isolate *isolate, Source *source, CompileOptions options=kNoCompileOptions&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -297,8 +238,8 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
 
 </div>
 </div>
-<a id="aef0e62712c6d324649fc9d5c545ac080"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef0e62712c6d324649fc9d5c545ac080">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON() <span class="overload">[3/5]</span></h2>
+<a id="a45b17bbe1da31c32e3783b91bdde9fcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45b17bbe1da31c32e3783b91bdde9fcb">&#9670;&nbsp;</a></span>Compile() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,16 +248,28 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static v8::ScriptCompiler::V8_DEPRECATE_SOON </td>
+          <td class="memname">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1Script.html">Script</a>&gt; v8::ScriptCompiler::Compile </td>
           <td>(</td>
-          <td class="paramtype">&quot;Use maybe version&quot;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt; &#160;</td>
-          <td class="paramname"><em>Compile</em>Isolate *isolate, StreamedSource *source, Handle&lt; String &gt; full_source_string, const ScriptOrigin &amp;origin&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacev8.html#a9b42f6a6adfdc70e92717a20a2e99ba3">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt;&#160;</td>
+          <td class="paramname"><em>full_source_string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classv8_1_1ScriptOrigin.html">ScriptOrigin</a> &amp;&#160;</td>
+          <td class="paramname"><em>origin</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -335,8 +288,8 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
 
 </div>
 </div>
-<a id="a08429ae707662767137f56e488f211b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08429ae707662767137f56e488f211b0">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON() <span class="overload">[4/5]</span></h2>
+<a id="a5f41beeb5c5a0e505595ce9d91f2af1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f41beeb5c5a0e505595ce9d91f2af1c">&#9670;&nbsp;</a></span>Compile() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,16 +298,241 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static v8::ScriptCompiler::V8_DEPRECATE_SOON </td>
+          <td class="memname">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1Script.html">Script</a>&gt; v8::ScriptCompiler::Compile </td>
           <td>(</td>
-          <td class="paramtype">&quot;Use maybe version&quot;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Script.html">Script</a> &gt; &#160;</td>
-          <td class="paramname"><em>CompileModule</em>Isolate *isolate, Source *source, CompileOptions options=kNoCompileOptions&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5c42c8bb7b45d8e71760a7873718c7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5c42c8bb7b45d8e71760a7873718c7e">&#9670;&nbsp;</a></span>Compile() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1Script.html">Script</a>&gt; v8::ScriptCompiler::Compile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacev8.html#a9b42f6a6adfdc70e92717a20a2e99ba3">Handle</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt;&#160;</td>
+          <td class="paramname"><em>full_source_string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classv8_1_1ScriptOrigin.html">ScriptOrigin</a> &amp;&#160;</td>
+          <td class="paramname"><em>origin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0811ba4ae8b6700d44d0d082a4812794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0811ba4ae8b6700d44d0d082a4812794">&#9670;&nbsp;</a></span>CompileFunctionInContext() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1Function.html">Function</a>&gt; v8::ScriptCompiler::CompileFunctionInContext </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>arguments_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt;&#160;</td>
+          <td class="paramname"><em>arguments</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>context_extension_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Object.html">Object</a> &gt;&#160;</td>
+          <td class="paramname"><em>context_extensions</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Compile a function for a given context. This is equivalent to running</p>
+<p>with (obj) { return function(args) { ... } }</p>
+<p>It is possible to specify multiple context extensions (obj in the above example). </p>
+
+</div>
+</div>
+<a id="ac286ba52efccb19d7db261c302244ff3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac286ba52efccb19d7db261c302244ff3">&#9670;&nbsp;</a></span>CompileFunctionInContext() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1Function.html">Function</a>&gt; v8::ScriptCompiler::CompileFunctionInContext </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>arguments_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1String.html">String</a> &gt;&#160;</td>
+          <td class="paramname"><em>arguments</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>context_extension_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Object.html">Object</a> &gt;&#160;</td>
+          <td class="paramname"><em>context_extensions</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96bafa715e4a9c413824f2ce6c7db434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96bafa715e4a9c413824f2ce6c7db434">&#9670;&nbsp;</a></span>CompileModule() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1Script.html">Script</a>&gt; v8::ScriptCompiler::CompileModule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -374,8 +552,8 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
 
 </div>
 </div>
-<a id="a092d08beb6c7c73e731197d0caf3abb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a092d08beb6c7c73e731197d0caf3abb3">&#9670;&nbsp;</a></span>V8_DEPRECATE_SOON() <span class="overload">[5/5]</span></h2>
+<a id="a11e70ba9da6a017bb3f00b74767138f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11e70ba9da6a017bb3f00b74767138f0">&#9670;&nbsp;</a></span>CompileModule() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -384,16 +562,64 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static v8::ScriptCompiler::V8_DEPRECATE_SOON </td>
+          <td class="memname">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1Script.html">Script</a>&gt; v8::ScriptCompiler::CompileModule </td>
           <td>(</td>
-          <td class="paramtype">&quot;Use maybe version&quot;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a> &gt; &#160;</td>
-          <td class="paramname"><em>CompileUnbound</em>Isolate *isolate, Source *source, CompileOptions options=kNoCompileOptions&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f590f94e2705d12392c17b7fa097e1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f590f94e2705d12392c17b7fa097e1d">&#9670;&nbsp;</a></span>CompileUnbound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a>&gt; v8::ScriptCompiler::CompileUnbound </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -419,8 +645,94 @@ static V8_WARN_UNUSED_RESULT <a class="el" href="classv8_1_1MaybeLocal.html">May
 
 </div>
 </div>
+<a id="a307ff1cfa0852f1affaecbec73fb710d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a307ff1cfa0852f1affaecbec73fb710d">&#9670;&nbsp;</a></span>CompileUnboundScript()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1UnboundScript.html">UnboundScript</a>&gt; v8::ScriptCompiler::CompileUnboundScript </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1Source.html">Source</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a406bb44ef02d644d94bccd3f7b04f2d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a406bb44ef02d644d94bccd3f7b04f2d4">&#9670;&nbsp;</a></span>StartStreamingScript()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1ScriptCompiler_1_1ScriptStreamingTask.html">ScriptStreamingTask</a>* v8::ScriptCompiler::StartStreamingScript </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818">CompileOptions</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code><a class="el" href="classv8_1_1ScriptCompiler.html#aa6db7774ab5d8793cd88db6b35a71818a970141565d7803152054802077acdbc1">kNoCompileOptions</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns a task which streams script data into <a class="el" href="classv8_1_1V8.html">V8</a>, or NULL if the script cannot be streamed. The user is responsible for running the task on a background thread and deleting it. When ran, the task starts parsing the script, and it will request data from the <a class="el" href="classv8_1_1ScriptCompiler_1_1StreamedSource.html">StreamedSource</a> as needed. When <a class="el" href="classv8_1_1ScriptCompiler_1_1ScriptStreamingTask.html#a8eb7a750cbd26ee62c70067c0408c3e1">ScriptStreamingTask::Run</a> exits, all data has been streamed and the script can be compiled (see Compile below).</p>
+<p>This API allows to start the streaming with as little data as possible, and the remaining data (for example, the <a class="el" href="classv8_1_1ScriptOrigin.html">ScriptOrigin</a>) is passed to Compile. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8_8h_source.html">v8.h</a></li>
+<li>include/<a class="el" href="v8_8h_source.html">v8.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

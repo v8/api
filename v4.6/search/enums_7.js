@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writeoptions_1167',['WriteOptions',['../classv8_1_1String.html#a9ce7f1458ffd08f8eb2b9c8dc056e616',1,'v8::String']]]
+  ['jitcodeeventoptions_2208',['JitCodeEventOptions',['../namespacev8.html#a06f34fa4fa4cfc8518366808d1d461c1',1,'v8']]]
 ];

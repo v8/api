@@ -68,13 +68,14 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classv8_1_1Debug-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">v8::Debug Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="v8-debug_8h_source.html">v8-debug.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -94,55 +95,40 @@ Public Types</h2></td></tr>
 <tr class="memitem:a91cd8aa9743e3478bc63fe73abcd557c"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a91cd8aa9743e3478bc63fe73abcd557c">DebugMessageDispatchHandler</a>) ()</td></tr>
 <tr class="separator:a91cd8aa9743e3478bc63fe73abcd557c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ae4678d5f5963c446a5f2187a30fb89ee"><td class="memItemLeft" align="right" valign="top"><a id="ae4678d5f5963c446a5f2187a30fb89ee"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>V8_DEPRECATED</b> (&quot;Use version with an <a class="el" href="classv8_1_1Isolate.html">Isolate</a>&quot;, static bool SetDebugEventListener(<a class="el" href="classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8">EventCallback</a> that, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; data=<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;()))</td></tr>
-<tr class="separator:ae4678d5f5963c446a5f2187a30fb89ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47ea3e258dfe3539890b4a29859481e4"><td class="memItemLeft" align="right" valign="top"><a id="a47ea3e258dfe3539890b4a29859481e4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>V8_DEPRECATED</b> (&quot;Use version with an <a class="el" href="classv8_1_1Isolate.html">Isolate</a>&quot;, static void SetMessageHandler(<a class="el" href="classv8_1_1Debug.html#a526826b857bd3e3efa184e12bcebc694">MessageHandler</a> handler))</td></tr>
-<tr class="separator:a47ea3e258dfe3539890b4a29859481e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5682cd506adcc344fe99b8c9b21bbac8"><td class="memItemLeft" align="right" valign="top"><a id="a5682cd506adcc344fe99b8c9b21bbac8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>V8_DEPRECATED</b> (&quot;Use version with an <a class="el" href="classv8_1_1Isolate.html">Isolate</a>&quot;, static void <a class="el" href="classv8_1_1Debug.html#af005b911101260e0458847d149d5610e">ProcessDebugMessages</a>())</td></tr>
-<tr class="separator:a5682cd506adcc344fe99b8c9b21bbac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe8bf40a79b8769cedfb7aafef74e77f"><td class="memItemLeft" align="right" valign="top"><a id="afe8bf40a79b8769cedfb7aafef74e77f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>V8_DEPRECATED</b> (&quot;Use version with an <a class="el" href="classv8_1_1Isolate.html">Isolate</a>&quot;, static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; <a class="el" href="classv8_1_1Debug.html#abcf6727d68c5f8c35eef75a72e6a0da8">GetDebugContext</a>())</td></tr>
-<tr class="separator:afe8bf40a79b8769cedfb7aafef74e77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7f5138bd280a4c3fa9058a2d559687dd"><td class="memItemLeft" align="right" valign="top"><a id="a7f5138bd280a4c3fa9058a2d559687dd"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>SetDebugEventListener</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8">EventCallback</a> that, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; data=<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;())</td></tr>
+<tr class="memitem:a7f5138bd280a4c3fa9058a2d559687dd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a7f5138bd280a4c3fa9058a2d559687dd">SetDebugEventListener</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8">EventCallback</a> that, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; data=<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;())</td></tr>
 <tr class="separator:a7f5138bd280a4c3fa9058a2d559687dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c730ea558b1fc86cb728980c91a4c7c"><td class="memItemLeft" align="right" valign="top"><a id="a0c730ea558b1fc86cb728980c91a4c7c"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>DebugBreak</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
+<tr class="memitem:ac2d24e9b52877ec40236bd0ceea85e8b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#ac2d24e9b52877ec40236bd0ceea85e8b">SetDebugEventListener</a> (<a class="el" href="classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8">EventCallback</a> that, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; data=<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;())</td></tr>
+<tr class="separator:ac2d24e9b52877ec40236bd0ceea85e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c730ea558b1fc86cb728980c91a4c7c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a0c730ea558b1fc86cb728980c91a4c7c">DebugBreak</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
 <tr class="separator:a0c730ea558b1fc86cb728980c91a4c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a976a373dc06c146cdbe8d6f2fd7f57b5"><td class="memItemLeft" align="right" valign="top"><a id="a976a373dc06c146cdbe8d6f2fd7f57b5"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>CancelDebugBreak</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
+<tr class="memitem:a976a373dc06c146cdbe8d6f2fd7f57b5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a976a373dc06c146cdbe8d6f2fd7f57b5">CancelDebugBreak</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
 <tr class="separator:a976a373dc06c146cdbe8d6f2fd7f57b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa564431664efa61d6d72c9cbd91b4ea2"><td class="memItemLeft" align="right" valign="top"><a id="aa564431664efa61d6d72c9cbd91b4ea2"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckDebugBreak</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
+<tr class="memitem:aa564431664efa61d6d72c9cbd91b4ea2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#aa564431664efa61d6d72c9cbd91b4ea2">CheckDebugBreak</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
 <tr class="separator:aa564431664efa61d6d72c9cbd91b4ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae49147c056122437bacc3d26cc349125"><td class="memItemLeft" align="right" valign="top"><a id="ae49147c056122437bacc3d26cc349125"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMessageHandler</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Debug.html#a526826b857bd3e3efa184e12bcebc694">MessageHandler</a> handler)</td></tr>
+<tr class="memitem:ae49147c056122437bacc3d26cc349125"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#ae49147c056122437bacc3d26cc349125">SetMessageHandler</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Debug.html#a526826b857bd3e3efa184e12bcebc694">MessageHandler</a> handler)</td></tr>
 <tr class="separator:ae49147c056122437bacc3d26cc349125"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba2426f25ee7cd31659426287777bb00"><td class="memItemLeft" align="right" valign="top"><a id="aba2426f25ee7cd31659426287777bb00"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SendCommand</b> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, const uint16_t *command, int length, <a class="el" href="classv8_1_1Debug_1_1ClientData.html">ClientData</a> *client_data=NULL)</td></tr>
+<tr class="memitem:ab26a90abc5c21c752f6923a1986f0bb7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#ab26a90abc5c21c752f6923a1986f0bb7">SetMessageHandler</a> (<a class="el" href="classv8_1_1Debug.html#a526826b857bd3e3efa184e12bcebc694">MessageHandler</a> handler)</td></tr>
+<tr class="separator:ab26a90abc5c21c752f6923a1986f0bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2426f25ee7cd31659426287777bb00"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#aba2426f25ee7cd31659426287777bb00">SendCommand</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, const uint16_t *command, int length, <a class="el" href="classv8_1_1Debug_1_1ClientData.html">ClientData</a> *client_data=NULL)</td></tr>
 <tr class="separator:aba2426f25ee7cd31659426287777bb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6350dc826625864ee045783685bed057"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a6350dc826625864ee045783685bed057">V8_DEPRECATED</a> (&quot;Use maybe version&quot;, Local&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; Call(<a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Function.html">v8::Function</a> &gt; fun, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; data=<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;()))</td></tr>
-<tr class="separator:a6350dc826625864ee045783685bed057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32e28ec40dc429e7fa1dfbe1e514ba3d"><td class="memItemLeft" align="right" valign="top"><a id="a32e28ec40dc429e7fa1dfbe1e514ba3d"></a>
-static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Call</b> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Function.html">v8::Function</a> &gt; fun, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; data=<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;())</td></tr>
+<tr class="memitem:ab90d1b945900a93258f5843c6811e011"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#ab90d1b945900a93258f5843c6811e011">Call</a> (<a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Function.html">v8::Function</a> &gt; fun, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; data=<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;())</td></tr>
+<tr class="separator:ab90d1b945900a93258f5843c6811e011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e28ec40dc429e7fa1dfbe1e514ba3d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a32e28ec40dc429e7fa1dfbe1e514ba3d">Call</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Function.html">v8::Function</a> &gt; fun, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; data=<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;())</td></tr>
 <tr class="separator:a32e28ec40dc429e7fa1dfbe1e514ba3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeda86872fb9c66df641e6d16c8db7182"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#aeda86872fb9c66df641e6d16c8db7182">V8_DEPRECATED</a> (&quot;Use maybe version&quot;, Local&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; GetMirror(<a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; obj))</td></tr>
-<tr class="separator:aeda86872fb9c66df641e6d16c8db7182"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5f5ae3f4418c576da4633c6fb27b23d"><td class="memItemLeft" align="right" valign="top"><a id="ab5f5ae3f4418c576da4633c6fb27b23d"></a>
-static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMirror</b> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; obj)</td></tr>
+<tr class="memitem:a45d64c0bf8f068cc7478983350f5d413"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a45d64c0bf8f068cc7478983350f5d413">GetMirror</a> (<a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; obj)</td></tr>
+<tr class="separator:a45d64c0bf8f068cc7478983350f5d413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f5ae3f4418c576da4633c6fb27b23d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#ab5f5ae3f4418c576da4633c6fb27b23d">GetMirror</a> (<a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt; context, <a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt; obj)</td></tr>
 <tr class="separator:ab5f5ae3f4418c576da4633c6fb27b23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af005b911101260e0458847d149d5610e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#af005b911101260e0458847d149d5610e">ProcessDebugMessages</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
 <tr class="separator:af005b911101260e0458847d149d5610e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a888e06766caee0380c6aa010b00e1a54"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a888e06766caee0380c6aa010b00e1a54">ProcessDebugMessages</a> ()</td></tr>
+<tr class="separator:a888e06766caee0380c6aa010b00e1a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcf6727d68c5f8c35eef75a72e6a0da8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#abcf6727d68c5f8c35eef75a72e6a0da8">GetDebugContext</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate)</td></tr>
 <tr class="separator:abcf6727d68c5f8c35eef75a72e6a0da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2343a321b0db41324b7e8a7402f57cf0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a2343a321b0db41324b7e8a7402f57cf0">GetDebugContext</a> ()</td></tr>
+<tr class="separator:a2343a321b0db41324b7e8a7402f57cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab635f979d369bed13187e2594d825517"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#ab635f979d369bed13187e2594d825517">SetLiveEditEnabled</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, bool enable)</td></tr>
 <tr class="separator:ab635f979d369bed13187e2594d825517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ef14b11ffdd57287f25b39dc728e07"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a class="el" href="classv8_1_1Array.html">Array</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1Debug.html#a10ef14b11ffdd57287f25b39dc728e07">GetInternalProperties</a> (<a class="el" href="classv8_1_1Isolate.html">Isolate</a> *isolate, <a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; value)</td></tr>
@@ -209,8 +195,199 @@ static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a cla
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a32e28ec40dc429e7fa1dfbe1e514ba3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32e28ec40dc429e7fa1dfbe1e514ba3d">&#9670;&nbsp;</a></span>Call() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1Value.html">Value</a>&gt; v8::Debug::Call </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Function.html">v8::Function</a> &gt;&#160;</td>
+          <td class="paramname"><em>fun</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td>
+          <td class="paramname"><em>data</em> = <code><a class="el" href="classv8_1_1Local.html">Local</a>&lt;&#160;<a class="el" href="classv8_1_1Value.html">Value</a>&#160;&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab90d1b945900a93258f5843c6811e011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab90d1b945900a93258f5843c6811e011">&#9670;&nbsp;</a></span>Call() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1Value.html">Value</a>&gt; v8::Debug::Call </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Function.html">v8::Function</a> &gt;&#160;</td>
+          <td class="paramname"><em>fun</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td>
+          <td class="paramname"><em>data</em> = <code><a class="el" href="classv8_1_1Local.html">Local</a>&lt;&#160;<a class="el" href="classv8_1_1Value.html">Value</a>&#160;&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Run a JavaScript function in the debugger. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fun</td><td>the function to call </td></tr>
+    <tr><td class="paramname">data</td><td>passed as second argument to the function With this call the debugger is entered and the function specified is called with the execution state as the first argument. This makes it possible to get access to information otherwise not available during normal JavaScript execution e.g. details on stack frames. Receiver of the function call will be the debugger context global object, however this is a subject to change. The following example shows a JavaScript function which when passed to <a class="el" href="classv8_1_1Debug.html#ab90d1b945900a93258f5843c6811e011">v8::Debug::Call</a> will return the current line of JavaScript execution.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="keyword">function</span> frame_source_line(exec_state) {</div>
+<div class="line">  <span class="keywordflow">return</span> exec_state.frame(0).sourceLine();</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="a976a373dc06c146cdbe8d6f2fd7f57b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a976a373dc06c146cdbe8d6f2fd7f57b5">&#9670;&nbsp;</a></span>CancelDebugBreak()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void v8::Debug::CancelDebugBreak </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa564431664efa61d6d72c9cbd91b4ea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa564431664efa61d6d72c9cbd91b4ea2">&#9670;&nbsp;</a></span>CheckDebugBreak()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool v8::Debug::CheckDebugBreak </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c730ea558b1fc86cb728980c91a4c7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c730ea558b1fc86cb728980c91a4c7c">&#9670;&nbsp;</a></span>DebugBreak()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void v8::Debug::DebugBreak </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2343a321b0db41324b7e8a7402f57cf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2343a321b0db41324b7e8a7402f57cf0">&#9670;&nbsp;</a></span>GetDebugContext() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1Context.html">Context</a>&gt; v8::Debug::GetDebugContext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abcf6727d68c5f8c35eef75a72e6a0da8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcf6727d68c5f8c35eef75a72e6a0da8">&#9670;&nbsp;</a></span>GetDebugContext()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abcf6727d68c5f8c35eef75a72e6a0da8">&#9670;&nbsp;</a></span>GetDebugContext() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,8 +452,96 @@ static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a cla
 
 </div>
 </div>
+<a id="ab5f5ae3f4418c576da4633c6fb27b23d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f5ae3f4418c576da4633c6fb27b23d">&#9670;&nbsp;</a></span>GetMirror() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt;<a class="el" href="classv8_1_1Value.html">Value</a>&gt; v8::Debug::GetMirror </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Context.html">Context</a> &gt;&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt;&#160;</td>
+          <td class="paramname"><em>obj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45d64c0bf8f068cc7478983350f5d413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d64c0bf8f068cc7478983350f5d413">&#9670;&nbsp;</a></span>GetMirror() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classv8_1_1Local.html">Local</a>&lt;<a class="el" href="classv8_1_1Value.html">Value</a>&gt; v8::Debug::GetMirror </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">v8::Local</a>&lt; <a class="el" href="classv8_1_1Value.html">v8::Value</a> &gt;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns a mirror object for the given object. </p>
+
+</div>
+</div>
+<a id="a888e06766caee0380c6aa010b00e1a54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a888e06766caee0380c6aa010b00e1a54">&#9670;&nbsp;</a></span>ProcessDebugMessages() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void v8::Debug::ProcessDebugMessages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af005b911101260e0458847d149d5610e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af005b911101260e0458847d149d5610e">&#9670;&nbsp;</a></span>ProcessDebugMessages()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af005b911101260e0458847d149d5610e">&#9670;&nbsp;</a></span>ProcessDebugMessages() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,6 +575,132 @@ static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a cla
 <li>It should be invoked with the same precautions and from the same context as <a class="el" href="classv8_1_1V8.html">V8</a> script would be invoked from, because: a. with "evaluate" command it can do whatever normal script can do, including all native calls; b. no other thread should call <a class="el" href="classv8_1_1V8.html">V8</a> while this method is running (<a class="el" href="classv8_1_1Locker.html">v8::Locker</a> may be used here).</li>
 </ol>
 <p>"Evaluate" debug command behavior currently is not specified in scope of this method. </p>
+
+</div>
+</div>
+<a id="aba2426f25ee7cd31659426287777bb00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba2426f25ee7cd31659426287777bb00">&#9670;&nbsp;</a></span>SendCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void v8::Debug::SendCommand </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint16_t *&#160;</td>
+          <td class="paramname"><em>command</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Debug_1_1ClientData.html">ClientData</a> *&#160;</td>
+          <td class="paramname"><em>client_data</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2d24e9b52877ec40236bd0ceea85e8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2d24e9b52877ec40236bd0ceea85e8b">&#9670;&nbsp;</a></span>SetDebugEventListener() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool v8::Debug::SetDebugEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8">EventCallback</a>&#160;</td>
+          <td class="paramname"><em>that</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td>
+          <td class="paramname"><em>data</em> = <code><a class="el" href="classv8_1_1Local.html">Local</a>&lt;&#160;<a class="el" href="classv8_1_1Value.html">Value</a>&#160;&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f5138bd280a4c3fa9058a2d559687dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f5138bd280a4c3fa9058a2d559687dd">&#9670;&nbsp;</a></span>SetDebugEventListener() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool v8::Debug::SetDebugEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8">EventCallback</a>&#160;</td>
+          <td class="paramname"><em>that</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt;&#160;</td>
+          <td class="paramname"><em>data</em> = <code><a class="el" href="classv8_1_1Local.html">Local</a>&lt;&#160;<a class="el" href="classv8_1_1Value.html">Value</a>&#160;&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -350,8 +741,8 @@ static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a cla
 
 </div>
 </div>
-<a id="a6350dc826625864ee045783685bed057"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6350dc826625864ee045783685bed057">&#9670;&nbsp;</a></span>V8_DEPRECATED() <span class="overload">[1/2]</span></h2>
+<a id="ae49147c056122437bacc3d26cc349125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae49147c056122437bacc3d26cc349125">&#9670;&nbsp;</a></span>SetMessageHandler() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,16 +751,16 @@ static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a cla
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static v8::Debug::V8_DEPRECATED </td>
+          <td class="memname">static void v8::Debug::SetMessageHandler </td>
           <td>(</td>
-          <td class="paramtype">&quot;Use maybe version&quot;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Isolate.html">Isolate</a> *&#160;</td>
+          <td class="paramname"><em>isolate</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; &#160;</td>
-          <td class="paramname"><em>Call</em>v8::Local&lt; v8::Function &gt; fun, Local&lt; Value &gt; data=Local&lt; Value &gt;()&#160;</td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Debug.html#a526826b857bd3e3efa184e12bcebc694">MessageHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -383,21 +774,11 @@ static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a cla
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Run a JavaScript function in the debugger. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">fun</td><td>the function to call </td></tr>
-    <tr><td class="paramname">data</td><td>passed as second argument to the function With this call the debugger is entered and the function specified is called with the execution state as the first argument. This makes it possible to get access to information otherwise not available during normal JavaScript execution e.g. details on stack frames. Receiver of the function call will be the debugger context global object, however this is a subject to change. The following example shows a JavaScript function which when passed to v8::Debug::Call will return the current line of JavaScript execution.</td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="fragment"><div class="line"><span class="keyword">function</span> frame_source_line(exec_state) {</div>
-<div class="line">  <span class="keywordflow">return</span> exec_state.frame(0).sourceLine();</div>
-<div class="line">}</div>
-</div><!-- fragment --> 
+
 </div>
 </div>
-<a id="aeda86872fb9c66df641e6d16c8db7182"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeda86872fb9c66df641e6d16c8db7182">&#9670;&nbsp;</a></span>V8_DEPRECATED() <span class="overload">[2/2]</span></h2>
+<a id="ab26a90abc5c21c752f6923a1986f0bb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26a90abc5c21c752f6923a1986f0bb7">&#9670;&nbsp;</a></span>SetMessageHandler() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,21 +787,11 @@ static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a cla
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static v8::Debug::V8_DEPRECATED </td>
+          <td class="memname">static void v8::Debug::SetMessageHandler </td>
           <td>(</td>
-          <td class="paramtype">&quot;Use maybe version&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="classv8_1_1Debug.html#a526826b857bd3e3efa184e12bcebc694">MessageHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classv8_1_1Local.html">Local</a>&lt; <a class="el" href="classv8_1_1Value.html">Value</a> &gt; &#160;</td>
-          <td class="paramname"><em>GetMirror</em>v8::Local&lt; v8::Value &gt; obj&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -429,12 +800,11 @@ static <a class="el" href="classv8_1_1MaybeLocal.html">MaybeLocal</a>&lt; <a cla
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns a mirror object for the given object. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-debug_8h_source.html">v8-debug.h</a></li>
+<li>include/<a class="el" href="v8-debug_8h_source.html">v8-debug.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

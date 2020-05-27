@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['indexedpropertydefinercallback_1365',['IndexedPropertyDefinerCallback',['../namespacev8.html#a967435db933fa9798caac467948499df',1,'v8']]],
-  ['indexedpropertydeletercallback_1366',['IndexedPropertyDeleterCallback',['../namespacev8.html#a53863728de14cde48dd6543207b2f2da',1,'v8']]],
-  ['indexedpropertydescriptorcallback_1367',['IndexedPropertyDescriptorCallback',['../namespacev8.html#a7506e91d70d885b5cbeabdf870ac0e88',1,'v8']]],
-  ['indexedpropertyenumeratorcallback_1368',['IndexedPropertyEnumeratorCallback',['../namespacev8.html#adbb0a6d5537371953f9ba807d4f6275e',1,'v8']]],
-  ['indexedpropertygettercallback_1369',['IndexedPropertyGetterCallback',['../namespacev8.html#a48e7816ba64447bf32a25d194588daaf',1,'v8']]],
-  ['indexedpropertyquerycallback_1370',['IndexedPropertyQueryCallback',['../namespacev8.html#a980b62c33eb664783e61e25c3b27f9ee',1,'v8']]],
-  ['indexedpropertysettercallback_1371',['IndexedPropertySetterCallback',['../namespacev8.html#a4ac7cc6185ebc8b6a199f9fa8e6bf5c3',1,'v8']]]
+  ['dcheckerrorcallback_3480',['DcheckErrorCallback',['../namespacev8.html#ad9a680b6a913265bf1105d399f167b53',1,'v8']]],
+  ['deletercallback_3481',['DeleterCallback',['../classv8_1_1ArrayBuffer_1_1Contents.html#aee13ae166dcf8e210c499a81720b436d',1,'v8::ArrayBuffer::Contents::DeleterCallback()'],['../classv8_1_1SharedArrayBuffer_1_1Contents.html#a68a6bf80c68a3b8c6ac2eb6fb38169f0',1,'v8::SharedArrayBuffer::Contents::DeleterCallback()']]],
+  ['deserializeembedderfieldscallback_3482',['DeserializeEmbedderFieldsCallback',['../namespacev8.html#a7772c1eef013272480733d9d1b068fb2',1,'v8']]]
 ];

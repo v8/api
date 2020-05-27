@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stacktraceoptions_1285',['StackTraceOptions',['../classv8_1_1StackTrace.html#a9704e4a37949eb8eb8ccddbddf161492',1,'v8::StackTrace']]]
+  ['jitcodeeventoptions_2445',['JitCodeEventOptions',['../namespacev8.html#a06f34fa4fa4cfc8518366808d1d461c1',1,'v8']]]
 ];

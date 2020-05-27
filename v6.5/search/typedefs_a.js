@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wrapperinfocallback_1640',['WrapperInfoCallback',['../classv8_1_1HeapProfiler.html#a677025dd201fd832e0464e5ab0b0d0d4',1,'v8::HeapProfiler']]]
+  ['logeventcallback_3313',['LogEventCallback',['../namespacev8.html#a1516c6948fdca41f79410b7ff91aeaf0',1,'v8']]]
 ];

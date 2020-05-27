@@ -89,10 +89,38 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a57afbce6126e5cd82b66f66b018a18e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81b1c7dd4d0387ec50037b0778b8af11"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderGraph.html#a81b1c7dd4d0387ec50037b0778b8af11">AddEdge</a> (<a class="el" href="classv8_1_1EmbedderGraph_1_1Node.html">Node</a> *from, <a class="el" href="classv8_1_1EmbedderGraph_1_1Node.html">Node</a> *to, const char *name=nullptr)=0</td></tr>
 <tr class="separator:a81b1c7dd4d0387ec50037b0778b8af11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e72e9da377b2c9d38cc2f2212178c9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classv8_1_1EmbedderGraph.html#a66e72e9da377b2c9d38cc2f2212178c9">~EmbedderGraph</a> ()=default</td></tr>
+<tr class="separator:a66e72e9da377b2c9d38cc2f2212178c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An object graph consisting of embedder objects and <a class="el" href="classv8_1_1V8.html">V8</a> objects. Edges of the graph are strong references between the objects. The embedder can build this graph during heap snapshot generation to include the embedder objects in the heap snapshot. Usage: 1) Define derived class of <a class="el" href="classv8_1_1EmbedderGraph_1_1Node.html">EmbedderGraph::Node</a> for embedder objects. 2) <a class="el" href="classv8_1_1Set.html">Set</a> the build embedder graph callback on the heap profiler using HeapProfiler::AddBuildEmbedderGraphCallback. 3) In the callback use graph-&gt;AddEdge(node1, node2) to add an edge from node1 to node2. 4) To represent references from/to <a class="el" href="classv8_1_1V8.html">V8</a> object, construct <a class="el" href="classv8_1_1V8.html">V8</a> nodes using graph-&gt;V8Node(value). </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p>An object graph consisting of embedder objects and <a class="el" href="classv8_1_1V8.html">V8</a> objects. Edges of the graph are strong references between the objects. The embedder can build this graph during heap snapshot generation to include the embedder objects in the heap snapshot. Usage: 1) Define derived class of <a class="el" href="classv8_1_1EmbedderGraph_1_1Node.html">EmbedderGraph::Node</a> for embedder objects. 2) <a class="el" href="classv8_1_1Set.html">Set</a> the build embedder graph callback on the heap profiler using <a class="el" href="classv8_1_1HeapProfiler.html#a4aa69e692d215f7b4599afe2c9dbfbfd">HeapProfiler::AddBuildEmbedderGraphCallback</a>. 3) In the callback use graph-&gt;AddEdge(node1, node2) to add an edge from node1 to node2. 4) To represent references from/to <a class="el" href="classv8_1_1V8.html">V8</a> object, construct <a class="el" href="classv8_1_1V8.html">V8</a> nodes using graph-&gt;V8Node(value). </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a66e72e9da377b2c9d38cc2f2212178c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66e72e9da377b2c9d38cc2f2212178c9">&#9670;&nbsp;</a></span>~EmbedderGraph()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual v8::EmbedderGraph::~EmbedderGraph </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a81b1c7dd4d0387ec50037b0778b8af11"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81b1c7dd4d0387ec50037b0778b8af11">&#9670;&nbsp;</a></span>AddEdge()</h2>
 
@@ -192,7 +220,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
+<li>include/<a class="el" href="v8-profiler_8h_source.html">v8-profiler.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['garbagecollectiontype_2114',['GarbageCollectionType',['../classv8_1_1Isolate.html#a5ae00cc99d8aca148c6f5f9698c432c9',1,'v8::Isolate']]],
-  ['gccallbackflags_2115',['GCCallbackFlags',['../namespacev8.html#a247c37a849f4d6c293b9b16e94e1944b',1,'v8']]],
-  ['gctype_2116',['GCType',['../namespacev8.html#ac109d6f27e0c0f9ef4e98bcf7a806cf2',1,'v8']]]
+  ['flags_4283',['Flags',['../classv8_1_1RegExp.html#aa4718a5c1f18472aff3bf51ed694fc5a',1,'v8::RegExp']]],
+  ['functioncodehandling_4284',['FunctionCodeHandling',['../classv8_1_1SnapshotCreator.html#a8b1f50812dc699d0dce347fd557b77c2',1,'v8::SnapshotCreator']]]
 ];

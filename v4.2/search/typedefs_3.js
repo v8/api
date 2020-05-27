@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['functionentryhook_1153',['FunctionEntryHook',['../namespacev8.html#aaf07fb6bb13f295da3c6568938b7dec5',1,'v8']]]
+  ['entropysource_2054',['EntropySource',['../namespacev8.html#ab699f4bbbb56350e6e915682e420fcdc',1,'v8']]],
+  ['eventcallback_2055',['EventCallback',['../classv8_1_1Debug.html#ab53894746a21222796062f0e81ea28d8',1,'v8::Debug']]]
 ];

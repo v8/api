@@ -1,7 +1,8 @@
 <map id="v8::JitCodeEvent" name="v8::JitCodeEvent">
-<area shape="rect" id="node1" title=" " alt="" coords="313,93,436,120"/>
-<area shape="rect" id="node2" href="$structv8_1_1JitCodeEvent_1_1name__t.html" title=" " alt="" coords="21,5,196,32"/>
-<area shape="rect" id="node3" href="$structv8_1_1JitCodeEvent_1_1line__info__t.html" title=" " alt="" coords="33,57,184,98"/>
-<area shape="rect" id="node4" href="$classv8_1_1Local.html" title=" " alt="" coords="5,123,212,149"/>
-<area shape="rect" id="node5" href="$classv8_1_1Isolate.html" title=" " alt="" coords="67,173,150,200"/>
+<area shape="rect" id="node1" title=" " alt="" coords="605,87,728,113"/>
+<area shape="rect" id="node2" href="$structv8_1_1JitCodeEvent_1_1name__t.html" title=" " alt="" coords="313,5,488,32"/>
+<area shape="rect" id="node3" href="$structv8_1_1JitCodeEvent_1_1line__info__t.html" title=" " alt="" coords="325,57,476,98"/>
+<area shape="rect" id="node4" href="$classv8_1_1Local.html" title=" " alt="" coords="297,123,504,149"/>
+<area shape="rect" id="node5" href="$classv8_1_1Local.html" title=" " alt="" coords="5,123,112,149"/>
+<area shape="rect" id="node6" href="$classv8_1_1Isolate.html" title=" " alt="" coords="359,173,442,200"/>
 </map>

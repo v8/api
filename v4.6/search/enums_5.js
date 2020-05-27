@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stacktraceoptions_1165',['StackTraceOptions',['../classv8_1_1StackTrace.html#a9704e4a37949eb8eb8ccddbddf161492',1,'v8::StackTrace']]]
+  ['flags_2204',['Flags',['../classv8_1_1RegExp.html#aa4718a5c1f18472aff3bf51ed694fc5a',1,'v8::RegExp']]]
 ];
