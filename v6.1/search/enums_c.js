@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['usecounterfeature_1552',['UseCounterFeature',['../classv8_1_1Isolate.html#aed6909379c3f2820cb3084710b73385d',1,'v8::Isolate']]]
+  ['usecounterfeature_1564',['UseCounterFeature',['../classv8_1_1Isolate.html#aed6909379c3f2820cb3084710b73385d',1,'v8::Isolate']]]
 ];

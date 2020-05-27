@@ -1,13 +1,17 @@
 var searchData=
 [
-  ['idletask_1093',['IdleTask',['../classv8_1_1IdleTask.html',1,'v8']]],
-  ['indexedpropertyhandlerconfiguration_1094',['IndexedPropertyHandlerConfiguration',['../structv8_1_1IndexedPropertyHandlerConfiguration.html',1,'v8']]],
-  ['inspectable_1095',['Inspectable',['../classv8__inspector_1_1V8InspectorSession_1_1Inspectable.html',1,'v8_inspector::V8InspectorSession']]],
-  ['int16array_1096',['Int16Array',['../classv8_1_1Int16Array.html',1,'v8']]],
-  ['int32_1097',['Int32',['../classv8_1_1Int32.html',1,'v8']]],
-  ['int32array_1098',['Int32Array',['../classv8_1_1Int32Array.html',1,'v8']]],
-  ['int8array_1099',['Int8Array',['../classv8_1_1Int8Array.html',1,'v8']]],
-  ['integer_1100',['Integer',['../classv8_1_1Integer.html',1,'v8']]],
-  ['internals_1101',['Internals',['../classv8_1_1internal_1_1Internals.html',1,'v8::internal']]],
-  ['isolate_1102',['Isolate',['../classv8_1_1Isolate.html',1,'v8']]]
+  ['handlescope_1174',['HandleScope',['../classv8_1_1HandleScope.html',1,'v8']]],
+  ['hasfinalizegarbagecollectedobject_1175',['HasFinalizeGarbageCollectedObject',['../structcppgc_1_1internal_1_1HasFinalizeGarbageCollectedObject.html',1,'cppgc::internal']]],
+  ['hasfinalizegarbagecollectedobject_3c_20t_2c_20void_5ft_3c_20decltype_28std_3a_3adeclval_3c_20t_20_3e_28_29_2efinalizegarbagecollectedobject_28_29_29_3e_20_3e_1176',['HasFinalizeGarbageCollectedObject&lt; T, void_t&lt; decltype(std::declval&lt; T &gt;().FinalizeGarbageCollectedObject())&gt; &gt;',['../structcppgc_1_1internal_1_1HasFinalizeGarbageCollectedObject_3_01T_00_01void__t_3_01decltype_07sa61520700171f43425adcc1b691e5825.html',1,'cppgc::internal']]],
+  ['heap_1177',['Heap',['../classcppgc_1_1Heap.html',1,'cppgc']]],
+  ['heapcodestatistics_1178',['HeapCodeStatistics',['../classv8_1_1HeapCodeStatistics.html',1,'v8']]],
+  ['heapgraphedge_1179',['HeapGraphEdge',['../classv8_1_1HeapGraphEdge.html',1,'v8']]],
+  ['heapgraphnode_1180',['HeapGraphNode',['../classv8_1_1HeapGraphNode.html',1,'v8']]],
+  ['heapobjectstatistics_1181',['HeapObjectStatistics',['../classv8_1_1HeapObjectStatistics.html',1,'v8']]],
+  ['heapoptions_1182',['HeapOptions',['../structcppgc_1_1Heap_1_1HeapOptions.html',1,'cppgc::Heap']]],
+  ['heapprofiler_1183',['HeapProfiler',['../classv8_1_1HeapProfiler.html',1,'v8']]],
+  ['heapsnapshot_1184',['HeapSnapshot',['../classv8_1_1HeapSnapshot.html',1,'v8']]],
+  ['heapspacestatistics_1185',['HeapSpaceStatistics',['../classv8_1_1HeapSpaceStatistics.html',1,'v8']]],
+  ['heapstatistics_1186',['HeapStatistics',['../classv8_1_1HeapStatistics.html',1,'v8']]],
+  ['heapstatsupdate_1187',['HeapStatsUpdate',['../structv8_1_1HeapStatsUpdate.html',1,'v8']]]
 ];

@@ -137,9 +137,8 @@ template&lt;class F &gt; </td></tr>
 template&lt;class F &gt; </td></tr>
 <tr class="memitem:abb172e0bb22fc5fed7a3a66f29d046ce"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><b>PersistentBase</b></td></tr>
 <tr class="separator:abb172e0bb22fc5fed7a3a66f29d046ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad845ec8872174be0a9ca9a3dd1898d30"><td class="memTemplParams" colspan="2"><a id="ad845ec8872174be0a9ca9a3dd1898d30"></a>
-template&lt;class F , class M &gt; </td></tr>
-<tr class="memitem:ad845ec8872174be0a9ca9a3dd1898d30"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Persistent</b></td></tr>
+<tr class="memitem:ad845ec8872174be0a9ca9a3dd1898d30"><td class="memTemplParams" colspan="2">template&lt;class F , class M &gt; </td></tr>
+<tr class="memitem:ad845ec8872174be0a9ca9a3dd1898d30"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classv8_1_1Local.html#ad845ec8872174be0a9ca9a3dd1898d30">Persistent</a></td></tr>
 <tr class="separator:ad845ec8872174be0a9ca9a3dd1898d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb872edb4aac7ba55f0da004113aa2b0"><td class="memTemplParams" colspan="2"><a id="afb872edb4aac7ba55f0da004113aa2b0"></a>
 template&lt;class F &gt; </td></tr>
@@ -483,6 +482,34 @@ template&lt;class S &gt; </div>
 </div><div class="memdoc">
 <p>Checks whether two handles are the same. Returns true if both are empty, or if the objects to which they refer are identical.</p>
 <p>If both handles refer to JS objects, this is the same as strict equality. For primitives, such as numbers or strings, a <code>false</code> return value does not indicate that the values aren't equal in the JavaScript sense. Use <code>Value::StrictEquals()</code> to check primitives for equality. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="ad845ec8872174be0a9ca9a3dd1898d30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad845ec8872174be0a9ca9a3dd1898d30">&#9670;&nbsp;</a></span>Persistent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<div class="memtemplate">
+template&lt;class F , class M &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classv8_1_1Persistent.html">Persistent</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a class="el" href="classv8_1_1Persistent.html">Persistent</a> is a way to create a strong pointer from an off-heap object to another on-heap object. As long as the <a class="el" href="classv8_1_1Persistent.html">Persistent</a> handle is alive the GC will keep the object pointed to alive. The <a class="el" href="classv8_1_1Persistent.html">Persistent</a> handle is always a GC root from the point of view of the GC. <a class="el" href="classv8_1_1Persistent.html">Persistent</a> must be constructed and destructed in the same thread. </p>
 
 </div>
 </div>

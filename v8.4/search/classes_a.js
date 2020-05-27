@@ -1,17 +1,10 @@
 var searchData=
 [
-  ['line_5finfo_5ft_1110',['line_info_t',['../structv8_1_1JitCodeEvent_1_1line__info__t.html',1,'v8::JitCodeEvent']]],
-  ['linetick_1111',['LineTick',['../structv8_1_1CpuProfileNode_1_1LineTick.html',1,'v8::CpuProfileNode']]],
-  ['local_1112',['Local',['../classv8_1_1Local.html',1,'v8']]],
-  ['local_3c_20name_20_3e_1113',['Local&lt; Name &gt;',['../classv8_1_1Local.html',1,'v8']]],
-  ['local_3c_20v8_3a_3acontext_20_3e_1114',['Local&lt; v8::Context &gt;',['../classv8_1_1Local.html',1,'v8']]],
-  ['local_3c_20v8_3a_3ainteger_20_3e_1115',['Local&lt; v8::Integer &gt;',['../classv8_1_1Local.html',1,'v8']]],
-  ['local_3c_20v8_3a_3aprimitivearray_20_3e_1116',['Local&lt; v8::PrimitiveArray &gt;',['../classv8_1_1Local.html',1,'v8']]],
-  ['local_3c_20v8_3a_3apromise_20_3e_1117',['Local&lt; v8::Promise &gt;',['../classv8_1_1Local.html',1,'v8']]],
-  ['local_3c_20v8_3a_3astring_20_3e_1118',['Local&lt; v8::String &gt;',['../classv8_1_1Local.html',1,'v8']]],
-  ['local_3c_20v8_3a_3aunboundscript_20_3e_1119',['Local&lt; v8::UnboundScript &gt;',['../classv8_1_1Local.html',1,'v8']]],
-  ['local_3c_20v8_3a_3avalue_20_3e_1120',['Local&lt; v8::Value &gt;',['../classv8_1_1Local.html',1,'v8']]],
-  ['local_3c_20value_20_3e_1121',['Local&lt; Value &gt;',['../classv8_1_1Local.html',1,'v8']]],
-  ['location_1122',['Location',['../classv8_1_1Location.html',1,'v8']]],
-  ['locker_1123',['Locker',['../classv8_1_1Locker.html',1,'v8']]]
+  ['jitcodeevent_1212',['JitCodeEvent',['../structv8_1_1JitCodeEvent.html',1,'v8']]],
+  ['jobdelegate_1213',['JobDelegate',['../classv8_1_1JobDelegate.html',1,'v8']]],
+  ['jobhandle_1214',['JobHandle',['../classv8_1_1JobHandle.html',1,'v8']]],
+  ['jobtask_1215',['JobTask',['../classv8_1_1JobTask.html',1,'v8']]],
+  ['jsentrystub_1216',['JSEntryStub',['../structv8_1_1JSEntryStub.html',1,'v8']]],
+  ['jsentrystubs_1217',['JSEntryStubs',['../structv8_1_1JSEntryStubs.html',1,'v8']]],
+  ['json_1218',['JSON',['../classv8_1_1JSON.html',1,'v8']]]
 ];

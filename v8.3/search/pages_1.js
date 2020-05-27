@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['v8_20api_20reference_20guide_1995',['V8 API Reference Guide',['../index.html',1,'']]]
+  ['the_20v8_20public_20c_2b_2b_20api_2040',['The V8 public C++ API',['../md_APIDesign.html',1,'']]]
 ];

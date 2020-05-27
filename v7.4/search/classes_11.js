@@ -1,15 +1,20 @@
 var searchData=
 [
-  ['task_1080',['Task',['../classv8_1_1Task.html',1,'v8']]],
-  ['taskrunner_1081',['TaskRunner',['../classv8_1_1TaskRunner.html',1,'v8']]],
-  ['template_1082',['Template',['../classv8_1_1Template.html',1,'v8']]],
-  ['testing_1083',['Testing',['../classv8_1_1Testing.html',1,'v8']]],
-  ['ticksample_1084',['TickSample',['../structv8_1_1TickSample.html',1,'v8']]],
-  ['tracedglobal_1085',['TracedGlobal',['../classv8_1_1TracedGlobal.html',1,'v8']]],
-  ['tracedglobalhandlevisitor_1086',['TracedGlobalHandleVisitor',['../classv8_1_1EmbedderHeapTracer_1_1TracedGlobalHandleVisitor.html',1,'v8::EmbedderHeapTracer']]],
-  ['tracestateobserver_1087',['TraceStateObserver',['../classv8_1_1TracingController_1_1TraceStateObserver.html',1,'v8::TracingController']]],
-  ['tracingcontroller_1088',['TracingController',['../classv8_1_1TracingController.html',1,'v8']]],
-  ['transferrablemodule_1089',['TransferrableModule',['../classv8_1_1WasmModuleObject_1_1TransferrableModule.html',1,'v8::WasmModuleObject']]],
-  ['trycatch_1090',['TryCatch',['../classv8_1_1TryCatch.html',1,'v8']]],
-  ['typedarray_1091',['TypedArray',['../classv8_1_1TypedArray.html',1,'v8']]]
+  ['task_1087',['Task',['../classv8_1_1Task.html',1,'v8']]],
+  ['taskrunner_1088',['TaskRunner',['../classv8_1_1TaskRunner.html',1,'v8']]],
+  ['template_1089',['Template',['../classv8_1_1Template.html',1,'v8']]],
+  ['testing_1090',['Testing',['../classv8_1_1Testing.html',1,'v8']]],
+  ['ticksample_1091',['TickSample',['../structv8_1_1TickSample.html',1,'v8']]],
+  ['tracebuffer_1092',['TraceBuffer',['../classv8_1_1platform_1_1tracing_1_1TraceBuffer.html',1,'v8::platform::tracing']]],
+  ['tracebufferchunk_1093',['TraceBufferChunk',['../classv8_1_1platform_1_1tracing_1_1TraceBufferChunk.html',1,'v8::platform::tracing']]],
+  ['traceconfig_1094',['TraceConfig',['../classv8_1_1platform_1_1tracing_1_1TraceConfig.html',1,'v8::platform::tracing']]],
+  ['tracedglobal_1095',['TracedGlobal',['../classv8_1_1TracedGlobal.html',1,'v8']]],
+  ['tracedglobalhandlevisitor_1096',['TracedGlobalHandleVisitor',['../classv8_1_1EmbedderHeapTracer_1_1TracedGlobalHandleVisitor.html',1,'v8::EmbedderHeapTracer']]],
+  ['traceobject_1097',['TraceObject',['../classv8_1_1platform_1_1tracing_1_1TraceObject.html',1,'v8::platform::tracing']]],
+  ['tracestateobserver_1098',['TraceStateObserver',['../classv8_1_1TracingController_1_1TraceStateObserver.html',1,'v8::TracingController']]],
+  ['tracewriter_1099',['TraceWriter',['../classv8_1_1platform_1_1tracing_1_1TraceWriter.html',1,'v8::platform::tracing']]],
+  ['tracingcontroller_1100',['TracingController',['../classv8_1_1TracingController.html',1,'v8::TracingController'],['../classv8_1_1platform_1_1tracing_1_1TracingController.html',1,'v8::platform::tracing::TracingController']]],
+  ['transferrablemodule_1101',['TransferrableModule',['../classv8_1_1WasmModuleObject_1_1TransferrableModule.html',1,'v8::WasmModuleObject']]],
+  ['trycatch_1102',['TryCatch',['../classv8_1_1TryCatch.html',1,'v8']]],
+  ['typedarray_1103',['TypedArray',['../classv8_1_1TypedArray.html',1,'v8']]]
 ];

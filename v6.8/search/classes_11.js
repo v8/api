@@ -1,14 +1,19 @@
 var searchData=
 [
-  ['task_1028',['Task',['../classv8_1_1Task.html',1,'v8']]],
-  ['taskrunner_1029',['TaskRunner',['../classv8_1_1TaskRunner.html',1,'v8']]],
-  ['template_1030',['Template',['../classv8_1_1Template.html',1,'v8']]],
-  ['testing_1031',['Testing',['../classv8_1_1Testing.html',1,'v8']]],
-  ['ticksample_1032',['TickSample',['../structv8_1_1TickSample.html',1,'v8']]],
-  ['tracestateobserver_1033',['TraceStateObserver',['../classv8_1_1TracingController_1_1TraceStateObserver.html',1,'v8::TracingController']]],
-  ['tracingcontroller_1034',['TracingController',['../classv8_1_1TracingController.html',1,'v8']]],
-  ['tracingcpuprofiler_1035',['TracingCpuProfiler',['../classv8_1_1TracingCpuProfiler.html',1,'v8']]],
-  ['transferrablemodule_1036',['TransferrableModule',['../classv8_1_1WasmCompiledModule_1_1TransferrableModule.html',1,'v8::WasmCompiledModule']]],
-  ['trycatch_1037',['TryCatch',['../classv8_1_1TryCatch.html',1,'v8']]],
-  ['typedarray_1038',['TypedArray',['../classv8_1_1TypedArray.html',1,'v8']]]
+  ['task_1035',['Task',['../classv8_1_1Task.html',1,'v8']]],
+  ['taskrunner_1036',['TaskRunner',['../classv8_1_1TaskRunner.html',1,'v8']]],
+  ['template_1037',['Template',['../classv8_1_1Template.html',1,'v8']]],
+  ['testing_1038',['Testing',['../classv8_1_1Testing.html',1,'v8']]],
+  ['ticksample_1039',['TickSample',['../structv8_1_1TickSample.html',1,'v8']]],
+  ['tracebuffer_1040',['TraceBuffer',['../classv8_1_1platform_1_1tracing_1_1TraceBuffer.html',1,'v8::platform::tracing']]],
+  ['tracebufferchunk_1041',['TraceBufferChunk',['../classv8_1_1platform_1_1tracing_1_1TraceBufferChunk.html',1,'v8::platform::tracing']]],
+  ['traceconfig_1042',['TraceConfig',['../classv8_1_1platform_1_1tracing_1_1TraceConfig.html',1,'v8::platform::tracing']]],
+  ['traceobject_1043',['TraceObject',['../classv8_1_1platform_1_1tracing_1_1TraceObject.html',1,'v8::platform::tracing']]],
+  ['tracestateobserver_1044',['TraceStateObserver',['../classv8_1_1TracingController_1_1TraceStateObserver.html',1,'v8::TracingController']]],
+  ['tracewriter_1045',['TraceWriter',['../classv8_1_1platform_1_1tracing_1_1TraceWriter.html',1,'v8::platform::tracing']]],
+  ['tracingcontroller_1046',['TracingController',['../classv8_1_1platform_1_1tracing_1_1TracingController.html',1,'v8::platform::tracing::TracingController'],['../classv8_1_1TracingController.html',1,'v8::TracingController']]],
+  ['tracingcpuprofiler_1047',['TracingCpuProfiler',['../classv8_1_1TracingCpuProfiler.html',1,'v8']]],
+  ['transferrablemodule_1048',['TransferrableModule',['../classv8_1_1WasmCompiledModule_1_1TransferrableModule.html',1,'v8::WasmCompiledModule']]],
+  ['trycatch_1049',['TryCatch',['../classv8_1_1TryCatch.html',1,'v8']]],
+  ['typedarray_1050',['TypedArray',['../classv8_1_1TypedArray.html',1,'v8']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['the_20v8_20public_20c_2b_2b_20api_2020',['The V8 public C++ API',['../md_APIDesign.html',1,'']]]
+  ['c_2b_2b_20garbage_20collection_2163',['C++ Garbage Collection',['../md_cppgc_README.html',1,'']]]
 ];

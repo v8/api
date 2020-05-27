@@ -1,16 +1,18 @@
 var searchData=
 [
-  ['map_1125',['Map',['../classv8_1_1Map.html',1,'v8']]],
-  ['maybe_1126',['Maybe',['../classv8_1_1Maybe.html',1,'v8']]],
-  ['maybe_3c_20void_20_3e_1127',['Maybe&lt; void &gt;',['../classv8_1_1Maybe_3_01void_01_4.html',1,'v8']]],
-  ['maybelocal_1128',['MaybeLocal',['../classv8_1_1MaybeLocal.html',1,'v8']]],
-  ['maybelocal_3c_20v8_3a_3astring_20_3e_1129',['MaybeLocal&lt; v8::String &gt;',['../classv8_1_1MaybeLocal.html',1,'v8']]],
-  ['measurememorydelegate_1130',['MeasureMemoryDelegate',['../classv8_1_1MeasureMemoryDelegate.html',1,'v8']]],
-  ['memoryrange_1131',['MemoryRange',['../structv8_1_1MemoryRange.html',1,'v8']]],
-  ['memoryspan_1132',['MemorySpan',['../classv8_1_1MemorySpan.html',1,'v8']]],
-  ['message_1133',['Message',['../classv8_1_1Message.html',1,'v8']]],
-  ['microtaskqueue_1134',['MicrotaskQueue',['../classv8_1_1MicrotaskQueue.html',1,'v8']]],
-  ['microtasksscope_1135',['MicrotasksScope',['../classv8_1_1MicrotasksScope.html',1,'v8']]],
-  ['modifycodegenerationfromstringsresult_1136',['ModifyCodeGenerationFromStringsResult',['../structv8_1_1ModifyCodeGenerationFromStringsResult.html',1,'v8']]],
-  ['module_1137',['Module',['../classv8_1_1Module.html',1,'v8']]]
+  ['line_5finfo_5ft_1219',['line_info_t',['../structv8_1_1JitCodeEvent_1_1line__info__t.html',1,'v8::JitCodeEvent']]],
+  ['linetick_1220',['LineTick',['../structv8_1_1CpuProfileNode_1_1LineTick.html',1,'v8::CpuProfileNode']]],
+  ['livenessbroker_1221',['LivenessBroker',['../classcppgc_1_1LivenessBroker.html',1,'cppgc']]],
+  ['local_1222',['Local',['../classv8_1_1Local.html',1,'v8']]],
+  ['local_3c_20name_20_3e_1223',['Local&lt; Name &gt;',['../classv8_1_1Local.html',1,'v8']]],
+  ['local_3c_20v8_3a_3acontext_20_3e_1224',['Local&lt; v8::Context &gt;',['../classv8_1_1Local.html',1,'v8']]],
+  ['local_3c_20v8_3a_3ainteger_20_3e_1225',['Local&lt; v8::Integer &gt;',['../classv8_1_1Local.html',1,'v8']]],
+  ['local_3c_20v8_3a_3aprimitivearray_20_3e_1226',['Local&lt; v8::PrimitiveArray &gt;',['../classv8_1_1Local.html',1,'v8']]],
+  ['local_3c_20v8_3a_3apromise_20_3e_1227',['Local&lt; v8::Promise &gt;',['../classv8_1_1Local.html',1,'v8']]],
+  ['local_3c_20v8_3a_3astring_20_3e_1228',['Local&lt; v8::String &gt;',['../classv8_1_1Local.html',1,'v8']]],
+  ['local_3c_20v8_3a_3aunboundscript_20_3e_1229',['Local&lt; v8::UnboundScript &gt;',['../classv8_1_1Local.html',1,'v8']]],
+  ['local_3c_20v8_3a_3avalue_20_3e_1230',['Local&lt; v8::Value &gt;',['../classv8_1_1Local.html',1,'v8']]],
+  ['local_3c_20value_20_3e_1231',['Local&lt; Value &gt;',['../classv8_1_1Local.html',1,'v8']]],
+  ['location_1232',['Location',['../classv8_1_1Location.html',1,'v8']]],
+  ['locker_1233',['Locker',['../classv8_1_1Locker.html',1,'v8']]]
 ];

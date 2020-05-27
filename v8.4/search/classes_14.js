@@ -1,10 +1,14 @@
 var searchData=
 [
-  ['wasm_5fsource_5finfo_5ft_1246',['wasm_source_info_t',['../structv8_1_1JitCodeEvent_1_1wasm__source__info__t.html',1,'v8::JitCodeEvent']]],
-  ['wasmmoduleobject_1247',['WasmModuleObject',['../classv8_1_1WasmModuleObject.html',1,'v8']]],
-  ['wasmmoduleobjectbuilderstreaming_1248',['WasmModuleObjectBuilderStreaming',['../classv8_1_1WasmModuleObjectBuilderStreaming.html',1,'v8']]],
-  ['wasmstreaming_1249',['WasmStreaming',['../classv8_1_1WasmStreaming.html',1,'v8']]],
-  ['weakcallbackinfo_1250',['WeakCallbackInfo',['../classv8_1_1WeakCallbackInfo.html',1,'v8']]],
-  ['weakcallbackobject_1251',['WeakCallbackObject',['../classv8_1_1WeakCallbackObject.html',1,'v8']]],
-  ['wrappertraits_1252',['WrapperTraits',['../classv8_1_1WrapperTraits.html',1,'v8']]]
+  ['uint16array_1362',['Uint16Array',['../classv8_1_1Uint16Array.html',1,'v8']]],
+  ['uint32_1363',['Uint32',['../classv8_1_1Uint32.html',1,'v8']]],
+  ['uint32array_1364',['Uint32Array',['../classv8_1_1Uint32Array.html',1,'v8']]],
+  ['uint8array_1365',['Uint8Array',['../classv8_1_1Uint8Array.html',1,'v8']]],
+  ['uint8clampedarray_1366',['Uint8ClampedArray',['../classv8_1_1Uint8ClampedArray.html',1,'v8']]],
+  ['unboundmodulescript_1367',['UnboundModuleScript',['../classv8_1_1UnboundModuleScript.html',1,'v8']]],
+  ['unboundscript_1368',['UnboundScript',['../classv8_1_1UnboundScript.html',1,'v8']]],
+  ['unlocker_1369',['Unlocker',['../classv8_1_1Unlocker.html',1,'v8']]],
+  ['unwinder_1370',['Unwinder',['../classv8_1_1Unwinder.html',1,'v8']]],
+  ['unwindstate_1371',['UnwindState',['../structv8_1_1UnwindState.html',1,'v8']]],
+  ['utf8value_1372',['Utf8Value',['../classv8_1_1String_1_1Utf8Value.html',1,'v8::String']]]
 ];

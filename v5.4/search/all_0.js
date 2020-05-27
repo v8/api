@@ -31,9 +31,10 @@ var searchData=
   ['allowcodegenerationfromstringscallback_28',['AllowCodeGenerationFromStringsCallback',['../namespacev8.html#a521d909ec201742a1cb35d50a8e2a3c2',1,'v8']]],
   ['allowjavascriptexecutionscope_29',['AllowJavascriptExecutionScope',['../classv8_1_1Isolate_1_1AllowJavascriptExecutionScope.html',1,'v8::Isolate']]],
   ['append_30',['Append',['../classv8_1_1PersistentValueVector.html#a02376c6d16be29084db46f65473477fb',1,'v8::PersistentValueVector::Append(Local&lt; V &gt; value)'],['../classv8_1_1PersistentValueVector.html#ad076923fd0046196670e87e996582546',1,'v8::PersistentValueVector::Append(Global&lt; V &gt; persistent)']]],
-  ['array_31',['Array',['../classv8_1_1Array.html',1,'v8']]],
-  ['array_5fbuffer_5fallocator_32',['array_buffer_allocator',['../structv8_1_1Isolate_1_1CreateParams.html#a7c663f70b64290392eeaf164f57585f9',1,'v8::Isolate::CreateParams']]],
-  ['arraybuffer_33',['ArrayBuffer',['../classv8_1_1ArrayBuffer.html',1,'v8']]],
-  ['arraybufferview_34',['ArrayBufferView',['../classv8_1_1ArrayBufferView.html',1,'v8']]],
-  ['asarray_35',['AsArray',['../classv8_1_1StackTrace.html#abd36f712b3ab986b572aa259b06bf5bd',1,'v8::StackTrace::AsArray()'],['../classv8_1_1Map.html#a924483cc18fa2f287a43ca2d7eaef763',1,'v8::Map::AsArray()'],['../classv8_1_1Set.html#aa4e8576e0a657bcd61364f3bc26e2b56',1,'v8::Set::AsArray()']]]
+  ['argvalue_31',['ArgValue',['../unionv8_1_1platform_1_1tracing_1_1TraceObject_1_1ArgValue.html',1,'v8::platform::tracing::TraceObject']]],
+  ['array_32',['Array',['../classv8_1_1Array.html',1,'v8']]],
+  ['array_5fbuffer_5fallocator_33',['array_buffer_allocator',['../structv8_1_1Isolate_1_1CreateParams.html#a7c663f70b64290392eeaf164f57585f9',1,'v8::Isolate::CreateParams']]],
+  ['arraybuffer_34',['ArrayBuffer',['../classv8_1_1ArrayBuffer.html',1,'v8']]],
+  ['arraybufferview_35',['ArrayBufferView',['../classv8_1_1ArrayBufferView.html',1,'v8']]],
+  ['asarray_36',['AsArray',['../classv8_1_1StackTrace.html#abd36f712b3ab986b572aa259b06bf5bd',1,'v8::StackTrace::AsArray()'],['../classv8_1_1Map.html#a924483cc18fa2f287a43ca2d7eaef763',1,'v8::Map::AsArray()'],['../classv8_1_1Set.html#aa4e8576e0a657bcd61364f3bc26e2b56',1,'v8::Set::AsArray()']]]
 ];

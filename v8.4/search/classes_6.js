@@ -1,14 +1,12 @@
 var searchData=
 [
-  ['getctype_1072',['GetCType',['../structv8_1_1internal_1_1GetCType.html',1,'v8::internal']]],
-  ['getctype_3c_20t_20_2a_20_3e_1073',['GetCType&lt; T * &gt;',['../structv8_1_1internal_1_1GetCType_3_01T_01_5_01_4.html',1,'v8::internal']]],
-  ['getctype_3c_20t_20_2a_2a_20_3e_1074',['GetCType&lt; T ** &gt;',['../structv8_1_1internal_1_1GetCType_3_01T_01_5_5_01_4.html',1,'v8::internal']]],
-  ['getctypepointerimpl_1075',['GetCTypePointerImpl',['../structv8_1_1internal_1_1GetCTypePointerImpl.html',1,'v8::internal']]],
-  ['getctypepointerimpl_3c_20t_20_3e_1076',['GetCTypePointerImpl&lt; T &gt;',['../structv8_1_1internal_1_1GetCTypePointerImpl.html',1,'v8::internal']]],
-  ['getctypepointerimpl_3c_20t_2c_20typename_20enableifhaswrappertypeinfo_3c_20t_20_3e_3a_3atype_20_3e_1077',['GetCTypePointerImpl&lt; T, typename EnableIfHasWrapperTypeInfo&lt; T &gt;::type &gt;',['../structv8_1_1internal_1_1GetCTypePointerImpl_3_01T_00_01typename_01EnableIfHasWrapperTypeInfo_3_01T_01_4_1_1type_01_4.html',1,'v8::internal']]],
-  ['getctypepointerpointerimpl_1078',['GetCTypePointerPointerImpl',['../structv8_1_1internal_1_1GetCTypePointerPointerImpl.html',1,'v8::internal']]],
-  ['getctypepointerpointerimpl_3c_20t_20_3e_1079',['GetCTypePointerPointerImpl&lt; T &gt;',['../structv8_1_1internal_1_1GetCTypePointerPointerImpl.html',1,'v8::internal']]],
-  ['getctypepointerpointerimpl_3c_20t_2c_20typename_20enableifhaswrappertypeinfo_3c_20t_20_3e_3a_3atype_20_3e_1080',['GetCTypePointerPointerImpl&lt; T, typename EnableIfHasWrapperTypeInfo&lt; T &gt;::type &gt;',['../structv8_1_1internal_1_1GetCTypePointerPointerImpl_3_01T_00_01typename_01EnableIfHasWrapperTypeInfo_3_01T_01_4_1_1type_01_4.html',1,'v8::internal']]],
-  ['global_1081',['Global',['../classv8_1_1Global.html',1,'v8']]],
-  ['globalvaluemap_1082',['GlobalValueMap',['../classv8_1_1GlobalValueMap.html',1,'v8']]]
+  ['finalizertrait_1150',['FinalizerTrait',['../structcppgc_1_1internal_1_1FinalizerTrait.html',1,'cppgc::internal']]],
+  ['finalizertraitimpl_1151',['FinalizerTraitImpl',['../structcppgc_1_1internal_1_1FinalizerTraitImpl.html',1,'cppgc::internal']]],
+  ['finalizertraitimpl_3c_20t_2c_20false_20_3e_1152',['FinalizerTraitImpl&lt; T, false &gt;',['../structcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01false_01_4.html',1,'cppgc::internal']]],
+  ['finalizertraitimpl_3c_20t_2c_20true_20_3e_1153',['FinalizerTraitImpl&lt; T, true &gt;',['../structcppgc_1_1internal_1_1FinalizerTraitImpl_3_01T_00_01true_01_4.html',1,'cppgc::internal']]],
+  ['float32array_1154',['Float32Array',['../classv8_1_1Float32Array.html',1,'v8']]],
+  ['float64array_1155',['Float64Array',['../classv8_1_1Float64Array.html',1,'v8']]],
+  ['function_1156',['Function',['../classv8_1_1Function.html',1,'v8']]],
+  ['functioncallbackinfo_1157',['FunctionCallbackInfo',['../classv8_1_1FunctionCallbackInfo.html',1,'v8']]],
+  ['functiontemplate_1158',['FunctionTemplate',['../classv8_1_1FunctionTemplate.html',1,'v8']]]
 ];
