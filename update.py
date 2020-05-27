@@ -6,11 +6,11 @@ import tempfile
 import os
 from pathlib import Path
 
-def run(*command, capture=False, cwd=None):
+def run(*command, capture=False, **kwargs):
     command = list(map(str, command))
     print(f'CMD:  {" ".join(command)}')
     stdout = subprocess.PIPE if capture else None
-    result = subprocess.run(command, stdout=stdout, cwd=cwd)
+    result = subprocess.run(command, stdout=stdout, **kwargs)
     result.check_returncode()
     if capture:
         return result.stdout.decode('utf-8')
@@ -60,8 +60,11 @@ for branch in BRANCHES:
     branch_dir.mkdir(exist_ok=True)
     git('switch', '--force', '--detach', f'remotes/origin/{branch}')
     git('clean', '--force', '-d')
-    doxyfile = DESTINATION / 'Doxyfile'
-    run('doxygen', os.path.abspath(f'{doxyfile}'), cwd=GIT_DIR)
+    doxyfile_path = DESTINATION / 'Doxyfile'
+    with open(doxyfile_path) as doxyfile:
+      doxyfile_data = doxyfile.read()
+      doxyfile_data += f"\nPROJECT_NUMBER={version_name}"
+      run('doxygen', '-', cwd=GIT_DIR, input=doxyfile_data.encode('utf-8'))
     source = GIT_DIR / 'html'
     run('rsync', '--itemize-changes', '--recursive',
             '--checksum', f'{source}{os.sep}', f'{branch_dir}{os.sep}')
