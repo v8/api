@@ -1,0 +1,29 @@
+name: Update API documentation
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  build:
+    name: Build and update docs
+    runs-on: ubuntu-latest
+    container:
+      image: docker://python:3.7-alpine
+    steps:
+      # Install dependencies before checkout to get latest git which is needed
+      # for pushing.
+      - name: Install dependencies
+        run: |
+          apk add doxygen graphviz ttf-freefont git rsync
+      - name: Checkout API repo
+        uses: actions/checkout@v2
+      - name: Build docs
+        run: |
+          python update.py
+      - name: Commit and push
+        run: |
+          git config --global user.name "V8 API docs updater"
+          git config --global user.email "v8-dev+api@googlegroups.com"
+          git commit -am "Automated docs build."
+          git push
