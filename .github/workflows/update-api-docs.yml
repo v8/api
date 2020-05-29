@@ -5,6 +5,9 @@
 name: Update API documentation
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     # Rebuild docs every day at 3am.
     - cron: '0 3 * * *'
@@ -16,19 +19,25 @@ jobs:
     container:
       image: docker://python:3.7-alpine
     steps:
-      # Install dependencies before checkout to get latest git which is needed
-      # for pushing.
       - name: Install dependencies
         run: |
-          apk add doxygen graphviz ttf-freefont git rsync
+          apk add doxygen git graphviz openssh-client rsync ttf-freefont
       - name: Checkout API repo
         uses: actions/checkout@v2
       - name: Build docs
         run: |
           python update.py
-      - name: Commit and push
-        run: |
-          git config --global user.name "V8 API docs updater"
-          git config --global user.email "v8-dev+api@googlegroups.com"
-          git commit -am "Automated docs build."
-          git push
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.2.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          SSH: true
+          SINGLE_COMMIT: true
+          BASE_BRANCH: master
+          BRANCH: gh-pages
+          FOLDER: dist
+          GIT_CONFIG_NAME: V8 API docs updater
+          GIT_CONFIG_EMAIL: v8-dev+api@googlegroups.com
