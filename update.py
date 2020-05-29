@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-
+#
+# Copyright 2020 the V8 project authors. All rights reserved.
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
 
 import subprocess
 import tempfile
@@ -45,11 +48,9 @@ BRANCHES.append('lkgr')
 
 # List of branches that have potential back-merges and thus need updates:
 BRANCHES_FORCE_BUILDS = set(BRANCHES[-4:])
-print(BRANCHES)
+print(BRANCHES_FORCE_BUILDS)
 
-
-
-for branch in BRANCHES:
+for branch in BRANCHES_FORCE_BUILDS:
     step(f'Generating docs for branch: {branch}')
     if branch == 'lkgr':
         version_name = 'head'
@@ -69,4 +70,3 @@ for branch in BRANCHES:
     run('rsync', '--itemize-changes', '--recursive',
             '--checksum', f'{source}{os.sep}', f'{branch_dir}{os.sep}')
     run('git', 'add', branch_dir)
-
