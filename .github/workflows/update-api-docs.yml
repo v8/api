@@ -5,9 +5,11 @@
 name: Update API documentation
 
 on:
+  push:
+    branches:
+      - master
   schedule:
-    # Rebuild docs every day 3am.
-    - cron: '0 3 * * *'
+    - cron: '* * * * *'
 
 jobs:
   build:
