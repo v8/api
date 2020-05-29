@@ -28,8 +28,10 @@ def step(title):
     print('-' * 80)
 
 
-DESTINATION = Path(__file__).parent
-GIT_DIR = DESTINATION  / '.v8'
+ROOT_DIR = Path(__file__).parent
+GIT_DIR = ROOT_DIR  / '.v8'
+DIST_DIR = ROOT_DIR / 'dist'
+DOXYFILE_PATH = ROOT_DIR / 'Doxyfile'
 
 
 step(f'Update V8 checkout in: {GIT_DIR}')
@@ -39,34 +41,57 @@ git('fetch', '--all')
 
 
 step('List branches')
-BRANCHES = git('branch', '--all', '--list', '*-lkgr', '--format=%(refname)', capture=True).split()
-BRANCHES = list(set(map(lambda ref: ref.split('/')[-1], BRANCHES)))
+BRANCHES = git('for-each-ref', 'refs/remotes/origin/*-lkgr', 'refs/remotes/origin/lkgr', '--format=%(refname:strip=3) %(objectname)', capture=True).rstrip().split("\n")
+BRANCHES = [ref.split(' ') for ref in BRANCHES]
+BRANCHES = [(branch.split('-')[0], sha) for branch,sha in BRANCHES]
 
 # Sort branches from old to new:
-BRANCHES.sort(key=lambda branch: list(map(int, branch.split('-')[0].split('.'))))
-BRANCHES.append('lkgr')
+print(BRANCHES)
+BRANCHES.sort(key=lambda branch_and_sha: (float("inf"),) if branch_and_sha[0] == 'lkgr' else tuple(map(int, branch_and_sha[0].split('.'))))
 
-# List of branches that have potential back-merges and thus need updates:
-BRANCHES_FORCE_BUILDS = set(BRANCHES[-4:])
-print(BRANCHES_FORCE_BUILDS)
+DIST_DIR.mkdir(exist_ok=True)
 
-for branch in BRANCHES_FORCE_BUILDS:
+for branch,sha in BRANCHES:
     step(f'Generating docs for branch: {branch}')
     if branch == 'lkgr':
         version_name = 'head'
     else:
-        branch_name = branch.split('-')[0]
-        version_name = f'v{branch_name}'
-    branch_dir = DESTINATION / version_name
+        version_name = f'v{branch}'
+    branch_dir = DIST_DIR / version_name
     branch_dir.mkdir(exist_ok=True)
-    git('switch', '--force', '--detach', f'remotes/origin/{branch}')
+    
+    stamp = branch_dir / '.sha'
+
+    def needs_update():
+        if not stamp.exists():
+            step(f'Needs update: no stamp file')
+            return True
+        stamp_mtime = stamp.stat().st_mtime
+        if stamp_mtime <= DOXYFILE_PATH.stat().st_mtime:
+            step(f'Needs update: stamp file older than Doxyfile')
+            return True
+        if stamp_mtime <= Path(__file__).stat().st_mtime:
+            step(f'Needs update: stamp file older than update script')
+            return True
+        stamp_sha = stamp.read_text()
+        if stamp_sha != sha:
+            step(f'Needs update: stamp SHA does not match branch SHA ({stamp_sha} vs. {sha})')
+            return True
+            
+        return False
+
+    if not needs_update():
+        step(f'Docs already up-to-date.')
+        continue
+
+    stamp.write_text(sha)
+
+    git('switch', '--force', '--detach', sha)
     git('clean', '--force', '-d')
-    doxyfile_path = DESTINATION / 'Doxyfile'
-    with open(doxyfile_path) as doxyfile:
-      doxyfile_data = doxyfile.read()
-      doxyfile_data += f"\nPROJECT_NUMBER={version_name}"
-      run('doxygen', '-', cwd=GIT_DIR, input=doxyfile_data.encode('utf-8'))
-    source = GIT_DIR / 'html'
-    run('rsync', '--itemize-changes', '--recursive',
-            '--checksum', f'{source}{os.sep}', f'{branch_dir}{os.sep}')
-    run('git', 'add', branch_dir)
+    
+    doxyfile_data = DOXYFILE_PATH.read_text()
+    doxyfile_data += f"""
+        PROJECT_NUMBER={version_name}
+        HTML_OUTPUT={os.path.abspath(branch_dir)}
+    """
+    run('doxygen', '-', cwd=GIT_DIR, input=doxyfile_data.encode('utf-8'))
