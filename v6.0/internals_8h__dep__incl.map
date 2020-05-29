@@ -1,7 +1,0 @@
-<map id="include/cppgc/internals.h" name="include/cppgc/internals.h">
-<area shape="rect" id="node1" title=" " alt="" coords="111,5,278,32"/>
-<area shape="rect" id="node2" href="$garbage-collected_8h.html" title=" " alt="" coords="5,169,157,211"/>
-<area shape="rect" id="node3" href="$allocation_8h.html" title=" " alt="" coords="109,259,281,285"/>
-<area shape="rect" id="node4" href="$finalizer-trait_8h.html" title=" " alt="" coords="234,80,385,121"/>
-<area shape="rect" id="node5" href="$gc-info_8h.html" title=" " alt="" coords="233,177,389,203"/>
-</map>

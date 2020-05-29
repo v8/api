@@ -1,9 +1,0 @@
-<map id="v8::Isolate::CreateParams" name="v8::Isolate::CreateParams">
-<area shape="rect" id="node1" title=" " alt="" coords="963,39,1137,65"/>
-<area shape="rect" id="node2" href="$classv8_1_1ResourceConstraints.html" title=" " alt="" coords="627,13,793,40"/>
-<area shape="rect" id="node3" href="$structv8_1_1JitCodeEvent.html" title=" " alt="" coords="649,64,771,91"/>
-<area shape="rect" id="node4" href="$structv8_1_1JitCodeEvent_1_1name__t.html" title=" " alt="" coords="329,5,504,32"/>
-<area shape="rect" id="node5" href="$structv8_1_1JitCodeEvent_1_1line__info__t.html" title=" " alt="" coords="341,57,492,98"/>
-<area shape="rect" id="node6" href="$classv8_1_1Handle.html" title=" " alt="" coords="308,123,525,149"/>
-<area shape="rect" id="node7" href="$classv8_1_1Handle.html" title=" " alt="" coords="5,123,123,149"/>
-</map>

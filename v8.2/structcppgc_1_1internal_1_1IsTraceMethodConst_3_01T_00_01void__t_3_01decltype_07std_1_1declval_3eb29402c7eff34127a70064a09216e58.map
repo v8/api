@@ -1,4 +1,0 @@
-<map id="cppgc::internal::IsTraceMethodConst&lt; T, void_t&lt; decltype(std::declval&lt; const T &gt;().Trace(std::declval&lt; Visitor * &gt;()))&gt; &gt;" name="cppgc::internal::IsTraceMethodConst&lt; T, void_t&lt; decltype(std::declval&lt; const T &gt;().Trace(std::declval&lt; Visitor * &gt;()))&gt; &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,183,165"/>
-<area shape="rect" id="node2" title=" " alt="" coords="56,5,132,32"/>
-</map>
