@@ -39,3 +39,5 @@ jobs:
           BASE_BRANCH: master
           BRANCH: gh-pages
           FOLDER: dist
+          GIT_CONFIG_NAME: V8 API docs updater
+          GIT_CONFIG_EMAIL: v8-dev+api@googlegroups.com
