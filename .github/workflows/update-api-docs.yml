@@ -24,6 +24,11 @@ jobs:
           apk add doxygen git graphviz openssh-client rsync ttf-freefont
       - name: Checkout API repo
         uses: actions/checkout@v2
+      - name: Restore cached doc SHAs
+        uses: actions/cache@v2
+        with:
+          path: dist/*/.sha
+          key: dist
       - name: Build docs
         run: |
           python update.py
