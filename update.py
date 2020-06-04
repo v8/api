@@ -7,6 +7,7 @@
 import subprocess
 import tempfile
 import os
+import sys
 from pathlib import Path
 
 def run(*command, capture=False, **kwargs):
@@ -39,15 +40,22 @@ if not GIT_DIR.exists():
     run('git', 'clone', 'https://chromium.googlesource.com/v8/v8.git', GIT_DIR)
 git('fetch', '--all')
 
-
 step('List branches')
-BRANCHES = git('for-each-ref', 'refs/remotes/origin/*-lkgr', 'refs/remotes/origin/lkgr', '--format=%(refname:strip=3) %(objectname)', capture=True).rstrip().split("\n")
+if len(sys.argv) == 1:
+  NAMES = ['refs/remotes/origin/*-lkgr', 'refs/remotes/origin/lkgr']
+else:
+  NAMES = [
+    'refs/remotes/origin/lkgr' if name == "head" else f'refs/remotes/origin/{name}-lkgr'
+    for name in sys.argv[1:]
+  ]
+
+BRANCHES = git('for-each-ref', *NAMES, '--format=%(refname:strip=3) %(objectname)', capture=True).rstrip().split("\n")
 BRANCHES = [ref.split(' ') for ref in BRANCHES]
 BRANCHES = [(branch.split('-')[0], sha) for branch,sha in BRANCHES]
 
 # Sort branches from old to new:
-print(BRANCHES)
 BRANCHES.sort(key=lambda branch_and_sha: (float("inf"),) if branch_and_sha[0] == 'lkgr' else tuple(map(int, branch_and_sha[0].split('.'))))
+print(BRANCHES)
 
 DIST_DIR.mkdir(exist_ok=True)
 
@@ -59,7 +67,7 @@ for branch,sha in BRANCHES:
         version_name = f'v{branch}'
     branch_dir = DIST_DIR / version_name
     branch_dir.mkdir(exist_ok=True)
-    
+
     stamp = branch_dir / '.sha'
 
     def needs_update():
@@ -77,7 +85,7 @@ for branch,sha in BRANCHES:
         if stamp_sha != sha:
             step(f'Needs update: stamp SHA does not match branch SHA ({stamp_sha} vs. {sha})')
             return True
-            
+
         return False
 
     if not needs_update():
@@ -88,7 +96,7 @@ for branch,sha in BRANCHES:
 
     git('switch', '--force', '--detach', sha)
     git('clean', '--force', '-d')
-    
+
     doxyfile_data = DOXYFILE_PATH.read_text()
     doxyfile_data += f"""
         PROJECT_NUMBER={version_name}
