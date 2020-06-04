@@ -28,7 +28,9 @@ jobs:
         uses: actions/cache@v2
         with:
           path: dist/*/.sha
-          key: dist
+          key: dist-${{ hashFiles('dist/*/.sha') }}
+          restore-keys: |
+            dist-
       - name: Build docs
         run: |
           python update.py
