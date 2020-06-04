@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          apk add doxygen git graphviz openssh-client rsync ttf-freefont
+          apk add doxygen git graphviz openssh-client rsync ttf-freefont zstd
       - name: Checkout API repo
         uses: actions/checkout@v2
       - name: Restore cached doc SHAs
