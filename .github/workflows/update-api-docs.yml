@@ -7,7 +7,7 @@ name: Update API documentation
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     # Rebuild docs every day at 3am.
     - cron: '0 3 * * *'
@@ -47,7 +47,7 @@ jobs:
         with:
           SSH: true
           SINGLE_COMMIT: true
-          BASE_BRANCH: master
+          BASE_BRANCH: main
           BRANCH: gh-pages
           FOLDER: dist
           GIT_CONFIG_NAME: V8 API docs updater
