@@ -23,6 +23,14 @@ jobs:
       - name: Install dependencies
         run: |
           apk add doxygen git graphviz openssh-client rsync tar ttf-freefont zstd
+          
+      # Workaround for `fatal: unsafe repository (REPO is owned by someone else)` issue, see
+      # https://github.com/actions/checkout/issues/760
+      - name: Trust /__w Directory (GIT_CEILING_DIRECTORIES)
+        run: export GIT_CEILING_DIRECTORIES=/__w  # before git v2.35.2
+      - name: Trust /__w Directory (safe.directory)
+        run: git config --global --add safe.directory /__w/api/api # after git v2.35.2
+        
       - name: Checkout API repo
         uses: actions/checkout@v2
       - name: Restore cached doc SHAs
