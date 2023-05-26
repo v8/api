@@ -37,7 +37,7 @@ DOXYFILE_PATH = ROOT_DIR / 'Doxyfile'
 
 step(f'Update V8 checkout in: {GIT_DIR}')
 if not GIT_DIR.exists():
-    run('git', 'clone', 'https://chromium.googlesource.com/v8/v8.git', GIT_DIR)
+    run('git', 'clone', 'https://chromium.googlesource.com/v8/v8', GIT_DIR)
 git('fetch', '--all')
 
 step('List branches')
