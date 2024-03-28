@@ -1,0 +1,36 @@
+<map id="include/cppgc/cross&#45;thread&#45;persistent.h" name="include/cppgc/cross&#45;thread&#45;persistent.h">
+<area shape="rect" id="node1" title=" " alt="" coords="821,5,958,46"/>
+<area shape="rect" id="node2" title=" " alt="" coords="1290,758,1350,784"/>
+<area shape="rect" id="node3" href="$persistent-node_8h.html" title=" " alt="" coords="280,241,443,282"/>
+<area shape="rect" id="node14" href="$pointer-policies_8h.html" title=" " alt="" coords="1482,404,1627,444"/>
+<area shape="rect" id="node22" href="$persistent_8h.html" title=" " alt="" coords="1088,94,1216,120"/>
+<area shape="rect" id="node23" href="$visitor_8h.html" title=" " alt="" coords="837,168,942,193"/>
+<area shape="rect" id="node4" title=" " alt="" coords="278,330,327,356"/>
+<area shape="rect" id="node5" title=" " alt="" coords="110,677,178,703"/>
+<area shape="rect" id="node6" title=" " alt="" coords="270,500,327,526"/>
+<area shape="rect" id="node7" href="$logging_8h.html" title=" " alt="" coords="1139,330,1296,356"/>
+<area shape="rect" id="node10" href="$v8config_8h.html" title=" " alt="" coords="868,677,948,703"/>
+<area shape="rect" id="node11" href="$trace-trait_8h.html" title=" " alt="" coords="645,330,771,356"/>
+<area shape="rect" id="node8" href="$source-location_8h.html" title=" " alt="" coords="1256,500,1414,526"/>
+<area shape="rect" id="node9" title=" " alt="" coords="599,677,652,703"/>
+<area shape="rect" id="node12" title=" " alt="" coords="933,500,1014,526"/>
+<area shape="rect" id="node13" href="$type-traits_8h.html" title=" " alt="" coords="836,411,964,437"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1646,500,1706,526"/>
+<area shape="rect" id="node16" href="$write-barrier_8h.html" title=" " alt="" coords="1488,492,1622,533"/>
+<area shape="rect" id="node17" href="$api-constants_8h.html" title=" " alt="" coords="350,581,474,622"/>
+<area shape="rect" id="node20" href="$process-heap_8h.html" title=" " alt="" coords="1408,581,1560,622"/>
+<area shape="rect" id="node18" title=" " alt="" coords="202,677,270,703"/>
+<area shape="rect" id="node19" title=" " alt="" coords="380,677,444,703"/>
+<area shape="rect" id="node21" href="$atomic-entry-flag_8h.html" title=" " alt="" coords="1385,670,1530,710"/>
+<area shape="rect" id="node24" href="$custom-space_8h.html" title=" " alt="" coords="93,500,246,526"/>
+<area shape="rect" id="node25" href="$ephemeron-pair_8h.html" title=" " alt="" coords="1048,249,1208,275"/>
+<area shape="rect" id="node26" href="$member_8h.html" title=" " alt="" coords="997,330,1115,356"/>
+<area shape="rect" id="node28" href="$garbage-collected_8h.html" title=" " alt="" coords="467,249,640,275"/>
+<area shape="rect" id="node32" href="$liveness-broker_8h.html" title=" " alt="" coords="714,249,873,275"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1089,411,1154,437"/>
+<area shape="rect" id="node29" href="$platform_8h.html" title=" " alt="" coords="504,500,621,526"/>
+<area shape="rect" id="node30" href="$v8-platform_8h.html" title=" " alt="" coords="231,589,327,614"/>
+<area shape="rect" id="node31" title=" " alt="" coords="294,677,357,703"/>
+<area shape="rect" id="node33" href="$heap_8h.html" title=" " alt="" coords="460,411,559,437"/>
+<area shape="rect" id="node34" href="$common_8h.html" title=" " alt="" coords="599,589,719,614"/>
+</map>
