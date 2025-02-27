@@ -1,0 +1,38 @@
+<map id="v8::Object" name="v8::Object">
+<area shape="rect" id="node1" title=" " alt="" coords="244,597,323,623"/>
+<area shape="rect" id="node4" href="$classv8_1_1Array.html" title=" " alt="" coords="417,153,488,179"/>
+<area shape="rect" id="node5" href="$classv8_1_1ArrayBuffer.html" title=" " alt="" coords="400,203,505,228"/>
+<area shape="rect" id="node6" href="$classv8_1_1ArrayBufferView.html" title=" " alt="" coords="385,252,520,278"/>
+<area shape="rect" id="node21" href="$classv8_1_1BigIntObject.html" title=" " alt="" coords="396,301,509,327"/>
+<area shape="rect" id="node22" href="$classv8_1_1BooleanObject.html" title=" " alt="" coords="389,351,516,376"/>
+<area shape="rect" id="node23" href="$classv8_1_1Date.html" title=" " alt="" coords="418,400,487,426"/>
+<area shape="rect" id="node24" href="$classv8_1_1Function.html" title=" " alt="" coords="407,449,498,475"/>
+<area shape="rect" id="node25" href="$classv8_1_1Map.html" title=" " alt="" coords="419,499,486,524"/>
+<area shape="rect" id="node26" href="$classv8_1_1NumberObject.html" title=" " alt="" coords="390,548,515,574"/>
+<area shape="rect" id="node27" href="$classv8_1_1Promise.html" title=" " alt="" coords="408,597,497,623"/>
+<area shape="rect" id="node28" href="$classv8_1_1Promise_1_1Resolver.html" title=" " alt="" coords="379,647,526,672"/>
+<area shape="rect" id="node29" href="$classv8_1_1Proxy.html" title=" " alt="" coords="416,696,489,722"/>
+<area shape="rect" id="node30" href="$classv8_1_1RegExp.html" title=" " alt="" coords="410,745,495,771"/>
+<area shape="rect" id="node31" href="$classv8_1_1Set.html" title=" " alt="" coords="422,795,483,820"/>
+<area shape="rect" id="node32" href="$classv8_1_1SharedArrayBuffer.html" title=" " alt="" coords="379,844,526,870"/>
+<area shape="rect" id="node33" href="$classv8_1_1StringObject.html" title=" " alt="" coords="396,893,509,919"/>
+<area shape="rect" id="node34" href="$classv8_1_1SymbolObject.html" title=" " alt="" coords="391,943,514,968"/>
+<area shape="rect" id="node35" href="$classv8_1_1WasmMemoryObject.html" title=" " alt="" coords="371,992,534,1018"/>
+<area shape="rect" id="node36" href="$classv8_1_1WasmModuleObject.html" title=" " alt="" coords="373,1041,532,1067"/>
+<area shape="rect" id="node2" href="$classv8_1_1Value.html" title=" " alt="" coords="122,597,196,623"/>
+<area shape="rect" id="node3" href="$classv8_1_1Data.html" title=" " alt="" coords="5,597,74,623"/>
+<area shape="rect" id="node7" href="$classv8_1_1DataView.html" title=" " alt="" coords="586,228,684,254"/>
+<area shape="rect" id="node8" href="$classv8_1_1TypedArray.html" title=" " alt="" coords="582,277,688,303"/>
+<area shape="rect" id="node9" href="$classv8_1_1BigInt64Array.html" title=" " alt="" coords="753,5,872,31"/>
+<area shape="rect" id="node10" href="$classv8_1_1BigUint64Array.html" title=" " alt="" coords="749,55,877,80"/>
+<area shape="rect" id="node11" href="$classv8_1_1Float16Array.html" title=" " alt="" coords="756,104,870,130"/>
+<area shape="rect" id="node12" href="$classv8_1_1Float32Array.html" title=" " alt="" coords="756,153,870,179"/>
+<area shape="rect" id="node13" href="$classv8_1_1Float64Array.html" title=" " alt="" coords="756,203,870,228"/>
+<area shape="rect" id="node14" href="$classv8_1_1Int16Array.html" title=" " alt="" coords="763,252,863,278"/>
+<area shape="rect" id="node15" href="$classv8_1_1Int32Array.html" title=" " alt="" coords="763,301,863,327"/>
+<area shape="rect" id="node16" href="$classv8_1_1Int8Array.html" title=" " alt="" coords="766,351,859,376"/>
+<area shape="rect" id="node17" href="$classv8_1_1Uint16Array.html" title=" " alt="" coords="758,400,867,426"/>
+<area shape="rect" id="node18" href="$classv8_1_1Uint32Array.html" title=" " alt="" coords="758,449,867,475"/>
+<area shape="rect" id="node19" href="$classv8_1_1Uint8Array.html" title=" " alt="" coords="762,499,864,524"/>
+<area shape="rect" id="node20" href="$classv8_1_1Uint8ClampedArray.html" title=" " alt="" coords="736,548,889,574"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="cppgc::internal::WriteBarrier::CheckParams" name="cppgc::internal::WriteBarrier::CheckParams">
+<area shape="rect" id="node1" title=" " alt="" coords="519,169,697,210"/>
+<area shape="rect" id="node2" href="$classcppgc_1_1internal_1_1WriteBarrier.html#ad8bbc0c512828b14d55c18a6735386e4" title=" " alt="" coords="286,71,464,111"/>
+<area shape="rect" id="node6" href="$classv8_1_1JSHeapConsistency.html#ad964924c09a111e9f4d72c971ea9e8bc" title=" " alt="" coords="295,136,455,177"/>
+<area shape="rect" id="node7" href="$classcppgc_1_1internal_1_1WriteBarrier.html#a67ea372a87c6779a699f481332822301" title=" " alt="" coords="279,201,471,242"/>
+<area shape="rect" id="node9" href="$classcppgc_1_1internal_1_1WriteBarrier.html#ad829efae0eddd5cb9483574112a5da5b" title=" " alt="" coords="286,267,464,307"/>
+<area shape="rect" id="node3" href="$structcppgc_1_1internal_1_1DijkstraWriteBarrierPolicy.html#ae117911156c06e2ec91d322320399ffd" title=" " alt="" coords="5,5,231,46"/>
+<area shape="rect" id="node4" href="$classv8_1_1JSHeapConsistency.html#a4eb89004242032f142645be5c4581a4a" title=" " alt="" coords="38,71,198,111"/>
+<area shape="rect" id="node5" href="$classcppgc_1_1subtle_1_1HeapConsistency.html#add539377031d7bab7f9f29f3667bfc57" title=" " alt="" coords="15,136,221,177"/>
+<area shape="rect" id="node8" href="$classcppgc_1_1subtle_1_1HeapConsistency.html#a5589a6ba76f60231996108599b2e049b" title=" " alt="" coords="15,201,221,242"/>
+<area shape="rect" id="node10" href="$classcppgc_1_1subtle_1_1HeapConsistency.html#af93d2b3219e211e78bd1ea7eefb02f99" title=" " alt="" coords="15,267,221,307"/>
+</map>
