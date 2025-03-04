@@ -34,7 +34,7 @@ jobs:
       - name: Checkout API repo
         uses: actions/checkout@v2
       - name: Restore cached doc SHAs
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: dist/*/.sha
           key: dist-${{ hashFiles('dist/*/.sha') }}
