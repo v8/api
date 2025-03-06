@@ -44,12 +44,11 @@ jobs:
         run: |
           python update.py
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SINGLE_COMMIT: true
-          BASE_BRANCH: main
-          BRANCH: gh-pages
-          FOLDER: dist
-          GIT_CONFIG_NAME: V8 API docs updater
-          GIT_CONFIG_EMAIL: v8-dev+api@googlegroups.com
+          single-commit: true
+          case-branch: main
+          branch: gh-pages
+          folder: dist
+          git-config-name: V8 API docs updater
+          git-config-email: v8-dev+api@googlegroups.com
