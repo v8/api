@@ -11,10 +11,10 @@ on:
   schedule:
     # Rebuild docs every day at 3am.
     - cron: '0 3 * * *'
-  permissions:
-    contents: write
   workflow_dispatch:
 
+permissions:
+  contents: write
 jobs:
   build:
     name: Build and update docs
