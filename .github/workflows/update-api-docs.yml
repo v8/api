@@ -49,7 +49,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
           single-commit: true
-          case-branch: main
+          base-branch: main
           branch: gh-pages
           folder: dist
           git-config-name: V8 API docs updater
