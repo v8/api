@@ -1,0 +1,20 @@
+<map id="include/cppgc/allocation.h" name="include/cppgc/allocation.h">
+<area shape="rect" id="node1" title=" " alt="" coords="189,5,359,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="145,330,209,356"/>
+<area shape="rect" id="node3" title=" " alt="" coords="648,79,708,105"/>
+<area shape="rect" id="node4" href="$custom-space_8h.html" title=" " alt="" coords="27,160,180,186"/>
+<area shape="rect" id="node6" href="$garbage-collected_8h.html" title=" " alt="" coords="452,79,624,105"/>
+<area shape="rect" id="node8" href="$api-constants_8h.html" title=" " alt="" coords="209,241,332,282"/>
+<area shape="rect" id="node17" href="$gc-info_8h.html" title=" " alt="" coords="273,79,428,105"/>
+<area shape="rect" id="node5" title=" " alt="" coords="237,330,304,356"/>
+<area shape="rect" id="node7" title=" " alt="" coords="688,330,770,356"/>
+<area shape="rect" id="node10" href="$platform_8h.html" title=" " alt="" coords="406,160,524,186"/>
+<area shape="rect" id="node15" href="$trace-trait_8h.html" title=" " alt="" coords="721,160,846,186"/>
+<area shape="rect" id="node16" href="$type-traits_8h.html" title=" " alt="" coords="744,249,871,275"/>
+<area shape="rect" id="node9" href="$v8config_8h.html" title=" " alt="" coords="329,330,409,356"/>
+<area shape="rect" id="node11" href="$v8-platform_8h.html" title=" " alt="" coords="457,249,553,275"/>
+<area shape="rect" id="node12" title=" " alt="" coords="600,330,663,356"/>
+<area shape="rect" id="node13" title=" " alt="" coords="433,330,500,356"/>
+<area shape="rect" id="node14" title=" " alt="" coords="524,330,577,356"/>
+<area shape="rect" id="node18" href="$finalizer-trait_8h.html" title=" " alt="" coords="548,153,697,193"/>
+</map>

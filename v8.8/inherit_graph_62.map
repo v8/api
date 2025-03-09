@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,415,104,441"/>
+<area shape="rect" id="node2" href="$structcppgc_1_1internal_1_1HasFinalizeGarbageCollectedObject_3_01T_00_01void__t_3_01decltype_07sa61520700171f43425adcc1b691e5825.html" title=" " alt="" coords="157,5,413,91"/>
+<area shape="rect" id="node3" href="$structcppgc_1_1internal_1_1IsGarbageCollectedMixinType_3_01T_00_01void__t_3_01typename_01std_1_14b46fbef65c16ddacb2df750491360da.html" title=" " alt="" coords="159,115,411,200"/>
+<area shape="rect" id="node4" href="$structcppgc_1_1internal_1_1IsGarbageCollectedType_3_01T_00_01void__t_3_01typename_01std_1_1remov242c3cc73022aacbda81955038f7dedf.html" title=" " alt="" coords="174,224,396,310"/>
+<area shape="rect" id="node5" href="$structcppgc_1_1internal_1_1IsTraceMethodConst_3_01T_00_01void__t_3_01decltype_07std_1_1declval_340f310667d584b91bf9e1fcf69c55d0e.html" title=" " alt="" coords="200,333,370,419"/>
+<area shape="rect" id="node6" href="$structcppgc_1_1internal_1_1IsTraceable_3_01T_00_01void__t_3_01decltype_07std_1_1declval_3_01T_0168466c9ac6c89dfb7a8449cb1b8ecb7f.html" title=" " alt="" coords="196,444,374,514"/>
+<area shape="rect" id="node7" href="$structcppgc_1_1internal_1_1IsWeak_3_01BasicCrossThreadPersistent_3_01T_00_01internal_1_1WeakCros6251904fc881150f13e418ea64da9a91.html" title=" " alt="" coords="152,538,418,609"/>
+<area shape="rect" id="node8" href="$structcppgc_1_1internal_1_1IsWeak_3_01BasicPersistent_3_01T_00_01internal_1_1WeakPersistentPolica0137f7022c128522e140d084b881692.html" title=" " alt="" coords="171,633,399,704"/>
+<area shape="rect" id="node9" href="$structcppgc_1_1internal_1_1IsWeak_3_01internal_1_1BasicMember_3_01T_00_01WeakMemberTag_00_01Writdeb64fe096629f63a5b8562f6a14743b.html" title=" " alt="" coords="173,728,397,798"/>
+</map>
