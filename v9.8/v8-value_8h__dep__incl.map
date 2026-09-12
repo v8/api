@@ -1,0 +1,30 @@
+<map id="include/v8&#45;value.h" name="include/v8&#45;value.h">
+<area shape="rect" id="node1" title=" " alt="" coords="1459,5,1584,31"/>
+<area shape="rect" id="node2" href="$v8-external_8h.html" title=" " alt="" coords="1713,79,1852,105"/>
+<area shape="rect" id="node3" href="$v8_8h.html" title=" " alt="" coords="872,574,963,599"/>
+<area shape="rect" id="node4" href="$v8-fast-api-calls_8h.html" title=" " alt="" coords="248,477,376,518"/>
+<area shape="rect" id="node5" href="$v8-object_8h.html" title=" " alt="" coords="709,153,838,178"/>
+<area shape="rect" id="node22" href="$v8-primitive_8h.html" title=" " alt="" coords="1450,79,1593,105"/>
+<area shape="rect" id="node6" href="$v8-array-buffer_8h.html" title=" " alt="" coords="294,323,453,348"/>
+<area shape="rect" id="node12" href="$v8-container_8h.html" title=" " alt="" coords="288,234,435,260"/>
+<area shape="rect" id="node13" href="$v8-date_8h.html" title=" " alt="" coords="459,234,578,260"/>
+<area shape="rect" id="node14" href="$v8-function_8h.html" title=" " alt="" coords="1006,485,1146,511"/>
+<area shape="rect" id="node15" href="$v8-primitive-object_8h.html" title=" " alt="" coords="603,226,736,267"/>
+<area shape="rect" id="node16" href="$v8-promise_8h.html" title=" " alt="" coords="811,234,952,260"/>
+<area shape="rect" id="node18" href="$v8-proxy_8h.html" title=" " alt="" coords="654,323,778,348"/>
+<area shape="rect" id="node19" href="$v8-regexp_8h.html" title=" " alt="" coords="975,234,1108,260"/>
+<area shape="rect" id="node20" href="$v8-template_8h.html" title=" " alt="" coords="967,404,1111,429"/>
+<area shape="rect" id="node21" href="$v8-wasm_8h.html" title=" " alt="" coords="43,323,173,348"/>
+<area shape="rect" id="node7" href="$v8-isolate_8h.html" title=" " alt="" coords="1237,404,1369,429"/>
+<area shape="rect" id="node11" href="$v8-typed-array_8h.html" title=" " alt="" coords="269,404,427,429"/>
+<area shape="rect" id="node8" href="$v8-initialization_8h.html" title=" " alt="" coords="1222,485,1383,511"/>
+<area shape="rect" id="node9" href="$v8-inspector_8h.html" title=" " alt="" coords="1816,485,1963,511"/>
+<area shape="rect" id="node10" href="$v8-inspector-protocol_8h.html" title=" " alt="" coords="1821,566,1958,607"/>
+<area shape="rect" id="node17" href="$v8-statistics_8h.html" title=" " alt="" coords="853,323,1000,348"/>
+<area shape="rect" id="node23" href="$v8-extension_8h.html" title=" " alt="" coords="1840,153,1989,178"/>
+<area shape="rect" id="node24" href="$v8-function-callback_8h.html" title=" " alt="" coords="1238,315,1368,356"/>
+<area shape="rect" id="node26" href="$v8-message_8h.html" title=" " alt="" coords="1528,404,1675,429"/>
+<area shape="rect" id="node25" href="$v8-util_8h.html" title=" " alt="" coords="1392,404,1504,429"/>
+<area shape="rect" id="node27" href="$v8-profiler_8h.html" title=" " alt="" coords="1609,485,1741,511"/>
+<area shape="rect" id="node28" href="$v8-script_8h.html" title=" " alt="" coords="1408,485,1534,511"/>
+</map>

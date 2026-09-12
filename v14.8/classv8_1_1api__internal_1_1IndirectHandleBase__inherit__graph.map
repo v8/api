@@ -1,0 +1,41 @@
+<map id="v8::api_internal::IndirectHandleBase" name="v8::api_internal::IndirectHandleBase">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1516,162,1557"/>
+<area shape="rect" id="node2" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="595,73,729,114"/>
+<area shape="rect" id="node3" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="595,144,729,185"/>
+<area shape="rect" id="node4" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="595,295,729,335"/>
+<area shape="rect" id="node5" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="595,1399,729,1439"/>
+<area shape="rect" id="node6" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="580,1465,744,1491"/>
+<area shape="rect" id="node7" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="577,1517,747,1543"/>
+<area shape="rect" id="node8" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="595,5,729,46"/>
+<area shape="rect" id="node9" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="583,1573,741,1599"/>
+<area shape="rect" id="node10" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="595,1636,729,1677"/>
+<area shape="rect" id="node11" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="582,1704,742,1729"/>
+<area shape="rect" id="node12" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="595,220,729,261"/>
+<area shape="rect" id="node13" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="595,367,729,407"/>
+<area shape="rect" id="node14" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="595,1780,729,1821"/>
+<area shape="rect" id="node15" href="$classv8_1_1PersistentBase.html" title=" " alt="" coords="597,1877,727,1918"/>
+<area shape="rect" id="node16" href="$classv8_1_1Eternal.html" title=" " alt="" coords="241,1994,352,2020"/>
+<area shape="rect" id="node17" href="$classv8_1_1LocalBase.html" title=" " alt="" coords="230,1029,363,1055"/>
+<area shape="rect" id="node33" href="$classv8_1_1PersistentBase.html" title=" " alt="" coords="216,1945,376,1971"/>
+<area shape="rect" id="node37" href="$classv8_1_1TracedReferenceBase.html" title=" " alt="" coords="211,2066,381,2092"/>
+<area shape="rect" id="node18" href="$classv8_1_1Local.html" title=" " alt="" coords="977,682,1126,708"/>
+<area shape="rect" id="node19" href="$classv8_1_1Local.html" title=" " alt="" coords="975,1132,1128,1157"/>
+<area shape="rect" id="node20" href="$classv8_1_1Local.html" title=" " alt="" coords="979,1204,1124,1229"/>
+<area shape="rect" id="node21" href="$classv8_1_1Local.html" title=" " alt="" coords="972,525,1131,551"/>
+<area shape="rect" id="node22" href="$classv8_1_1Local.html" title=" " alt="" coords="985,597,1118,623"/>
+<area shape="rect" id="node23" href="$classv8_1_1Local.html" title=" " alt="" coords="982,806,1121,832"/>
+<area shape="rect" id="node24" href="$classv8_1_1Local.html" title=" " alt="" coords="977,1334,1126,1360"/>
+<area shape="rect" id="node25" href="$classv8_1_1Local.html" title=" " alt="" coords="987,1413,1116,1439"/>
+<area shape="rect" id="node26" href="$classv8_1_1Local.html" title=" " alt="" coords="951,952,1152,977"/>
+<area shape="rect" id="node27" href="$classv8_1_1Local.html" title=" " alt="" coords="986,1034,1117,1060"/>
+<area shape="rect" id="node28" href="$classv8_1_1Local.html" title=" " alt="" coords="970,1278,1133,1304"/>
+<area shape="rect" id="node29" href="$classv8_1_1Local.html" title=" " alt="" coords="980,737,1123,763"/>
+<area shape="rect" id="node30" href="$classv8_1_1Local.html" title=" " alt="" coords="969,428,1134,453"/>
+<area shape="rect" id="node31" href="$classv8_1_1Local.html" title=" " alt="" coords="610,900,714,925"/>
+<area shape="rect" id="node32" href="$classv8_1_1internal_1_1LocalUnchecked.html" title=" " alt="" coords="943,865,1160,891"/>
+<area shape="rect" id="node34" href="$classv8_1_1Global.html" title=" " alt="" coords="969,2020,1134,2045"/>
+<area shape="rect" id="node35" href="$classv8_1_1Global.html" title=" " alt="" coords="608,2045,716,2071"/>
+<area shape="rect" id="node36" href="$classv8_1_1Persistent.html" title=" " alt="" coords="588,1944,736,1969"/>
+<area shape="rect" id="node38" href="$classv8_1_1BasicTracedReference.html" title=" " alt="" coords="560,2094,764,2120"/>
+<area shape="rect" id="node39" href="$classv8_1_1TracedReference.html" title=" " alt="" coords="966,2094,1137,2120"/>
+</map>

@@ -1,0 +1,52 @@
+<map id="include/v8&#45;initialization.h" name="include/v8&#45;initialization.h">
+<area shape="rect" id="node1" title=" " alt="" coords="3571,5,3733,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="2886,963,2954,989"/>
+<area shape="rect" id="node3" title=" " alt="" coords="3575,963,3638,989"/>
+<area shape="rect" id="node4" href="$v8-callbacks_8h.html" title=" " alt="" coords="813,300,918,326"/>
+<area shape="rect" id="node8" href="$v8config_8h.html" title=" " alt="" coords="918,963,997,989"/>
+<area shape="rect" id="node15" href="$v8-internal_8h.html" title=" " alt="" coords="1894,889,1986,915"/>
+<area shape="rect" id="node32" href="$v8-isolate_8h.html" title=" " alt="" coords="2159,79,2246,105"/>
+<area shape="rect" id="node36" href="$v8-platform_8h.html" title=" " alt="" coords="3843,816,3939,841"/>
+<area shape="rect" id="node5" title=" " alt="" coords="652,374,729,399"/>
+<area shape="rect" id="node6" title=" " alt="" coords="4224,963,4277,989"/>
+<area shape="rect" id="node7" href="$common_8h.html" title=" " alt="" coords="153,374,274,399"/>
+<area shape="rect" id="node10" href="$v8-data_8h.html" title=" " alt="" coords="1179,668,1253,694"/>
+<area shape="rect" id="node11" href="$v8-local-handle_8h.html" title=" " alt="" coords="1881,742,1999,768"/>
+<area shape="rect" id="node21" href="$v8-promise_8h.html" title=" " alt="" coords="1675,374,1770,399"/>
+<area shape="rect" id="node9" title=" " alt="" coords="2801,1037,2868,1062"/>
+<area shape="rect" id="node12" title=" " alt="" coords="2238,963,2319,989"/>
+<area shape="rect" id="node13" title=" " alt="" coords="2859,816,2917,841"/>
+<area shape="rect" id="node14" href="$v8-handle-base_8h.html" title=" " alt="" coords="1880,816,2000,841"/>
+<area shape="rect" id="node16" title=" " alt="" coords="1978,963,2041,989"/>
+<area shape="rect" id="node17" title=" " alt="" coords="2087,963,2148,989"/>
+<area shape="rect" id="node18" title=" " alt="" coords="2344,963,2405,989"/>
+<area shape="rect" id="node19" title=" " alt="" coords="1681,963,1733,989"/>
+<area shape="rect" id="node20" title=" " alt="" coords="3027,963,3093,989"/>
+<area shape="rect" id="node22" href="$v8-object_8h.html" title=" " alt="" coords="1681,447,1765,473"/>
+<area shape="rect" id="node23" href="$garbage-collected_8h.html" title=" " alt="" coords="1715,521,1888,547"/>
+<area shape="rect" id="node24" href="$name-provider_8h.html" title=" " alt="" coords="1423,595,1575,620"/>
+<area shape="rect" id="node25" href="$v8-maybe_8h.html" title=" " alt="" coords="2494,668,2581,694"/>
+<area shape="rect" id="node27" href="$v8-persistent-handle_8h.html" title=" " alt="" coords="1006,668,1154,694"/>
+<area shape="rect" id="node29" href="$v8-primitive_8h.html" title=" " alt="" coords="1194,521,1292,547"/>
+<area shape="rect" id="node30" href="$v8-value_8h.html" title=" " alt="" coords="1649,595,1730,620"/>
+<area shape="rect" id="node31" href="$v8-traced-handle_8h.html" title=" " alt="" coords="2342,668,2469,694"/>
+<area shape="rect" id="node26" title=" " alt="" coords="2632,742,2683,768"/>
+<area shape="rect" id="node28" href="$v8-weak-callback-info_8h.html" title=" " alt="" coords="1096,742,1253,768"/>
+<area shape="rect" id="node33" href="$v8-array-buffer_8h.html" title=" " alt="" coords="3025,374,3138,399"/>
+<area shape="rect" id="node41" href="$v8-debug_8h.html" title=" " alt="" coords="2465,153,2549,178"/>
+<area shape="rect" id="node43" href="$v8-embedder-heap_8h.html" title=" " alt="" coords="1260,595,1399,620"/>
+<area shape="rect" id="node44" href="$v8-exception_8h.html" title=" " alt="" coords="2088,374,2192,399"/>
+<area shape="rect" id="node45" href="$v8-function-callback_8h.html" title=" " alt="" coords="962,447,1110,473"/>
+<area shape="rect" id="node47" href="$v8-microtask_8h.html" title=" " alt="" coords="3295,153,3401,178"/>
+<area shape="rect" id="node48" href="$v8-statistics_8h.html" title=" " alt="" coords="2646,300,2749,326"/>
+<area shape="rect" id="node49" href="$v8-unwinder_8h.html" title=" " alt="" coords="172,595,273,620"/>
+<area shape="rect" id="node34" href="$v8-memory-span_8h.html" title=" " alt="" coords="2808,889,2936,915"/>
+<area shape="rect" id="node35" title=" " alt="" coords="3692,963,3756,989"/>
+<area shape="rect" id="node37" title=" " alt="" coords="4070,889,4130,915"/>
+<area shape="rect" id="node38" title=" " alt="" coords="3984,889,4046,915"/>
+<area shape="rect" id="node39" href="$v8-source-location_8h.html" title=" " alt="" coords="3822,889,3959,915"/>
+<area shape="rect" id="node40" title=" " alt="" coords="3835,963,3947,989"/>
+<area shape="rect" id="node42" href="$v8-script_8h.html" title=" " alt="" coords="2537,226,2618,252"/>
+<area shape="rect" id="node46" title=" " alt="" coords="957,521,1017,547"/>
+<area shape="rect" id="node50" href="$v8-embedder-state-scope_8h.html" title=" " alt="" coords="550,668,728,694"/>
+</map>

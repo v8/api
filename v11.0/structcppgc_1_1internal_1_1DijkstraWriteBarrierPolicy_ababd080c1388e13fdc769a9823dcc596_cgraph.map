@@ -1,0 +1,5 @@
+<map id="cppgc::internal::DijkstraWriteBarrierPolicy::AssigningBarrier" name="cppgc::internal::DijkstraWriteBarrierPolicy::AssigningBarrier">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,231,79"/>
+<area shape="rect" id="node2" href="$classcppgc_1_1internal_1_1WriteBarrier.html#a5a790553beafc26948b06ab62278eefc" title=" " alt="" coords="279,5,457,46"/>
+<area shape="rect" id="node3" href="$classcppgc_1_1internal_1_1RawPointer.html#a0b41c1aac37b4f83e449fc4cd8a447fe" title=" " alt="" coords="279,71,457,111"/>
+</map>
