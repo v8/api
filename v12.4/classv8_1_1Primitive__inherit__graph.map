@@ -1,0 +1,15 @@
+<map id="v8::Primitive" name="v8::Primitive">
+<area shape="rect" id="node1" title=" " alt="" coords="110,153,202,178"/>
+<area shape="rect" id="node4" href="$classv8_1_1Boolean.html" title=" " alt="" coords="5,226,94,252"/>
+<area shape="rect" id="node5" href="$classv8_1_1Name.html" title=" " alt="" coords="118,226,194,252"/>
+<area shape="rect" id="node8" href="$classv8_1_1Numeric.html" title=" " alt="" coords="219,226,309,252"/>
+<area shape="rect" id="node2" href="$classv8_1_1Value.html" title=" " alt="" coords="119,79,193,105"/>
+<area shape="rect" id="node3" href="$classv8_1_1Data.html" title=" " alt="" coords="122,5,190,31"/>
+<area shape="rect" id="node6" href="$classv8_1_1String.html" title=" " alt="" coords="16,300,91,326"/>
+<area shape="rect" id="node7" href="$classv8_1_1Symbol.html" title=" " alt="" coords="115,300,200,326"/>
+<area shape="rect" id="node9" href="$classv8_1_1BigInt.html" title=" " alt="" coords="225,300,301,326"/>
+<area shape="rect" id="node10" href="$classv8_1_1Number.html" title=" " alt="" coords="325,300,412,326"/>
+<area shape="rect" id="node11" href="$classv8_1_1Integer.html" title=" " alt="" coords="328,374,409,399"/>
+<area shape="rect" id="node12" href="$classv8_1_1Int32.html" title=" " alt="" coords="284,447,354,473"/>
+<area shape="rect" id="node13" href="$classv8_1_1Uint32.html" title=" " alt="" coords="378,447,457,473"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="v8::metrics::GarbageCollectionFullCycle" name="v8::metrics::GarbageCollectionFullCycle">
+<area shape="rect" id="node1" title=" " alt="" coords="115,244,311,285"/>
+<area shape="rect" id="node2" href="$structv8_1_1metrics_1_1GarbageCollectionPhases.html" title=" " alt="" coords="5,5,202,46"/>
+<area shape="rect" id="node3" href="$structv8_1_1metrics_1_1GarbageCollectionSizes.html" title=" " alt="" coords="225,5,422,46"/>
+</map>

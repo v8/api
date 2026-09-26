@@ -1,0 +1,17 @@
+<map id="v8::api_internal::IndirectHandleBase::IsEmpty" name="v8::api_internal::IndirectHandleBase::IsEmpty">
+<area shape="rect" id="node1" title=" " alt="" coords="625,285,782,325"/>
+<area shape="rect" id="node2" href="$classv8_1_1Persistent.html#ad22a64f41b6fbd1f9e227d344e5362d7" title=" " alt="" coords="412,5,545,31"/>
+<area shape="rect" id="node4" href="$classv8_1_1Local.html#a6ed02351ca8e4dd0257dff7c2c9f67a8" title=" " alt="" coords="425,55,531,80"/>
+<area shape="rect" id="node7" href="$classv8_1_1EscapableHandleScope.html#a4985872a5963958a90e7b52dc9d53dcf" title=" " alt="" coords="389,105,568,145"/>
+<area shape="rect" id="node8" href="$classv8_1_1TracedReferenceBase.html#a47fd92cd6249c478400f62f8029645dd" title=" " alt="" coords="380,169,577,195"/>
+<area shape="rect" id="node9" href="$classv8_1_1TracedReference.html#a37604b0cb2ec940aa603ee6b7e0a5bc1" title=" " alt="" coords="408,219,548,260"/>
+<area shape="rect" id="node10" href="$classv8_1_1TracedReferenceBase.html#a50c7297683f3c9864710ceca4aba546a" title=" " alt="" coords="393,285,563,325"/>
+<area shape="rect" id="node11" href="$classv8_1_1PersistentBase.html#ab4b4d3fba3498486f1f10dc7d5be90fc" title=" " alt="" coords="413,350,543,391"/>
+<area shape="rect" id="node12" href="$classv8_1_1TracedReference.html#a5ff68298bf042019350081c107edf3da" title=" " alt="" coords="408,415,548,456"/>
+<area shape="rect" id="node13" href="$classv8_1_1ReturnValue.html#a57c4b962cf2ca387d3fb9a2f8e47a963" title=" " alt="" coords="409,480,547,506"/>
+<area shape="rect" id="node14" href="$classv8_1_1ReturnValue.html#a8f5b2381dd7e0b85be658dcb799056b3" title=" " alt="" coords="379,529,577,555"/>
+<area shape="rect" id="node15" href="$classv8_1_1TracedReference.html#a41655d72985a88f180b0f515282dc747" title=" " alt="" coords="408,579,548,620"/>
+<area shape="rect" id="node3" href="$classv8_1_1Persistent.html#a8e2ed22b54c0e2cfb72509c4facbd956" title=" " alt="" coords="198,5,320,31"/>
+<area shape="rect" id="node5" href="$classv8_1_1MaybeLocal.html#a65a04464148b88c629e5bcfa31423200" title=" " alt="" coords="187,55,331,80"/>
+<area shape="rect" id="node6" href="$classv8_1_1MaybeLocal.html#a9869255984427b843a0cb1b8417e1450" title=" " alt="" coords="5,55,139,80"/>
+</map>

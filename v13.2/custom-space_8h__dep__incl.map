@@ -1,0 +1,13 @@
+<map id="include/cppgc/custom&#45;space.h" name="include/cppgc/custom&#45;space.h">
+<area shape="rect" id="node1" title=" " alt="" coords="333,5,482,46"/>
+<area shape="rect" id="node2" href="$allocation_8h.html" title=" " alt="" coords="82,94,253,120"/>
+<area shape="rect" id="node4" href="$heap_8h.html" title=" " alt="" coords="281,94,424,120"/>
+<area shape="rect" id="node7" href="$visitor_8h.html" title=" " alt="" coords="154,345,304,371"/>
+<area shape="rect" id="node10" href="$v8-cppgc_8h.html" title=" " alt="" coords="433,419,563,444"/>
+<area shape="rect" id="node3" href="$explicit-management_8h.html" title=" " alt="" coords="92,168,237,208"/>
+<area shape="rect" id="node5" href="$liveness-broker_8h.html" title=" " alt="" coords="261,168,415,208"/>
+<area shape="rect" id="node6" href="$ephemeron-pair_8h.html" title=" " alt="" coords="5,256,175,297"/>
+<area shape="rect" id="node11" href="$prefinalizer_8h.html" title=" " alt="" coords="250,264,426,290"/>
+<area shape="rect" id="node8" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="160,492,297,533"/>
+<area shape="rect" id="node9" href="$persistent_8h.html" title=" " alt="" coords="205,419,378,444"/>
+</map>

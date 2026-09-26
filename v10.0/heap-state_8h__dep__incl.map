@@ -1,0 +1,15 @@
+<map id="include/cppgc/heap&#45;state.h" name="include/cppgc/heap&#45;state.h">
+<area shape="rect" id="node1" title=" " alt="" coords="87,5,220,46"/>
+<area shape="rect" id="node2" href="$write-barrier_8h.html" title=" " alt="" coords="80,94,227,135"/>
+<area shape="rect" id="node3" href="$heap-consistency_8h.html" title=" " alt="" coords="5,183,139,223"/>
+<area shape="rect" id="node4" href="$pointer-policies_8h.html" title=" " alt="" coords="162,183,310,223"/>
+<area shape="rect" id="node5" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="122,670,259,710"/>
+<area shape="rect" id="node6" href="$member_8h.html" title=" " alt="" coords="215,271,377,297"/>
+<area shape="rect" id="node8" href="$visitor_8h.html" title=" " alt="" coords="218,522,369,548"/>
+<area shape="rect" id="node9" href="$persistent_8h.html" title=" " alt="" coords="382,596,554,622"/>
+<area shape="rect" id="node7" href="$ephemeron-pair_8h.html" title=" " alt="" coords="251,434,421,474"/>
+<area shape="rect" id="node11" href="$liveness-broker_8h.html" title=" " alt="" coords="382,345,535,386"/>
+<area shape="rect" id="node10" href="$v8-cppgc_8h.html" title=" " alt="" coords="229,596,358,622"/>
+<area shape="rect" id="node12" href="$prefinalizer-handler_8h.html" title=" " alt="" coords="546,434,694,474"/>
+<area shape="rect" id="node13" href="$prefinalizer_8h.html" title=" " alt="" coords="469,522,646,548"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="include/cppgc/internal/logging.h" name="include/cppgc/internal/logging.h">
+<area shape="rect" id="node1" title=" " alt="" coords="437,5,584,46"/>
+<area shape="rect" id="node2" href="$explicit-management_8h.html" title=" " alt="" coords="25,271,170,312"/>
+<area shape="rect" id="node3" href="$base-page-handle_8h.html" title=" " alt="" coords="326,94,474,135"/>
+<area shape="rect" id="node5" href="$caged-heap-local-data_8h.html" title=" " alt="" coords="319,271,481,312"/>
+<area shape="rect" id="node6" href="$member-storage_8h.html" title=" " alt="" coords="505,271,652,312"/>
+<area shape="rect" id="node13" href="$visitor_8h.html" title=" " alt="" coords="414,707,565,733"/>
+<area shape="rect" id="node18" href="$gc-info_8h.html" title=" " alt="" coords="120,94,267,135"/>
+<area shape="rect" id="node20" href="$persistent-node_8h.html" title=" " alt="" coords="774,700,922,740"/>
+<area shape="rect" id="node4" href="$caged-heap_8h.html" title=" " alt="" coords="326,183,474,223"/>
+<area shape="rect" id="node17" href="$write-barrier_8h.html" title=" " alt="" coords="220,360,367,401"/>
+<area shape="rect" id="node7" href="$pointer-policies_8h.html" title=" " alt="" coords="450,449,598,489"/>
+<area shape="rect" id="node9" href="$member_8h.html" title=" " alt="" coords="263,537,425,563"/>
+<area shape="rect" id="node8" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="606,877,743,918"/>
+<area shape="rect" id="node14" href="$persistent_8h.html" title=" " alt="" coords="527,796,700,822"/>
+<area shape="rect" id="node10" href="$heap-consistency_8h.html" title=" " alt="" coords="5,611,139,652"/>
+<area shape="rect" id="node11" href="$liveness-broker_8h.html" title=" " alt="" coords="245,611,398,652"/>
+<area shape="rect" id="node15" href="$tagged-member_8h.html" title=" " alt="" coords="129,788,274,829"/>
+<area shape="rect" id="node12" href="$prefinalizer_8h.html" title=" " alt="" coords="213,707,390,733"/>
+<area shape="rect" id="node16" href="$v8-cppgc_8h.html" title=" " alt="" coords="322,796,451,822"/>
+<area shape="rect" id="node19" href="$allocation_8h.html" title=" " alt="" coords="74,190,244,216"/>
+</map>

@@ -1,0 +1,32 @@
+<map id="v8::IndirectHandleBase::slot" name="v8::IndirectHandleBase::slot">
+<area shape="rect" id="node1" title=" " alt="" coords="714,464,870,505"/>
+<area shape="rect" id="node2" href="$classv8_1_1PersistentValueVector.html#ad07f449c2004b4f3d91e58cabde99a53" title=" " alt="" coords="487,5,658,46"/>
+<area shape="rect" id="node3" href="$classv8_1_1PersistentValueMapBase.html#a7b083c75829bbc4177729ffe9827c4ac" title=" " alt="" coords="478,71,666,111"/>
+<area shape="rect" id="node8" href="$classv8_1_1EscapableHandleScope.html#a4985872a5963958a90e7b52dc9d53dcf" title=" " alt="" coords="483,201,662,242"/>
+<area shape="rect" id="node9" href="$classv8_1_1LocalBase.html#a729fa783418878bbb4c8468594934a80" title=" " alt="" coords="491,266,653,292"/>
+<area shape="rect" id="node10" href="$classv8_1_1Eternal.html#a2a615f9cdc8ae38d2380065488c2a397" title=" " alt="" coords="518,316,626,341"/>
+<area shape="rect" id="node11" href="$classv8_1_1TracedReferenceBase.html#a95770f73c3307fc6e2977cd22ac68866" title=" " alt="" coords="487,365,657,406"/>
+<area shape="rect" id="node14" href="$classv8_1_1PersistentValueMapBase.html#adacf68ca7b9fb19deab68711a70a8313" title=" " alt="" coords="478,431,666,471"/>
+<area shape="rect" id="node17" href="$classv8_1_1TracedReference.html#a37604b0cb2ec940aa603ee6b7e0a5bc1" title=" " alt="" coords="502,496,642,537"/>
+<area shape="rect" id="node18" href="$classv8_1_1PersistentValueMapBase.html#aea9af944a2bd71a3b6abd2a2e57788f1" title=" " alt="" coords="478,136,666,177"/>
+<area shape="rect" id="node22" href="$classv8_1_1PersistentValueMapBase.html#a5c16ace49c257f760c92a010a93b4884" title=" " alt="" coords="478,561,666,602"/>
+<area shape="rect" id="node23" href="$classv8_1_1TracedReferenceBase.html#a50c7297683f3c9864710ceca4aba546a" title=" " alt="" coords="251,647,421,687"/>
+<area shape="rect" id="node24" href="$classv8_1_1Eternal.html#a2f9dcec02b2c2f7d4b55aee0d8b9881a" title=" " alt="" coords="519,741,626,767"/>
+<area shape="rect" id="node25" href="$classv8_1_1TracedReferenceBase.html#af1bec2c9c7914446481eefa36e0846b5" title=" " alt="" coords="487,676,657,717"/>
+<area shape="rect" id="node26" href="$classv8_1_1TracedReferenceBase.html#a7ea40db9556e49ad7ee4a2dfb235b655" title=" " alt="" coords="487,791,657,831"/>
+<area shape="rect" id="node27" href="$classv8_1_1IndirectHandleBase.html#ad396a33809093159f9e20b4c147cb813" title=" " alt="" coords="495,856,650,897"/>
+<area shape="rect" id="node30" href="$classv8_1_1TracedReferenceBase.html#a0b7354f15b126d889414f603b5a7cb9c" title=" " alt="" coords="487,921,657,962"/>
+<area shape="rect" id="node4" href="$classv8_1_1PersistentValueMap.html#a69bb485985460550e40c08c7fe55f89c" title=" " alt="" coords="257,104,415,145"/>
+<area shape="rect" id="node6" href="$classv8_1_1GlobalValueMap.html#a5c9f97a40e657b8b0b334d25559f0a4d" title=" " alt="" coords="268,39,404,79"/>
+<area shape="rect" id="node5" href="$classv8_1_1PersistentValueMap.html#a8fa3188bf48c4f7eb75775fd8096473c" title=" " alt="" coords="7,112,192,137"/>
+<area shape="rect" id="node7" href="$classv8_1_1GlobalValueMap.html#a0d7262ce372fa6d930028103b1dfbd0f" title=" " alt="" coords="18,46,181,72"/>
+<area shape="rect" id="node12" href="$classv8_1_1TracedReferenceBase.html#af999bfa19acca2508138d165daf85a54" title=" " alt="" coords="251,365,421,406"/>
+<area shape="rect" id="node13" href="$classv8_1_1JSVisitor.html#a51abc4a3c285a5ea2df30835e6bebe2b" title=" " alt="" coords="33,373,166,399"/>
+<area shape="rect" id="node15" href="$classv8_1_1PersistentValueMap.html#a26b6fc1a387cb024b88b46c8d349deb6" title=" " alt="" coords="244,484,428,509"/>
+<area shape="rect" id="node16" href="$classv8_1_1GlobalValueMap.html#ada4d5e375c1ca1e2204def26df9f7cc0" title=" " alt="" coords="255,434,417,460"/>
+<area shape="rect" id="node19" href="$classv8_1_1PersistentValueMapBase.html#a1bf074e7a7c24713c9a3d40ddce89e74" title=" " alt="" coords="242,235,430,275"/>
+<area shape="rect" id="node21" href="$classv8_1_1PersistentValueMapBase.html#aec30275e7c81be16b447b2e842da03dc" title=" " alt="" coords="242,169,430,210"/>
+<area shape="rect" id="node20" href="$classv8_1_1PersistentValueMapBase.html#a558a88d9caba29448265225a1d780c1d" title=" " alt="" coords="5,235,194,275"/>
+<area shape="rect" id="node28" href="$classv8_1_1LocalBase.html#afa3765a9d9b97f9f2edc583639823e0b" title=" " alt="" coords="268,864,404,889"/>
+<area shape="rect" id="node29" href="$classv8_1_1LocalBase.html#a31a9bd49b7938c5ee451b24a048a06fc" title=" " alt="" coords="31,864,168,889"/>
+</map>
