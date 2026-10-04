@@ -1,0 +1,20 @@
+<map id="include/cppgc/common.h" name="include/cppgc/common.h">
+<area shape="rect" id="node1" title=" " alt="" coords="631,5,797,31"/>
+<area shape="rect" id="node2" href="$heap_8h.html" title=" " alt="" coords="302,87,446,112"/>
+<area shape="rect" id="node10" href="$v8-cppgc_8h.html" title=" " alt="" coords="381,434,511,459"/>
+<area shape="rect" id="node11" href="$testing_8h.html" title=" " alt="" coords="522,87,677,112"/>
+<area shape="rect" id="node12" href="$v8-callbacks_8h.html" title=" " alt="" coords="967,87,1117,112"/>
+<area shape="rect" id="node13" href="$v8-isolate_8h.html" title=" " alt="" coords="812,175,944,201"/>
+<area shape="rect" id="node15" href="$v8_8h.html" title=" " alt="" coords="720,353,810,378"/>
+<area shape="rect" id="node18" href="$v8-embedder-heap_8h.html" title=" " alt="" coords="802,79,943,120"/>
+<area shape="rect" id="node3" href="$prefinalizer-handler_8h.html" title=" " alt="" coords="300,256,448,297"/>
+<area shape="rect" id="node5" href="$liveness-broker_8h.html" title=" " alt="" coords="183,168,336,208"/>
+<area shape="rect" id="node4" href="$prefinalizer_8h.html" title=" " alt="" coords="271,353,448,378"/>
+<area shape="rect" id="node6" href="$ephemeron-pair_8h.html" title=" " alt="" coords="5,256,175,297"/>
+<area shape="rect" id="node7" href="$visitor_8h.html" title=" " alt="" coords="96,353,247,378"/>
+<area shape="rect" id="node8" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="103,507,240,548"/>
+<area shape="rect" id="node9" href="$persistent_8h.html" title=" " alt="" coords="148,434,320,459"/>
+<area shape="rect" id="node14" href="$v8-initialization_8h.html" title=" " alt="" coords="803,264,964,290"/>
+<area shape="rect" id="node16" href="$v8-inspector_8h.html" title=" " alt="" coords="988,264,1136,290"/>
+<area shape="rect" id="node17" href="$v8-inspector-protocol_8h.html" title=" " alt="" coords="993,345,1131,386"/>
+</map>

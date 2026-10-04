@@ -1,0 +1,20 @@
+<map id="include/cppgc/trace&#45;trait.h" name="include/cppgc/trace&#45;trait.h">
+<area shape="rect" id="node1" title=" " alt="" coords="610,5,744,46"/>
+<area shape="rect" id="node2" href="$garbage-collected_8h.html" title=" " alt="" coords="5,360,157,401"/>
+<area shape="rect" id="node3" href="$visitor_8h.html" title=" " alt="" coords="317,545,467,571"/>
+<area shape="rect" id="node7" href="$heap-consistency_8h.html" title=" " alt="" coords="748,183,881,223"/>
+<area shape="rect" id="node8" href="$gc-info_8h.html" title=" " alt="" coords="961,94,1108,135"/>
+<area shape="rect" id="node11" href="$persistent-node_8h.html" title=" " alt="" coords="901,537,1048,578"/>
+<area shape="rect" id="node12" href="$write-barrier_8h.html" title=" " alt="" coords="603,94,751,135"/>
+<area shape="rect" id="node16" href="$liveness-broker_8h.html" title=" " alt="" coords="464,360,618,401"/>
+<area shape="rect" id="node4" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="732,700,870,740"/>
+<area shape="rect" id="node5" href="$persistent_8h.html" title=" " alt="" coords="654,626,826,652"/>
+<area shape="rect" id="node6" href="$v8-cppgc_8h.html" title=" " alt="" coords="430,626,559,652"/>
+<area shape="rect" id="node9" href="$allocation_8h.html" title=" " alt="" coords="956,190,1126,216"/>
+<area shape="rect" id="node10" href="$explicit-management_8h.html" title=" " alt="" coords="968,271,1114,312"/>
+<area shape="rect" id="node13" href="$pointer-policies_8h.html" title=" " alt="" coords="577,183,724,223"/>
+<area shape="rect" id="node14" href="$member_8h.html" title=" " alt="" coords="339,279,501,305"/>
+<area shape="rect" id="node15" href="$ephemeron-pair_8h.html" title=" " alt="" coords="334,449,503,489"/>
+<area shape="rect" id="node17" href="$prefinalizer-handler_8h.html" title=" " alt="" coords="629,449,776,489"/>
+<area shape="rect" id="node18" href="$prefinalizer_8h.html" title=" " alt="" coords="532,545,708,571"/>
+</map>

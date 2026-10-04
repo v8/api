@@ -1,0 +1,22 @@
+<map id="include/cppgc/internal/api&#45;constants.h" name="include/cppgc/internal/api&#45;constants.h">
+<area shape="rect" id="node1" title=" " alt="" coords="522,5,669,46"/>
+<area shape="rect" id="node2" href="$allocation_8h.html" title=" " alt="" coords="15,102,185,127"/>
+<area shape="rect" id="node4" href="$garbage-collected_8h.html" title=" " alt="" coords="5,360,157,401"/>
+<area shape="rect" id="node9" href="$base-page-handle_8h.html" title=" " alt="" coords="853,94,1000,135"/>
+<area shape="rect" id="node10" href="$caged-heap_8h.html" title=" " alt="" coords="934,183,1081,223"/>
+<area shape="rect" id="node11" href="$caged-heap-local-data_8h.html" title=" " alt="" coords="947,271,1109,312"/>
+<area shape="rect" id="node12" href="$write-barrier_8h.html" title=" " alt="" coords="633,271,780,312"/>
+<area shape="rect" id="node15" href="$member_8h.html" title=" " alt="" coords="268,449,430,474"/>
+<area shape="rect" id="node19" href="$member-storage_8h.html" title=" " alt="" coords="361,183,508,223"/>
+<area shape="rect" id="node20" href="$sentinel-pointer_8h.html" title=" " alt="" coords="521,94,671,135"/>
+<area shape="rect" id="node3" href="$explicit-management_8h.html" title=" " alt="" coords="27,183,172,223"/>
+<area shape="rect" id="node5" href="$visitor_8h.html" title=" " alt="" coords="339,700,490,725"/>
+<area shape="rect" id="node6" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="686,847,823,888"/>
+<area shape="rect" id="node7" href="$persistent_8h.html" title=" " alt="" coords="792,773,965,799"/>
+<area shape="rect" id="node8" href="$v8-cppgc_8h.html" title=" " alt="" coords="452,773,582,799"/>
+<area shape="rect" id="node13" href="$heap-consistency_8h.html" title=" " alt="" coords="494,522,628,563"/>
+<area shape="rect" id="node14" href="$pointer-policies_8h.html" title=" " alt="" coords="683,360,831,401"/>
+<area shape="rect" id="node16" href="$ephemeron-pair_8h.html" title=" " alt="" coords="207,611,376,652"/>
+<area shape="rect" id="node17" href="$liveness-broker_8h.html" title=" " alt="" coords="316,522,470,563"/>
+<area shape="rect" id="node18" href="$prefinalizer_8h.html" title=" " alt="" coords="452,619,628,644"/>
+</map>

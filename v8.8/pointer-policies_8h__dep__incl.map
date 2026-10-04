@@ -1,0 +1,12 @@
+<map id="include/cppgc/internal/pointer&#45;policies.h" name="include/cppgc/internal/pointer&#45;policies.h">
+<area shape="rect" id="node1" title=" " alt="" coords="351,5,498,46"/>
+<area shape="rect" id="node2" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="344,419,481,459"/>
+<area shape="rect" id="node3" href="$member_8h.html" title=" " alt="" coords="220,94,383,120"/>
+<area shape="rect" id="node5" href="$visitor_8h.html" title=" " alt="" coords="288,264,438,290"/>
+<area shape="rect" id="node6" href="$persistent_8h.html" title=" " alt="" coords="450,345,622,371"/>
+<area shape="rect" id="node4" href="$ephemeron-pair_8h.html" title=" " alt="" coords="278,168,448,208"/>
+<area shape="rect" id="node8" href="$liveness-broker_8h.html" title=" " alt="" coords="49,168,202,208"/>
+<area shape="rect" id="node7" href="$v8-cppgc_8h.html" title=" " alt="" coords="245,345,374,371"/>
+<area shape="rect" id="node9" href="$prefinalizer-handler_8h.html" title=" " alt="" coords="48,256,195,297"/>
+<area shape="rect" id="node10" href="$prefinalizer_8h.html" title=" " alt="" coords="44,345,220,371"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="include/cppgc/liveness&#45;broker.h" name="include/cppgc/liveness&#45;broker.h">
+<area shape="rect" id="node1" title=" " alt="" coords="191,5,344,46"/>
+<area shape="rect" id="node2" href="$ephemeron-pair_8h.html" title=" " alt="" coords="5,94,175,135"/>
+<area shape="rect" id="node3" href="$visitor_8h.html" title=" " alt="" coords="87,183,237,208"/>
+<area shape="rect" id="node7" href="$prefinalizer-handler_8h.html" title=" " alt="" coords="250,94,397,135"/>
+<area shape="rect" id="node8" href="$prefinalizer_8h.html" title=" " alt="" coords="285,183,461,208"/>
+<area shape="rect" id="node4" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="31,330,168,371"/>
+<area shape="rect" id="node5" href="$persistent_8h.html" title=" " alt="" coords="76,256,248,282"/>
+<area shape="rect" id="node6" href="$v8-cppgc_8h.html" title=" " alt="" coords="272,256,401,282"/>
+</map>
