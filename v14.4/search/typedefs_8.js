@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['identifier_0',['Identifier',['../classv8_1_1CTypeInfo.html#af25ff301192ac9ad65037573faae76cc',1,'v8::CTypeInfo']]],
+  ['idletask_1',['IdleTask',['../namespacecppgc.html#a143d9c80b75359741a127067b07e5b59',1,'cppgc']]],
+  ['idletasksupport_2',['IdleTaskSupport',['../classcppgc_1_1DefaultPlatform.html#ade8c2e9d68c5663450565e597a45e196',1,'cppgc::DefaultPlatform']]],
+  ['impl_3',['Impl',['../classv8_1_1StdMapTraits.html#ac64cb78b3ef5cfbc35cf03837552e4ea',1,'v8::StdMapTraits']]],
+  ['indexedpropertydefinercallbackv2_4',['IndexedPropertyDefinerCallbackV2',['../namespacev8.html#a826f3ecec624f3c5df0cead456228253',1,'v8']]],
+  ['indexedpropertydeletercallbackv2_5',['IndexedPropertyDeleterCallbackV2',['../namespacev8.html#a86f8ea750894e07c2425411da628478c',1,'v8']]],
+  ['indexedpropertydescriptorcallbackv2_6',['IndexedPropertyDescriptorCallbackV2',['../namespacev8.html#ac8314cd4e7261f7f40669ff605915c41',1,'v8']]],
+  ['indexedpropertyenumeratorcallback_7',['IndexedPropertyEnumeratorCallback',['../namespacev8.html#a9c46c32d17344eb77a17268862c25773',1,'v8']]],
+  ['indexedpropertygettercallbackv2_8',['IndexedPropertyGetterCallbackV2',['../namespacev8.html#ad90f45ab1bf1acafc5b4d52f5eea50f8',1,'v8']]],
+  ['indexedpropertyquerycallbackv2_9',['IndexedPropertyQueryCallbackV2',['../namespacev8.html#aedb0bdb5be3e7b27966ea7f94033e132',1,'v8']]],
+  ['indexedpropertysettercallbackv2_10',['IndexedPropertySetterCallbackV2',['../namespacev8.html#a34e92a967f94dd388ba79b802318bb23',1,'v8']]],
+  ['indirectpointerhandle_11',['IndirectPointerHandle',['../namespacev8_1_1internal.html#a54c20f5dfc8e7939a3b11dbe2584a1b9',1,'v8::internal']]],
+  ['integraltype_12',['IntegralType',['../classcppgc_1_1internal_1_1RawPointer.html#ac6aad5a19f5a24400d18d82815346037',1,'cppgc::internal::RawPointer']]],
+  ['internalrepresentationtype_13',['InternalRepresentationType',['../classv8_1_1internal_1_1ValueHelper.html#a6096285aceda98b982602894043a4fbd',1,'v8::internal::ValueHelper']]],
+  ['interruptcallback_14',['InterruptCallback',['../namespacev8.html#a77f4f48839bdd54ba1f9f2316d0130b4',1,'v8']]],
+  ['isdisallownewmarker_15',['IsDisallowNewMarker',['../structcppgc_1_1EphemeronPair.html#a5d3741e2188a2d260061217153ba8b2b',1,'cppgc::EphemeronPair::IsDisallowNewMarker()'],['../classcppgc_1_1subtle_1_1TaggedUncompressedMember.html#a738cd5e11fc505d8fb6125e924927ca7',1,'cppgc::subtle::TaggedUncompressedMember::IsDisallowNewMarker()']]],
+  ['isgarbagecollectedmixintypemarker_16',['IsGarbageCollectedMixinTypeMarker',['../classcppgc_1_1GarbageCollectedMixin.html#a0921c015c8f85abd0adc0cc42335f81c',1,'cppgc::GarbageCollectedMixin']]],
+  ['isgarbagecollectedtypemarker_17',['IsGarbageCollectedTypeMarker',['../classcppgc_1_1GarbageCollected.html#a41d7c4bb58217f40e602ce09942647a9',1,'cppgc::GarbageCollected']]],
+  ['isjsapiwrappernativeerrorcallback_18',['IsJSApiWrapperNativeErrorCallback',['../namespacev8.html#aeec158358c1b6e91a4df46fc98683839',1,'v8']]],
+  ['isstrongpersistent_19',['IsStrongPersistent',['../structcppgc_1_1internal_1_1WeakCrossThreadPersistentPolicy.html#ad82c3a1cabcf49510e3eb7031fe34849',1,'cppgc::internal::WeakCrossThreadPersistentPolicy::IsStrongPersistent()'],['../structcppgc_1_1internal_1_1StrongCrossThreadPersistentPolicy.html#ad91a68c2cc8d1553566284e6bf79978d',1,'cppgc::internal::StrongCrossThreadPersistentPolicy::IsStrongPersistent()'],['../structcppgc_1_1internal_1_1WeakPersistentPolicy.html#a05eccf9609f350657886d2a5442c00a3',1,'cppgc::internal::WeakPersistentPolicy::IsStrongPersistent()'],['../structcppgc_1_1internal_1_1StrongPersistentPolicy.html#a70fed81eab0af0d0bb1988bda01711eb',1,'cppgc::internal::StrongPersistentPolicy::IsStrongPersistent()']]],
+  ['iterationcallback_20',['IterationCallback',['../classv8_1_1Array.html#adfd46ea5e610d3511ea6013f2d15df44',1,'v8::Array']]],
+  ['iterator_21',['iterator',['../classv8_1_1LocalVector.html#a3b302c02ddae9ff002ee1133eb5cbed3',1,'v8::LocalVector']]],
+  ['iterator_22',['Iterator',['../classv8_1_1StdMapTraits.html#ad20ef2022e83bfba6dcee23a2a34098e',1,'v8::StdMapTraits']]],
+  ['iterator_5fcategory_23',['iterator_category',['../classv8_1_1MemorySpan_1_1Iterator.html#a3ca0cd11f01ad492d6243307c64002c2',1,'v8::MemorySpan::Iterator::iterator_category()'],['../classv8_1_1internal_1_1WrappedIterator.html#a903ad8a77747b98121b51491c6b1da8b',1,'v8::internal::WrappedIterator::iterator_category()']]],
+  ['iterator_5fconcept_24',['iterator_concept',['../classv8_1_1MemorySpan_1_1Iterator.html#a7eb3b029e6d932a4f9dddd43a73d7f2e',1,'v8::MemorySpan::Iterator::iterator_concept()'],['../structv8_1_1internal_1_1MaybeDefineIteratorConcept_3_01Iterator_01_4.html#af1d50d1afc57f560f24b6877b33aba20',1,'v8::internal::MaybeDefineIteratorConcept&lt; Iterator &gt;::iterator_concept()'],['../structv8_1_1internal_1_1MaybeDefineIteratorConcept_3_01Iterator_01_4.html#ace83f3ae3cfa8296a73f3dfc0b1ac704',1,'v8::internal::MaybeDefineIteratorConcept&lt; Iterator &gt;::iterator_concept()']]]
+];

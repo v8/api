@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['identifier_0',['Identifier',['../classv8_1_1CTypeInfo.html#af25ff301192ac9ad65037573faae76cc',1,'v8::CTypeInfo']]],
+  ['idletask_1',['IdleTask',['../namespacecppgc.html#a143d9c80b75359741a127067b07e5b59',1,'cppgc']]],
+  ['idletasksupport_2',['IdleTaskSupport',['../classcppgc_1_1DefaultPlatform.html#ade8c2e9d68c5663450565e597a45e196',1,'cppgc::DefaultPlatform']]],
+  ['impl_3',['Impl',['../classv8_1_1StdMapTraits.html#ac64cb78b3ef5cfbc35cf03837552e4ea',1,'v8::StdMapTraits::Impl()'],['../classv8_1_1DefaultPersistentValueVectorTraits.html#ac5093f7deea6cfc8672c529be4afdef4',1,'v8::DefaultPersistentValueVectorTraits::Impl()']]],
+  ['indexedpropertydefinercallback_4',['IndexedPropertyDefinerCallback',['../namespacev8.html#a20c8e5f931b3030cda1a01080efdc6ae',1,'v8']]],
+  ['indexedpropertydeletercallback_5',['IndexedPropertyDeleterCallback',['../namespacev8.html#a2f0598141d5d97a9a50c81cfde25b6b6',1,'v8']]],
+  ['indexedpropertydescriptorcallback_6',['IndexedPropertyDescriptorCallback',['../namespacev8.html#a57e6ba6fb48d9b8d9b3e91419a404126',1,'v8']]],
+  ['indexedpropertyenumeratorcallback_7',['IndexedPropertyEnumeratorCallback',['../namespacev8.html#a9c46c32d17344eb77a17268862c25773',1,'v8']]],
+  ['indexedpropertygettercallback_8',['IndexedPropertyGetterCallback',['../namespacev8.html#a870ddb5b01cc619ea333af3cc0f083d8',1,'v8']]],
+  ['indexedpropertyquerycallback_9',['IndexedPropertyQueryCallback',['../namespacev8.html#a044cb0a4d48f6665d2635885c23e353e',1,'v8']]],
+  ['indexedpropertysettercallback_10',['IndexedPropertySetterCallback',['../namespacev8.html#a27e478360302fea30592acb64a6b748a',1,'v8']]],
+  ['indirectpointerhandle_11',['IndirectPointerHandle',['../namespacev8_1_1internal.html#a54c20f5dfc8e7939a3b11dbe2584a1b9',1,'v8::internal']]],
+  ['integraltype_12',['IntegralType',['../classcppgc_1_1internal_1_1RawPointer.html#ac6aad5a19f5a24400d18d82815346037',1,'cppgc::internal::RawPointer']]],
+  ['internalfieldindex_13',['InternalFieldIndex',['../structv8_1_1WrapperDescriptor.html#ab7a7ed90565e58f11cc428d8a4c60613',1,'v8::WrapperDescriptor']]],
+  ['interruptcallback_14',['InterruptCallback',['../namespacev8.html#a77f4f48839bdd54ba1f9f2316d0130b4',1,'v8']]],
+  ['isgarbagecollectedmixintypemarker_15',['IsGarbageCollectedMixinTypeMarker',['../classcppgc_1_1GarbageCollectedMixin.html#a0921c015c8f85abd0adc0cc42335f81c',1,'cppgc::GarbageCollectedMixin']]],
+  ['isgarbagecollectedtypemarker_16',['IsGarbageCollectedTypeMarker',['../classcppgc_1_1GarbageCollected.html#a41d7c4bb58217f40e602ce09942647a9',1,'cppgc::GarbageCollected']]],
+  ['isstrongpersistent_17',['IsStrongPersistent',['../structcppgc_1_1internal_1_1WeakCrossThreadPersistentPolicy.html#ad82c3a1cabcf49510e3eb7031fe34849',1,'cppgc::internal::WeakCrossThreadPersistentPolicy::IsStrongPersistent()'],['../structcppgc_1_1internal_1_1StrongCrossThreadPersistentPolicy.html#ad91a68c2cc8d1553566284e6bf79978d',1,'cppgc::internal::StrongCrossThreadPersistentPolicy::IsStrongPersistent()'],['../structcppgc_1_1internal_1_1WeakPersistentPolicy.html#a05eccf9609f350657886d2a5442c00a3',1,'cppgc::internal::WeakPersistentPolicy::IsStrongPersistent()'],['../structcppgc_1_1internal_1_1StrongPersistentPolicy.html#a70fed81eab0af0d0bb1988bda01711eb',1,'cppgc::internal::StrongPersistentPolicy::IsStrongPersistent()']]],
+  ['iterator_18',['Iterator',['../classv8_1_1StdMapTraits.html#ad20ef2022e83bfba6dcee23a2a34098e',1,'v8::StdMapTraits']]]
+];
