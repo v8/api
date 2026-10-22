@@ -36,12 +36,11 @@ jobs:
       - name: Checkout API repo
         uses: actions/checkout@v2
       - name: Restore cached doc SHAs
-        uses: actions/cache@v4
-        with:
-          path: dist/*/.sha
-          key: dist-${{ hashFiles('dist/*/.sha') }}
-          restore-keys: |
-            dist-
+        run: |
+          git clone --depth=1 --filter=blob:none --no-checkout --branch=gh-pages https://github.com/${{ github.repository }}.git dist
+          git -C dist sparse-checkout set --no-cone '/*/.sha'
+          git -C dist checkout
+          rm -rf dist/.git
       - name: Build docs
         run: |
           python update.py
@@ -49,7 +48,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
           single-commit: true
-          base-branch: main
+          clean: false
           branch: gh-pages
           folder: dist
           git-config-name: V8 API docs updater

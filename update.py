@@ -37,21 +37,23 @@ DOXYFILE_PATH = ROOT_DIR / 'Doxyfile'
 
 step(f'Update V8 checkout in: {GIT_DIR}')
 if not GIT_DIR.exists():
-    run('git', 'clone', 'https://chromium.googlesource.com/v8/v8', GIT_DIR)
-git('fetch', '--all')
+    GIT_DIR.mkdir()
+    git('init')
+    git('remote', 'add', 'origin', 'https://chromium.googlesource.com/v8/v8')
+git('sparse-checkout', 'set', '--no-cone', '/include', '/samples')
 
 step('List branches')
 if len(sys.argv) == 1:
-  NAMES = ['refs/remotes/origin/*-lkgr', 'refs/remotes/origin/lkgr']
+  NAMES = ['refs/heads/*-lkgr', 'refs/heads/lkgr']
 else:
   NAMES = [
-    'refs/remotes/origin/lkgr' if name == "head" else f'refs/remotes/origin/{name}-lkgr'
+    'refs/heads/lkgr' if name == "head" else f'refs/heads/{name}-lkgr'
     for name in sys.argv[1:]
   ]
 
-BRANCHES = git('for-each-ref', *NAMES, '--format=%(refname:strip=3) %(objectname)', capture=True).rstrip().split("\n")
-BRANCHES = [ref.split(' ') for ref in BRANCHES]
-BRANCHES = [(branch.split('-')[0], sha) for branch,sha in BRANCHES]
+BRANCHES = git('ls-remote', '--heads', 'origin', *NAMES, capture=True).rstrip().split("\n")
+BRANCHES = [ref.split('\t') for ref in BRANCHES if ref]
+BRANCHES = [(ref.split('/')[-1].split('-')[0], sha) for sha, ref in BRANCHES]
 
 # Sort branches from old to new:
 BRANCHES.sort(key=lambda branch_and_sha: (float("inf"),) if branch_and_sha[0] == 'lkgr' else tuple(map(int, branch_and_sha[0].split('.'))))
@@ -92,8 +94,7 @@ for branch,sha in BRANCHES:
         step(f'Docs already up-to-date.')
         continue
 
-    stamp.write_text(sha)
-
+    git('fetch', '--depth=1', '--no-tags', 'origin', sha)
     git('switch', '--force', '--detach', sha)
     git('clean', '--force', '-d')
 
@@ -103,3 +104,4 @@ for branch,sha in BRANCHES:
         HTML_OUTPUT={os.path.abspath(branch_dir)}
     """
     run('doxygen', '-', cwd=GIT_DIR, input=doxyfile_data.encode('utf-8'))
+    stamp.write_text(sha)
