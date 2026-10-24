@@ -1,0 +1,13 @@
+<map id="cppgc::internal::PersistentNode::IsUsed" name="cppgc::internal::PersistentNode::IsUsed">
+<area shape="rect" id="node1" title=" " alt="" coords="725,153,895,194"/>
+<area shape="rect" id="node2" href="$classcppgc_1_1internal_1_1PersistentNode.html#a7d35e57a8fd60e0d42222cd8d93c2942" title=" " alt="" coords="284,5,453,46"/>
+<area shape="rect" id="node3" href="$classcppgc_1_1internal_1_1PersistentRegionBase.html#a9fc67e16f7b15ed5a955ec0b2595b640" title=" " alt="" coords="5,55,229,111"/>
+<area shape="rect" id="node4" href="$classcppgc_1_1internal_1_1PersistentRegionBase.html#ad3e7414b3ec38e040455588bef04d263" title=" " alt="" coords="508,120,677,161"/>
+<area shape="rect" id="node5" href="$classcppgc_1_1internal_1_1PersistentNode.html#ad50ff2c6d54004b92ec8c2d92455f17b" title=" " alt="" coords="508,185,677,226"/>
+<area shape="rect" id="node7" href="$classcppgc_1_1internal_1_1PersistentNode.html#a1ca2104547bd2139cb56233c575a38f9" title=" " alt="" coords="284,221,453,262"/>
+<area shape="rect" id="node11" href="$classcppgc_1_1internal_1_1PersistentNode.html#abad2492c5f2fd83b81597b0cb321a770" title=" " alt="" coords="508,300,677,341"/>
+<area shape="rect" id="node6" href="$classcppgc_1_1internal_1_1PersistentNode.html#a18c4a9bce10409fd47e53cc0cdf8acab" title=" " alt="" coords="277,137,460,178"/>
+<area shape="rect" id="node8" href="$classcppgc_1_1internal_1_1BasicPersistent.html#abbfbd78f28338f9391df14a80498fe87" title=" " alt="" coords="16,156,218,197"/>
+<area shape="rect" id="node9" href="$classcppgc_1_1internal_1_1BasicCrossThreadPersistent.html#a495e434ac092107ddb112715a863274c" title=" " alt="" coords="26,221,208,262"/>
+<area shape="rect" id="node10" href="$classcppgc_1_1internal_1_1BasicPersistent.html#a64bd8cc47feea777f916b4c9e1272f70" title=" " alt="" coords="16,287,218,327"/>
+</map>
