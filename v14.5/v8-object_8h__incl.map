@@ -1,0 +1,48 @@
+<map id="include/v8&#45;object.h" name="include/v8&#45;object.h">
+<area shape="rect" id="node1" title=" " alt="" coords="1712,5,1841,31"/>
+<area shape="rect" id="node2" href="$garbage-collected_8h.html" title=" " alt="" coords="488,300,660,326"/>
+<area shape="rect" id="node6" href="$v8config_8h.html" title=" " alt="" coords="1184,625,1263,650"/>
+<area shape="rect" id="node23" href="$name-provider_8h.html" title=" " alt="" coords="2770,153,2922,178"/>
+<area shape="rect" id="node24" href="$v8-internal_8h.html" title=" " alt="" coords="2087,462,2178,488"/>
+<area shape="rect" id="node31" href="$v8-local-handle_8h.html" title=" " alt="" coords="1568,300,1687,326"/>
+<area shape="rect" id="node34" href="$v8-maybe_8h.html" title=" " alt="" coords="1148,300,1235,326"/>
+<area shape="rect" id="node38" href="$v8-persistent-handle_8h.html" title=" " alt="" coords="1339,226,1487,252"/>
+<area shape="rect" id="node41" href="$v8-primitive_8h.html" title=" " alt="" coords="1578,79,1677,105"/>
+<area shape="rect" id="node43" href="$v8-value_8h.html" title=" " alt="" coords="1659,153,1740,178"/>
+<area shape="rect" id="node44" href="$v8-sandbox_8h.html" title=" " alt="" coords="1896,381,1993,407"/>
+<area shape="rect" id="node45" href="$v8-traced-handle_8h.html" title=" " alt="" coords="1862,226,1990,252"/>
+<area shape="rect" id="node3" href="$api-constants_8h.html" title=" " alt="" coords="524,374,648,414"/>
+<area shape="rect" id="node8" href="$platform_8h.html" title=" " alt="" coords="378,381,495,407"/>
+<area shape="rect" id="node19" href="$trace-trait_8h.html" title=" " alt="" coords="930,381,1055,407"/>
+<area shape="rect" id="node21" href="$type-traits_8h.html" title=" " alt="" coords="880,462,1007,488"/>
+<area shape="rect" id="node4" title=" " alt="" coords="741,625,805,650"/>
+<area shape="rect" id="node5" title=" " alt="" coords="1475,462,1535,488"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1190,698,1257,724"/>
+<area shape="rect" id="node9" href="$source-location_8h.html" title=" " alt="" coords="144,462,303,488"/>
+<area shape="rect" id="node13" href="$v8-platform_8h.html" title=" " alt="" coords="389,462,485,488"/>
+<area shape="rect" id="node10" href="$v8-source-location_8h.html" title=" " alt="" coords="92,544,229,569"/>
+<area shape="rect" id="node11" title=" " alt="" coords="118,625,230,650"/>
+<area shape="rect" id="node12" title=" " alt="" coords="41,625,94,650"/>
+<area shape="rect" id="node14" title=" " alt="" coords="253,544,314,569"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1672,544,1740,569"/>
+<area shape="rect" id="node16" title=" " alt="" coords="1764,544,1827,569"/>
+<area shape="rect" id="node17" title=" " alt="" coords="338,544,400,569"/>
+<area shape="rect" id="node18" title=" " alt="" coords="778,544,845,569"/>
+<area shape="rect" id="node20" title=" " alt="" coords="1345,544,1427,569"/>
+<area shape="rect" id="node22" title=" " alt="" coords="919,544,970,569"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1953,544,2016,569"/>
+<area shape="rect" id="node26" title=" " alt="" coords="2449,544,2510,569"/>
+<area shape="rect" id="node27" title=" " alt="" coords="2041,544,2112,569"/>
+<area shape="rect" id="node28" title=" " alt="" coords="2137,544,2211,569"/>
+<area shape="rect" id="node29" title=" " alt="" coords="2235,544,2297,569"/>
+<area shape="rect" id="node30" title=" " alt="" coords="2321,544,2374,569"/>
+<area shape="rect" id="node32" title=" " alt="" coords="1611,381,1668,407"/>
+<area shape="rect" id="node33" href="$v8-handle-base_8h.html" title=" " alt="" coords="2170,381,2290,407"/>
+<area shape="rect" id="node35" href="$conditional-stack-allocated_8h.html" title=" " alt="" coords="1079,374,1248,414"/>
+<area shape="rect" id="node36" href="$macros_8h.html" title=" " alt="" coords="1133,462,1247,488"/>
+<area shape="rect" id="node37" href="$compiler-specific_8h.html" title=" " alt="" coords="1146,536,1301,577"/>
+<area shape="rect" id="node39" href="$v8-weak-callback-info_8h.html" title=" " alt="" coords="1337,300,1494,326"/>
+<area shape="rect" id="node40" title=" " alt="" coords="1373,381,1434,407"/>
+<area shape="rect" id="node42" href="$v8-data_8h.html" title=" " alt="" coords="1512,226,1586,252"/>
+<area shape="rect" id="node46" title=" " alt="" coords="2332,300,2392,326"/>
+</map>

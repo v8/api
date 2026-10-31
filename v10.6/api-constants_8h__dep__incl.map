@@ -1,0 +1,21 @@
+<map id="include/cppgc/internal/api&#45;constants.h" name="include/cppgc/internal/api&#45;constants.h">
+<area shape="rect" id="node1" title=" " alt="" coords="420,5,567,46"/>
+<area shape="rect" id="node2" href="$allocation_8h.html" title=" " alt="" coords="5,102,176,127"/>
+<area shape="rect" id="node4" href="$garbage-collected_8h.html" title=" " alt="" coords="523,360,674,401"/>
+<area shape="rect" id="node9" href="$base-page-handle_8h.html" title=" " alt="" coords="657,94,804,135"/>
+<area shape="rect" id="node10" href="$caged-heap_8h.html" title=" " alt="" coords="606,183,754,223"/>
+<area shape="rect" id="node11" href="$caged-heap-local-data_8h.html" title=" " alt="" coords="577,271,740,312"/>
+<area shape="rect" id="node12" href="$member-storage_8h.html" title=" " alt="" coords="218,94,366,135"/>
+<area shape="rect" id="node14" href="$member_8h.html" title=" " alt="" coords="169,368,332,393"/>
+<area shape="rect" id="node19" href="$write-barrier_8h.html" title=" " alt="" coords="284,183,431,223"/>
+<area shape="rect" id="node3" href="$explicit-management_8h.html" title=" " alt="" coords="13,183,158,223"/>
+<area shape="rect" id="node5" href="$visitor_8h.html" title=" " alt="" coords="230,626,380,652"/>
+<area shape="rect" id="node6" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="62,773,199,814"/>
+<area shape="rect" id="node7" href="$persistent_8h.html" title=" " alt="" coords="44,700,217,725"/>
+<area shape="rect" id="node8" href="$v8-cppgc_8h.html" title=" " alt="" coords="241,700,370,725"/>
+<area shape="rect" id="node13" href="$pointer-policies_8h.html" title=" " alt="" coords="61,271,208,312"/>
+<area shape="rect" id="node15" href="$ephemeron-pair_8h.html" title=" " alt="" coords="221,537,390,578"/>
+<area shape="rect" id="node16" href="$heap-consistency_8h.html" title=" " alt="" coords="459,449,592,489"/>
+<area shape="rect" id="node17" href="$liveness-broker_8h.html" title=" " alt="" coords="281,449,434,489"/>
+<area shape="rect" id="node18" href="$prefinalizer_8h.html" title=" " alt="" coords="414,545,591,571"/>
+</map>
