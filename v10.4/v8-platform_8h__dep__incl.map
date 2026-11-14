@@ -1,0 +1,23 @@
+<map id="include/v8&#45;platform.h" name="include/v8&#45;platform.h">
+<area shape="rect" id="node1" title=" " alt="" coords="729,5,870,31"/>
+<area shape="rect" id="node2" href="$platform_8h.html" title=" " alt="" coords="429,87,592,112"/>
+<area shape="rect" id="node8" href="$v8-cppgc_8h.html" title=" " alt="" coords="830,670,959,695"/>
+<area shape="rect" id="node18" href="$libplatform_8h.html" title=" " alt="" coords="683,168,810,208"/>
+<area shape="rect" id="node19" href="$v8-tracing_8h.html" title=" " alt="" coords="637,79,763,120"/>
+<area shape="rect" id="node20" href="$v8-initialization_8h.html" title=" " alt="" coords="888,87,1050,112"/>
+<area shape="rect" id="node3" href="$default-platform_8h.html" title=" " alt="" coords="652,256,796,297"/>
+<area shape="rect" id="node4" href="$garbage-collected_8h.html" title=" " alt="" coords="5,419,157,459"/>
+<area shape="rect" id="node9" href="$heap_8h.html" title=" " alt="" coords="524,345,667,371"/>
+<area shape="rect" id="node13" href="$caged-heap-local-data_8h.html" title=" " alt="" coords="225,168,388,208"/>
+<area shape="rect" id="node14" href="$write-barrier_8h.html" title=" " alt="" coords="411,168,559,208"/>
+<area shape="rect" id="node5" href="$visitor_8h.html" title=" " alt="" coords="287,596,438,622"/>
+<area shape="rect" id="node6" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="356,743,494,784"/>
+<area shape="rect" id="node7" href="$persistent_8h.html" title=" " alt="" coords="215,670,387,695"/>
+<area shape="rect" id="node10" href="$liveness-broker_8h.html" title=" " alt="" coords="519,419,672,459"/>
+<area shape="rect" id="node11" href="$ephemeron-pair_8h.html" title=" " alt="" coords="334,507,503,548"/>
+<area shape="rect" id="node12" href="$prefinalizer_8h.html" title=" " alt="" coords="528,515,704,541"/>
+<area shape="rect" id="node15" href="$heap-consistency_8h.html" title=" " alt="" coords="421,256,554,297"/>
+<area shape="rect" id="node16" href="$pointer-policies_8h.html" title=" " alt="" coords="250,256,397,297"/>
+<area shape="rect" id="node17" href="$member_8h.html" title=" " alt="" coords="315,345,477,371"/>
+<area shape="rect" id="node21" href="$v8_8h.html" title=" " alt="" coords="924,175,1014,201"/>
+</map>

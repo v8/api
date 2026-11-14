@@ -1,0 +1,5 @@
+<map id="v8::JSHeapConsistency::GetWriteBarrierType" name="v8::JSHeapConsistency::GetWriteBarrierType">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,165,54"/>
+<area shape="rect" id="node2" href="$classcppgc_1_1internal_1_1WriteBarrier.html#ab872fde4c5288902396a3af191348c19" title=" " alt="" coords="213,5,431,61"/>
+<area shape="rect" id="node3" href="$classcppgc_1_1internal_1_1WriteBarrierTypeForNonCagedHeapPolicy.html#a08dae36486196249545a4930e9f25ee2" title=" " alt="" coords="479,5,674,61"/>
+</map>

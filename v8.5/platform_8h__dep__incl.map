@@ -1,0 +1,12 @@
+<map id="include/cppgc/platform.h" name="include/cppgc/platform.h">
+<area shape="rect" id="node1" title=" " alt="" coords="275,5,437,31"/>
+<area shape="rect" id="node2" href="$garbage-collected_8h.html" title=" " alt="" coords="108,79,260,120"/>
+<area shape="rect" id="node6" href="$heap_8h.html" title=" " alt="" coords="284,87,428,112"/>
+<area shape="rect" id="node10" href="$caged-heap-local-data_8h.html" title=" " alt="" coords="452,79,614,120"/>
+<area shape="rect" id="node3" href="$allocation_8h.html" title=" " alt="" coords="5,175,176,201"/>
+<area shape="rect" id="node4" href="$visitor_8h.html" title=" " alt="" coords="139,264,290,290"/>
+<area shape="rect" id="node5" href="$persistent_8h.html" title=" " alt="" coords="128,345,301,371"/>
+<area shape="rect" id="node7" href="$prefinalizer-handler_8h.html" title=" " alt="" coords="365,256,512,297"/>
+<area shape="rect" id="node9" href="$liveness-broker_8h.html" title=" " alt="" coords="251,168,405,208"/>
+<area shape="rect" id="node8" href="$prefinalizer_8h.html" title=" " alt="" coords="337,345,513,371"/>
+</map>
