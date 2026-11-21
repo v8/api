@@ -1,0 +1,12 @@
+<map id="include/cppgc/internal/write&#45;barrier.h" name="include/cppgc/internal/write&#45;barrier.h">
+<area shape="rect" id="node1" title=" " alt="" coords="142,5,290,46"/>
+<area shape="rect" id="node2" href="$heap-consistency_8h.html" title=" " alt="" coords="5,256,139,297"/>
+<area shape="rect" id="node3" href="$pointer-policies_8h.html" title=" " alt="" coords="332,94,479,135"/>
+<area shape="rect" id="node4" href="$cross-thread-persistent_8h.html" title=" " alt="" coords="393,492,530,533"/>
+<area shape="rect" id="node5" href="$member_8h.html" title=" " alt="" coords="183,183,345,208"/>
+<area shape="rect" id="node8" href="$visitor_8h.html" title=" " alt="" coords="274,345,425,371"/>
+<area shape="rect" id="node9" href="$persistent_8h.html" title=" " alt="" coords="375,419,548,444"/>
+<area shape="rect" id="node6" href="$liveness-broker_8h.html" title=" " alt="" coords="163,256,317,297"/>
+<area shape="rect" id="node7" href="$prefinalizer_8h.html" title=" " alt="" coords="73,345,250,371"/>
+<area shape="rect" id="node10" href="$v8-cppgc_8h.html" title=" " alt="" coords="170,419,299,444"/>
+</map>
