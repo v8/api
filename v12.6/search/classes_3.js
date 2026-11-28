@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['data_0',['Data',['../classv8_1_1Data.html',1,'v8']]],
+  ['dataview_1',['DataView',['../classv8_1_1DataView.html',1,'v8']]],
+  ['date_2',['Date',['../classv8_1_1Date.html',1,'v8']]],
+  ['deepfreezedelegate_3',['DeepFreezeDelegate',['../classv8_1_1Context_1_1DeepFreezeDelegate.html',1,'v8::Context']]],
+  ['deepserializationresult_4',['DeepSerializationResult',['../structv8__inspector_1_1DeepSerializationResult.html',1,'v8_inspector']]],
+  ['deepserializedvalue_5',['DeepSerializedValue',['../structv8__inspector_1_1DeepSerializedValue.html',1,'v8_inspector']]],
+  ['defaultglobalmaptraits_6',['DefaultGlobalMapTraits',['../classv8_1_1DefaultGlobalMapTraits.html',1,'v8']]],
+  ['defaultpersistentvaluemaptraits_7',['DefaultPersistentValueMapTraits',['../classv8_1_1DefaultPersistentValueMapTraits.html',1,'v8']]],
+  ['defaultpersistentvaluevectortraits_8',['DefaultPersistentValueVectorTraits',['../classv8_1_1DefaultPersistentValueVectorTraits.html',1,'v8']]],
+  ['defaultplatform_9',['DefaultPlatform',['../classcppgc_1_1DefaultPlatform.html',1,'cppgc']]],
+  ['delegate_10',['Delegate',['../classv8_1_1ValueDeserializer_1_1Delegate.html',1,'v8::ValueDeserializer::Delegate'],['../classv8_1_1ValueSerializer_1_1Delegate.html',1,'v8::ValueSerializer::Delegate']]],
+  ['deserializeapiwrappercallback_11',['DeserializeAPIWrapperCallback',['../structv8_1_1DeserializeAPIWrapperCallback.html',1,'v8']]],
+  ['deserializecontextdatacallback_12',['DeserializeContextDataCallback',['../structv8_1_1DeserializeContextDataCallback.html',1,'v8']]],
+  ['deserializeinternalfieldscallback_13',['DeserializeInternalFieldsCallback',['../structv8_1_1DeserializeInternalFieldsCallback.html',1,'v8']]],
+  ['dictionarytemplate_14',['DictionaryTemplate',['../classv8_1_1DictionaryTemplate.html',1,'v8']]],
+  ['dijkstrawritebarrierpolicy_15',['DijkstraWriteBarrierPolicy',['../structcppgc_1_1internal_1_1DijkstraWriteBarrierPolicy.html',1,'cppgc::internal']]],
+  ['disabledcheckingpolicy_16',['DisabledCheckingPolicy',['../classcppgc_1_1internal_1_1DisabledCheckingPolicy.html',1,'cppgc::internal']]],
+  ['disallowgarbagecollectionscope_17',['DisallowGarbageCollectionScope',['../classcppgc_1_1subtle_1_1DisallowGarbageCollectionScope.html',1,'cppgc::subtle']]],
+  ['disallowjavascriptexecutionscope_18',['DisallowJavascriptExecutionScope',['../classv8_1_1Isolate_1_1DisallowJavascriptExecutionScope.html',1,'v8::Isolate']]],
+  ['discardedsamplesdelegate_19',['DiscardedSamplesDelegate',['../classv8_1_1DiscardedSamplesDelegate.html',1,'v8']]]
+];
